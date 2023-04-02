@@ -1,0 +1,29 @@
+.counter{
+  position: absolute;
+  bottom: 15%;
+  right: 3%;
+  z-index: 200;
+  overflow: hidden;
+}
+input[type="file"] {
+  background: transparent;
+  outline: none;
+}
+::-webkit-file-upload-button{
+  background: transparent;
+  border: none;
+  color: transparent;
+  font-size: 0px;
+  margin-top: 2rem;
+  outline: none;
+}
+
+@media (max-width: 760px) {
+  .grid_videos {
+    grid-template-columns: repeat(2, 40%);
+    justify-content: space-evenly;
+  }
+  .show_vid_container {
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,43 @@
+    
+        .password-meter {
+          margin-top: 10px;
+          height: 15px;
+          border-radius: 10px;
+          background-color: #ddd;
+          position: relative;
+        }
+        .password-meter-bar {
+          height: 100%;
+          background-color: #f00;
+          position: absolute;
+          left: 0;
+          top: 0;
+                border-radius: 10px;
+                transition: width 0.5s ease-in-out; 
+        }
+        .password-meter-text {
+          font-size: 14px;
+          font-weight: bold;
+          margin-top: 5px;
+        }
+            .password-requirements {
+                line-height: 1.2;
+                margin-top: 1rem;
+            }
+    
+            .password-requirements p {
+                margin: 0;
+                padding: 0;
+                font-size: 0.9rem;
+            }
+    
+            .password-requirements p::before {
+                content: "\2022";
+                color: #999;
+                margin-right: 0.5rem;
+            }
+    
+            .password-requirements p:first-of-type::before {
+                content: "";
+            }
+    

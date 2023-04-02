@@ -1,0 +1,290 @@
+
+*::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  @media (min-width: 576px) {
+    .card {
+      height: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .card {
+      height: 200px;
+    }
+  }
+  
+  
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .card {
+   
+    border-radius: 40px;
+    border: 2px solid #808080;
+  }
+  
+  .card:hover {
+    transform: translateY(-30px);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+    }
+  
+  .card-img-top {
+    height: 150px;
+    object-fit: contain;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+  
+  .card-text {
+    font-size: 80%;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-word {
+    background-color: #DC143C;
+    color: #fff;
+    border: 0;
+    font-weight: bold;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    text-decoration: none;
+    }
+    
+  .btn-word:hover{
+    background-color: #850000;
+  
+  }
+    .btn-internet:hover{
+      background-color: #850000;
+  
+    }
+  
+  
+  
+  
+  
+  
+  .container {
+    margin-top: 2rem;
+  }
+  
+  .card {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  
+  .card-hidden {
+    display: none;
+  }
+  
+  .hover-text {
+    position: absolute;
+    top: 100%;
+  
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+  }
+  .hover-text::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-bottom-color: #333;
+  }
+  .scale:hover .hover-text {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  
+  
+  @media (max-width: 767px) {
+    .navbar-collapse {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      padding: 10px;
+      transform: translateY(50%);
+    }
+    .navbar-toggler {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 2;
+      margin-top: 10px;
+      margin-right: 15px;
+    }
+    .navbar-nav {
+      display: block;
+    }
+    .nav-item {
+      display: block;
+    }
+    .nav-link {
+      padding: 5px 0;
+    }
+    
+    .navbar-collapse.show {
+      margin-top: 10%;
+      padding-left: 100%; /* adjust the value to your desired distance */
+    }
+  }
+  
+  .scale-on-hover:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  
+  
+  .image-behind-text {
+    position: relative;
+    z-index: -60;
+  }
+  
+  
+  .image-behind-text {
+    position: relative;
+    z-index: -1;
+  }
+  
+  .text {
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  /*.background-video{
+    position: fixed;
+    object-fit: cover;
+    bottom: 0px;
+    right: 0;
+    z-index: -1;
+  }
+  */
+  
+  
+  .image-behind-text_big {
+    position: fixed;
+    bottom: -470px;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    animation: moveUpDown 10s ease-in-out infinite;
+  }
+  
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-105vh);
+    }
+  }
+  
+  
+  .image-behind-text_small {
+    position: fixed;
+    bottom: 320px;
+    right: 20%; 
+    z-index: -1;
+    animation: bounce 2s ease-in-out infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translate3d(0, 0);
+    }
+    50% {
+      transform: translate3d(0, -30px, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  
+  .image-behind-text_med {
+    position: fixed;
+    bottom: 450px;
+    right: 300px;
+    z-index: -1;
+  
+  }
+  
+  
+  
+  .image-behind-text_med_1 {
+    position: fixed;
+    bottom: 100px;
+    right: 1190px;
+    z-index: -1;
+  
+  }
+  
+  
+  
+  .image-behind-text_med_2 {
+    position: fixed;
+    bottom: 500px;
+    right: 890px;
+    z-index: -1;
+  
+  }
+  
+  
+  /*slide up*/
+  .slideup{
+    animation: slide-up 0.5s ease-out;
+    animation-fill-mode: backwards;
+  }
+  @keyframes slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /*certificate*/
+  .certificate-text {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  
+  a:hover .certificate-text {
+    display: block;
+  }

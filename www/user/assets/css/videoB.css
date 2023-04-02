@@ -1,0 +1,337 @@
+
+*::-webkit-scrollbar {
+    display: none;
+  }
+  #myCanvas {
+    display: none;
+  }
+  
+/*video*/
+
+.video-player {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+    max-width: 1280px; /* Set the maximum width */
+    margin: 0 auto; /* Center the player horizontally */
+    background-color: black;
+  }
+  
+  .video-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .video-player:before {
+    left: 0;
+  }
+  
+  .video-player:after {
+    right: 0;
+  }
+  
+  
+  /* Add styles to hide the controls by default */
+  .vjs-control-bar {
+    display: none;
+  }
+  
+  /* Add styles to show controls on hover */
+  .video-js:hover .vjs-control-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Add styles to adjust the size of the controls */
+  .vjs-control-bar {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Add styles to adjust the size of the progress bar */
+  .vjs-progress-holder {
+    height: 6px;
+    margin-top: 17px;
+  }
+  
+  .vjs-progress-control .vjs-play-progress {
+    height: 100%;
+  }
+  
+  /* Add styles to adjust the size of the volume bar */
+  .vjs-volume-panel {
+    height: 30px;
+  }
+  
+  .vjs-volume-panel .vjs-volume-bar {
+    height: 6px;
+    margin-top: 12px;
+  }
+  
+  .vjs-volume-panel .vjs-volume-level {
+    height: 100%;
+  }
+  
+  /* Add styles to adjust the size of the play/pause button */
+  .vjs-play-control {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+  
+  .vjs-play-control .vjs-icon-placeholder {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  
+  /* Add styles to adjust the size of the fullscreen button */
+  .vjs-fullscreen-control {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .vjs-fullscreen-control .vjs-icon-placeholder {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  
+  /* Add styles to adjust the position of the poster image */
+  .vjs-poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Add styles to adjust the position of the replay button */
+  .vjs-replay-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .vjs-replay-button .vjs-icon-placeholder {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  
+  /* Add styles to adjust the size of the caption button */
+.vjs-caption-toggle-control {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+/* Add styles to adjust the appearance of the caption button */
+.vjs-caption-toggle-control .vjs-icon-placeholder {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+/* Add styles to show the caption track by default */
+.vjs-text-track-display.vjs-disabled {
+  display: none;
+}
+
+/* Add styles to hide the caption track on demand */
+.vjs-text-track-display.vjs-enabled {
+  display: block;
+}
+
+  /*miniplayer*/
+  
+
+  /*designs*/
+
+  .image-behind-text_big {
+    position: fixed;
+    bottom: -400px;
+    right: -350px;
+    z-index: -1;
+    object-fit: cover;
+    animation: moveUpAndDown 2s ease-in-out infinite;
+  }
+  
+  @keyframes moveUpAndDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+  
+
+  .image-behind-text_small {
+    position: fixed;
+    bottom: 420px;
+    right: 86%; /* set initial position */
+    z-index: -1;
+    animation: moveUpAndDown 2s ease-in-out infinite;
+  }
+  
+  @keyframes moveUpAndDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+
+
+  .image-behind-text_small_1 {
+    position: fixed;
+    bottom: 567px;
+    right: 100px;
+    z-index: -1;
+  }
+  
+  
+  .image-behind-text_med {
+    position: fixed;
+    bottom: 300px;
+    right: 25px;
+    z-index: -1;
+  }
+  
+  .image-behind-text_med_2{
+    position: fixed;
+    bottom: 531px;
+    right: 200px;
+    z-index: -1;
+  }
+
+  .image-behind-text_med_1 {
+    position: fixed;
+    bottom: 100px;
+    right: 1190px;
+    z-index: -1;
+  }
+  
+/*video*/
+.video-container {
+    position: relative;
+  }
+  /*button*/
+  .btn-word {
+    background-color: #f40404;
+    color: #fff;
+    border: 1;
+    font-weight: bold;
+    border-radius: 10px;
+    position: absolute;
+    right: 90px;
+  }
+  .btn-word:hover{
+    background-color: #840000;
+  }
+
+  /*modal*/
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close {
+    color: #ff6b6b;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-start {
+    background-color: #f40404;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-start:hover {
+    background-color: #840000;
+  }
+
+  /*progress bar*/
+  .progress-pill-container {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .progress-pill {
+    display: flex;
+    align-items: center;
+    height: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .progress-pill-inner {
+    height: 100%;
+    border-radius: 20px;
+    transition: width 0.5s ease-in-out;
+  }

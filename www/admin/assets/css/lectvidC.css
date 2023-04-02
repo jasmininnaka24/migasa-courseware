@@ -1,0 +1,15 @@
+.video-container {
+    position: relative;
+  }
+  .btn-word {
+    background-color: #f40404;
+    color: #fff;
+    border: 1;
+    font-weight: bold;
+    border-radius: 10px;
+    position: absolute;
+    right: 90px;
+  }
+  .btn-word:hover{
+    background-color: #840000;
+  }

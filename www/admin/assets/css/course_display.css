@@ -1,0 +1,75 @@
+.langwi p {
+  font-size: 30px;
+}
+.btn-gray {
+  background-color: #c2beaa;
+}
+.btn {
+  font-size: 22px;
+}
+.hidden {
+  display: none;
+}
+.show_vid_style {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.show_vid_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20vh;
+  overflow: hidden;
+}
+.grid_videos {
+  display: grid;
+  grid-template-columns: repeat(2, 48%);
+  justify-content: space-between;
+}
+.course_crud {
+  display: flex;
+  align-items: center;
+}
+.maintenance_icons{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+@media (max-width: 1250px) {
+  .show_vid_container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 760px) {
+  .grid_videos {
+    grid-template-columns: repeat(1, 60%);
+    justify-content: space-evenly;
+  }
+  .show_vid_container {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .course_crud {
+    flex-direction: column;
+    margin: none;
+  }
+  .title {
+    text-align: center;
+  }
+  .course_crud div a {
+    /* justify-content: start; */
+    margin: 0;
+  }
+  .grid_videos {
+    grid-template-columns: repeat(1, 70%);
+    justify-content: space-evenly;
+  }
+  .show_vid_container {
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,199 @@
+.slide-down {
+    animation-name: slideDown;
+    animation-duration: 1s;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+/* animation */
+.animate__animated-a
+ {
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+.animate__fadeInRight-a {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.animate__animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeInRight {
+    animation-name: fadeInRight;
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate__animated-1 {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeInRight-1 {
+    animation-name: fadeInRight;
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+  .animate__animated-2 {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeInRight-2 {
+    animation-name: fadeInRight;
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate__animated-3 {
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeInRight-3 {
+    animation-name: fadeInRight;
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate__animated-4 {
+    animation-duration: 2.9s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeInRight-4 {
+    animation-name: fadeInRight;
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate__animated-5 {
+    animation-duration: 3.4s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeInRight-5 {
+    animation-name: fadeInRight;
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate__animated-6 {
+    animation-duration: 3.9s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeInRight-6 {
+    animation-name: fadeInRight;
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animate__animated-7 {
+    animation-duration: 4s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeInRight-7 {
+    animation-name: fadeInRight;
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
