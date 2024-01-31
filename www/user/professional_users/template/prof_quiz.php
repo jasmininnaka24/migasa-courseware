@@ -6,15 +6,15 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link
       rel="stylesheet"
-      href="../../assets/bootstrap-5.1.3-dist/css/bootstrap.min.css"
+      href="../../../assets/bootstrap-5.1.3-dist/css/bootstrap.min.css"
     >
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="../../assets/css/general_styles.css"  >
-      <link rel="stylesheet" href="../../assets/css/quiz.css"  >
+      <link rel="stylesheet" href="../../../user/assets/css/general_styles.css"  >
+      <link rel="stylesheet" href="../../../user/assets/css/quiz.css"  >
             
       <title>LECTURE</title>
 </head>
-<body>
+<body class = "slideup">
 <!--navbar-->
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid" style="display: flex; flex-direction: row; align-items: center;">
@@ -22,7 +22,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand me-auto order-1 slide-from-left" href="#">
-      <img src="../../assets/img/BIT TYP LOGO.png" alt="Logo" width="18%" height="18%" class="d-inline-block align-text-middle me-2">
+      <img src="../../../assets/img/BIT TYP LOGO.png" alt="Logo" width="18%" height="18%" class="d-inline-block align-text-middle me-2">
     </a>
     </div>
 </div>
@@ -66,7 +66,7 @@
   <div class="answer">
       <label>
         <input type="radio" name="answer" value="a">
-        <img src="../../assets/img/BIT TYP LOGO.png" width="50%" height = "50%"alt="Option a">
+        <img src="../../../assets/img/BIT TYP LOGO.png" width="50%" height = "50%"alt="Option a">
        
       </label>
     </div>
@@ -74,14 +74,14 @@
     <div class="answer">
       <label>
         <input type="radio" name="answer" value="a">
-        <img src="../../assets/img/BIT TYP LOGO.png" width="50%" height = "50%"alt="Option a">
+        <img src="../../../assets/img/BIT TYP LOGO.png" width="50%" height = "50%"alt="Option a">
        
       </label>
     </div>
     <div class="answer">
       <label>
         <input type="radio" name="answer" value="a">
-        <img src="../../assets/img/BIT TYP LOGO.png" width="50%" height = "50%"alt="Option a">
+        <img src="../../../assets/img/BIT TYP LOGO.png" width="50%" height = "50%"alt="Option a">
      
       </label>
     </div>
@@ -105,11 +105,11 @@
     <h2 class ="font-bold">Congratulations!</h2>
     <h3 class="font-med">You finished the quiz!</h3>
     <p class="font-med">You got 69 out of 420 questions right.</p>
-    <button class="btn btn-start" onclick="location.href='../../student_users/template/course_desc.php'">Home</button>
+    <button class="btn btn-start" onclick="location.href='../../../user/professional_users/template/prof_desc.php'">Home</button>
   </div>
 </div>
 
-<script src = "../../assets/js/modal_quiz.js"></script> 
+<script src = "../../../user/assets/js/modal_quiz.js"></script> 
 
 
 </body>

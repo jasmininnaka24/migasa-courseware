@@ -16,8 +16,8 @@
 ?>
   <div class="mt-3 mb-2 d-flex align-items-center justify-content-center w-100" >
     <button onclick="removeElement(this)" class="mx-2 add_q_a btn bgc-red-light rounded-pill px-3 py-1" id="show_act_form" style="font-size: 18px;">Add Question and Choices</button>
-    <button class="mx-2 btn bgc-gray-light rounded-pill selectacts" onclick="toggleCheckboxes(this)" id="toggle-checkboxes" style="border: #444 1px solid; font-size: 18px;">Select activities to feature</button>
-    <button class="mx-2 btn bgc-gray-light rounded-pill genhide"  onclick="unhideNumGenInp(this)" style="border: #444 1px solid; font-size: 18px;">Generate Random Activity</button>
+    <button class="mx-2 btn bgc-gray-light rounded-pill selectacts" onclick="toggleCheckboxes(this)" id="toggle-checkboxes" style="border: #444 1px solid; font-size: 18px;">Select items</button>
+    <button class="mx-2 btn bgc-gray-light rounded-pill genhide"  onclick="unhideNumGenInp(this)" style="border: #444 1px solid; font-size: 18px;">Generate Random items</button>
     <button class="mx-2 btn bgc-gray-light rounded-pill hidden selectall" onclick="checkAll()" style="border: #444 1px solid; font-size: 18px;">Select All</button>
     <button class="mx-2 btn bgc-gray-light rounded-pill hidden unselectall" onclick="uncheckAll()" style="border: #444 1px solid; font-size: 18px;">Unselect All</button>
     <a href="./updateActivityUI.php?update_course_id=<?php echo $course_id; ?>&update_video_activity=<?php echo $video_id; ?>&listOfAllActivities">
@@ -27,7 +27,7 @@
 
 
     <a href="../scoring/updateScoringUI.php?update_course_id=<?php echo $course_id;?>&update_video_activity=<?php echo $video_id;?>">
-      <button class="btn bgc-red-light rounded-pill px-3 py-1 done position-fixed" id="done" style="font-size: 18px; bottom: 5%; right: 5%; z-index: 99999">Done</button>
+      <button class="btn bgc-red-light rounded-pill px-3 py-1 done position-fixed" id="done" style="font-size: 18px; bottom: 5%; right: 5%; z-index: 99999">View Scoring</button>
     </a>
   </div>
 
@@ -36,7 +36,7 @@
     <div action="" class="my-4 col-lg-4 col-md-6 col-sm-8 col-10 mx-auto">
       <div class="input-group hidden numGenInput">
         <input class="form-control" id="numberInput" type="number" required placeholder="Enter the number of items to be featured" style="border: 1px solid #222;">
-        <button onclick="gen_rand_num(this)" class="btn bgc-gray-light submitNumInp" style="border: 1px solid #222; font-size: 18px; z-index: 99999">Submit</button>
+        <button onclick="gen_rand_num(this)" class="btn bgc-gray-light submitNumInp" style="border: 1px solid #222; font-size: 18px; z-index: 99999">Generate</button>
       </div>
 
 
@@ -81,60 +81,72 @@
             </div>
             <div id="choices_box">
               <div class="form-group position-relative">
-                <input
-                required
-                  type='text'
-                  name="question_choices[]"
-                  class='form-control mb-2'
+                <div class='my-3'>
+                  <textarea
+                  required
+                  name='question_choices[]'
+                  id=''
+                  class='form-control mx-2 summernote-img'
                   style='border: #555 solid 1px; margin-right: 1rem;'
                   
-                  />
+                  ></textarea>
                   <button onclick="deleteChoiceInput(this)" class=" bg-transparent font-med position-absolute mx-2" style="font-size: 2rem; top: -.3rem; right: 0; cursor: pointer; border: none; outline: none;color:#555;">&times;</button>
                 </div>
+              </div>
                 <div class="form-group position-relative">
-                  <input
-                  required
-                    type='text'
-                    name="question_choices[]"
-                    class='form-control mb-2'
+                  <div class='my-3'>
+
+                    <textarea
+                    required
+                    name='question_choices[]'
+                    id=''
+                    class='form-control mx-2 summernote-img'
                     style='border: #555 solid 1px; margin-right: 1rem;'
                     
-                    />
+                    ></textarea>
                     <button onclick="deleteChoiceInput(this)" class="bg-transparent font-med position-absolute mx-2" style="font-size: 2rem; top: -.3rem; right: 0; cursor: pointer; border: none; outline: none; color:#555;">&times;</button>
+                  </div>
                 </div>
                 <div class="form-group position-relative">
-                  <input
-                  required
-                    type='text'
-                    name="question_choices[]"
-                    class='form-control mb-2'
+                  <div class='my-3'>
+
+                    <textarea
+                    required
+                    name='question_choices[]'
+                    id=''
+                    class='form-control mx-2 summernote-img'
                     style='border: #555 solid 1px; margin-right: 1rem;'
                     
-                    />
+                    ></textarea>
                     <button onclick="deleteChoiceInput(this)" class=" bg-transparent font-med position-absolute mx-2" style="font-size: 2rem; top: -.3rem; right: 0; cursor: pointer; border: none; outline: none;color:#555;">&times;</button>
+                  </div>
                 </div>
                 <div class="form-group position-relative">
-                  <input
-                  required
-                    type='text'
-                    name="question_choices[]"
-                    class='form-control mb-2'
+                  <div class='my-3'>
+
+                    <textarea
+                    required
+                    name='question_choices[]'
+                    id=''
+                    class='form-control mx-2 summernote-img'
                     style='border: #555 solid 1px; margin-right: 1rem;'
                     
-                    />
+                    ></textarea>
                     <button onclick="deleteChoiceInput(this)" class=" bg-transparent font-med position-absolute mx-2" style="font-size: 2rem; top: -.3rem; right: 0; cursor: pointer; border: none; outline: none;color:#555;">&times;</button>
+                  </div>
                 </div>
               </div>
               <div class="form-group">
-                <input
-                required
-                type='text'
-                class='form-control mb-2'
-                name="correct_answer"
-                style='border: #555 solid 1px; margin-right: 1rem;'
+                <br>
+                <h4>Correct Answer</h4>
+                <textarea
+                  required
+                  name='correct_answer'
+                  id=''
+                  class='form-control mx-2 summernote-img'
+                  style='border: #555 solid 1px; margin-right: 1rem;'
                 
-                placeholder="Correct Answer"
-                />
+                ></textarea>
               </div>
           </div>
           <div class="my-3 d-flex align-items-center justify-content-between w-100 mb-2">
@@ -154,8 +166,10 @@
   function hideModal() {
   const modal = document.querySelector('#activities_modal_container');
   const overlay = document.querySelector('.overlay');
+  const done = document.querySelector('.done');
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
+  done.classList.toggle('hidden');
 }
 
 </script>

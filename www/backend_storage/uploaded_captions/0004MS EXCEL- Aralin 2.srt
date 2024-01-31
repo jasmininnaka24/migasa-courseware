@@ -1,0 +1,225 @@
+﻿1
+00:00:02,476 --> 00:00:05,352
+Aralin 2: Cell Formatting
+
+2
+00:00:06,124 --> 00:00:09,766
+Maligayang pagbati, nakarating ka na sa Aralin 2!
+
+3
+00:00:10,100 --> 00:00:15,220
+Sa bidyong ito, matututunan mo kung paano
+mag-format ng cell sa Microsoft Excel.
+
+4
+00:00:15,519 --> 00:00:19,895
+Ito ay isang cell, ang mga
+maliliit na parihabang ito ay cell!
+
+5
+00:00:20,152 --> 00:00:22,582
+Maaari kang maglagay
+ng data sa loob ng cell
+
+6
+00:00:22,606 --> 00:00:25,377
+sa pamamagitan ng
+pagpindot sa cell at pagtype.
+
+7
+00:00:25,780 --> 00:00:29,300
+O di kaya, pindutin ang cell at magtype sa formula box.
+
+8
+00:00:29,571 --> 00:00:34,024
+Ngunit, paminsan minsan kailangan
+mong lagyan ng data ang maraming cell.
+
+9
+00:00:34,434 --> 00:00:38,617
+Isa itong mahabang proseso kung
+kaya’t gagamitin natin ang Fill handle.
+
+10
+00:00:38,855 --> 00:00:41,396
+Ang Fill handle ay
+makakatulong upang malagyan
+
+11
+00:00:41,420 --> 00:00:43,961
+ng data ang maraming
+cells sa mabilis na paraan.
+
+12
+00:00:44,447 --> 00:00:49,567
+Maaari mong gayahin ang data mula sa
+isang cell o di kaya ang pattern o formula.
+
+13
+00:00:49,913 --> 00:00:53,408
+Subukan nating gayahin ang
+“Hello” sa mga cells na nasa ibaba.
+
+14
+00:00:54,189 --> 00:00:58,093
+Upang gawin ito, hilain lamang
+ang maliit na cross pababa.
+
+15
+00:00:58,738 --> 00:00:59,461
+Magaling!
+
+16
+00:00:59,538 --> 00:01:03,954
+Ngayon, subukan nating lagyan ng
+data ang sampung cells sa Column A.
+
+17
+00:01:04,320 --> 00:01:09,294
+Upang gawin ito, lagyan muna natin
+ang una at pangalawang row ng 1 and 2.
+
+18
+00:01:09,789 --> 00:01:12,657
+Tapos, ihighlight ang
+dalawang cells at hilain
+
+19
+00:01:12,681 --> 00:01:15,997
+pababa ang cross hanggang
+umabot tayo sa cell A10.
+
+20
+00:01:16,988 --> 00:01:21,824
+Awtomatikong ilalagay ni Excel ang mga data
+gamit ang pattern mula sa dalawang cell.
+
+21
+00:01:22,094 --> 00:01:26,521
+Kaya tandaan, na kailangan muna nating
+maglagay ng data sa una at pangalawang
+
+22
+00:01:26,545 --> 00:01:30,855
+cell upang maintindihan ni Excel
+ang pattern na kailangan niyang sundin.
+
+23
+00:01:31,334 --> 00:01:33,641
+Ngayon, pag-usapan naman natin ang Split.
+
+24
+00:01:33,870 --> 00:01:36,586
+Maaaring gamitin ang
+Split upang ipaghiwalay
+
+25
+00:01:36,610 --> 00:01:39,327
+ang mga salita o numero
+na nasa iisang cell.
+
+26
+00:01:40,292 --> 00:01:43,092
+Mayroong pangalan na Jane Doe sa cell A1.
+
+27
+00:01:44,033 --> 00:01:47,542
+Upang ihiwalay ang Jane at
+Doe, pindutin ang cell na ito
+
+28
+00:01:47,566 --> 00:01:51,075
+at pumunta sa Data Tab
+tapos iclick ang Text to Columns.
+
+29
+00:01:51,393 --> 00:01:56,833
+Kapag lumabas na ang maliit na parisukat,
+piliin ang Delimited at pindutin ang Next.
+
+30
+00:01:57,095 --> 00:01:59,628
+Pagkatapos, pumili ka na ng delimiter.
+
+31
+00:02:00,288 --> 00:02:03,016
+Ang data sa loob ng
+isang cell ay maaaring
+
+32
+00:02:03,040 --> 00:02:06,435
+ihiwalay gamit ang tab,
+semicolon, comma o space.
+
+33
+00:02:07,295 --> 00:02:11,017
+At dahil ang data sa loob ng
+cell A1 ay pinaghiwalay gamit
+
+34
+00:02:11,041 --> 00:02:14,762
+ang comma, piliin natin ang
+comma at pindutin ang Next.
+
+35
+00:02:15,337 --> 00:02:17,613
+Pagkatapos, pindutin ang Finish.
+
+36
+00:02:18,204 --> 00:02:22,359
+Mahusay! Ngayon, ang Jane at
+Doe ay nasa magkaibang cells na.
+
+37
+00:02:22,855 --> 00:02:25,121
+Pag-usapan naman natin ang Transpose.
+
+38
+00:02:25,560 --> 00:02:29,959
+Ang transpose ay may kakayahang
+iflip o baliktarin ang mga cells.
+
+39
+00:02:30,342 --> 00:02:34,399
+Ituturo ko sayo ang pinakamabilis
+na proseso ng pagtranspose.
+
+40
+00:02:35,419 --> 00:02:40,716
+Tignan natin ang halimbawang ito.
+Mayroong apat na columns at dalawang rows.
+
+41
+00:02:41,355 --> 00:02:44,565
+Ihighlight ito at pindutin
+ang copy mula sa clipboard.
+
+42
+00:02:45,271 --> 00:02:49,527
+Ngayon, ihighlight natin ang dalawang
+columns at apat na rows sa bandang ito.
+
+43
+00:02:50,232 --> 00:02:53,194
+Tapos, pindutin na natin
+ang kanang button ng mouse
+
+44
+00:02:53,218 --> 00:02:56,121
+at makikita mo ang mga
+paste options mula rito.
+
+45
+00:02:56,773 --> 00:02:59,325
+Pindutin natin ang Transpose paste button.
+
+46
+00:02:59,916 --> 00:03:03,459
+Magaling! Iyo nang
+natranspose ang data sa Excel.
+
+47
+00:03:03,930 --> 00:03:09,662
+Sa susunod na aralin, matututunan mo ang
+tungkol sa sorting, filtering at grouping.
+

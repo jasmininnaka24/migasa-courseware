@@ -17,6 +17,7 @@
 
 ?>
 <?php include './includes/admin_sidebar.php'; ?>
+<a href=""></a>
 <section class="home-section">
     <div class="d-flex align-items-center justify-content-between">
       <i class='bx bx-menu-alt-left' style="font-size: 38px; cursor: pointer;"></i>
@@ -44,7 +45,7 @@
       </form>
     </div>
     
-      <main style="height: 90%;" class="w-100 d-flex align-items-center justify-content-center flex-column anim-to-top-slow">
+      <main style="height: 90%;" id="main-page" class="w-100 d-flex align-items-center justify-content-center flex-column anim-to-top-slow">
     
         <div class="display-1 font-med text-center">WELCOME TO THE<br>ADMIN HOMEPAGE</div>
         <a href="./choose.php" class="mt-3" style="width: 10rem;">
@@ -65,3 +66,5 @@
   <!-- <div class="overlay hidden" style="z-index: 100;"></div> -->
 
 <?php include './includes/admin_footer.php';?>
+
+

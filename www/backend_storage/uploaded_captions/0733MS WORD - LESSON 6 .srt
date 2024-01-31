@@ -1,0 +1,194 @@
+﻿1
+00:00:02,900 --> 00:00:05,700
+Lesson 6: References
+
+2
+00:00:06,448 --> 00:00:08,318
+Welcome to Lesson 6!
+
+3
+00:00:08,965 --> 00:00:12,824
+In this video, we will be
+learning about the References tab.
+
+4
+00:00:13,388 --> 00:00:15,589
+This is the references tab
+
+5
+00:00:15,656 --> 00:00:17,869
+It has many tools that can help you.
+
+6
+00:00:18,666 --> 00:00:22,956
+First, let’s talk about how to insert a Table of Contents.
+
+7
+00:00:23,633 --> 00:00:28,878
+A table of contents is like a map for
+all the content that is in our document.
+
+8
+00:00:29,612 --> 00:00:33,533
+It makes it easier for us to find what we are looking for.
+
+9
+00:00:34,200 --> 00:00:39,346
+To add a table of contents, let’s
+click this button and choose a template.
+
+10
+00:00:39,900 --> 00:00:43,053
+Now you have an empty table of contents.
+
+11
+00:00:44,071 --> 00:00:53,210
+To update this, make sure that all the titles that you want to be
+in this table of contents must be using the Headings 1 text style.
+
+12
+00:00:53,579 --> 00:00:55,423
+What do I mean by that?
+
+13
+00:00:55,779 --> 00:00:58,183
+Let’s go ahead and look at this book.
+
+14
+00:00:58,494 --> 00:01:00,862
+This book has 3 chapters.
+
+15
+00:01:01,367 --> 00:01:05,382
+It has chapters 1, 2, 3.
+
+16
+00:01:05,982 --> 00:01:09,160
+To include chapter 1 in the table of contents
+
+17
+00:01:09,293 --> 00:01:13,257
+Let’s highlight “Chapter 1” and click Headings 1.
+
+18
+00:01:13,943 --> 00:01:19,210
+Now, let’s go back to the table of
+contents and click the update table.
+
+19
+00:01:19,733 --> 00:01:20,760
+There you go
+
+20
+00:01:20,916 --> 00:01:25,737
+Chapter 1 and its page number can
+now be seen in the table of contents.
+
+21
+00:01:26,196 --> 00:01:30,862
+Repeat the process until all
+chapters are in the table of contents.
+
+22
+00:01:31,240 --> 00:01:35,640
+Next, we are going to talk
+about the Footnote and Endnote.
+
+23
+00:01:36,418 --> 00:01:40,484
+Footnotes are like secret messages at the bottom of the page
+
+24
+00:01:40,900 --> 00:01:44,679
+They help explain things and make your writing even better.
+
+25
+00:01:45,347 --> 00:01:49,791
+Endnotes are like secret messages at the end of the whole writing.
+
+26
+00:01:50,434 --> 00:01:54,333
+They're just like hidden treasures waiting for you to discover!
+
+27
+00:01:54,950 --> 00:01:59,314
+To add a footnote or endnote,
+just click where you want to add it.
+
+28
+00:01:59,689 --> 00:02:03,296
+Choose either "Insert Footnote" or "Insert Endnote".
+
+29
+00:02:03,830 --> 00:02:06,119
+Then write your secret message!
+
+30
+00:02:06,475 --> 00:02:10,542
+Let’s click Insert Footnote and type “Hello world”.
+
+31
+00:02:10,900 --> 00:02:12,789
+It's super easy, right?
+
+32
+00:02:13,066 --> 00:02:16,652
+Let’s move on to the Citations and Bibliography
+
+33
+00:02:17,218 --> 00:02:22,937
+A citation is giving credit to the authors
+that wrote the book you based your ideas from.
+
+34
+00:02:23,738 --> 00:02:30,649
+It usually follows an APA format and displays the author’s name and the year the book was published.
+
+35
+00:02:30,833 --> 00:02:37,337
+To add a citation, click the Insert Citation button and click Add New Source
+
+36
+00:02:37,900 --> 00:02:44,219
+You can choose the type of source, it can
+be a book, journal, article and many more.
+
+37
+00:02:44,874 --> 00:02:52,140
+Now, let’s type in the Author’s name, the Title
+of the book, the Year, City and Publisher.
+
+38
+00:02:53,400 --> 00:02:57,396
+As you can see the proper
+citation is now in your document.
+
+39
+00:02:58,156 --> 00:03:00,801
+Now, let’s talk about the Bibliography.
+
+40
+00:03:01,500 --> 00:03:04,855
+A Bibliography also gives credit to the authors.
+
+41
+00:03:05,228 --> 00:03:11,458
+But it displays the author’s name, the year,
+title, and place where the book was published.
+
+42
+00:03:12,528 --> 00:03:16,183
+Since we already have put the book information earlier
+
+43
+00:03:16,939 --> 00:03:23,149
+All we have to do now is click on the Bibliography button and then choose from any of these templates.
+
+44
+00:03:24,216 --> 00:03:25,624
+Excellent work!
+
+45
+00:03:26,180 --> 00:03:29,891
+Now you know all about the References Tab.
+

@@ -1,0 +1,330 @@
+﻿1
+00:00:02,762 --> 00:00:06,698
+Aralin 1: Pag-unawa sa Internet
+
+2
+00:00:07,536 --> 00:00:08,401
+Layunin
+
+3
+00:00:08,846 --> 00:00:10,489
+Pag-unawa sa Internet
+
+4
+00:00:11,072 --> 00:00:14,183
+Pag-alam sa Kahulugan at Layunin ng Internet
+
+5
+00:00:14,848 --> 00:00:19,649
+Pagtukoy sa Mga Pangunahing
+Bahagi at Istraktura ng Internet
+
+6
+00:00:20,289 --> 00:00:21,233
+Kamusta!
+
+7
+00:00:21,743 --> 00:00:25,322
+Maligayang pagdating sa kursong Internet Literatura!
+
+8
+00:00:26,209 --> 00:00:31,439
+Ngayon ay matututo tayo kung paano
+maging mas may kultura at edukado
+
+9
+00:00:31,585 --> 00:00:35,371
+sa paggamit ng Internet sa
+ating pang-araw-araw na buhay.
+
+10
+00:00:36,153 --> 00:00:38,065
+Tara na’t magsimula na tayo!
+
+11
+00:00:38,810 --> 00:00:46,587
+Ang Internet ay isang network ng koneksyon kung saan
+milyon-milyong mga computer ang konektado sa isa't isa
+
+12
+00:00:47,384 --> 00:00:52,241
+na nagpapahintulot sa kanila na makakuha
+ng impormasyon mula sa ibang mga lugar
+
+13
+00:00:52,532 --> 00:00:55,953
+makipag-usap sa ibang mga tao mula sa ibang mga lugar
+
+14
+00:00:56,233 --> 00:00:58,725
+manood ng mga video at iba pa.
+
+15
+00:00:59,793 --> 00:01:01,769
+Ang network, bukod pa rito
+
+16
+00:01:02,003 --> 00:01:09,249
+ay isang simpleng koneksyon lamang sa pagitan ng dalawa o
+higit pang mga computer na maaaring magbahagi ng impormasyon.
+
+17
+00:01:09,828 --> 00:01:15,328
+Ang pinakadakilang imbensyon sa labinsiyam
+na daan na nagpabago sa buhay ng mga tao
+
+18
+00:01:15,666 --> 00:01:19,031
+kaya, ginagawa itong mas madali kaysa dati.
+
+19
+00:01:19,623 --> 00:01:21,346
+Tumingin ka sa paligid mo!
+
+20
+00:01:22,087 --> 00:01:25,705
+Ang mga telepono ay maaari na ngayong kumonekta sa Internet
+
+21
+00:01:25,883 --> 00:01:27,788
+Internet gayundin sa ilang telebisyon!
+
+22
+00:01:28,514 --> 00:01:32,942
+Maaari kang tumawag sa iyong
+minamahal na isang milyong milya ang layo
+
+23
+00:01:33,249 --> 00:01:35,416
+manood ng video sa iyong selpon
+
+24
+00:01:35,807 --> 00:01:39,276
+maglaro sa iyong  kompyuter at manood ng kursong ito!
+
+25
+00:01:40,098 --> 00:01:40,868
+Tingnan mo
+
+26
+00:01:41,099 --> 00:01:44,988
+ginawa ang Internet upang mabilis
+na makahanap ng impormasyon
+
+27
+00:01:45,302 --> 00:01:48,382
+magbigay ng komunikasyon, makinig sa musika
+
+28
+00:01:48,574 --> 00:01:50,011
+manood ng mga video
+
+29
+00:01:50,211 --> 00:01:53,870
+mamili mula sa iyong cellphone o kompyuter at iba pa.
+
+30
+00:01:54,486 --> 00:01:57,502
+Ngunit teka, paano gumagana ang Internet?
+
+31
+00:01:58,318 --> 00:02:04,643
+Ang data o impormasyon ay gumagalaw sa Internet sa
+isang kakayahan na tinatawag na 'packet switching'.
+
+32
+00:02:05,562 --> 00:02:11,165
+Sabihin nating gusto mong magpadala ng mensahe
+sa pamamagitan ng Messenger sa Facebook
+
+33
+00:02:11,702 --> 00:02:15,432
+ang packet switching ay gagawing maliliit at magkahiwalay
+
+34
+00:02:16,861 --> 00:02:24,623
+na piraso ang iyong simpleng 'hello' sa ibang tao bago muling
+mabuo nang normal kapag naabot nito ang isang taong kausap mo
+
+35
+00:02:25,361 --> 00:02:31,314
+Ang packet switching ay nagbibigay-daan sa maraming
+tao na gumamit ng Internet nang sabay-sabay.
+
+36
+00:02:32,130 --> 00:02:37,456
+May mga pangunahing bahagi na nagbibigay-daan
+sa atin upang magamit ang Internet.
+
+37
+00:02:38,366 --> 00:02:42,501
+Una ay ang kliyente na kadalasan
+ay ikaw ang nag-a-access sa Internet.
+
+38
+00:02:42,974 --> 00:02:48,291
+Habang ina-access mo ito, humihingi ka
+ng data mula sa isang ibinigay na server.
+
+39
+00:02:48,908 --> 00:02:50,845
+Ang server, sa kabilang banda
+
+40
+00:02:51,025 --> 00:02:55,152
+ay tumutugon sa iyong kahilingan
+at nagbibigay sa iyo ng impormasyon
+
+41
+00:02:55,774 --> 00:03:01,274
+Ang kliyente at server ay nagpapalitan ng
+impormasyon sa pamamagitan ng mga protocol.
+
+42
+00:03:01,884 --> 00:03:05,034
+Ang mga protocol ay isang set ng mga alituntunin
+
+43
+00:03:05,075 --> 00:03:10,465
+na nakatutulong sa kliyente at server
+upang makapagkomunikasyon sa isa't isa.
+
+44
+00:03:11,092 --> 00:03:15,637
+tinitiyak nila na ang hiling sa data ay
+maayos na nai-padala at natanggap.
+
+45
+00:03:16,352 --> 00:03:21,471
+Lahat ng mga gamit na tulad ng
+cellphone, laptop, computer, at smart TV
+
+46
+00:03:21,652 --> 00:03:26,429
+ay may dalawang paraan ng pakikipag-ugnayan
+sa internet na tinatawag na
+
+47
+00:03:26,767 --> 00:03:31,267
+Transmission Control
+Protocol at Internet Protocol.
+
+48
+00:03:32,067 --> 00:03:33,598
+Ang Internet Protocol
+
+49
+00:03:33,648 --> 00:03:38,656
+ay nag-aalaga ng mga data sa
+internet at mapupunta ito sa tamang lugar
+
+50
+00:03:39,471 --> 00:03:43,257
+Pagkatapos nito, ang Transmission
+Control Protocol naman
+
+51
+00:03:43,498 --> 00:03:49,252
+ay nagbabantay ng tamang bantay sa
+pagkakasunud-sunod ng mga data at walang mawawala.
+
+52
+00:03:49,917 --> 00:03:53,624
+Tumutulong din ang TCP na kontrolin ang trapiko sa internet
+
+53
+00:03:53,650 --> 00:03:56,468
+para hindi ito magulo at sobrang bisi.
+
+54
+00:03:57,331 --> 00:04:00,489
+Ang mga bahagi ng internet na ito ay nagbibigay-daan
+
+55
+00:04:00,715 --> 00:04:06,302
+upang maghanap ng impormasyon, manood ng
+mga video at iba pa sa loob ng ilang minuto.
+
+56
+00:04:06,945 --> 00:04:09,715
+Paano natin maa-access ang Internet kung gayon?
+
+57
+00:04:10,186 --> 00:04:11,741
+Upang ma-access ang Internet
+
+58
+00:04:12,077 --> 00:04:15,227
+ginagamit natin ang tinatawag nilang web browser.
+
+59
+00:04:15,708 --> 00:04:18,581
+Ang web browser ay isang application o program
+
+60
+00:04:18,630 --> 00:04:23,497
+na nagpapahintulot sa atin na tumingin
+at makipag-ugnayan sa impormasyon
+
+61
+00:04:23,558 --> 00:04:31,667
+sa Internet tulad ng Browser, Google Chrome, Mozilla
+Firefox, Microsoft Edge, Opera at marami pang iba.
+
+62
+00:04:32,484 --> 00:04:34,293
+Bago ma-iaccess ang Internet
+
+63
+00:04:34,318 --> 00:04:38,597
+tiyaking nakakonekta ang iyong device
+sa gumaganang koneksyon sa network
+
+64
+00:04:39,054 --> 00:04:44,990
+Pagkatapos nito, sa iyong desktop, maghanap
+ng logo ng Google Chrome na ganito ang hitsura
+
+65
+00:04:45,537 --> 00:04:46,854
+i-double click ito
+
+66
+00:04:47,363 --> 00:04:49,895
+At ayun, naka-access kana sa Internet.
+
+67
+00:04:50,152 --> 00:04:52,327
+Kapag ginamit natin ang web browser
+
+68
+00:04:52,504 --> 00:04:57,313
+makikita natin ang mga simpleng bagay
+sa Internet na tinatawag na online kontent.
+
+69
+00:04:58,312 --> 00:05:03,114
+Mula sa mga video, larawan,
+impormasyon, mensahe at iba pa
+
+70
+00:05:03,149 --> 00:05:06,149
+ay lahat ng mga halimbawa ng online kontent.
+
+71
+00:05:07,418 --> 00:05:08,331
+Magaling!
+
+72
+00:05:08,659 --> 00:05:12,881
+Natapos mo lang matutunan ang mga pangunahing kaalaman sa Internet!
+
+73
+00:05:13,184 --> 00:05:14,081
+Susunod
+
+74
+00:05:14,129 --> 00:05:23,369
+malalaman natin ang tungkol sa pag-navigate sa Internet sa isang ligtas
+at responsableng paraan upang magamit ito nang aktibo at magalang!
+

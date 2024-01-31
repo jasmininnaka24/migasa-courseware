@@ -1,0 +1,809 @@
+﻿1
+00:00:02,491 --> 00:00:03,671
+Lesson two.
+
+2
+00:00:03,990 --> 00:00:06,840
+Developing a powerpoint presentation.
+
+3
+00:00:07,530 --> 00:00:08,530
+Hello there.
+
+4
+00:00:09,030 --> 00:00:10,650
+Welcome to lesson two.
+
+5
+00:00:11,490 --> 00:00:18,870
+In this video you will be learning how to use clipboards
+font formatting tools and different presentation slides.
+
+6
+00:00:19,950 --> 00:00:20,950
+Objectives.
+
+7
+00:00:21,720 --> 00:00:25,170
+You will learn how to use the clipboard and font formatting tools.
+
+8
+00:00:25,980 --> 00:00:28,950
+You will learn different types of powerpoint slide.
+
+9
+00:00:29,340 --> 00:00:35,340
+First let's start by opening your Microsoft powerpoint then create a blank presentation
+
+10
+00:00:35,550 --> 00:00:36,750
+by clicking here.
+
+11
+00:00:37,260 --> 00:00:38,459
+Very good.
+
+12
+00:00:38,820 --> 00:00:42,420
+You have created yourself a blank presentation page.
+
+13
+00:00:42,750 --> 00:00:45,330
+A title slide will appear on your screen.
+
+14
+00:00:45,960 --> 00:00:50,281
+Now let's click the title box that says click to add title.
+
+15
+00:00:50,970 --> 00:00:52,860
+To add a title on your slide
+
+16
+00:00:53,160 --> 00:00:55,800
+let's type planets on your keyboard
+
+17
+00:00:56,091 --> 00:00:57,100
+p.
+
+18
+00:00:57,146 --> 00:00:57,720
+l.
+
+19
+00:00:58,050 --> 00:00:58,620
+a.
+
+20
+00:00:58,980 --> 00:00:59,460
+n.
+
+21
+00:00:59,850 --> 00:01:00,240
+e.
+
+22
+00:01:00,720 --> 00:01:01,200
+t
+
+23
+00:01:01,500 --> 00:01:02,100
+s.
+
+24
+00:01:02,490 --> 00:01:03,490
+Planets.
+
+25
+00:01:03,810 --> 00:01:09,720
+Under the little box is the subtitle box that says click to add subtitle.
+
+26
+00:01:10,410 --> 00:01:12,870
+To add subtitles on your title slide.
+
+27
+00:01:13,290 --> 00:01:18,740
+Type your full name and press enter. then type your grade level under your full name.
+
+28
+00:01:26,760 --> 00:01:31,830
+Let's change the font style and size of the word planets in the title box
+
+29
+00:01:32,220 --> 00:01:32,880
+to do it
+
+30
+00:01:33,180 --> 00:01:37,380
+click here and you can see that there are many font styles on the list.
+
+31
+00:01:37,800 --> 00:01:40,380
+Let's choose this Algerian font style.
+
+32
+00:01:40,710 --> 00:01:45,210
+Now let's change the size of the word planets by clicking here.
+
+33
+00:01:46,110 --> 00:01:49,290
+You can see that there are many font size us on the list.
+
+34
+00:01:49,710 --> 00:01:54,060
+Let's choose the biggest size here which is ninety six.
+
+35
+00:01:54,750 --> 00:01:55,890
+Good job.
+
+36
+00:01:56,340 --> 00:01:58,590
+Let's move to the subtitle box
+
+37
+00:01:58,860 --> 00:02:02,430
+highlight your name and grade inside the subtitle the box.
+
+38
+00:02:02,880 --> 00:02:05,040
+Do you still remember how to highlight?
+
+39
+00:02:05,640 --> 00:02:07,050
+To highlight a text.
+
+40
+00:02:07,980 --> 00:02:11,520
+You need to hold the left click off your mouse and drag
+
+41
+00:02:11,760 --> 00:02:15,569
+be moving your mouse pointer from the words you want to highlight.
+
+42
+00:02:16,080 --> 00:02:19,559
+Now let's highlight your name and your grade.
+
+43
+00:02:20,160 --> 00:02:22,260
+If you want to make your text bigger.
+
+44
+00:02:22,620 --> 00:02:23,910
+Click this button
+
+45
+00:02:24,240 --> 00:02:28,170
+and the text will go bigger and if you like this button.
+
+46
+00:02:28,475 --> 00:02:30,210
+That text will go smaller.
+
+47
+00:02:30,870 --> 00:02:31,870
+Great job.
+
+48
+00:02:32,190 --> 00:02:35,518
+Now let's continue and create a new slide
+
+49
+00:02:35,760 --> 00:02:37,950
+click here to create a new slide.
+
+50
+00:02:38,490 --> 00:02:40,530
+There are many types of slides.
+
+51
+00:02:41,190 --> 00:02:43,050
+This is the title slide.
+
+52
+00:02:43,680 --> 00:02:47,670
+It's the first slide that you see when you start a presentation.
+
+53
+00:02:47,855 --> 00:02:50,700
+this is the title and content slide.
+
+54
+00:02:51,150 --> 00:02:53,640
+This is the section section header slide.
+
+55
+00:02:54,210 --> 00:02:56,250
+This is the two content slide.
+
+56
+00:02:56,880 --> 00:02:58,890
+This is the comparison slide.
+
+57
+00:02:59,940 --> 00:03:02,130
+This is the title only slide.
+
+58
+00:03:02,580 --> 00:03:04,350
+This is the blank slide
+
+59
+00:03:04,530 --> 00:03:06,990
+this is the content and with captions slide.
+
+60
+00:03:07,920 --> 00:03:10,320
+This is the picture with caption slide
+
+61
+00:03:10,530 --> 00:03:12,930
+Let's choose the title and content slide.
+
+62
+00:03:13,410 --> 00:03:16,147
+Inside the text box of the title box
+
+63
+00:03:16,194 --> 00:03:17,950
+type planets.
+
+64
+00:03:18,360 --> 00:03:20,790
+Do you see font section over here.
+
+65
+00:03:22,230 --> 00:03:26,730
+It has a lot of formatting tools that will help you to style your text
+
+66
+00:03:26,910 --> 00:03:31,470
+Now let's explore different font formatting tools in powerpoint.
+
+67
+00:03:32,370 --> 00:03:33,930
+This is the Bold button.
+
+68
+00:03:34,350 --> 00:03:36,930
+This makes your text looked like this.
+
+69
+00:03:37,440 --> 00:03:39,120
+This is the Italic button.
+
+70
+00:03:39,480 --> 00:03:41,970
+This makes your text look like this.
+
+71
+00:03:42,780 --> 00:03:44,880
+This is the Underline button.
+
+72
+00:03:45,450 --> 00:03:48,240
+This makes your text look like this.
+
+73
+00:03:48,840 --> 00:03:50,700
+This is the Shadow button.
+
+74
+00:03:51,240 --> 00:03:53,730
+This makes your text look like this.
+
+75
+00:03:54,360 --> 00:03:56,370
+This is the Strike Through button.
+
+76
+00:03:56,940 --> 00:03:59,460
+This makes your text look like this.
+
+77
+00:04:00,060 --> 00:04:03,630
+Now you know how the different font button works.
+
+78
+00:04:04,020 --> 00:04:06,180
+Let's bold and underlined the text
+
+79
+00:04:06,420 --> 00:04:07,420
+planets.
+
+80
+00:04:07,950 --> 00:04:12,870
+Then let's color the text green and to do that click this button.
+
+81
+00:04:13,950 --> 00:04:18,600
+You can choose many colors you want but let's choose this color green here.
+
+82
+00:04:19,140 --> 00:04:20,140
+Great job.
+
+83
+00:04:21,600 --> 00:04:26,100
+Now that you learn the basics of font formatting tools and how to color a text.
+
+84
+00:04:26,640 --> 00:04:28,230
+Let's move to clipboard.
+
+85
+00:04:28,530 --> 00:04:30,540
+Do you know what the clipboard is?
+
+86
+00:04:31,200 --> 00:04:32,490
+This is a clipboard.
+
+87
+00:04:32,970 --> 00:04:36,450
+It has four useful parts that helps us
+
+88
+00:04:36,630 --> 00:04:37,630
+to copy
+
+89
+00:04:37,710 --> 00:04:38,280
+paste
+
+90
+00:04:38,670 --> 00:04:39,150
+cut
+
+91
+00:04:39,485 --> 00:04:41,350
+and the format painter.
+
+92
+00:04:41,550 --> 00:04:44,070
+Now let's try to copy the text.
+
+93
+00:04:44,371 --> 00:04:44,940
+Planet
+
+94
+00:04:45,224 --> 00:04:47,670
+than paste it in this text box
+
+95
+00:04:47,910 --> 00:04:50,670
+First highlight the text planet.
+
+96
+00:04:51,180 --> 00:04:52,180
+To do it.
+
+97
+00:04:52,230 --> 00:04:57,390
+Hold the left click off your mouse and dragged the words inside of the text box.
+
+98
+00:04:57,900 --> 00:05:03,090
+To copy the text you highlight click this button and it will now copy your text.
+
+99
+00:05:03,719 --> 00:05:05,400
+to paste the text you copied. click this button and it will now place your text in the textbox.
+
+100
+00:05:05,760 --> 00:05:10,050
+click this button and it will now place your text in the textbox.
+
+101
+00:05:10,770 --> 00:05:14,804
+To remove it. click this button and the text is now gone.
+
+102
+00:05:15,270 --> 00:05:21,060
+If you paste a lot of text in the text box. And you want the erase the other copies.
+
+103
+00:05:21,690 --> 00:05:25,830
+You can highlight the text you want to remove then click the cut obutton.
+
+104
+00:05:26,760 --> 00:05:30,150
+The text you highlighted will be removed from the textbox.
+
+105
+00:05:32,520 --> 00:05:33,520
+Good job
+
+106
+00:05:33,690 --> 00:05:36,660
+Now you know how to use a clipboard properly.
+
+107
+00:05:37,230 --> 00:05:41,280
+Now let's move onto the character spacing formats.
+
+108
+00:05:41,880 --> 00:05:44,700
+Do you know what the character spacing format is?
+
+109
+00:05:45,300 --> 00:05:50,250
+Character spacing is the amount of space between the characters within the line.
+
+110
+00:05:50,940 --> 00:05:54,390
+Characters are letters numbers and symbols.
+
+111
+00:05:54,930 --> 00:05:56,910
+This is the Very Tight spacing.
+
+112
+00:05:57,240 --> 00:06:00,900
+The spacing on each character is very close to each other.
+
+113
+00:06:01,650 --> 00:06:03,330
+This is the Tight spacing
+
+114
+00:06:03,630 --> 00:06:06,780
+the spacing of each character is close to each other.
+
+115
+00:06:07,530 --> 00:06:09,480
+This is the Normal spacing
+
+116
+00:06:09,780 --> 00:06:14,610
+the spacing of each character it's not too close or not too far to each other.
+
+117
+00:06:15,270 --> 00:06:17,250
+This is the Loose spacing.
+
+118
+00:06:17,820 --> 00:06:21,690
+This spacing of each character is a litle far from each other.
+
+119
+00:06:22,140 --> 00:06:24,090
+This is the Very Loose spacing.
+
+120
+00:06:24,720 --> 00:06:28,260
+This spacing of each character is very far from each other.
+
+121
+00:06:28,980 --> 00:06:31,560
+Let's talk about letter case formats.
+
+122
+00:06:32,220 --> 00:06:36,870
+Lettert case format changes the letters into small and big letters
+
+123
+00:06:37,140 --> 00:06:40,290
+it also changes the arrangement of letters too.
+
+124
+00:06:40,980 --> 00:06:42,750
+This is the sentence case
+
+125
+00:06:43,020 --> 00:06:45,660
+this only makes your first letter big
+
+126
+00:06:45,960 --> 00:06:47,550
+this is the lower case.
+
+127
+00:06:47,910 --> 00:06:50,430
+This makes all your letter small.
+
+128
+00:06:50,940 --> 00:06:52,650
+This is the upper case.
+
+129
+00:06:52,980 --> 00:06:55,410
+This makes all your letters big
+
+130
+00:06:55,620 --> 00:06:57,690
+this is the capitalized case.
+
+131
+00:06:58,950 --> 00:07:02,790
+This makes all the first letters big on each word.
+
+132
+00:07:03,150 --> 00:07:04,740
+This is the toggle case.
+
+133
+00:07:05,100 --> 00:07:10,050
+This makes all the big letters smaller while all the small letters are bigger.
+
+134
+00:07:10,740 --> 00:07:12,060
+Congratulations.
+
+135
+00:07:12,420 --> 00:07:16,140
+Now you know how to create a simple powerpoint presentation.
+
+136
+00:07:16,800 --> 00:07:18,000
+In the next video
+
+137
+00:07:18,240 --> 00:07:22,290
+you will be learning how to add graphical elements your presentation.
+
+138
+00:07:25,740 --> 00:07:27,270
+Activity for lesson two.
+
+139
+00:07:28,350 --> 00:07:29,350
+Hello there.
+
+140
+00:07:29,850 --> 00:07:33,360
+Now you know the basic font formatting paragraph formatting
+
+141
+00:07:33,540 --> 00:07:36,030
+and the different types of slides in powerpoint.
+
+142
+00:07:36,660 --> 00:07:39,840
+Let's try and test what you have learned from our lesson.
+
+143
+00:07:40,560 --> 00:07:42,240
+Do you know about planets?
+
+144
+00:07:42,840 --> 00:07:46,860
+Today let's explore different planets we have in our solar system.
+
+145
+00:07:47,760 --> 00:07:53,880
+Let's start by choosing the title only slide and type planets inside of the textbox.
+
+146
+00:07:54,360 --> 00:07:55,020
+To do it.
+
+147
+00:07:55,200 --> 00:08:00,087
+click this button and choose this slide then click this text box then type
+
+148
+00:08:00,240 --> 00:08:01,240
+planets.
+
+149
+00:08:01,620 --> 00:08:02,620
+Wonderful
+
+150
+00:08:03,000 --> 00:08:04,800
+but the title is too small.
+
+151
+00:08:05,250 --> 00:08:08,670
+Let's make it bigger and the that should be in bold.
+
+152
+00:08:09,210 --> 00:08:09,897
+To do it
+
+153
+00:08:10,110 --> 00:08:15,480
+let's highlight first the text then go to the fonts section and click this bold button.
+
+154
+00:08:16,590 --> 00:08:20,940
+Now let's click this font size button to make the text bigger
+
+155
+00:08:21,210 --> 00:08:24,810
+and let's choose thirty six for the font size.
+
+156
+00:08:25,320 --> 00:08:26,320
+Great
+
+157
+00:08:26,370 --> 00:08:29,220
+Now that title is big and it's in bold.
+
+158
+00:08:29,580 --> 00:08:34,890
+Let's choose another slide by going to the slides section again by clicking this button
+
+159
+00:08:35,280 --> 00:08:37,950
+and choose two content slides.
+
+160
+00:08:38,610 --> 00:08:42,810
+In the title section you need to type "types of planets"
+
+161
+00:08:43,050 --> 00:08:47,850
+inside the textbox of the two content slide on the left content section
+
+162
+00:08:48,090 --> 00:08:50,250
+name at least three planets you know.
+
+163
+00:08:50,880 --> 00:08:56,160
+And each planet you should change their font. Font styles and font color.
+
+164
+00:08:56,760 --> 00:08:57,449
+To do it
+
+165
+00:08:57,600 --> 00:09:00,270
+click this text box in the title section.
+
+166
+00:09:01,170 --> 00:09:06,390
+And type "types of planets" and the text box of the left content section.
+
+167
+00:09:06,930 --> 00:09:12,150
+Let's type the three planets you know which are the Earth, Mars, and Venus
+
+168
+00:09:12,300 --> 00:09:12,870
+now
+
+169
+00:09:13,110 --> 00:09:16,680
+let's highlight the earth and change the font to Arial.
+
+170
+00:09:18,090 --> 00:09:21,480
+Click this font button then pick the Arial font.
+
+171
+00:09:21,960 --> 00:09:24,720
+Now the earth's font are in Arial now.
+
+172
+00:09:25,170 --> 00:09:26,170
+For Mars.
+
+173
+00:09:26,400 --> 00:09:31,380
+Let's highlight it and then change the font styles to underline by clicking this button.
+
+174
+00:09:32,432 --> 00:09:36,690
+The font style of mars you can see is already underlined.
+
+175
+00:09:37,440 --> 00:09:39,450
+The last planet was Venus.
+
+176
+00:09:40,050 --> 00:09:44,640
+Let's change the font color of it by going to the font section again
+
+177
+00:09:45,000 --> 00:09:49,170
+and click this font color button and change it into blue.
+
+178
+00:09:49,620 --> 00:09:50,620
+Well done
+
+179
+00:09:50,700 --> 00:09:52,080
+you did a great job
+
+180
+00:09:52,260 --> 00:09:53,490
+for the last part.
+
+181
+00:09:53,824 --> 00:09:55,530
+On the right content section.
+
+182
+00:09:55,890 --> 00:09:57,510
+Type this planet's name.
+
+183
+00:09:58,110 --> 00:10:03,360
+In the text box which are Saturn, Jupiter, Mercury, and Neptune.
+
+184
+00:10:04,005 --> 00:10:08,610
+And you need to change the lettter case and characters spacing of the planets
+
+185
+00:10:09,060 --> 00:10:09,750
+to do it
+
+186
+00:10:10,050 --> 00:10:12,720
+if you want to set Saturn's to small letters.
+
+187
+00:10:13,308 --> 00:10:16,938
+Then go to the letter case button and choose lowercase.
+
+188
+00:10:17,358 --> 00:10:21,807
+This big letters from Saturn will turn into small letters.
+
+189
+00:10:21,831 --> 00:10:22,848
+for Jupiter
+
+190
+00:10:23,208 --> 00:10:26,388
+Go to the letter case button and and choose upper case.
+
+191
+00:10:26,808 --> 00:10:31,008
+This big letters from Jupiter will turn into big letters
+
+192
+00:10:31,248 --> 00:10:34,398
+if you want to change the spacing of Mercury text.
+
+193
+00:10:34,728 --> 00:10:35,898
+Into the very tight.
+
+194
+00:10:36,348 --> 00:10:42,138
+Highlight Mercury then go to the characters spacing button then click very tight.
+
+195
+00:10:43,068 --> 00:10:46,908
+The Mercury text spacing is very close to each other.
+
+196
+00:10:47,568 --> 00:10:48,588
+For Neptune
+
+197
+00:10:48,798 --> 00:10:52,788
+if you want to change the spacing of Neptune text into very loose.
+
+198
+00:10:53,598 --> 00:10:58,998
+Highlight Neptune. Then go to the character spacing button then click very loose.
+
+199
+00:10:59,688 --> 00:11:03,168
+The Neptune text spacing is far away from each other.
+
+200
+00:11:04,008 --> 00:11:05,718
+That's all for the activity.
+
+201
+00:11:06,498 --> 00:11:10,428
+I hope you learn more by exploring the planets in our solar system.
+
+202
+00:11:11,088 --> 00:11:17,448
+By using the basic font formatting, paragraphing formatting, and the different types of slides.
+

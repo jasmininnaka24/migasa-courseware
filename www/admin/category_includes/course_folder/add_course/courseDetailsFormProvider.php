@@ -1,5 +1,7 @@
+
+
 <br><br>
-<form action="" method="POST" enctype="multipart/form-data" class="d-flex flex-column align-items-center justify-content-center mx-auto anim-to-top-slow">
+<form action="" method="POST" enctype="multipart/form-data" class="d-flex flex-column align-items-center justify-content-center mx-auto">
 
   <h1 class="col-8 mx-auto text-center" style="margin-bottom: 4rem; color: #444">
     Creating a Course
@@ -7,6 +9,7 @@
 
 
   <div class="col-6">
+
 
 
     <div>
@@ -28,7 +31,6 @@
         type="file"
         name="course_icon"
         id="upload_file"
-        
         accept="image/*"
         class="pb-1 mx-2"
         style="border-bottom: #444 solid 2px;"
@@ -58,13 +60,14 @@
         class="form-control text-center text-capitalize"
         name="course_title"
         placeholder="Title here"
+        required
         style="border: 0.1rem solid #888; font-size: 20px;"
       />
     </div>
     <!-- Description -->
     <br />
     <div class="mx-auto text-center h4 mt-5" style="margin-bottom: 1rem; color: #555">
-      <span class="txt-red-light text-center font-bold">STEP 2: </span>
+      <span class="txt-red-light text-center font-bold">STEP 3: </span>
       Add a Description
     </div>
     <div
@@ -78,6 +81,7 @@
         class="form-control"
         style="border: 0.1rem solid #888; font-size: 20px; resize: none;"
         maxlength="250"
+        required
         onkeyup="countCharacters()"></textarea>
       <div class="counter">
         <span id="characterCount">0</span>/250
@@ -87,17 +91,18 @@
     <!-- CHOOSE A LANGUAGE -->
     <br>
     <div class="mx-auto text-center h4 mt-5" style="margin-bottom: 1rem; color: #555">
-      <span class="txt-red-light text-center font-bold">STEP 2: </span>
+      <span class="txt-red-light text-center font-bold">STEP 4: </span>
       Choose a language
     </div>
-      <select name="course_lang" id="" class="form-control" style="border: 0.1rem solid #888; font-size: 20px;" required>
+      <select name="course_lang_id" id="" class="form-control" style="border: 0.1rem solid #888; font-size: 20px;" required>
       <option value="">Select a language🔻</option>
       <?php
         $language_db = $conn->prepare("SELECT * FROM language_table");
         $language_db->execute();
         while($language_row = $language_db->fetch(PDO::FETCH_ASSOC)){
+          $language_id = $language_row['id'];
           $language = $language_row['language'];
-          echo "<option value='$language'>$language</option>";
+          echo "<option value='$language_id'>$language</option>";
         }
       ?>
         

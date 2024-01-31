@@ -1,0 +1,200 @@
+﻿1
+00:00:02,760 --> 00:00:06,810
+Aralin 1: Pagsisimula sa Power Point
+
+2
+00:00:07,650 --> 00:00:09,090
+Kamusta mag-aaral.
+
+3
+00:00:09,571 --> 00:00:16,139
+Sa bidyo na ito ang matututunan mo rito ay tungkol sa kapaligiran ng Power Point Presentation.
+
+4
+00:00:16,680 --> 00:00:17,790
+Mga layunin.
+
+5
+00:00:18,690 --> 00:00:22,410
+Pag-navigate sa kapaligiran ng PowerPoint presentation
+
+6
+00:00:23,850 --> 00:00:26,970
+Tumitingin at pag susuri ng Presentation
+
+7
+00:00:27,750 --> 00:00:32,760
+At sa huli ay ang, pag-gawa at pag-salba ng PowerPoint Presentation.
+
+8
+00:00:33,630 --> 00:00:38,010
+Bago tayo mag patuloy, ano nga ba ang PowerPoint Presentation?
+
+9
+00:00:38,970 --> 00:00:50,730
+Ang PowerPoint presentation ay isang programa sa kompyuter na tutulong sa inyo na gumawa ng isang malinis at maayos na presentasyon tulad ng slide show na ito.
+
+10
+00:00:51,424 --> 00:00:59,760
+Ngayon alam na natin ano ang Powerpoint Presentation maari na tayong magsimula sa pag gawa ng isang slide show.
+
+11
+00:01:00,360 --> 00:01:05,640
+Magsimula tayo sa pamamagitan ng pagbubukas ng iyong Microsoft PowerPoint.
+
+12
+00:01:06,090 --> 00:01:10,616
+at I-click ang "Blank Presentation" upang lumikha ng isang presentasyon
+
+13
+00:01:11,340 --> 00:01:12,899
+Nakikita mo ba ito?
+
+14
+00:01:13,590 --> 00:01:15,420
+Ito ay mga templates.
+
+15
+00:01:16,410 --> 00:01:23,730
+Ang Template ay mga nakahandang disenyo na ginagamit bilang gabay upang gumawa ng iba pang mga bagay.
+
+16
+00:01:24,360 --> 00:01:29,550
+Pagkatapos i-click ang "Blank Presentation " at ito ang makikita mo.
+
+17
+00:01:30,180 --> 00:01:34,350
+Pagusapan muna natin kung ano ang nakikita natin sa screen.
+
+18
+00:01:35,070 --> 00:01:37,410
+Ito ay tinatawag nating slide.
+
+19
+00:01:37,950 --> 00:01:42,930
+Dito maaari kang mag-edit magpalit at magdagdag ng mga salita.
+
+20
+00:01:43,590 --> 00:01:51,990
+Sa kaliwang bahagi ng screen, ay isang maliit na bersyon ng slide at maaari mo ring makita ang bilang ng mga slide na mayroon ka.
+
+21
+00:01:52,530 --> 00:02:00,810
+Sa baba ng kanang bahagi ng screen ay makikita mo ang mga butones ng pagpapalaki ng presentasyon at pagpapaliit.
+
+22
+00:02:01,650 --> 00:02:08,670
+I-slide lang ng pakaliwa o i-click ang minus boton upang mag palaki ng iyong presentasyon
+
+23
+00:02:09,480 --> 00:02:16,710
+at i-slide ng pakanan o i-click ang plus boton upang lumiit o lalapit ang iyong presentasyon.
+
+24
+00:02:17,430 --> 00:02:22,110
+Ang boton na ito ay aayusin ang slide pabalik sa dati.
+
+25
+00:02:22,320 --> 00:02:26,460
+ima maximize ng boton ito ang slide presentation.
+
+26
+00:02:27,930 --> 00:02:33,120
+Papayagan ang boton na ito na maayos ang lahat ng slide sa bilang nila.
+
+27
+00:02:33,900 --> 00:02:38,670
+Papalitan ng boton ito ang iyong slide sa read mat pang huli
+
+28
+00:02:38,790 --> 00:02:43,200
+ay ibabalik sa dati ng boton ito ang iyong slide sa normal.
+
+29
+00:02:43,680 --> 00:02:47,250
+Kung titingnan mo sa itaas ng kanang bahagi ng iyong screen.
+
+30
+00:02:47,970 --> 00:02:50,370
+Makikita mo ang mga butones na ito
+
+31
+00:02:50,640 --> 00:02:56,220
+Ginagawa ng butones na ito ay pinapliit nito ang iyong programa sa kompyuter.
+
+32
+00:02:56,700 --> 00:03:00,150
+Pinapalaki naman nito ang iyong Microsoft PowerPoint.
+
+33
+00:03:00,840 --> 00:03:06,060
+Itong butones naman ay umaalis ito sa programang Microsoft powerpoint.
+
+34
+00:03:06,780 --> 00:03:10,710
+Ngayon kung tingnan mo ang kaliwang sulok sa itaas ng screen.
+
+35
+00:03:11,010 --> 00:03:13,469
+Makikita mo ang mga butones na ito
+
+36
+00:03:13,680 --> 00:03:19,920
+Tinutulungan ka ng mga butones na ito na ma-access kaagad ang iba pang bahagi ng presentasyon.
+
+37
+00:03:20,190 --> 00:03:24,480
+Ang butones na ito ay pinapalaki ang slide ng presentasyon
+
+38
+00:03:25,200 --> 00:03:29,850
+Ginagawa muli ang mga dating aksyon sa simula, sa butones na ito
+
+39
+00:03:30,690 --> 00:03:34,980
+Inuulit naman ng butones na ito ang dating aksyon na nagawa mo
+
+40
+00:03:35,820 --> 00:03:39,330
+Isina-salba ng butones na ito ang iyong proyekto.
+
+41
+00:03:39,660 --> 00:03:43,560
+Ngayon ay gagawa na tayo ng isang simpleng presentasyon.
+
+42
+00:03:44,310 --> 00:03:48,540
+I-click muna ang kahon na nagsasabing " click to add a title "
+
+43
+00:03:49,260 --> 00:03:53,550
+pagkatapos i-click ito, i-type ang "aralin 1".
+
+44
+00:03:54,210 --> 00:04:00,000
+Ngayon tapos na tayo sa paggawa ng ating presentasyon, oras na para i-save ito.
+
+45
+00:04:00,750 --> 00:04:04,920
+Pupunta tayo sa "File" at piliin natin ang "Save As."
+
+46
+00:04:05,550 --> 00:04:09,190
+Piliin ang nakalagay na deskriptong “Desktop"
+
+47
+00:04:09,750 --> 00:04:16,080
+Pagkatapos ay ipapangalan natin ang iyong presentasyon bilang “Aralin 1”.
+
+48
+00:04:16,830 --> 00:04:17,830
+Magaling.
+
+49
+00:04:18,030 --> 00:04:22,200
+Ngayon pamilyar ka na sa kapaligiran ng Microsoft PowerPoint.
+
+50
+00:04:22,890 --> 00:04:28,560
+Sa susunod na aralin ay matututunan mo ang tungkol sa paggawa ng PowerPoint.
+

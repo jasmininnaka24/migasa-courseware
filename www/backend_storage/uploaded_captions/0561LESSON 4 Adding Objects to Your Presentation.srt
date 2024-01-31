@@ -1,0 +1,444 @@
+﻿1
+00:00:02,520 --> 00:00:03,570
+Lessons four.
+
+2
+00:00:03,990 --> 00:00:06,300
+Adding objects your presentation.
+
+3
+00:00:07,200 --> 00:00:11,940
+In this video you will the learning adding objects your presentation.
+
+4
+00:00:12,270 --> 00:00:18,450
+Creating list for a paragraphs, aligning, ordering and grouping objects as well.
+
+5
+00:00:19,260 --> 00:00:20,260
+Objectives
+
+6
+00:00:20,430 --> 00:00:26,760
+Create basic list, indentions, line spacing, aligning, ordering
+
+7
+00:00:26,970 --> 00:00:30,060
+and grouping objects to your powerpoint presentation.
+
+8
+00:00:30,780 --> 00:00:32,770
+Topic A: List
+
+9
+00:00:33,660 --> 00:00:37,440
+As you can see here we have a sample presentation.
+
+10
+00:00:38,400 --> 00:00:40,890
+I'm going to teach you how to create the list
+
+11
+00:00:41,010 --> 00:00:45,360
+for the paragraphs or text you've been using for your presentation
+
+12
+00:00:45,660 --> 00:00:49,410
+But first let's highlight this group of text here.
+
+13
+00:00:50,070 --> 00:00:51,857
+To highlight the text.
+
+14
+00:00:51,900 --> 00:00:57,420
+You need to click and the hold the left mouse button and select group of text you wish to highlight.
+
+15
+00:00:57,840 --> 00:00:58,920
+Like this.
+
+16
+00:00:59,820 --> 00:01:02,100
+After highlighting the group of text.
+
+17
+00:01:02,460 --> 00:01:04,020
+Click this button here.
+
+18
+00:01:04,860 --> 00:01:06,510
+After clicking this button.
+
+19
+00:01:06,840 --> 00:01:08,430
+This bar will appear.
+
+20
+00:01:09,030 --> 00:01:11,820
+Now click this bullet and numbering here.
+
+21
+00:01:12,750 --> 00:01:13,920
+And this will appear.
+
+22
+00:01:14,340 --> 00:01:20,070
+The purpose of this bar is for you to customize the list you want the use for your group of text.
+
+23
+00:01:20,640 --> 00:01:22,710
+Now let's pick this one here.
+
+24
+00:01:23,460 --> 00:01:25,530
+Now let's choose some color here.
+
+25
+00:01:26,100 --> 00:01:33,420
+Click this icon here and pick any color you want to use but for now let's pick black.
+
+26
+00:01:33,990 --> 00:01:35,790
+Then click the ok button.
+
+27
+00:01:36,570 --> 00:01:40,560
+If you look at the side of your paragraph the dots will appear.
+
+28
+00:01:40,890 --> 00:01:46,230
+Now we're done using list for our text or paragraphs that we use for our presentation.
+
+29
+00:01:48,030 --> 00:01:51,210
+That's it for a list in power point presentation.
+
+30
+00:01:52,350 --> 00:01:55,710
+Topic B: Indents and Line spacing.
+
+31
+00:01:56,670 --> 00:02:03,960
+Indent and line spacing are two important features you can use to change the way text appear on the slide.
+
+32
+00:02:04,470 --> 00:02:06,270
+What is indents?
+
+33
+00:02:07,170 --> 00:02:14,550
+Indent or indention helps to format the layout of text so it appears more organized on your slide.
+
+34
+00:02:15,270 --> 00:02:18,810
+The fastest way to indent is to use the tab key.
+
+35
+00:02:19,650 --> 00:02:21,900
+Click on the space you want to indent.
+
+36
+00:02:22,230 --> 00:02:23,760
+For example here.
+
+37
+00:02:24,540 --> 00:02:26,460
+At the very beginning of the line.
+
+38
+00:02:27,420 --> 00:02:29,160
+Then press the tab key.
+
+39
+00:02:29,640 --> 00:02:32,040
+Look for the tab key in your keyboard
+
+40
+00:02:32,190 --> 00:02:33,190
+right here
+
+41
+00:02:33,360 --> 00:02:36,210
+Now your paragraph and look like this.
+
+42
+00:02:36,420 --> 00:02:42,120
+This space here is what we call indent for your paragraph to look organized.
+
+43
+00:02:42,330 --> 00:02:46,860
+This is what it looks like if all the paragraphs use the indention feature.
+
+44
+00:02:47,220 --> 00:02:50,310
+Next let's head for a paragraph spacing.
+
+45
+00:02:50,670 --> 00:02:52,950
+I will teach you how to use spacing and.
+
+46
+00:02:53,730 --> 00:02:57,660
+Now highlight the text or paragraph then click this.
+
+47
+00:02:58,350 --> 00:03:05,130
+You can choose which spacing for your text that you would like to use from one point zero to three point zero.
+
+48
+00:03:05,430 --> 00:03:07,950
+Now lets pick one point five.
+
+49
+00:03:08,790 --> 00:03:10,530
+And this is what it looks like.
+
+50
+00:03:11,617 --> 00:03:14,010
+Your paragraph looks more organized.
+
+51
+00:03:14,580 --> 00:03:17,520
+That's it for indent and line spacing.
+
+52
+00:03:18,272 --> 00:03:22,980
+Topic C: Aligning, Ordering and Grouping Objects.
+
+53
+00:03:23,790 --> 00:03:28,410
+Now let's move to aligning, ordering, and grouping objects.
+
+54
+00:03:29,190 --> 00:03:30,570
+Aligning objects.
+
+55
+00:03:31,800 --> 00:03:38,220
+The purpose of the aligning objects is for the objects or pictures to look more organized and not messy.
+
+56
+00:03:39,090 --> 00:03:43,290
+Now as you can see here the objects are not organized.
+
+57
+00:03:43,950 --> 00:03:45,720
+To make it look organized.
+
+58
+00:03:45,990 --> 00:03:49,260
+First look for the shift key on your keyboard.
+
+59
+00:03:49,500 --> 00:03:50,520
+which is here.
+
+60
+00:03:51,660 --> 00:03:56,130
+Now hold the shift key while clicking each object or pictures.
+
+61
+00:03:56,670 --> 00:03:59,130
+The object should look like this.
+
+62
+00:03:59,700 --> 00:04:02,970
+Next click the picture format in the toolbar
+
+63
+00:04:03,150 --> 00:04:04,170
+which is here.
+
+64
+00:04:04,770 --> 00:04:06,540
+Then click this button here.
+
+65
+00:04:07,380 --> 00:04:08,730
+And this will appear.
+
+66
+00:04:08,970 --> 00:04:12,690
+Now you can choose any alignment you wish to use.
+
+67
+00:04:13,380 --> 00:04:15,510
+Now let's try allign middle.
+
+68
+00:04:16,200 --> 00:04:18,180
+Now this is what that looks
+
+69
+00:04:18,420 --> 00:04:23,310
+more organized that's it for alligning objects for your presentation.
+
+70
+00:04:23,910 --> 00:04:27,000
+Now let's move to ordering objects.
+
+71
+00:04:27,360 --> 00:04:31,500
+The ordering is important when two or more objects overlap.
+
+72
+00:04:31,950 --> 00:04:36,180
+Because it will determine which objects are in the front or in the back.
+
+73
+00:04:36,900 --> 00:04:39,150
+When objects are added to a slide.
+
+74
+00:04:39,530 --> 00:04:44,220
+The levels of which they are place depend on the order in which they were added.
+
+75
+00:04:44,580 --> 00:04:48,780
+Although we've created the arrow in our example on the top level.
+
+76
+00:04:49,440 --> 00:04:53,400
+We can the just the level to place it beneath the the other items.
+
+77
+00:04:54,330 --> 00:04:56,970
+Now click shape format button.
+
+78
+00:04:57,720 --> 00:04:59,280
+Now click this.
+
+79
+00:05:00,180 --> 00:05:01,470
+And this will appear.
+
+80
+00:05:02,100 --> 00:05:03,630
+Click send to back.
+
+81
+00:05:04,230 --> 00:05:06,270
+Now this is how it looks like.
+
+82
+00:05:06,840 --> 00:05:10,710
+That's for the ordering objects in powerpoint presentation.
+
+83
+00:05:11,220 --> 00:05:13,690
+We’re almost done, hang in there!
+
+84
+00:05:14,130 --> 00:05:16,710
+Lastly grouping objects.
+
+85
+00:05:17,383 --> 00:05:25,440
+To confirm that multiple items stay together when they are moved or resized, you might want to group them into a single object.
+
+86
+00:05:26,580 --> 00:05:30,330
+Now let's try to group this objects or pictures.
+
+87
+00:05:31,350 --> 00:05:37,110
+Hold shift key in your keyboard then click each picture so it would look like this.
+
+88
+00:05:37,680 --> 00:05:39,990
+Now click the picture format button.
+
+89
+00:05:40,140 --> 00:05:41,140
+here.
+
+90
+00:05:41,910 --> 00:05:43,860
+Click this icon button here
+
+91
+00:05:44,040 --> 00:05:45,300
+and this will appear
+
+92
+00:05:45,420 --> 00:05:46,830
+Now click group.
+
+93
+00:05:48,060 --> 00:05:50,040
+And this is what it looks like
+
+94
+00:05:50,280 --> 00:05:51,630
+Congratulations.
+
+95
+00:05:51,900 --> 00:05:55,710
+Now you know how to add objects for presentation.
+
+96
+00:05:56,040 --> 00:06:00,540
+That's all for lessons four adding objects for your presentation.
+
+97
+00:06:01,170 --> 00:06:06,480
+In the next video you will learn about adding tables and charts to your presentation.
+
+98
+00:06:11,160 --> 00:06:13,170
+Activity for lessons four
+
+99
+00:06:13,380 --> 00:06:16,680
+Now that you know how to add objects your presentation.
+
+100
+00:06:17,040 --> 00:06:18,780
+Let's try this activity.
+
+101
+00:06:19,470 --> 00:06:26,250
+create a slide for kind of flower. first click new slide and pick picture with caption.
+
+102
+00:06:27,150 --> 00:06:30,660
+Next let’s type "Sunflower: for our example.
+
+103
+00:06:31,650 --> 00:06:35,490
+In the lower box, type what can you say about a sunflower.
+
+104
+00:06:36,960 --> 00:06:40,950
+Now let's highlight the text and click this here.
+
+105
+00:06:41,760 --> 00:06:44,280
+Now the text should look like this.
+
+106
+00:06:44,970 --> 00:06:51,930
+Last let’s put picture of Sunflower, to do that click this computer like icon here.
+
+107
+00:06:52,950 --> 00:06:54,330
+And this will appear.
+
+108
+00:06:55,080 --> 00:06:56,700
+Now click the picture.
+
+109
+00:06:57,060 --> 00:06:59,640
+Next click the insert button.
+
+110
+00:07:00,624 --> 00:07:02,550
+And this is what it should look like
+
+111
+00:07:02,850 --> 00:07:07,170
+that's it for activity about adding objects to your presentation.
+

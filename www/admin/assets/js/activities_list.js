@@ -9,6 +9,7 @@ let toggleCheckboxes = (e) => {
   let add_q_a = document.querySelector(".add_q_a");
   let done = document.querySelector(".done");
   let submit = document.querySelector(".submit");
+  let deletee = document.querySelector(".deletee");
   let selectall = document.querySelector(".selectall");
   let unselectall = document.querySelector(".unselectall");
   let genhide = document.querySelector(".genhide");
@@ -21,6 +22,7 @@ let toggleCheckboxes = (e) => {
   add_q_a.classList.toggle("hidden");
   done.classList.toggle("hidden");
   submit.classList.toggle("hidden");
+  deletee.classList.toggle("hidden");
   selectall.classList.toggle("hidden");
   unselectall.classList.toggle("hidden");
   genhide.classList.toggle("hidden");
@@ -60,12 +62,14 @@ let unhideNumGenInp = (e) => {
   let done = document.querySelector(".done");
   let discardChanges = document.querySelector(".discardChanges");
   let submit = document.querySelector(".submit");
+  let deletee = document.querySelector(".deletee");
 
   add_q_a.classList.toggle("hidden");
   done.classList.toggle("hidden");
   selectacts.classList.toggle("hidden");
   numGenInput.classList.toggle("hidden");
   submit.classList.toggle("hidden");
+  deletee.classList.toggle("hidden");
 
   if (add_q_a.classList.contains("hidden")) {
     e.classList.toggle("hidden");
@@ -122,9 +126,8 @@ let removeElement = (e) => {
   e.preventDefault();
 };
 
-let prevDef = (e) => {
+let prevDef = () => {
   done.classList.remove("hidden");
-  e.preventDefault();
 };
 
 done.addEventListener("click", (e) => {

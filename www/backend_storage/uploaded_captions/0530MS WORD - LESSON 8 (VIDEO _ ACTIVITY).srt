@@ -1,0 +1,321 @@
+﻿1
+00:00:02,753 --> 00:00:05,273
+Lesson 8: The Design Tab
+
+2
+00:00:05,994 --> 00:00:07,704
+Welcome to Lesson 8!
+
+3
+00:00:07,888 --> 00:00:11,504
+In this video, we will be learning about the Design Tab.
+
+4
+00:00:12,571 --> 00:00:17,612
+The Design Tab has many tools that will
+make you document look nice and beautiful.
+
+5
+00:00:18,200 --> 00:00:20,210
+Let’s talk about Themes.
+
+6
+00:00:20,861 --> 00:00:30,271
+A theme in MS Word is a set of colors, fonts, and styles that
+all work together to make your document look really nice.
+
+7
+00:00:30,644 --> 00:00:33,860
+Let’s click here to see the different Themes.
+
+8
+00:00:34,461 --> 00:00:36,577
+This is Document Formatting
+
+9
+00:00:36,911 --> 00:00:42,155
+ It is also like a theme but it changes the way your document is formatted.
+
+10
+00:00:42,844 --> 00:00:49,023
+This is Colors, it has many color palettes
+that can be used for Document Formatting.
+
+11
+00:00:50,068 --> 00:00:53,343
+A color palette is a set of different colors
+
+12
+00:00:53,368 --> 00:00:56,743
+Let’s click here to look at the different color palettes.
+
+13
+00:00:57,265 --> 00:01:01,939
+You can also change the Font styles
+by clicking here and choosing a font style.
+
+14
+00:01:02,229 --> 00:01:06,061
+In the Design Tab, you can also add a watermark.
+
+15
+00:01:06,733 --> 00:01:11,435
+A watermark can be a text or
+picture that is placed behind the text.
+
+16
+00:01:11,777 --> 00:01:14,592
+It is usually used to claim ownership.
+
+17
+00:01:15,348 --> 00:01:19,069
+Let’s click this to see the
+different kinds of watermarks.
+
+18
+00:01:19,270 --> 00:01:24,067
+A watermark has a low opacity,
+you can see it but not so much.
+
+19
+00:01:24,424 --> 00:01:30,705
+You can customize or change the text watermark
+by clicking this and when the little box appears
+
+20
+00:01:30,667 --> 00:01:33,660
+You can start typing the text in this little box.
+
+21
+00:01:34,453 --> 00:01:39,152
+You can also change the font style, size and layout of the text.
+
+22
+00:01:39,767 --> 00:01:41,964
+To change the color of the whole page
+
+23
+00:01:42,143 --> 00:01:44,973
+We can click here and choose any color.
+
+24
+00:01:45,262 --> 00:01:46,862
+Let’s try this color.
+
+25
+00:01:47,411 --> 00:01:50,833
+Wow! Our page is now in the color of blue.
+
+26
+00:01:51,505 --> 00:01:54,781
+Now, let’s talk about Page Borders.
+
+27
+00:01:55,271 --> 00:01:59,159
+A page border is made up of lines all around the page.
+
+28
+00:01:59,848 --> 00:02:02,034
+It may look like a picture frame.
+
+29
+00:02:02,720 --> 00:02:05,476
+To change the page border, click here.
+
+30
+00:02:06,033 --> 00:02:08,197
+A little box will appear
+
+31
+00:02:08,353 --> 00:02:11,130
+And from there you can choose a border.
+
+32
+00:02:11,536 --> 00:02:15,980
+This little box gives you a preview
+of what your page will look like.
+
+33
+00:02:16,633 --> 00:02:21,703
+You can also change the border
+color here, just click and choose.
+
+34
+00:02:22,167 --> 00:02:26,512
+You can change the border
+weight here, and the border art here.
+
+35
+00:02:26,846 --> 00:02:29,668
+Once you’re done, just click OK.
+
+36
+00:02:30,113 --> 00:02:31,365
+Very good!
+
+37
+00:02:31,432 --> 00:02:36,221
+Now you know how to use Themes, Watermarks, and Page Borders.
+
+38
+00:02:37,933 --> 00:02:38,933
+Hello there!
+
+39
+00:02:39,158 --> 00:02:43,669
+Now that you know how to use the tools
+in the Design Tab and how to Mail Merge
+
+40
+00:02:43,825 --> 00:02:46,119
+Let’s try to make a certificate.
+
+41
+00:02:46,600 --> 00:02:50,773
+In this activity, we will be making an Award Certificate.
+
+42
+00:02:51,233 --> 00:02:54,117
+First, let’s click on the Layout Tab
+
+43
+00:02:54,873 --> 00:02:57,285
+And choose the Landscape Orientation.
+
+44
+00:02:57,865 --> 00:02:59,154
+Very good!
+
+45
+00:02:59,777 --> 00:03:05,542
+Then, let’s go to the Design Tab and
+Click Page Borders to add a page border.
+
+46
+00:03:06,033 --> 00:03:09,110
+Let’s choose this border and click OK.
+
+47
+00:03:09,800 --> 00:03:10,488
+Perfect!
+
+48
+00:03:10,777 --> 00:03:12,232
+Now we have a border.
+
+49
+00:03:12,855 --> 00:03:15,287
+Next, let’s type our heading
+
+50
+00:03:15,864 --> 00:03:19,328
+Let’s click on the Home tab and choose Heading 1
+
+51
+00:03:19,388 --> 00:03:22,610
+Then click on the font size and choose 48.
+
+52
+00:03:23,077 --> 00:03:26,743
+Now, let’s click this alignment to center the text.
+
+53
+00:03:27,168 --> 00:03:39,818
+Now let’s type, C-O-N-G-R-A-T-U-L-A-T-I-O-N-S.
+
+54
+00:03:40,307 --> 00:03:41,729
+Very good!
+
+55
+00:03:42,006 --> 00:03:43,673
+We now have a Heading.
+
+56
+00:03:44,233 --> 00:03:47,583
+Let’s go back to the Design Tab and choose a Theme.
+
+57
+00:03:48,277 --> 00:03:51,182
+Click this and let’s choose this theme.
+
+58
+00:03:51,695 --> 00:03:52,695
+Perfect!
+
+59
+00:03:53,277 --> 00:03:56,335
+Now, let’s type the rest of the Certificate.
+
+60
+00:03:56,669 --> 00:03:59,113
+Just copy what I’m typing.
+
+61
+00:04:09,171 --> 00:04:10,459
+Very good!
+
+62
+00:04:10,771 --> 00:04:12,548
+We now have a certificate.
+
+63
+00:04:13,363 --> 00:04:15,395
+This certificate is for you!
+
+64
+00:04:15,440 --> 00:04:18,484
+Because you have done such an excellent job.
+
+65
+00:04:19,263 --> 00:04:20,287
+Let’s read it.
+
+66
+00:04:21,031 --> 00:04:22,528
+Congratulations!
+
+67
+00:04:22,750 --> 00:04:25,403
+You have been a very good student
+
+68
+00:04:25,625 --> 00:04:27,914
+You will receive 5 stars.
+
+69
+00:04:29,713 --> 00:04:33,241
+Now, let’s give certificates to other students.
+
+70
+00:04:33,700 --> 00:04:37,597
+Let’s go to the Mailings Tab and Select Recipients.
+
+71
+00:04:37,909 --> 00:04:40,642
+Let’s use the list from Lesson 7.
+
+72
+00:04:40,909 --> 00:04:44,408
+Now, let’s insert the merge fields by clicking this.
+
+73
+00:04:44,831 --> 00:04:47,108
+Click First Name and Last Name.
+
+74
+00:04:47,730 --> 00:04:53,538
+Now, let’s click Finish and Merge then click this to see our certificates.
+
+75
+00:04:56,176 --> 00:04:57,296
+There you go!
+
+76
+00:04:57,598 --> 00:05:01,353
+We now have 10 certificates with different recipients.
+
+77
+00:05:02,064 --> 00:05:03,486
+Excellent work!
+

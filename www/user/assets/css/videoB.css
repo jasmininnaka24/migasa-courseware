@@ -239,7 +239,7 @@
   }
   /*button*/
   .btn-word {
-    background-color: #f40404;
+    background-color: #eb1717;
     color: #fff;
     border: 1;
     font-weight: bold;
@@ -334,4 +334,20 @@
     height: 100%;
     border-radius: 20px;
     transition: width 0.5s ease-in-out;
+  }
+
+   /*slide up*/
+   .slideup{
+    animation: slide-up 0.5s ease-out;
+    animation-fill-mode: backwards;
+  }
+  @keyframes slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }

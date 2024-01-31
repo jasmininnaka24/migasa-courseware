@@ -3,7 +3,7 @@ function playSoundAndRedirect() {
     sound.play();
     setTimeout(function(){
       window.location.href = '../../../user/student_users/template/video.php';
-    }, sound.duration * 1000);
+    }, sound.duration * 999);
   }
   
 

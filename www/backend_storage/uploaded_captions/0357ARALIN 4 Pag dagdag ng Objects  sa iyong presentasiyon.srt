@@ -1,0 +1,433 @@
+﻿1
+00:00:02,460 --> 00:00:07,680
+Aralin 4: Pag dagdag ng Objects sa iyong presentasiyon
+
+2
+00:00:07,980 --> 00:00:13,986
+Sa video na ito matututo kang magdagdag ng mga o  bjects sa iyong presentasyon.
+
+3
+00:00:14,010 --> 00:00:17,520
+ matutong gumawa ng listahan para sa mga talata.
+
+4
+00:00:17,820 --> 00:00:22,800
+Pag kakaayos pag-kakasunodsunod at pagpapangkat ng mga bagay.
+
+5
+00:00:23,700 --> 00:00:24,750
+Objectives.
+
+6
+00:00:25,050 --> 00:00:34,170
+Lumikha ng List, indent at line spacing, aligning, ordering and grouping objects sa iyong PowerPoint Presentation.
+
+7
+00:00:34,830 --> 00:00:37,000
+Topic A: List
+
+8
+00:00:37,170 --> 00:00:41,940
+Tulad ng makikita mo dito, mayroon kaming isang sample na presentasyon
+
+9
+00:00:42,390 --> 00:00:51,000
+Ituturo ko sa iyo kung paano gumawa ng list para sa mga talata o teksto na iyong gagamitin para sa iyong presentasyon
+
+10
+00:00:51,510 --> 00:00:54,660
+I-highlight muna natin ang grupong ito ng teksto
+
+11
+00:00:55,290 --> 00:00:57,480
+Upang i-highlight ang isang teksto
+
+12
+00:00:57,750 --> 00:01:05,250
+kailangan mong pindutin ng matagal ang kaliwang pindutan ng mouse at piliin ang pangkat ng teksto na nais mong i-highlight.
+
+13
+00:01:05,580 --> 00:01:06,600
+tulad nito.
+
+14
+00:01:07,290 --> 00:01:10,050
+Pagkatapos i-highlight ang pangkat ng teksto
+
+15
+00:01:10,470 --> 00:01:12,420
+pindutin ang button na ito dito.
+
+16
+00:01:13,020 --> 00:01:17,130
+Pagkatapos pindutin ang button na ito lalabas ang bar na ito
+
+17
+00:01:17,640 --> 00:01:21,180
+Ngayon pindutin itong Bullet and Numbering dito.
+
+18
+00:01:21,750 --> 00:01:23,310
+at ito ay lalabas.
+
+19
+00:01:23,640 --> 00:01:32,580
+Ang layunin ng bar na ito ay para sa iyo na isaayos ang listahan na gusto mong gamitin para sa iyong grupo ng teksto.
+
+20
+00:01:32,940 --> 00:01:35,580
+Ngayon piliin natin ito dito.
+
+21
+00:01:36,150 --> 00:01:39,270
+Ngayon pumili tayo ng ilang kulay dito.
+
+22
+00:01:39,570 --> 00:01:41,910
+pindutin ang arrow na ito dito
+
+23
+00:01:42,660 --> 00:01:45,660
+at pumili ng anumang kulay na gusto mong gamitin
+
+24
+00:01:45,960 --> 00:01:48,930
+sa ngayon piliin natin ang kulay itim.
+
+25
+00:01:49,470 --> 00:01:52,560
+Pagkatapos ay pindutin ang button ok.
+
+26
+00:01:53,130 --> 00:01:55,590
+At ang tuldok na ito ay lilitaw.
+
+27
+00:01:55,920 --> 00:02:03,960
+Ngayon ay tapos na nating gamiting ang listahan para sa teksto o mga talata na gagamitin para sa ating presentasyon.
+
+28
+00:02:04,440 --> 00:02:07,740
+Iyon lang para sa List sa PowerPoint.
+
+29
+00:02:08,250 --> 00:02:11,520
+Topic B: Indents and Line Spacing
+
+30
+00:02:12,060 --> 00:02:22,492
+Ang mga indent at line spacing ay dalawang mahalagang katangian ng PowerPoint na magagamit mo upang baguhin ang kalalabasan ng teksto sa isang slide.
+
+31
+00:02:22,980 --> 00:02:24,300
+Ano ang indents?
+
+32
+00:02:24,930 --> 00:02:31,620
+Nakakatulong ang mga indent na ayusin ang layout ng teksto para mas organisado ito sa iyong slide
+
+33
+00:02:32,220 --> 00:02:37,020
+Ang pinakamabilis na paraan upang mag-indent ay ang paggamit ng Tab key.
+
+34
+00:02:37,440 --> 00:02:43,830
+Ngayon ilagay ang insertion point o yung nakikita mong guhit kapag ginagalaw mo ang iyong mouse
+
+35
+00:02:44,040 --> 00:02:47,460
+sa pinakadulo simula ng linyang gusto mong i-indent.
+
+36
+00:02:47,850 --> 00:02:48,990
+Katulad nito.
+
+37
+00:02:49,890 --> 00:02:52,410
+Pagkatapos ay pindutin ang Tab key.
+
+38
+00:02:52,800 --> 00:02:56,380
+Hanapin ang tab key sa iyong key board dito.
+
+39
+00:02:57,030 --> 00:02:59,940
+Ngayon ang iyong talata ay magiging ganito.
+
+40
+00:03:00,690 --> 00:03:05,260
+Ang ispasyo na ito dito ay ang tinatawag mong indent
+
+41
+00:03:05,310 --> 00:03:08,100
+para magmukhang organisado ang iyong talata.
+
+42
+00:03:08,700 --> 00:03:13,110
+Ito ang hitsura kung ang lahat ng mga talata ay gumagamit ng indenting.
+
+43
+00:03:13,500 --> 00:03:14,850
+Mas organisado.
+
+44
+00:03:15,180 --> 00:03:18,510
+Susunod tumungo tayo sa spacing ng talata.
+
+45
+00:03:18,840 --> 00:03:22,080
+Ituturo ko sa iyo kung paano gamitin ang spacing.
+
+46
+00:03:22,650 --> 00:03:27,990
+Ngayon, i-highlight ang teksto o talata pagkatapos ay pindutin ito dito.
+
+47
+00:03:28,170 --> 00:03:37,140
+Maaari mong piliin kung aling espasyo para sa iyong teksto ang gusto mong gamitin mula 1.0 hanggang 3.0.
+
+48
+00:03:37,470 --> 00:03:40,320
+ngayon piliin natin ang 1.5
+
+49
+00:03:40,710 --> 00:03:42,510
+At ito ang hitsura nito.
+
+50
+00:03:43,200 --> 00:03:45,780
+Mukhang mas organisado ang iyong talata.
+
+51
+00:03:47,340 --> 00:03:50,520
+Iyon lang para sa mga indent at line spacing.
+
+52
+00:03:51,180 --> 00:03:56,095
+Topic C: Aligning, Ordering, and Grouping Objects
+
+53
+00:03:56,370 --> 00:04:02,640
+Ngayon ay lumipat tayo sa pag kakaayos, pag-kakasunodsunod at pagpapangkat ng mga bagay.
+
+54
+00:04:03,390 --> 00:04:05,070
+Pagkakaayos sa mga bagay.
+
+55
+00:04:05,430 --> 00:04:13,320
+Ang layunin ng paghahanay ng mga bagay ay para ang mga bagay o larawan ay magmukhang mas organisado at hindi magulo.
+
+56
+00:04:13,860 --> 00:04:19,710
+Ngayon tulad ng makikita mo dito ang mga bagay o larawan ay hindi organisado.
+
+57
+00:04:20,370 --> 00:04:26,590
+Upang magmukhang organisado hanapin muna ang shift key sa iyong key board na narito.
+
+58
+00:04:27,180 --> 00:04:33,330
+Ngayon pindutin nang matagal ang shift key at pindutin bawat bagay o mga larawan
+
+59
+00:04:33,660 --> 00:04:36,990
+Ang bagay o mga larawan ay dapat magmukhang ganito.
+
+60
+00:04:37,950 --> 00:04:42,180
+Susunod pindutin ang Format sa toolbar na narito.
+
+61
+00:04:42,570 --> 00:04:45,570
+Pagkatapos pindutin ang button na ito dito.
+
+62
+00:04:46,110 --> 00:04:47,520
+At ito ay lilitaw.
+
+63
+00:04:47,940 --> 00:04:52,830
+Ngayon ay maaari kang pumili ng anumang pagkakahanay na nais mong gamitin.
+
+64
+00:04:53,430 --> 00:04:56,580
+Ngayon ay subukan nating and Align Middle.
+
+65
+00:04:57,420 --> 00:05:01,080
+Ngayon ito ang hitsura mas organisado
+
+66
+00:05:01,530 --> 00:05:05,760
+Iyon lang para sa pag-align ng mga bagay para sa iyong presentasyon.
+
+67
+00:05:06,480 --> 00:05:09,286
+Ngayon tumungo tayo sa Ordering Objects
+
+68
+00:05:09,310 --> 00:05:15,720
+Ang Ordering Objects ay mahalaga kapag ang dalawa o higit pang mga bagay ay nagsasapawan
+
+69
+00:05:16,200 --> 00:05:21,210
+dahil matutukoy nito kung aling mga bagay ang nasa harap o likod.
+
+70
+00:05:21,690 --> 00:05:24,809
+Kapag ang mga bagay ay idinagdag sa isang slide
+
+71
+00:05:25,260 --> 00:05:32,580
+ang mga antas kung saan sila inilalagay ay nakadepende sa pagkakasunud-sunod kung saan sila idinagdag
+
+72
+00:05:33,270 --> 00:05:38,220
+Bagama't nilikha namin ang arrow sa aming halimbawa sa pinakamataas na antas
+
+73
+00:05:38,477 --> 00:05:43,680
+maaari naming ayusin ang antas upang ilagay ito sa ilalim ng iba pang mga item.
+
+74
+00:05:44,280 --> 00:05:47,190
+Ngayon pindutin ang pindutan ng Shape Format.
+
+75
+00:05:47,790 --> 00:05:49,230
+Ngayon pindutin ito.
+
+76
+00:05:49,770 --> 00:05:51,180
+At ito ay lilitaw.
+
+77
+00:05:51,540 --> 00:05:53,069
+Pindutin ang Send to Back.
+
+78
+00:05:53,760 --> 00:05:55,827
+Ngayon ay ganito ang hitsura nito.
+
+79
+00:05:56,070 --> 00:06:01,920
+Iyon ay para sa Pag-order ng mga bagay o larawan sa PowerPoint presentation.
+
+80
+00:06:02,490 --> 00:06:05,340
+Panghuli Pagpapangkat ng mga bagay.
+
+81
+00:06:05,704 --> 00:06:16,890
+Upang kumpirmahin na maraming mga item ang mananatiling magkasama kapag sila ay inilipat o binago ang laki maaari mong ipangkat ang mga ito sa isang bagay.
+
+82
+00:06:17,910 --> 00:06:21,990
+Ngayon subukan nating pangkatin ang mga bagay o larawan na ito.
+
+83
+00:06:22,770 --> 00:06:30,540
+Pindutin nang matagal ang shift key sa iyong key board pagkatapos ay pindutin ang bawat larawan upang magmukhang ganito.
+
+84
+00:06:31,380 --> 00:06:34,140
+Ngayon pindutin ang Picture format button.
+
+85
+00:06:34,560 --> 00:06:35,560
+Narito.
+
+86
+00:06:35,910 --> 00:06:38,010
+Pindutin ang button na ito dito.
+
+87
+00:06:38,730 --> 00:06:40,170
+At ito ay lilitaw.
+
+88
+00:06:40,560 --> 00:06:42,810
+Ngayon pindutin ang group.
+
+89
+00:06:43,650 --> 00:06:45,330
+At ito ang hitsura nito.
+
+90
+00:06:45,900 --> 00:06:48,330
+Iyon lang para sa aralin bilang apat.
+
+91
+00:06:48,660 --> 00:06:51,990
+pagdaragdag ng mga bagay para sa iyong presentasyon.
+
+92
+00:06:52,560 --> 00:07:00,300
+Binabati kita! Ngayon alam mo na kung paano magdagdag ng mga bagay o larawan para sa iyong presentasyon.
+
+93
+00:07:05,400 --> 00:07:08,130
+Aktibidad para sa aralin bilang apat.
+
+94
+00:07:09,180 --> 00:07:13,349
+Ngayong alam mo na kung paano magdagdag ng mga bagay sa iyong presentasyon.
+
+95
+00:07:13,650 --> 00:07:15,900
+Subukan natin na aktibidad na ito.
+
+96
+00:07:16,320 --> 00:07:18,840
+Gumawa tayo ng slide para sa bulaklak.
+
+97
+00:07:19,410 --> 00:07:24,300
+Una pindutin ang bagong slide
+at piliin ang Picture with Caption.
+
+98
+00:07:24,840 --> 00:07:28,290
+Susunod gawin natin halimbawa ang Sunflower
+
+99
+00:07:28,620 --> 00:07:34,650
+Sa ilalim ng salita na sunflower isulat kung anong masasabi niyo sa bulaklak na ito.
+
+100
+00:07:35,190 --> 00:07:38,730
+Ngayon i-highlight natin ang text at pindutin ito.
+
+101
+00:07:39,480 --> 00:07:42,360
+Ngayon ang teksto ay dapat magmukhang ganito.
+
+102
+00:07:42,720 --> 00:07:46,140
+Panghuli ilagay natin ang larawan ng Sunflower
+
+103
+00:07:46,380 --> 00:07:49,830
+upang gawin iyon, pindutin ang icon na ito dito.
+
+104
+00:07:50,850 --> 00:07:52,350
+At ito ang lilitaw.
+
+105
+00:07:53,550 --> 00:07:55,619
+Ngayon pindutin ang larawan.
+
+106
+00:07:56,400 --> 00:07:59,400
+upang gawin iyon, pindutin ang icon na ito dito.
+
+107
+00:07:59,820 --> 00:08:02,128
+At ito ang dapat na hitsura nito.
+
+108
+00:08:02,730 --> 00:08:09,630
+Iyon lang para sa ating aktibidad tungkol sa Pagdaragdag ng mga bagay o larawan sa iyong presentasyon.
+

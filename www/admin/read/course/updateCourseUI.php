@@ -10,7 +10,7 @@
   <!-- ERROR CONDITION -->
   <?php include '../../includes/error_condition.php'; ?>
   <!-- MAIN -->
-  <main style="min-height: 90%;" class="d-flex align-items-center flex-column anim-to-top-slow vh-100">
+  <main style="min-height: 90%;" class="d-flex align-items-center flex-column vh-100">
     <div class="container mt-4">
       <div class="row">
         

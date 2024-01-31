@@ -1,47 +1,55 @@
 <?php 
-  ob_start();
-  session_start();
+    ob_start();
+    session_start();
   include '../database.php';
   include '../a_includes/admin_header.php';
 
   
 ?>
-<style>
+<div class="vh-100">
+
+    <div class="updatedd hidden position-fixed" style="top: 0; left: 0; z-index: 9999;">
+        <div class="invalid_modal_container">
+        <div class="invalid_modal d-flex flex-column" style="background: #ddf5d9; color: #444">
+        <div class="h2">
+        ✅ PASSWORD UPDATED SUCCESSFULLY!
+    </div>
+</div>
+</div>
+</div>
 
 
-
-</style>
-    <nav class="anim-to-top-slow">
-        <div class="row">
+<nav>
+    <div class="row">
             <div class="col-12">
                 <div class="d-flex align-items-center justify-content-between mt-4 px-5">
                     <div class="d-flex py-3">
                         <div style="width: 4rem;">
-                            <img src="../../assets/img/migasa 2.png" width="100%" alt="">
+                            <img src="../../assets/img/BIT TYP LOGO.png" width="100%" alt="">
                         </div>
-
+                        
                         <h2 style="margin-left: 2rem;" class="font-bold">Change Password</h2>
                     </div>
-
+                    
                     
                 </div>
             </div>
         </div>
     </nav>
-    <div class="container-fluid anim-to-top-slow" id = pop-up>
-
-
-             <!-- reset password -->
+    <div class="container-fluid" id = pop-up>
+        
+        
+        <!-- reset password -->
            
-             <div class = "container mt-4" id = "reset-password" >
-                <div class = "row d-flex align-items-center justify-content-center">
-                    <div class = "col-6">
-                        <?php include '../../category_includes/verification_folder/admin_acc_re_pass.php'; ?>
+        <div class = "container mt-4" id = "reset-password" >
+            <div class = "row d-flex align-items-center justify-content-center">
+                <div class = "col-6">
+                    <?php include '../../category_includes/verification_folder/admin_acc_re_pass.php'; ?>
                         <form action = "" method = "POST">
-
+                            
                             <div class = "form-group">
                                 <label for = "username" class = "font-med align-items-center" style = "margin-right: 1rem; font-size: 20px">Enter new Password</label>
-                                    <br>
+                                <br>
                                 <input type = "password" id = "password" name = "password" class = "form-control" style = "border-color:transparent; border: .1rem solid #999;" placeholder = "Enter Password..."></input>
   
                             </div>
@@ -53,19 +61,19 @@
                             <div class="errorMessage">
 
                             </div>
-
+                            
                             <div class="password-requirements mt-4">
                                 <p>Password must be 8 characters long</p>
                                 <p>Password must contain at least 1 symbol</p>
                                 <p>Password must contain at least 1 number</p>
                                 <p>Password must contain at least 1 uppercase letter</p>
                             </div>
-
+                            
 
                             <div class = "form-group mt-5">
                                 <label for = "username" class = "font-med align-items-center" style = "margin-right: 1rem; font-size: 20px">Re-enter new Password</label>
                                     <br>
-                                <input type = "password" id = "admin_confirm-password" name = "confirm_password" class = "form-control" placeholder = "confirm password..." style = "border-color:transparent; border: .1rem solid #999;"></input>
+                                    <input type = "password" id = "admin_confirm-password" name = "confirm_password" class = "form-control" placeholder = "confirm password..." style = "border-color:transparent; border: .1rem solid #999;"></input>
                             </div>
                             <br>
                             <div class = "button d-flex align-items-center justify-content-end" id = "saveBtn">
@@ -81,9 +89,8 @@
                 </div>
                 
             </div>
-
-
-<?php include '../../includes/admin_footer.php'; ?>
+    </div>
+            
 <script src="../../assets/js/jquery-3.5.1.min.js"></script>
 
 <?php include "../a_includes/admin_footer.php" ?>

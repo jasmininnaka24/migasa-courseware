@@ -91,8 +91,9 @@
                       $select_language->execute();
 
                       while($lang_row = $select_language->fetch(PDO::FETCH_ASSOC)){
+                        $language_id = $lang_row['id'];
                         $language = $lang_row['language'];
-                        echo "<option value='$language'>$language</option>";
+                        echo "<option value='$language_id'>$language</option>";
                       }
                     ?>                    
                   </select>
@@ -117,14 +118,22 @@
           <?php
             if(isset($_GET['course']) && isset($_GET['languagee'])){ 
               $course_lang = $_GET['course'];
-              $language = $_GET['languagee'];
+              $language_id = $_GET['languagee'];
+              // video title form functionality
+
               // video title form functionality
               if(isset($_POST['course_selected'])){
                 $course_id = $_POST['course_selected'];
+    
+                if($course_id != ''){
                   
-                header("Location: ./read/course/updateCourseUI.php?update_course_id=$course_id");
-                
+                  header("Location: ./read/course/updateCourseUI.php?update_course_id=$course_id");
+                } else {
+                  echo "<h3 class='txt-red-light font-med text-center position-absolute w-100 d-flex align-items-center justify-content-center' style='top:10%; margin-left: 0%'>The field is empty</h3>";
+                }
               }
+
+
 
 
               if(isset($_POST['go_back'])){
@@ -140,30 +149,47 @@
                 <p style="color: #777; font-size: 19px; margin-bottom: 2rem; " class="text-center mt-4"></p>
 
                 <!-- file upload -->
+                <?php $course_count = 0; ?>
                 <div class="form-group mb-4">
-                  <select name="course_selected" id="" class="form-control">
+                  <select name="course_selected" id=""  class="form-control">
                     <option value="">Select a course🔻</option>
                     <?php
-                      $select_lang_course = $conn->prepare("SELECT * FROM course_table WHERE course_lang = :course_language");
-                      $select_lang_course->bindParam(":course_language", $language);
+                      $select_lang_course = $conn->prepare("SELECT id, course_title FROM course_table WHERE course_lang_id = :course_lang_id");
+                      $select_lang_course->bindParam(":course_lang_id", $language_id);
                       $select_lang_course->execute();
 
                       while($course_row = $select_lang_course->fetch(PDO::FETCH_ASSOC)){
                         $course_id = $course_row['id'];
                         $course_title = $course_row['course_title'];
                         echo "<option value='$course_id'>$course_title</option>";
+                        $course_count += 1;
                       }
+                      
+                      
                     ?>                    
                   </select>
 
+                <?php
+                  if($course_count === 0){
+                    echo "<p class='lead text-danger mt-4 text-center font-med'>no course found under this language</p>";
+                  }
+                ?>
                 </div>
                 <div class="d-flex justify-content-between mb-1" style="margin-top: 2rem;">
                   <button name="go_back" class="btn bgc-red-light rounded-pill" style="font-size: 18px;">
                     Go back
                   </button>
-                  <button name="select_lang" class="preventReload btn bgc-red-light rounded-pill" style="font-size: 18px;">
-                    Proceed to next step
-                  </button>
+                  <?php
+                    if($course_count > 0){ ?>
+
+                    <button name="select_lang" class="preventReload btn bgc-red-light rounded-pill" style="font-size: 18px;">
+                      Proceed to next step
+                    </button>
+
+                      <?php
+                    }
+                  ?>
+
                 </div>
               </form>              
 

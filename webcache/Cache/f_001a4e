@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../assets/bootstrap-5.1.3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/general_styles.css" />
+    <link rel="stylesheet" href="../assets/icons/fontawesome/css/all.css" />
+    <title>Document</title>
+    <style>
+      .langwi p {
+        font-size: 30px;
+      }
+      .btn-gray {
+        background-color: #c2beaa;
+      }
+      .btn {
+        font-size: 22px;
+      }
+      .hidden {
+        display: none;
+      }
+      .show_vid_style {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+      .show_vid_container {
+        width: 100%;
+        height: 20vh;
+        overflow: hidden;
+      }
+      .grid_videos {
+        display: grid;
+        grid-template-columns: repeat(4, 22%);
+        justify-content: space-between;
+      }
+      .course_crud {
+        display: flex;
+        align-items: center;
+      }
+      .maintenance_icons{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+      }
+
+      @media (max-width: 760px) {
+        .grid_videos {
+          grid-template-columns: repeat(2, 40%);
+          justify-content: space-evenly;
+        }
+        .show_vid_container {
+          margin: 1rem;
+        }
+      }
+
+      @media (max-width: 500px) {
+        .course_crud {
+          flex-direction: column;
+          margin: none;
+        }
+        .title {
+          text-align: center;
+        }
+        .course_crud div a {
+          /* justify-content: start; */
+          margin: 0;
+        }
+        .grid_videos {
+          grid-template-columns: repeat(1, 70%);
+          justify-content: space-evenly;
+        }
+        .show_vid_container {
+          margin: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+      <nav>
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="d-flex align-items-center justify-content-between mt-4 px-5"
+            >
+              <div class="d-flex py-3">
+                <div style="width: 4rem">
+                  <img src="../assets/img/migasa 2.png" width="100%" alt="" />
+                </div>
+                <h2 style="margin-left: 2rem" class="font-bold">Admin</h2>
+                <div class="d-flex align-items-center mx-3">
+                  <a href="./createCourseUI.php" class="text-decoration-none">
+                    <button
+                      style="font-size: 18px"
+                      class="btn bgc-red-light text-light px-3 py-1 rounded-pill font-reg"
+                    >
+                      +Add
+                    </button>
+                  </a>
+                  <a href="./edit_course.php">
+                    <i
+                      class="fa-solid fa-gear mx-3 txt-dark"
+                      style="font-size: 19px"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center">
+                <a href="" class="mt-2 mx-2">
+                  <div style="width: 28px">
+                    <img
+                      src="../assets/img/user.png"
+                      width="100%"
+                      class="show-modal modal_btn"
+                      alt=""
+                    />
+                  </div>
+                </a>
+                <a href="./admin_home.php" class="text-decoration-none">
+                <button
+                  class="btn mt-3 d-flex align-items-center justify-content-center"
+                  style="height: 2.5rem"
+                >
+                  <p
+                    style="margin-right: 0.4rem; font-size: 18px"
+                    class="font-med"
+                  >
+                    Back
+                  </p>
+                  <div>
+                    <img
+                      src="../assets/img/exit.png"
+                      style="width: 20px; height: 16px; margin-top: -20px"
+                      width="100%"
+                      alt=""
+                    />
+                  </div>
+                </button>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- main -->
+      <main>
+        <div class="container mb-5">
+          <div class="boxes">
+            <!-- course 1 -->
+            <div class="box mt-5">
+              <div class="row">
+                <div class="grid_videos">
+
+                  <!-- video -->
+                  
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=1">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0390.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">Video Record</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=2">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0468.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">Default</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=3">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0746.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">9 mb</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=4">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0760.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">We laugh politely</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=5">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0465.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">rain</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=6">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0889.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">asdfksadjflsdf</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=7">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0413_asdfafd.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">ayan ok na yan</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=8">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0453_meme.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">meme</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=9">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0370_muwing3.mp4"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">convert muwing</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=10">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0802.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">gana na</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=11">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0912.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">sdf</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=12">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0193_meme.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">sfddddddddd</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=13">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0193.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">sfddddddddd</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=14">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0693.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">muwings</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=17">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0304_asdfafd.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">dfgh</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=18">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0304.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">dfgh</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=19">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0217_sample_960x540.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">ayeeee</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=20">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0217.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">ayeeee</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=21">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0960_world.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">unlink</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=22">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0960.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">unlink</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=23">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0816_sample_960x540.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">girly</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=24">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0816.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">girly</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=25">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0145_meme.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">sdfgdfsdfgg</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=26">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0145.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">sdfgdfsdfgg</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=27">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0000_meme.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">huchh</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=28">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0000.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">huchh</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=29">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0397_sample_960x540.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">all the time</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=30">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0397.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">all the time</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=31">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0760_asdfafd.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">lets go</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=32">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0760.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">lets go</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=33">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0755_asdfafd.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">fdsfggggg</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=34">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0755.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">fdsfggggg</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=35">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0964_meme.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">hayasss</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=36">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0304_meme.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">reference</h5>
+                    </div>
+
+
+                    
+                    <div>
+                      <!-- maintenance icons - edit and delete -->
+                      <div class="d-flex align-items-center justify-content-end">
+                        <div class="maintenance_icons mb-1 mt-2">
+
+                          <a href="./updateVideoUI.php?update_video_id=37">
+                            <div style="width: 28px; cursor: pointer;" class="mx-1">
+                              <img src="../assets/img/edit.png" width="100%" alt="Edit Icon">
+                            </div>
+                          </a>
+                          <div style="width: 25px; cursor: pointer;">
+                            <img src="../assets/img/delete.png" width="100%" alt="Delete Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- video container -->
+                      <div class="show_vid_container">
+                                              <video
+                        autoplay
+                        muted
+                        class="rounded-3 show_vid_style"
+                        loop
+                        src="../backend_storage/uploaded_vids/0404_meme.webm"
+                        ></video>
+                      </div>
+                      <h5 class="text-center mt-2">huhuhu</h5>
+                    </div>
+
+
+                    
+
+
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </main>
+    </div>
+    
+
+    <div class="overlay hidden"></div>
+    <script src="../assets/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/modal.js"></script>
+  </body>
+</html>

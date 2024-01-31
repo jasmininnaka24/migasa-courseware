@@ -1,0 +1,244 @@
+﻿1
+00:00:03,013 --> 00:00:06,048
+Aralin 6: References
+
+2
+00:00:06,568 --> 00:00:10,811
+Maligayang pagbati nakarating ka na sa Aralin 6!
+
+3
+00:00:11,372 --> 00:00:15,900
+Sa bidyong ito, pag-aaralan natin
+ang tungkol sa References tab.
+
+4
+00:00:16,630 --> 00:00:22,330
+Ito ang References tab, mayroon itong
+maraming tools na makakatulong sa iyo.
+
+5
+00:00:22,744 --> 00:00:27,140
+Una, pag-usapan natin kung paano maglagay ng Table of Contents.
+
+6
+00:00:27,394 --> 00:00:29,990
+Ang table of Contents
+ay parang isang mapa
+
+7
+00:00:30,014 --> 00:00:32,991
+para sa lahat ng nilalaman
+ng ating dokumento.
+
+8
+00:00:33,625 --> 00:00:36,433
+Pinapadali nito ang paghahanap ng mga teksto.
+
+9
+00:00:37,020 --> 00:00:39,867
+Upang maglagay ng
+table of contents, pindutin
+
+10
+00:00:39,891 --> 00:00:42,737
+natin ang button na
+ito at pumili ng template.
+
+11
+00:00:43,438 --> 00:00:48,592
+Ngayon mayroon na tayong table
+of contents, ngunit wala itong laman.
+
+12
+00:00:49,251 --> 00:00:53,971
+Upang i-update ito, tiyakin na ang
+lahat ng mga pamagat na gusto mong
+
+13
+00:00:53,995 --> 00:00:59,202
+mapabilang sa table of contents ay
+gumagamit ng text style na Headings 1.
+
+14
+00:01:00,454 --> 00:01:02,464
+Ano nga ba ang ibig kong sabihin?
+
+15
+00:01:03,485 --> 00:01:08,377
+Tingnan natin ang aklat na ito,
+ang aklat na ito ay may 3 kabanata.
+
+16
+00:01:08,695 --> 00:01:13,281
+Ito ay may mga kabanata 1, 2, 3.
+
+17
+00:01:14,033 --> 00:01:18,518
+Upang ilagay ang kabanata 1
+sa table of contents, i-highlight
+
+18
+00:01:18,542 --> 00:01:22,427
+natin ang "Kabanata 1"
+at pindutin ang Headings 1.
+
+19
+00:01:22,664 --> 00:01:27,662
+Ngayon, bumalik tayo sa table of
+contents at pindutin ang update table.
+
+20
+00:01:28,018 --> 00:01:34,738
+Ayan, makikita na sa table of contents ang
+Kabanata 1 at ang numero ng pahina nito.
+
+21
+00:01:35,485 --> 00:01:38,831
+Ulitin lamang ang proseso
+hangga’t  lahat ng mga
+
+22
+00:01:38,855 --> 00:01:42,200
+kabanata ay nailagay
+na sa table of contents.
+
+23
+00:01:43,252 --> 00:01:46,904
+Sunod naman nating pag-usapan
+ang Footnote at Endnote.
+
+24
+00:01:47,288 --> 00:01:51,533
+Ang footnote ay parang mga
+lihim na mensahe sa ibaba ng
+
+25
+00:01:51,557 --> 00:01:56,433
+pahina, tumutulong ito sa
+pagpapaliwanag ng mga bagay-bagay.
+
+26
+00:01:56,899 --> 00:02:01,720
+Ang mga endnote ay parang mga lihim
+na mensahe sa dulo ng buong dokumento.
+
+27
+00:02:02,569 --> 00:02:06,388
+Para magdagdag ng
+footnote o endnote, piliin ang
+
+28
+00:02:06,412 --> 00:02:10,230
+alinman sa "Insert
+Footnote" o "Insert Endnote".
+
+29
+00:02:11,656 --> 00:02:16,597
+I-click natin ang Insert Footnote
+at i-type ang “Hello world”.
+
+30
+00:02:17,464 --> 00:02:19,157
+Napakadali lang, diba?
+
+31
+00:02:20,005 --> 00:02:24,717
+Ngayon naman ay pag-usapan
+natin ang Citations at Bibliography.
+
+32
+00:02:25,356 --> 00:02:29,452
+Ang citation ay nagbibigay
+ng kredito sa mga may-akda na
+
+33
+00:02:29,476 --> 00:02:33,572
+nagsulat ng aklat na pinagbatayan
+mo ng iyong mga ideya.
+
+34
+00:02:34,680 --> 00:02:39,171
+Karaniwan nitong sinusunod
+ang APA format at ipinapakita ang
+
+35
+00:02:39,195 --> 00:02:44,450
+pangalan ng may-akda at ang taon
+kung kailan nai-publish ang aklat.
+
+36
+00:02:44,919 --> 00:02:48,691
+Para maglagay ng
+citation, pindutin ang Insert
+
+37
+00:02:48,715 --> 00:02:52,487
+Citation button at pindutin
+ang Add New Source.
+
+38
+00:02:52,593 --> 00:02:56,653
+Maaari kang pumili ng
+source, maaari itong maging
+
+39
+00:02:56,677 --> 00:03:00,738
+isang libro, journal,
+artikulo at marami pang iba.
+
+40
+00:03:01,045 --> 00:03:03,241
+Piliin natin ang Aklat o Book.
+
+41
+00:03:03,860 --> 00:03:07,968
+Ngayon, i-type natin ang
+pangalan ng May-akda, ang
+
+42
+00:03:07,992 --> 00:03:12,099
+Pamagat ng aklat, ang
+Taon, Lugar at Publisher.
+
+43
+00:03:12,400 --> 00:03:15,902
+Kapag tapos ka na, i-click lamang ang OK.
+
+44
+00:03:21,471 --> 00:03:25,412
+Ngayon, ang tamang citation
+ay nasa iyong dokumento na.
+
+45
+00:03:26,018 --> 00:03:28,708
+Pag-usapan naman
+natin ang Bibliograpiya.
+
+46
+00:03:29,283 --> 00:03:35,537
+Nagbibigay din ang Bibliograpiya ng kredito
+sa mga may-akda, ngunit ipinapakita nito
+
+47
+00:03:35,561 --> 00:03:41,816
+ang pangalan ng may-akda, taon, pamagat,
+at lugar kung saan nai-publish ang aklat.
+
+48
+00:03:42,455 --> 00:03:48,722
+Dahil nailagay na natin ang impormasyon ng libro
+kanina, ang kailangan na lamang nating gawin
+
+49
+00:03:48,746 --> 00:03:55,013
+ngayon ay pindutin ang Bibliography button at
+pagkatapos ay pumili sa alinman sa mga template.
+
+50
+00:03:55,491 --> 00:03:56,746
+Napakahusay!
+
+51
+00:03:57,124 --> 00:04:01,113
+Ngayon ay alam mo na ang lahat tungkol sa References tab.
+

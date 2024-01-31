@@ -1,0 +1,117 @@
+﻿1
+00:00:02,747 --> 00:00:05,253
+Lesson 3: Sort and Filter
+
+2
+00:00:06,001 --> 00:00:10,360
+Hey there, today we are going to
+learn about Sorting and Filtering!
+
+3
+00:00:11,154 --> 00:00:15,114
+You can find the Sort and Filter
+under the Home Tab, right here.
+
+4
+00:00:15,715 --> 00:00:20,951
+Sorting is like when you put all of your
+toys in order from biggest to smallest.
+
+5
+00:00:21,333 --> 00:00:24,688
+In Excel, you can sort your data the same way!
+
+6
+00:00:25,035 --> 00:00:31,289
+You can choose to sort by numbers, letters, colors, dates or anything else you want.
+
+7
+00:00:31,822 --> 00:00:35,185
+In this column we have 5 different toys.
+
+8
+00:00:35,825 --> 00:00:42,143
+We have a dollhouse, a ball, an airplane toy, an elephant and a car toy.
+
+9
+00:00:42,733 --> 00:00:47,117
+Let’s sort these toys from A
+to E based on the first letter.
+
+10
+00:00:47,543 --> 00:00:51,969
+Highlight all these cells, then let’s go ahead and click Sort and Filter.
+
+11
+00:00:52,783 --> 00:00:54,755
+Click Sort A to Z.
+
+12
+00:00:55,682 --> 00:00:56,467
+Perfect!
+
+13
+00:00:56,588 --> 00:00:59,214
+Now our toys are sorted from A to E.
+
+14
+00:01:00,080 --> 00:01:02,100
+Now, let’s talk about Filter.
+
+15
+00:01:02,673 --> 00:01:07,075
+In Excel, a filter is like a
+magic tool that helps you find
+
+16
+00:01:07,099 --> 00:01:12,033
+and see only the information
+you want from a big list or table.
+
+17
+00:01:12,473 --> 00:01:16,146
+Let’s go ahead and look at our sorted list of toys again.
+
+18
+00:01:16,546 --> 00:01:22,383
+Let’s highlight all of it and click
+on Sort and Filter then click Filter.
+
+19
+00:01:22,876 --> 00:01:26,512
+Now, you will see a little arrow down button here.
+
+20
+00:01:27,060 --> 00:01:29,872
+Let’s click it and find out how to filter.
+
+21
+00:01:30,285 --> 00:01:33,233
+Let’s click Text Filter and choose Begins with.
+
+22
+00:01:34,127 --> 00:01:38,536
+This filter will only show text that begins with a certain letter.
+
+23
+00:01:38,950 --> 00:01:42,002
+Let’s type A here and click OK.
+
+24
+00:01:42,682 --> 00:01:43,482
+There you go!
+
+25
+00:01:43,829 --> 00:01:49,699
+Only the Airplane toy can be seen because
+its the only toy that begins with letter A!
+
+26
+00:01:50,180 --> 00:01:51,220
+Excellent Work! Now you know how to sort and filter data in Microsoft Excel. In the next video, you will learn about basic arithmetic operations in Excel.
+
+27
+00:01:52,047 --> 00:01:56,433
+Now you know how to sort
+and filter data in Microsoft Excel.
+

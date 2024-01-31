@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../../assets/css/sidebar.css">    
     <link rel="stylesheet" href = "../../assets/css/manual_style.css">
     <link rel="stylesheet" href = "../../assets/css/verification.css">
+
     
     <script src="../../assets/js/jquery-3.5.1.min.js"></script>
     <link

@@ -11,7 +11,7 @@
                     <div class="d-flex align-items-center justify-content-between mt-4 px-5">
                         <div class="d-flex py-3">
                             <div style="width: 4rem;">
-                                <img src="../../assets/img/migasa 2.png" width="100%" alt="">
+                                <img src="../../assets/img/BIT TYP LOGO.png" width="100%" alt="">
                             </div>
 
                             <h2 style="margin-left: 2rem;" class="font-bold">Admin(Forget Password)</h2>
@@ -38,7 +38,7 @@
                     <form method="POST" class="text-left" style = "margin-top: 30px;">
                     <div class="input-group d-flex align-items-center justify-content-center">
                     <label for="question_recovery" class="font-med align-items-center" style="margin-right: 1rem; font-size: 20px">Question</label>
-                    <input type="text" id="question_recovery" readonly name="question_recovery" value="<?php echo $question_recovery; ?>" class="form-control" style="border-radius: 0;" required>
+                    <input type="text" id="question_recovery" readonly name="question_recovery" value="<?php echo $question_recovery_db; ?>" class="form-control" style="border-radius: 0;" required>
                     </div>
                     <br>
                     <div class="input-group d-flex align-items-center justify-content-center" style="padding-left: 17px;">

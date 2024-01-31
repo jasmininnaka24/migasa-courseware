@@ -22,10 +22,10 @@
                         <div class="d-flex align-items-center justify-content-between mt-4 px-5">
                             <div class="d-flex py-3">
                                 <div style="width: 4rem;">
-                                    <img src="../../assets/img/migasa 2.png" width="100%" alt="">
+                                    <img src="../../assets/img/BIT TYP LOGO.png" width="100%" alt="">
                                 </div>
 
-                                <h2 style="margin-left: 2rem;" class="font-bold">Admin (Forgot Password)</h2>
+                                <h2 style="margin-left: 2rem;" class="font-bold">Forgot Password</h2>
                             </div>
 
                             <a href="../../home.php" class="text-decoration-none">
@@ -74,7 +74,7 @@
                             <div class="row">
                             <div class="col text-end">
                                 <div class="button" id="saveBtn">
-                                     <button name="confirmBtn" type="submit" class="btn bgc-red-light rounded-pill font-med" style="width: 100px; font-size: 18px;" onclick="validateUsernameConfirmation()">Confirm</button>
+                                     <button name="confirmBtn" type="submit" class="btn bgc-red-light rounded-pill font-med" style="width: 100px; font-size: 18px;">Confirm</button>
                                 </div>
                             </div>
                             </div>

@@ -5,7 +5,6 @@
      private $videoDataSize;
      private $videoDataError;
      private $videoFileTemp;
-     private $subtitleFileTemp;
      private $sizeLimit = 500000000;
      private $ffmpegPath;
      private $allowedVidType = array("mp4", "mkv", "webm", "flv", "vob", "ogv", "ogg", "avi", "wmv", "mov", "mpeg", "mpg");
@@ -39,12 +38,10 @@
         $finalFilePath = $targetDir . $uniqueId . ".webm";
 
         if(!$this->insertVideoData($videoUploadData, $finalFilePath)){
-          echo "Insert Query Failed";
           return false;
         }
 
         if(!$this->convertVideoToWebm($tempFilePath, $finalFilePath)){
-          echo "Upload Failed";
           return false;
         }
         
@@ -62,20 +59,20 @@
       $videoType = pathinfo($tempFilePath, PATHINFO_EXTENSION);
       
       if(!$this->isValidSize()){
-        echo "FILE TOO LARGE. CANT BE MORE THAN " . $this->sizeLimit;
+        // echo "FILE TOO LARGE. CANT BE MORE THAN " . $this->sizeLimit;
         return false;
       } else if (!$this->isValidType($videoType)){
-        echo "INVALID FILE TYPE <br>";
+        // echo "INVALID FILE TYPE <br>";
         return false;
       } else if($this->hasError()) {
-        echo "ERROR CODE: " . $this->videoDataError; 
+        // echo "ERROR CODE: " . $this->videoDataError; 
         return false;
       }
       return true;
     }
 
     private function isValidSize () {
-      echo $this->videoDataSize . "<br>";
+      // echo $this->videoDataSize . "<br>";
       return $this->videoDataSize <= $this->sizeLimit;
     }
 
@@ -89,27 +86,23 @@
     }
 
     private function insertVideoData ($videoUploadData, $finalFilePath) {
-      
-      $videoSubtitle = str_replace(" ", "_", $videoUploadData->videoSubtitle);
-      $subtitleFileName = $videoSubtitle;
 
-      move_uploaded_file($this->subtitleFileTemp, "../../../backend_storage/uploaded_subtitle/$subtitleFileName");
-
-      $queryInsertData = $this->conn->prepare("INSERT INTO videos_table (course_id, course_title, video_title, video_file_name, video_subtitle) VALUES (:course_id, :course_title, :video_title, :video_file_name, :video_subtitle)");
+      $queryInsertData = $this->conn->prepare("INSERT INTO videos_table (course_id, video_title, video_file_name) VALUES (:course_id, :video_title, :video_file_name)");
 
       $queryInsertData->bindParam(":course_id", $videoUploadData->courseID);
-      $queryInsertData->bindParam(":course_title", $videoUploadData->courseTitle);
       $queryInsertData->bindParam(":video_title", $videoUploadData->videoTitle);
       $queryInsertData->bindParam(":video_file_name", $finalFilePath);
-      $queryInsertData->bindParam(":video_subtitle", $subtitleFileName);
-
+      
       // STORING VIDEO ID AND VIDEO TITLE INTO SESSIONS
 
       return $queryInsertData->execute();
     }
 
     public function convertVideoToWebm ($tempFilePath, $finalFilePath){
-      $cmd = "ffmpeg -i $tempFilePath $finalFilePath 2>&1";
+
+      $cmd = "\"$this->ffmpegPath\" -i \"$tempFilePath\" -c:v libvpx -crf 10 -b:v 1M -c:a libvorbis \"$finalFilePath\" 2>&1";
+
+      // $cmd = "ffmpeg -i $tempFilePath -c:v libvpx -crf 10 -b:v 1M -c:a libvorbis $finalFilePath";
       $outputLog = array();
       exec($cmd, $outputLog, $returnCode);
 
@@ -122,6 +115,7 @@
 
       return true;
     }
+
 
   }
 ?>

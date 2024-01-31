@@ -49,7 +49,7 @@
   --text-tan: #FFDB89;
   --text-light: #FFF6C3;
   --text-primary: #2457b6;
-  --text-success: #c3eabc;
+  --text-success: #ddf5d9;
 }
 
 html {
@@ -57,7 +57,7 @@ html {
   --thumbBG: transparent;
 }
 body::-webkit-scrollbar {
-  width: 11px;
+  width: 0px;
 }
 body {
   scrollbar-width: thin;

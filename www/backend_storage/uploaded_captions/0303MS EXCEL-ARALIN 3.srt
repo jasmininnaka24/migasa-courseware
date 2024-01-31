@@ -1,0 +1,160 @@
+﻿1
+00:00:02,840 --> 00:00:06,053
+Aralin 3: Sort at Filter
+
+2
+00:00:06,400 --> 00:00:07,680
+Maligayang pagdating!
+
+3
+00:00:07,973 --> 00:00:11,541
+Ngayon ay pag-aaralan natin
+ang tungkol sa Sorting at Filtering!
+
+4
+00:00:11,610 --> 00:00:15,810
+Makikita mo ang Sort at Filter sa
+ilalim ng Home Tab sa bandang ito.
+
+5
+00:00:16,157 --> 00:00:18,909
+Ang Sorting ay parang
+pag-aayos mo ng mga laruan
+
+6
+00:00:18,933 --> 00:00:21,685
+mula sa pinakamalaki
+hanggang sa pinakamaliit.
+
+7
+00:00:21,752 --> 00:00:25,385
+Sa Excel, maaari mong ayusin ang iyong data sa parehong paraan!
+
+8
+00:00:25,599 --> 00:00:29,231
+Maaari mong piliing i-sort
+ito ayon sa mga numero,
+
+9
+00:00:29,255 --> 00:00:32,887
+titik, kulay, petsa o
+anumang bagay na gusto mo.
+
+10
+00:00:33,175 --> 00:00:36,735
+Sa column na ito mayroon
+tayong 5 magkakaibang laruan.
+
+11
+00:00:37,002 --> 00:00:39,948
+Mayroon tayong isang
+dollhouse, isang ball,
+
+12
+00:00:39,972 --> 00:00:42,918
+isang airplane, isang
+elephant at isang car.
+
+13
+00:00:43,329 --> 00:00:48,152
+I-sort natin ang mga laruang ito mula
+A hanggang E batay sa unang titik.
+
+14
+00:00:48,798 --> 00:00:52,414
+I-highlight ang lahat ng
+mga cell na ito, pagkatapos ay
+
+15
+00:00:52,438 --> 00:00:56,659
+pindutin ang Sort and Filter.
+Pindutin ang Sort A hanggang Z.
+
+16
+00:00:57,190 --> 00:01:02,204
+Mahusay! Ngayon ang ating mga laruan
+ay pinagsunod-sunod mula A hanggang E.
+
+17
+00:01:02,910 --> 00:01:05,349
+Ngayon, pag-usapan
+naman natin ang Filter.
+
+18
+00:01:05,707 --> 00:01:10,002
+Sa Excel, ang filter ay tutulong sa
+iyo upang mahanap at makita lang
+
+19
+00:01:10,026 --> 00:01:14,321
+ang impormasyong gusto mo mula
+sa isang malaking listahan o table.
+
+20
+00:01:15,129 --> 00:01:19,047
+Tignan natin muli ang ating
+pinagsunod-sunod na listahan ng mga laruan.
+
+21
+00:01:19,477 --> 00:01:22,765
+I-highlight natin ang
+lahat ng ito at pindutin ang
+
+22
+00:01:22,789 --> 00:01:26,077
+Sort and Filter pagkatapos
+ay pindutin ang Filter.
+
+23
+00:01:26,645 --> 00:01:29,577
+Makikita mo ang isang
+maliit na arrow down button.
+
+24
+00:01:30,125 --> 00:01:33,116
+pindutin natin ito at alamin kung paano mag-filter.
+
+25
+00:01:33,397 --> 00:01:37,045
+pindutin natin ang Text Filter at piliin ang Begins with.
+
+26
+00:01:37,807 --> 00:01:42,577
+Ipapakita lang ng filter na ito
+ang data na nagsisimula sa isang
+
+27
+00:01:42,601 --> 00:01:47,371
+partikular na titik. I-type natin
+ang A dito at pindutin ang OK.
+
+28
+00:01:47,974 --> 00:01:50,852
+Tanging ang laruang
+Airplane lang ang makikita dahil
+
+29
+00:01:50,876 --> 00:01:53,640
+ito lang ang laruan na
+nagsisimula sa letter A!
+
+30
+00:01:54,241 --> 00:01:57,301
+Upang alisin ang filter,
+pindutin lamang muli ang
+
+31
+00:01:57,325 --> 00:02:00,769
+maliit na arrow na ito at
+pindutin ang Clear Filter.
+
+32
+00:02:01,533 --> 00:02:04,487
+Napakahusay! Ngayon
+alam mo na kung paano
+
+33
+00:02:04,511 --> 00:02:08,133
+ayusin at i-filter ang
+data sa Microsoft Excel.
+

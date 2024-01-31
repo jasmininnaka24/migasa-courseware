@@ -1,0 +1,477 @@
+﻿1
+00:00:02,790 --> 00:00:07,912
+Aralin 2: Pag-develop ng PowerPoint Presentation
+
+2
+00:00:08,340 --> 00:00:12,510
+Magandang araw! Maligayang pagdating sa Aralin 2.
+
+3
+00:00:13,290 --> 00:00:22,590
+Sa video na ito, matututunan mo kung paano gumamit ng Clipboards, Font Formatting Tools, at ng mga iba't ibang presentation slides.
+
+4
+00:00:23,130 --> 00:00:24,130
+Layunin.
+
+5
+00:00:24,570 --> 00:00:29,400
+Matututunan mo ang paggamit ng Clipboard at Font formatting tools.
+
+6
+00:00:29,940 --> 00:00:33,749
+Matututunan mo ang iba't ibang uri ng PowerPoint Slide.
+
+7
+00:00:34,260 --> 00:00:45,300
+Una, simulan natin buksan ang iyong Microsoft PowerPoint at gumawa ng blank presentation. Maari mong gawin ito sa pamamagitan ng pag-click dito.
+
+8
+00:00:45,810 --> 00:00:54,630
+Nilikha mo ang iyong sariling blank presentation page, makikita mo na ang pamagat ng iyong slide sa iyong screen.
+
+9
+00:00:55,470 --> 00:01:01,620
+Ngayon ay pindutin natin ang kahon ng titulong nagsasabing "Click to add title".
+
+10
+00:01:02,430 --> 00:01:09,330
+Para makapagdagdag ng pamagat sa iyong slide, magtype tayo ng "Planets" gamit ang iyong keyboard.
+
+11
+00:01:10,200 --> 00:01:18,300
+Sa ilalim ng kahon ng titulo ay mayroong “Subtitle” box na nagsasabing "Click to add subtitle".
+
+12
+00:01:19,050 --> 00:01:25,680
+Para magdagdag ng “sub-title” sa iyong slide, magtype ng iyong buong pangalan at pindutin ang "enter",
+
+13
+00:01:26,100 --> 00:01:31,440
+kasunod naman nito ay ang iyong antas na nasa ilalim ng iyong pangalan.
+
+14
+00:01:34,860 --> 00:01:40,020
+Magbago naman tayo ng disenyo at laki ng salitang "Planets" sa title box.
+
+15
+00:01:40,740 --> 00:01:49,528
+Para gawin ito, pindutin ito at makikita mo ang maraming mga estilo ng font na maari mong gamitin sa listahan
+
+16
+00:01:50,490 --> 00:01:54,240
+Subukan natin piliin itong "Algerian" na estilo.
+
+17
+00:01:55,050 --> 00:02:01,770
+Ngayon ay palitan naman natin ang laki ng salitang "Planets" sa pamamagitan ng pagpindot dito.
+
+18
+00:02:02,340 --> 00:02:11,430
+Makikita mo ang maraming font sizes na nasa listahan, piliin natin ang pinakamalaking “font-size” na Siyam na pu’t anim
+
+19
+00:02:11,670 --> 00:02:18,990
+Lumipat na tayo sa subtitle box, i-highlight ang iyong pangalan at antas sa loob ng subtitle box.
+
+20
+00:02:19,350 --> 00:02:22,020
+Naaalala mo pa ba kung paano mag-highlight?
+
+21
+00:02:22,800 --> 00:02:33,210
+Para mag-highlight ng teksto, kailangan mong i-hold ang left click ng mouse at i-drag gamit ang mouse pointer mula sa mga salita na nais mong i-highlight.
+
+22
+00:02:34,350 --> 00:02:38,820
+Ngayon ay i-highlight natin ang iyong pangalan at iyong antas.
+
+23
+00:02:39,630 --> 00:02:47,400
+Kung gusto mong gawing mas malaki ang iyong teksto pindutin ang butones na ito at tataas ang laki ng teksto
+
+24
+00:02:47,850 --> 00:02:53,490
+At kung pipindutin naman ang butones na ito, bababa naman ang laki ng teksto.
+
+25
+00:02:53,970 --> 00:02:54,970
+Mahusay.
+
+26
+00:02:55,230 --> 00:02:58,486
+Magpatuloy na tayo at gumawa ng bagong slide.
+
+27
+00:02:58,890 --> 00:03:01,860
+Pindutin ito upang lumikha ng bagong slide.
+
+28
+00:03:02,340 --> 00:03:07,740
+Sa loob ng text box sa title box, magtype ng “Mga Planeta”.
+
+29
+00:03:08,160 --> 00:03:14,640
+Ngayon, tuklasin natin ang iba’t ibang mga tool sa pagpaporma ng font sa PowerPoint.
+
+30
+00:03:14,940 --> 00:03:17,279
+Ito ang butones para sa Bold.
+
+31
+00:03:18,390 --> 00:03:20,940
+Ito naman ang butones para sa Italic.
+
+32
+00:03:21,840 --> 00:03:24,270
+Ito ang butones para sa Underline.
+
+33
+00:03:24,690 --> 00:03:26,970
+Ito ang butones para sa Shadow.
+
+34
+00:03:27,540 --> 00:03:29,849
+Ito naman ang para sa Strikethrough.
+
+35
+00:03:30,450 --> 00:03:33,120
+Magiging ganito ang hitsura ng iyong teksto.
+
+36
+00:03:33,840 --> 00:03:38,640
+Ngayon alam mo na kung paano gumagana ang iba’t ibang font butones.
+
+37
+00:03:39,323 --> 00:03:44,213
+Bigyan natin ng Bold at Underline ang text na “Mga Planeta”.
+
+38
+00:03:44,760 --> 00:03:52,559
+Pagkatapos kulayan natin ang teksto ng berdeng kulay at para gawin iyon pindutin ang butones na ito.
+
+39
+00:03:53,430 --> 00:03:58,950
+Pwede kang pumili ng maraming kulay pero piliin muna natin ang kulay na berde dito.
+
+40
+00:03:59,550 --> 00:04:00,550
+Magaling.
+
+41
+00:04:01,650 --> 00:04:09,930
+Ngayong natutunan mo na ang mga pangunahing tools para sa pagpaporma ng font at kung paano magkulay ng teksto.
+
+42
+00:04:10,662 --> 00:04:12,863
+Dumayo naman tayo sa clipboard.
+
+43
+00:04:13,380 --> 00:04:22,770
+Ito ang Clipboard, may apat itong bahagi na makakatulong sa atin para mag-copy, mag-paste, mag-cut at mag-format painter.
+
+44
+00:04:23,160 --> 00:04:28,440
+Subukan natin na i-copy ang tesktong “Planeta” at ilagay ito sa text box.
+
+45
+00:04:28,890 --> 00:04:31,800
+Una, i-highlight ang tesktong “Planeta”.
+
+46
+00:04:32,310 --> 00:04:37,020
+Upang i-copy ang iyong na-highlight na teksto, i-click ang butones na ito
+
+47
+00:04:38,190 --> 00:04:42,750
+Upang ilagay ang iyong na-copy na teksto, i-click ang butones na ito
+
+48
+00:04:43,260 --> 00:04:46,410
+Ilalagay na nito ang iyong teksto sa text box.
+
+49
+00:04:46,590 --> 00:04:52,920
+Para matagal naman ang nakopya mong teksto, i-click ang butones na ito at mawawala na ang teksto.
+
+50
+00:04:53,280 --> 00:05:01,830
+Kung marami kang na-paste na teksto sa text box at nais mong tanggalin ang iba, i-highlight mo ang mga salita na nais mong tanggalin.
+
+51
+00:05:02,160 --> 00:05:08,490
+At i-click ang butones na cut, matatanggal na ang iyong na-highlight na teksto sa text box.
+
+52
+00:05:09,150 --> 00:05:10,150
+Magaling!
+
+53
+00:05:10,230 --> 00:05:14,220
+Ngayon alam mo na kung paano magamit ng tama ang clipboard.
+
+54
+00:05:15,091 --> 00:05:18,240
+Lumipat na tayo sa Character Spacing Formats.
+
+55
+00:05:18,960 --> 00:05:29,470
+Ang character spacing ay tumutukoy sa pagitan ng mga karakter sa loob ng isang linya, kasama na rito ang mga letra, numero, at simbolo.
+
+56
+00:05:30,060 --> 00:05:32,970
+Ito ay ang Napakalapit na pagkakalagay.
+
+57
+00:05:34,380 --> 00:05:36,930
+Ito ay ang Malapit na pagkakalagay.
+
+58
+00:05:38,220 --> 00:05:40,890
+Ito ay ang Normal na pagkakalagay.
+
+59
+00:05:41,070 --> 00:05:46,129
+Ang mga letra ay hindi masyadong malapit o hindi masyadong malayo sa isa't isa.
+
+60
+00:05:47,130 --> 00:05:49,980
+Ito ay ang Medyo Maluwag na pagkakalagay
+
+61
+00:05:50,250 --> 00:05:53,130
+Ang mga letra ay medyo malayo sa isa't isa.
+
+62
+00:05:53,880 --> 00:05:56,400
+Ito ay ang Napakaluwag na pagkakalagay
+
+63
+00:05:56,700 --> 00:05:59,520
+Ang mga letra ay napakalayo sa isa't isa.
+
+64
+00:06:00,750 --> 00:06:03,540
+Pag-usapan natin ang iba't-ibang uri ng letra.
+
+65
+00:06:04,290 --> 00:06:12,390
+Ang pagpapalit ng letra ay nagpapalit ng maliliit at malalaking titik, pati na rin ang pagkakasunud-sunod ng mga titik.
+
+66
+00:06:12,810 --> 00:06:14,670
+Ito ay ang Sentence Case.
+
+67
+00:06:14,940 --> 00:06:19,050
+Ito ay nagpapalaki lamang ng unang titik sa isang pangungusap.
+
+68
+00:06:19,620 --> 00:06:21,210
+Ito ay ang Lower case.
+
+69
+00:06:21,420 --> 00:06:24,000
+Ito ay nagpapaliit ng lahat ng titik.
+
+70
+00:06:24,496 --> 00:06:26,116
+Ito ay ang Upper Case
+
+71
+00:06:26,370 --> 00:06:28,860
+Ito ay nagpapalaki ng lahat ng titik.
+
+72
+00:06:29,430 --> 00:06:31,590
+Ito ay ang Capitalize Case.
+
+73
+00:06:31,740 --> 00:06:35,400
+. Ito ay nagpapalaki ng unang titik sa bawat salita.
+
+74
+00:06:36,510 --> 00:06:38,370
+Ito ay ang Toggle case.
+
+75
+00:06:38,640 --> 00:06:43,560
+Ito ay nagpapaliit ng malalaking titik at nagpapalaki ng maliliit na titik.
+
+76
+00:06:44,340 --> 00:06:49,140
+Ngayon alam mo na kung paano gumawa ng simpleng PowerPoint presentation.
+
+77
+00:06:49,560 --> 00:06:56,550
+Sa susunod na video, matututo ka kung paano magdagdag ng mga grapikong elemento sa iyong presentasyon.
+
+78
+00:07:01,410 --> 00:07:04,110
+Aktibidad para sa aralin 2:
+
+79
+00:07:05,130 --> 00:07:06,130
+Kumusta!
+
+80
+00:07:07,110 --> 00:07:14,219
+Alam mo na ang mga pangunahing format ng font, format ng talata, at iba't ibang uri ng mga slide sa PowerPoint.
+
+81
+00:07:14,730 --> 00:07:19,586
+Subukan natin ilagay sa praktis ang mga natutunan mo sa ating aralin.
+
+82
+00:07:20,370 --> 00:07:22,680
+Alam mo ba ang tungkol sa mga planeta?
+
+83
+00:07:23,310 --> 00:07:29,010
+Ngayon, tuklasin natin ang iba't ibang planeta na mayroon tayo sa ating solar system.
+
+84
+00:07:29,640 --> 00:07:33,030
+Simulan natin sa pagpili ng title-only slide
+
+85
+00:07:33,300 --> 00:07:37,860
+at i-sulat ang "Mga Planeta" sa loob ng text box.
+
+86
+00:07:38,400 --> 00:07:43,290
+Para gawin ito, pindutin ang butones na ito at pumili ng slide na ito.
+
+87
+00:07:43,819 --> 00:07:49,140
+pagkatapos pindutin ang text box na ito at i-sulat ang "Mga Planeta".
+
+88
+00:07:49,770 --> 00:07:50,936
+Napakaganda!
+
+89
+00:07:51,390 --> 00:07:58,860
+pero masyadong maliit ang titulong ito, gawin natin itong mas malaki at dapat nasa bold ang teksto.
+
+90
+00:07:59,550 --> 00:08:03,780
+Para gawin ito, una nating gawin ay ang pag-highlight ng teksto
+
+91
+00:08:04,200 --> 00:08:09,120
+pagkatapos pumunta sa bahagi ng font at pindutin ang bold na butones.
+
+92
+00:08:09,600 --> 00:08:18,930
+Ngayon, pindutin sa font size na butones para gawing mas malaki ang teksto at pumili ng tatlong put-anim para sa laki ng font.
+
+93
+00:08:19,710 --> 00:08:20,760
+Napakagaling!
+
+94
+00:08:21,120 --> 00:08:24,810
+Ngayon ay malaki na ang titulong ito at nasa bold pa.
+
+95
+00:08:25,620 --> 00:08:33,900
+Pumili tayo ng isa pang slide sa pamamagitan ng pagpindot sa slide section butones at pumili ng dalawang content slides.
+
+96
+00:08:34,080 --> 00:08:42,480
+Sa bahagi ng title, kailangan mong i-sulat ang "Uri ng mga Planeta" sa loob ng text box ng dalawang content slide.
+
+97
+00:08:43,140 --> 00:08:54,720
+Sa kaliwang bahagi ng kontent seksyon, tukuyin ang tatlong planeta na alam mo at bawat planeta ay dapat baguhin ang kanilang font, font style, at font color.
+
+98
+00:08:56,310 --> 00:09:06,420
+Para gawin ito, pindutin ang text box sa title section at i-sulat ang "Uri ng mga Planeta" sa text box ng kaliwang bahagi ng kontent seksyon.
+
+99
+00:09:07,200 --> 00:09:13,380
+Ilagay na ang tatlong planeta na alam mo, tulad ng Earth, Mars, at Venus.
+
+100
+00:09:13,890 --> 00:09:18,180
+Ngayon, i-highlight ang Earth at baguhin ang font nito sa Arial.
+
+101
+00:09:18,960 --> 00:09:22,680
+Pindutin ang font na butones at pumili ng Arial font
+
+102
+00:09:23,160 --> 00:09:25,949
+Ngayon ay Arial na ang font ng Earth.
+
+103
+00:09:26,460 --> 00:09:34,206
+Para sa Mars, i-highlight ito at baguhin ang font style sa Underline sa pamamagitan ng butones na ito.
+
+104
+00:09:34,230 --> 00:09:38,310
+Makikita na ang font style ng Mars ay nasa ilalim na.
+
+105
+00:09:39,120 --> 00:09:52,950
+Ang huling planeta ay ang Venus. Baguhin natin ang kulay ng font nito sa pamamagitan ng pagpunta sa font section at pindutin lamang ang font color na butones at gawing asul o blue.
+
+106
+00:09:53,820 --> 00:09:56,850
+Magaling, mahusay na nagawa mo ito!
+
+107
+00:09:57,570 --> 00:10:08,820
+Para sa huling bahagi, sa kanan ng kontent seksyon, i-sulat ang mga pangalan ng mga planeta tulad ng "SATURN", "J upiter", "Mercury", at "Neptune"
+
+108
+00:10:09,630 --> 00:10:14,250
+At kailangan mong baguhin ang letter case at character spacing ng mga planeta.
+
+109
+00:10:15,300 --> 00:10:24,370
+Gawin natin. O. Kung gusto mong gawing maliit ang letra ng saturn pumunta sa butones ng letter
+case at piliin ang loay case.
+
+110
+00:10:24,900 --> 00:10:28,620
+Magiging maliit na ang mga malalaking titik mula sa saturn.
+
+111
+00:10:29,250 --> 00:10:35,370
+Para naman sa Jupiter, pumunta sa letter case na butones at piliin ang UPPERCASE
+
+112
+00:10:35,850 --> 00:10:39,690
+Magiging malaki naman ang mga titik mula sa tekstong "Jupiter".
+
+113
+00:10:39,900 --> 00:10:45,570
+Kung gusto mong baguhin ang espasyo ng mga titik sa "Mercury" at gawin itong sobrang dikit.
+
+114
+00:10:46,260 --> 00:10:53,670
+i-highlight ang "Mercury" at pumunta sa character spacing na butones at pindutin ang “very tight” o pinaka masikip.
+
+115
+00:10:54,510 --> 00:11:01,680
+Para sa Neptune, kung gusto mong baguhin ang espasyo ng mga titik sa "Neptune" at gawin itong sobrang maluwag.
+
+116
+00:11:02,310 --> 00:11:09,810
+i-highlight ang "Neptune" at pumunta sa character spacing na butones at pindutin ang “very loose” o pinaka maluwag.
+
+117
+00:11:10,500 --> 00:11:12,900
+Malalayo na ang mga titik sa "Neptune".
+
+118
+00:11:13,810 --> 00:11:21,510
+Yan lang ang gagawin sa aktibidad. Sana mas marami kang natututunan sa paglilibot sa mga planeta sa ating solar system
+
+119
+00:11:21,717 --> 00:11:27,870
+gamit ang basic font formatting, paragraph formatting, at ang iba't ibang klase ng slides.
+

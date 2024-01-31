@@ -2,6 +2,7 @@
   // ADDING QUESTIONS, CHOICES, AND CORRECT ANSWERS
   if(isset($_POST['save_vid_activity'])){
 
+
     // GET COURSE ID
     if(isset($_GET['course_id_createAct']) && isset($_GET['video_id_createAct'])){
       $course_id_createAct = $_GET['course_id_createAct'];
@@ -32,8 +33,12 @@
       $question_db = $_SESSION['question_db'];
   
       foreach($question_choices as $qc){
-        $insert_choices_query = "INSERT INTO choices_table (course_id, video_id, question_id, question, choices) VALUES ($course_id_createAct, $video_id_createAct, $question_id_db, '$question_db', '$qc')";
+        $insert_choices_query = "INSERT INTO choices_table (course_id, video_id, question_id, choices) VALUES (:course_id, :video_id, :question_id, :question_choices)";
         $query_choices = $conn->prepare($insert_choices_query);
+        $query_choices->bindParam(":course_id", $course_id_createAct);
+        $query_choices->bindParam(":video_id", $video_id_createAct);
+        $query_choices->bindParam(":question_id", $question_id_db);
+        $query_choices->bindParam(":question_choices", $qc);
         $query_choices->execute();
       } 
       $_SESSION['question_id_db'] = "";
@@ -52,10 +57,16 @@
         </script>
       ";
     }
+
   }
+
+
+
+
 
   // DONE BUTTON TO REDIRECT BACK TO ADD_VIDEO PAGE
   if(isset($_POST['done_btn'])){
+
     echo "
       <script>
         let scoringg = document.querySelector('.scoringg');
@@ -79,62 +90,49 @@
 
 
 
-
   // SAVING ACTIVITY FROM UPDATES
-  if(isset($_POST['save_activity_from_update'])){
-    $video_question = $_POST['video_question'];
-    $correct_answer = $_POST['correct_answer'];
+    if(isset($_POST['save_activity_from_update'])){
+          
+      // GET COURSE ID, VIDEO ID, AND QUESTION ID
+      if(isset($_GET['update_course_id']) && isset($_GET['update_video_activity'])){
+        $course_id = $_GET['update_course_id'];
+        $video_id = $_GET['update_video_activity'];
+      }
+      
+      $video_question = trim($_POST['video_question']);
+      $correct_answer = trim($_POST['correct_answer']);
+      $question_choices = $_POST['question_choices'];
 
 
-    // GET COURSE ID, VIDEO ID, AND QUESTION ID
-    if(isset($_GET['update_course_id']) && isset($_GET['update_video_activity'])){
-      $course_id = $_GET['update_course_id'];
-      $video_id = $_GET['update_video_activity'];
-    }
+      if(!empty($video_question) && !empty($correct_answer)){ 
+
     
-
-    // GETTING VIDEO TITLE
-    $get_video_title = $conn->prepare("SELECT * FROM videos_table WHERE course_id = :course_id AND id = :video_id");
-    $get_video_title->bindParam(":course_id", $course_id);
-    $get_video_title->bindParam(":video_id", $video_id);
-    $get_video_title->execute();
-
-    $video_title_row = $get_video_title->fetch(PDO::FETCH_ASSOC);
-    $video_title = $video_title_row['video_title'];
-
-
-
-    // INSERTING VIDEO ID, VIDEO TITLE, QUESTION AND CORRECT ANSWER TO DATABASE
-    $insert_into_activity = $conn->prepare("INSERT INTO activity_table (course_id, video_id, question, correct_answer) VALUES (:course_id, :video_id, :video_question, :correct_answer)");
+        // INSERTING VIDEO ID, VIDEO TITLE, QUESTION AND CORRECT ANSWER TO DATABASE
+        $insert_into_activity = $conn->prepare("INSERT INTO activity_table (course_id, video_id, question, correct_answer) VALUES (:course_id, :video_id, :video_question, :correct_answer)");
+        
+        $insert_into_activity->bindParam(":course_id", $course_id);
+        $insert_into_activity->bindParam(":video_id", $video_id);
+        $insert_into_activity->bindParam(":video_question", $video_question);
+        $insert_into_activity->bindParam(":correct_answer", $correct_answer);
+        $insert_into_activity->execute();
     
-    $insert_into_activity->bindParam(":course_id", $course_id);
-    $insert_into_activity->bindParam(":video_id", $video_id);
-    $insert_into_activity->bindParam(":video_question", $video_question);
-    $insert_into_activity->bindParam(":correct_answer", $correct_answer);
-    $insert_into_activity->execute();
+    
+        // GETTING QUESTION ID
+        $question_id = $conn->lastInsertId();
 
-
-    // GETTING QUESTION ID
-    $get_question_id = $conn->prepare("SELECT * FROM activity_table WHERE question = :video_question");
-    $get_question_id->bindParam(":video_question", $video_question);
-    $get_question_id->execute();
-
-    $question_id_row = $get_question_id->fetch(PDO::FETCH_ASSOC);
-    $question_id = $question_id_row['id'];
-    $question = $question_id_row['question'];
-
-    $question_choices = $_POST['question_choices'];
-
-    // INSERTING QUESTION CHOICES TO DATABASE
-    foreach ($question_choices as $qc) {
-      $insert_question_choices = $conn->prepare("INSERT INTO choices_table (course_id, video_id, question_id, question, choices) VALUES (:course_id, :video_id, :question_id, :video_question, :question_choices)");
-      $insert_question_choices->bindParam(":course_id", $course_id);
-      $insert_question_choices->bindParam(":video_id", $video_id);
-      $insert_question_choices->bindParam(":question_id", $question_id);
-      $insert_question_choices->bindParam(":video_question", $question);
-      $insert_question_choices->bindParam(":question_choices", $qc);
-      $insert_question_choices->execute();
-    }
+    
+    
+        // INSERTING QUESTION CHOICES TO DATABASE
+        foreach ($question_choices as $qc) {
+          $qc = trim($qc);
+          $insert_question_choices = $conn->prepare("INSERT INTO choices_table (course_id, video_id, question_id, choices) VALUES (:course_id, :video_id, :question_id, :question_choices)");
+          $insert_question_choices->bindParam(":course_id", $course_id);
+          $insert_question_choices->bindParam(":video_id", $video_id);
+          $insert_question_choices->bindParam(":question_id", $question_id);
+          $insert_question_choices->bindParam(":question_choices", $qc);
+          $insert_question_choices->execute();
+        }
+      }
 
 
 
@@ -165,14 +163,10 @@
     $update_activity->bindParam(":question_id", $question_id);
     $update_activity->execute();
 
-    $update_activity = $conn->prepare("UPDATE choices_table SET question = :question WHERE question_id = :question_id");
-    $update_activity->bindParam(":question", $video_question);
-    $update_activity->bindParam(":question_id", $question_id);
-    $update_activity->execute();
     
 
     foreach ($choice_id as $key => $ci) {
-      $qc = $question_choices[$key];
+      $qc = trim($question_choices[$key]);
 
       // SELECT ID FROM CHOICES TABLE
       $select_choice_id = $conn->prepare("SELECT * FROM choices_table WHERE id = :choice_id");
@@ -213,11 +207,10 @@
 
   // // EDIT ACTIVITY AND CHOICES
   if(isset($_POST['edit_activity'])){
-
     if(isset($_GET['video_id_editAct']) && isset($_GET['course_id_editAct']) && isset($_GET['question_id_editAct'])){
-      $course_id = $_GET['course_id_editAct'];
-      $video_id = $_GET['video_id_editAct'];
-      $question_id = $_GET['question_id_editAct'];
+        $course_id = $_GET['course_id_editAct'];
+        $video_id = $_GET['video_id_editAct'];
+        $question_id = $_GET['question_id_editAct'];
     }
 
     $video_question = $_POST['video_question'];
@@ -231,44 +224,40 @@
     $update_activity->bindParam(":question_id", $question_id);
     $update_activity->execute();
 
-    $update_activity = $conn->prepare("UPDATE choices_table SET question = :question WHERE question_id = :question_id");
-    $update_activity->bindParam(":question", $video_question);
-    $update_activity->bindParam(":question_id", $question_id);
-    $update_activity->execute();
-    
+    // Check if the choice_id and question_choices arrays have the same length
+    if(count($choice_id) == count($question_choices)){
+        foreach ($choice_id as $key => $ci) {
+            $qc = trim($question_choices[$key]);
 
-    foreach ($choice_id as $key => $ci) {
-      $qc = $question_choices[$key];
+            // SELECT ID FROM CHOICES TABLE
+            $select_choice_id = $conn->prepare("SELECT * FROM choices_table WHERE id = :choice_id");
+            $select_choice_id->bindParam(":choice_id", $ci);
+            $select_choice_id->execute();
 
-      // SELECT ID FROM CHOICES TABLE
-      $select_choice_id = $conn->prepare("SELECT * FROM choices_table WHERE id = :choice_id");
-      $select_choice_id->bindParam(":choice_id", $ci);
-      $select_choice_id->execute();
+            $choice_id_count = 0;
 
-      $choice_id_count = 0;
-      while($select_choice_id->fetch(PDO::FETCH_ASSOC)){
-        $choice_id_count += 1;
-      }
-      
-      if($choice_id_count == 1){
-        
-        $update_choice = $conn->prepare("UPDATE choices_table SET choices = :choice WHERE id = :choice_id");
-        $update_choice->bindParam(":choice", $qc);
-        $update_choice->bindParam(":choice_id", $ci);
-        $update_choice->execute();
+            // Fetch the data from the result of $select_choice_id
+            while($row = $select_choice_id->fetch(PDO::FETCH_ASSOC)){
+                $choice_id_count += 1;
+            }
 
-      } 
-
+            if($choice_id_count == 1){
+                $update_choice = $conn->prepare("UPDATE choices_table SET choices = :choice WHERE id = :choice_id");
+                $update_choice->bindParam(":choice", $qc);
+                $update_choice->bindParam(":choice_id", $ci);
+                $update_choice->execute();
+            }
+        }
     }
 
     if(isset($_GET['update_video_activity']) && isset($_GET['update_course_id'])){
-      $video_id = $_GET['update_video_activity'];
-      $course_id = $_GET['update_course_id'];
+        $video_id = $_GET['update_video_activity'];
+        $course_id = $_GET['update_course_id'];
     }
 
+    header("Location: updateActivityUI.php?update_course_id=$course_id&update_video_activity=$video_id&listOfAllActivities");
+}
 
-    header("Location: adminCreateActivityUI.php?course_id_createAct=$course_id&video_id_createAct=$video_id");
-  }
 
 
 
@@ -316,7 +305,7 @@
 
   // UPDATING CHOICES IF EVER IT HAS BEEN CHANGED
   foreach ($choice_id as $key => $ci) {
-    $qc = $question_choices[$key];
+    $qc = trim($question_choices[$key]);
 
     // SELECT ID FROM CHOICES TABLE
     $select_choice_id = $conn->prepare("SELECT * FROM choices_table WHERE id = :choice_id");
@@ -360,19 +349,18 @@
       $question_id = $_GET['update_question_id'];
     }
 
-    $video_question = $_POST['video_question'];
-    $question_choices = $_POST['question_choices'];
     $choice_id = $_POST['choice_id'];
-    $correct_answer = $_POST['correct_answer'];
+    $video_question = trim($_POST['video_question']);
+    $question_choices = $_POST['question_choices'];
+    $correct_answer = trim($_POST['correct_answer']);
 
-    $question_to_add = $_POST['question_choice'];
+    $question_to_add = trim($_POST['question_choice']);
 
     // INSERTING INPUT FIELD
-    $insert_into_choices_table = $conn->prepare("INSERT INTO choices_table (course_id, video_id, question_id, question, choices) VALUES (:course_id, :video_id, :question_id, :question, :choice)");
+    $insert_into_choices_table = $conn->prepare("INSERT INTO choices_table (course_id, video_id, question_id, choices) VALUES (:course_id, :video_id, :question_id, :choice)");
     $insert_into_choices_table->bindParam(":course_id", $course_id);
     $insert_into_choices_table->bindParam(":video_id", $video_id);
     $insert_into_choices_table->bindParam(":question_id", $question_id);
-    $insert_into_choices_table->bindParam(":question", $video_question);
     $insert_into_choices_table->bindParam(":choice", $question_to_add);
     $insert_into_choices_table->execute();
 
@@ -384,15 +372,12 @@
     $update_activity->bindParam(":question_id", $question_id);
     $update_activity->execute();
     
-    $update_activity = $conn->prepare("UPDATE choices_table SET question = :question WHERE question_id = :question_id");
-    $update_activity->bindParam(":question", $video_question);
-    $update_activity->bindParam(":question_id", $question_id);
-    $update_activity->execute();
+
 
 
     // UPDATING CHOICES IF EVER IT HAS BEEN CHANGED
     foreach ($choice_id as $key => $ci) {
-      $qc = $question_choices[$key];
+      $qc = trim($question_choices[$key]);
 
       // SELECT ID FROM CHOICES TABLE
       $select_choice_id = $conn->prepare("SELECT * FROM choices_table WHERE id = :choice_id");
@@ -454,22 +439,53 @@
   }
 
 
+  if(isset($_POST['deleteCheckedBoxes'])){
+    if(isset($_GET['update_course_id']) && isset($_GET['update_video_activity'])){
+      $course_id = $_GET['update_course_id'];
+      $video_id = $_GET['update_video_activity'];
+    }
+
+    // GETTING ALL THE CHECKED VALUES
+    $checkboxValues = isset($_POST['checkedQuestions']) ? array_map('intval', $_POST['checkedQuestions']) : array();
+
+    foreach ($checkboxValues as $value) {
+      $select_all_question = $conn->prepare('DELETE FROM activity_table WHERE id = :value AND course_id = :course_id AND video_id = :video_id');
+      $select_all_question->bindValue(':value', $value);
+      $select_all_question->bindValue(':course_id', $course_id);
+      $select_all_question->bindValue(':video_id', $video_id);
+      $select_all_question->execute();
+
+      $select_all_choices = $conn->prepare('DELETE FROM choices_table WHERE question_id = :value AND course_id = :course_id AND video_id = :video_id');
+      $select_all_choices->bindValue(':value', $value);
+      $select_all_choices->bindValue(':course_id', $course_id);
+      $select_all_choices->bindValue(':video_id', $video_id);
+      $select_all_choices->execute();
+    }
+
+  }
 
 
 
   // SUBMIT CHECKED BOXES
   if(isset($_POST['submitCheckedBoxes'])){
 
+    if(isset($_GET['update_course_id']) && isset($_GET['update_video_activity'])){
+      $course_id = $_GET['update_course_id'];
+      $video_id = $_GET['update_video_activity'];
+    }
+
     // GETTING ALL THE CHECKED VALUES
     $checkboxValues = isset($_POST['checkedQuestions']) ? array_map('intval', $_POST['checkedQuestions']) : array();
 
 
-    
+    $selected_act_count = 0;
     foreach ($checkboxValues as $value) {
       $status = 'Selected';
-      $select_all_question = $conn->prepare('UPDATE activity_table SET status = :status WHERE id = :value');
+      $select_all_question = $conn->prepare('UPDATE activity_table SET status = :status WHERE id = :value AND course_id = :course_id AND video_id = :video_id');
       $select_all_question->bindValue(':value', $value);
       $select_all_question->bindValue(':status', $status);
+      $select_all_question->bindValue(':course_id', $course_id);
+      $select_all_question->bindValue(':video_id', $video_id);
       $select_all_question->execute();
 
       $select_question = $conn->prepare('SELECT * FROM activity_table WHERE id = :checkboxValueId');
@@ -490,10 +506,14 @@
       //   $choice = $fetch_choices['choices'];
       //   echo $choice . "<br>";
       // }
-
+      $selected_act_count += 1;
     }
 
-
+    $query_update_scoring = $conn->prepare("UPDATE score_table SET selected_act = :selected_act WHERE course_id = :course_id AND video_id = :video_id");
+    $query_update_scoring->bindParam(":course_id", $course_id);
+    $query_update_scoring->bindParam(":video_id", $video_id);
+    $query_update_scoring->bindParam(":selected_act", $selected_act_count);
+    $query_update_scoring->execute();
 
 
 
@@ -507,9 +527,11 @@
     
     foreach ($uncheckboxValues as $value) {
       $status = 'Unselected';
-      $select_all_question = $conn->prepare('UPDATE activity_table SET status = :status WHERE id = :value');
+      $select_all_question = $conn->prepare('UPDATE activity_table SET status = :status WHERE id = :value AND course_id = :course_id AND video_id = :video_id');
       $select_all_question->bindValue(':value', $value);
       $select_all_question->bindValue(':status', $status);
+      $select_all_question->bindValue(':course_id', $course_id);
+      $select_all_question->bindValue(':video_id', $video_id);
       $select_all_question->execute();
     }
 

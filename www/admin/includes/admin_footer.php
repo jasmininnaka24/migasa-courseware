@@ -3,6 +3,8 @@
   <script src="./assets/js/modal.js"></script>
   <script src="./assets/js/admin_sidebar.js"></script>
   <script src="./assets/js/guide.js"></script>
+  <script src="./assets/js/activities_crudd.js"></script>
+  <script src="./assets/js/activities_list.js"></script>
 
   </body>
 </html>

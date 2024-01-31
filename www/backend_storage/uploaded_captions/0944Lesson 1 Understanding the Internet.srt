@@ -1,0 +1,301 @@
+﻿1
+00:00:02,500 --> 00:00:06,039
+Lesson 1 Understanding the Internet
+
+2
+00:00:06,902 --> 00:00:07,949
+Objectives
+
+3
+00:00:08,426 --> 00:00:10,251
+Understanding the Internet
+
+4
+00:00:10,753 --> 00:00:13,681
+Knowing the Definition and Purpose of the Internet
+
+5
+00:00:14,257 --> 00:00:17,924
+Defining Basic Components and Structure of the Internet
+
+6
+00:00:18,618 --> 00:00:22,158
+Hello! Welcome to the Internet Literacy course!
+
+7
+00:00:22,767 --> 00:00:26,004
+Today we’ll be learning
+how to be to be more cultured
+
+8
+00:00:26,028 --> 00:00:29,576
+and educated in using the
+Internet in our everyday life.
+
+9
+00:00:30,053 --> 00:00:31,584
+Let’s start, shall we?
+
+10
+00:00:32,070 --> 00:00:38,372
+The Internet is a network of connection where millions of computers are connected to one another
+
+11
+00:00:38,648 --> 00:00:41,998
+which allows them to get information from other places
+
+12
+00:00:42,266 --> 00:00:44,782
+talk to other people from other places
+
+13
+00:00:44,885 --> 00:00:47,717
+watch videos and very much more.
+
+14
+00:00:48,635 --> 00:00:55,890
+Network, additionally, is just simply a connection between two or more computers that can share information.
+
+15
+00:00:56,724 --> 00:00:59,729
+Both were the greatest
+inventions in the nineteen hundred
+
+16
+00:00:59,754 --> 00:01:02,684
+which changed lives of people forever
+
+17
+00:01:02,909 --> 00:01:05,347
+thus, making it easier than before.
+
+18
+00:01:05,859 --> 00:01:07,176
+Take a look around you!
+
+19
+00:01:07,773 --> 00:01:11,670
+Phones can now connect to the Internet as well as some televisions!
+
+20
+00:01:12,017 --> 00:01:14,754
+You can call a loved one million of miles away
+
+21
+00:01:14,805 --> 00:01:16,471
+watch a video on YouTube
+
+22
+00:01:16,712 --> 00:01:19,767
+play games online and even watch this course!
+
+23
+00:01:20,430 --> 00:01:21,017
+See
+
+24
+00:01:21,366 --> 00:01:24,311
+the Internet was made to quickly find information
+
+25
+00:01:24,601 --> 00:01:26,006
+provide communication
+
+26
+00:01:26,200 --> 00:01:27,318
+listen to music
+
+27
+00:01:27,440 --> 00:01:28,624
+watch videos
+
+28
+00:01:28,716 --> 00:01:31,182
+shop from your cellphone or computer
+
+29
+00:01:31,249 --> 00:01:32,887
+and other many reasons.
+
+30
+00:01:33,513 --> 00:01:34,301
+But wait
+
+31
+00:01:34,728 --> 00:01:36,491
+how does the Internet work?
+
+32
+00:01:36,797 --> 00:01:40,715
+Data or information moves over the Internet in an ability
+
+33
+00:01:40,909 --> 00:01:43,313
+which is called as ‘packet switching’.
+
+34
+00:01:43,792 --> 00:01:47,340
+Let’s say you want to send a message through Facebook’s Messenger
+
+35
+00:01:47,837 --> 00:01:53,143
+packet switching turns your simple ‘hello’ 
+to someone else into tiny and separate pieces
+
+36
+00:01:53,317 --> 00:01:57,800
+before building it up normally again once
+ it reaches  the person you’re talking with.
+
+37
+00:01:58,484 --> 00:02:02,951
+Packet switching allows many people to use the Internet at the same time.
+
+38
+00:02:03,268 --> 00:02:07,202
+There are basic components that makes us able to use the Internet.
+
+39
+00:02:07,352 --> 00:02:10,203
+First is the client which is usually you
+
+40
+00:02:10,427 --> 00:02:12,474
+who is accessing the Internet.
+
+41
+00:02:12,886 --> 00:02:14,038
+As you access it
+
+42
+00:02:14,297 --> 00:02:16,894
+you are requesting data from a given server!
+
+43
+00:02:17,239 --> 00:02:19,092
+Server, on the other hand
+
+44
+00:02:19,323 --> 00:02:22,685
+responds to your request and provides you information.
+
+45
+00:02:23,356 --> 00:02:26,411
+The client and server communicate with protocols!
+
+46
+00:02:26,871 --> 00:02:31,576
+Protocols are a set of rules that help client 
+and server meet with one another.
+
+47
+00:02:31,948 --> 00:02:35,888
+They make sure that the data request is sent and received properly.
+
+48
+00:02:36,755 --> 00:02:40,847
+There are two protocols that every device has which are
+
+49
+00:02:41,674 --> 00:02:44,797
+Transmission Control Protocol or TCP
+
+50
+00:02:45,074 --> 00:02:47,535
+and the Internet Protocol or IP
+
+51
+00:02:47,713 --> 00:02:53,819
+which every device such as cellphones,
+laptops, computers, smart TVs and other have!
+
+52
+00:02:54,648 --> 00:02:59,438
+What both of these protocols do, is that 
+the Internet Protocol, or IP
+
+53
+00:02:59,747 --> 00:03:03,188
+makes sure data on
+the internet gets to the right place.
+
+54
+00:03:03,401 --> 00:03:06,841
+Then TCP or Transmission Control Protocol
+
+55
+00:03:07,111 --> 00:03:11,688
+makes sure the data is put in the right order, 
+and none of it is missing.
+
+56
+00:03:12,425 --> 00:03:17,646
+TCP also helps to control traffic on the
+internet so it does not get overloaded.
+
+57
+00:03:17,879 --> 00:03:24,641
+These internet components enable us to search information, watch videos and others within minutes.
+
+58
+00:03:24,885 --> 00:03:27,063
+How do we access the Internet then?
+
+59
+00:03:27,646 --> 00:03:32,237
+In order to access the Internet, we use what they call as a web browser.
+
+60
+00:03:33,633 --> 00:03:40,566
+A web browser is an application or program that allows us to look and interact with the information on the Internet
+
+61
+00:03:40,752 --> 00:03:47,763
+such as Browser, Google Chrome, Mozilla Firefox, 
+Microsoft Edge, Opera and many others.
+
+62
+00:03:47,895 --> 00:03:49,737
+Before accessing the Internet
+
+63
+00:03:50,046 --> 00:03:53,656
+make sure your device is connected 
+to a working network connection.
+
+64
+00:03:54,163 --> 00:03:56,231
+After that, on your desktop
+
+65
+00:03:56,603 --> 00:03:59,726
+find a Google Chrome logo which looks like this
+
+66
+00:04:00,139 --> 00:04:01,402
+double click on it
+
+67
+00:04:02,053 --> 00:04:05,375
+and there we go, you have just accessed the Internet.
+
+68
+00:04:05,685 --> 00:04:12,580
+Upon the usage of a web browser, we are presented with Online Content which are simply the things that you see on the Internet.
+
+69
+00:04:12,803 --> 00:04:20,046
+Ranging from videos, images, information, messages and others are all examples of online content.
+
+70
+00:04:20,657 --> 00:04:21,657
+Good Job!
+
+71
+00:04:21,807 --> 00:04:25,071
+You’ve just finished learning the basics of the Internet!
+
+72
+00:04:25,524 --> 00:04:33,841
+Next, we will learn about navigating the Internet in a safe and responsible manner in order to use it actively and respectfully!
+

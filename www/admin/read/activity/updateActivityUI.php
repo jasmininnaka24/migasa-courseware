@@ -72,10 +72,73 @@
     $select_course_video->bindParam(":video_id", $video_id);
     $select_course_video->execute();
     $fetch_data = $select_course_video->fetch(PDO::FETCH_ASSOC);
-    $course_title = $fetch_data['course_title'];
     $video_title = $fetch_data['video_title'];
+    
+    $course_title_db = $conn->prepare("SELECT course_title FROM course_table WHERE id = :course_id");
+    $course_title_db->bindParam(":course_id", $course_id);
+    $course_title_db->execute();
+    $fetch_course_title = $course_title_db->fetch(PDO::FETCH_ASSOC);
+    $course_title = $fetch_course_title['course_title'];
+
+
   }
 ?>
+
+<section class="container-fluid">
+      <div class="d-flex align-items-center justify-content-between">
+        <div></div>
+        <div class="d-flex align-items-center">
+          <a href="../../choose.php" class="text-decoration-none">
+            <button
+            class="btn mt-3 d-flex align-items-center justify-content-center"
+            style="height: 2.5rem"
+            name="admin_logout"
+            >
+            <p
+            style="margin-right: 0.4rem; font-size: 18px"
+            class="font-med pb-1"
+            >
+            Home
+          </p>
+          <div class="pb-2">
+              <img
+              src="../../assets/img/exit 2.png"
+              style="width: 20px; height: 16px; margin-top: -20px"
+              width="100%"
+              alt=""
+              />
+            </div>
+          </button>
+        </a>
+          <a href="../../videos_display.php?course_id_display=<?php echo $course_id; ?>" class="text-decoration-none">
+            <button
+            class="btn mt-3 d-flex align-items-center justify-content-center"
+            style="height: 2.5rem"
+            name="admin_logout"
+            >
+            <p
+            style="margin-right: 0.4rem; font-size: 18px"
+            class="font-med pb-1"
+            >
+            Video listing
+          </p>
+          <div class="pb-2">
+              <img
+              src="../../assets/img/exit 2.png"
+              style="width: 20px; height: 16px; margin-top: -20px"
+              width="100%"
+              alt=""
+              />
+            </div>
+          </button>
+        </a>
+      </div>
+      </div>
+
+    </section>
+
+
+
 
 <div class="d-flex align-items-center justify-content-center" style="margin-top: 2rem;">
   <a href="./updateActivityUI.php?update_course_id=<?php echo $course_id; ?>&update_video_activity=<?php echo $video_id; ?>&listOfAllActivities">

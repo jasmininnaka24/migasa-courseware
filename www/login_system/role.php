@@ -32,6 +32,34 @@
   </head>
   <body class="bgc-gray-light">
 
+  <section class="container-fluid">
+    <div class="d-flex align-items-center justify-content-between">
+      <div></div>
+      <a href="../hero_section.php" class="text-decoration-none">
+        <button
+          class="btn mt-3 d-flex align-items-center justify-content-center"
+          style="height: 2.5rem"
+          name="admin_logout"
+        >
+          <p
+            style="margin-right: 0.4rem; font-size: 18px"
+            class="font-med pb-1"
+            >
+            Back 
+          </p>
+          <div class="pb-2">
+            <img
+            src="../admin/assets/img/exit 2.png"
+            style="width: 20px; height: 16px; margin-top: -20px"
+            width="100%"
+            alt=""
+            />
+          </div>
+        </button>
+      </a>
+    </div>
+
+  </section>
 
     <main style="height: 90%; width: 90%; margin-top: 10%;" class="mx-auto anim-to-top-slow">
       <form action="" method="POST">

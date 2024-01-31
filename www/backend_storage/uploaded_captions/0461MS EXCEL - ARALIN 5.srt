@@ -1,0 +1,279 @@
+﻿1
+00:00:02,810 --> 00:00:06,305
+Aralin 5: Tables at Drop-downs
+
+2
+00:00:06,883 --> 00:00:12,567
+Mabuhay! Sa video na ito, matututunan natin
+ang tungkol sa mga tables at drop-down.
+
+3
+00:00:13,151 --> 00:00:14,932
+Alam mo ba kung ano ang table?
+
+4
+00:00:15,266 --> 00:00:20,172
+Binubuo ang table ng mga row at column at
+tutulungan ka nitong ayusin ang iyong data!
+
+5
+00:00:20,677 --> 00:00:24,595
+Mahahanap mo ang table button
+sa Insert Tab ng Microsoft Excel.
+
+6
+00:00:24,862 --> 00:00:25,824
+Parang ganito.
+
+7
+00:00:26,563 --> 00:00:29,163
+Ngayon, subukan nating gumawa ng table.
+
+8
+00:00:29,772 --> 00:00:34,124
+Mayroon tayong listahan ng mga
+grocery items at ang kanilang presyo.
+
+9
+00:00:34,747 --> 00:00:38,703
+I-highlight natin ang lahat ng
+mga cell na may data, pagkatapos
+
+10
+00:00:38,727 --> 00:00:42,619
+ay pumunta tayo sa Insert
+Tab at pindutin ang Table button.
+
+11
+00:00:43,334 --> 00:00:46,468
+Kapag lumitaw ang maliit
+na kahon, i-check natin ang
+
+12
+00:00:46,492 --> 00:00:50,057
+maliit na kahon na ito at
+pagkatapos ay pindutin ang OK.
+
+13
+00:00:50,749 --> 00:00:53,082
+Ayan! May table na tayo ngayon.
+
+14
+00:00:53,808 --> 00:00:56,185
+Gusto mo bang gawing maganda ang ating table?
+
+15
+00:00:56,673 --> 00:00:59,113
+Baguhin natin ang kulay at istilo nito.
+
+16
+00:00:59,599 --> 00:01:04,190
+Pumunta sa Table Design Tab at
+pumili ng disenyo ng table mula rito.
+
+17
+00:01:04,653 --> 00:01:06,013
+Piliin natin ito!
+
+18
+00:01:06,562 --> 00:01:10,437
+Wow! Ngayon ay mas maganda
+nang tingnan ang table natin!
+
+19
+00:01:10,774 --> 00:01:13,673
+Ngayon pag-usapan natin
+ang maliit na arrow down na
+
+20
+00:01:13,698 --> 00:01:17,120
+button na ito na makikita sa
+bawat header ng ating table.
+
+21
+00:01:17,683 --> 00:01:22,600
+Ang button na ito ay nagpapakita ng lahat
+ng mga pagpipilian sa sorting at filtering.
+
+22
+00:01:23,169 --> 00:01:27,328
+Naaalala mo ba ang tungkol sa sort at filter mula sa Aralin 3?
+
+23
+00:01:28,100 --> 00:01:29,100
+Tama iyan!
+
+24
+00:01:29,319 --> 00:01:33,924
+Maaari nating awtomatikong ayusin at
+i-filter ang bawat column sa ating table.
+
+25
+00:01:34,563 --> 00:01:37,495
+Upang magdagdag ng
+bagong row o column, pumunta
+
+26
+00:01:37,519 --> 00:01:39,947
+sa Home tab at pindutin
+ang button na ito.
+
+27
+00:01:40,711 --> 00:01:44,066
+Maaari ka na ngayong
+maglagay ng row sa itaas o ibaba.
+
+28
+00:01:44,971 --> 00:01:48,697
+At maaari ka ring magdagdag ng
+mga column sa kanan o sa kaliwa.
+
+29
+00:01:49,593 --> 00:01:53,994
+Ngayon kalkulahin natin ang lahat ng
+mga presyo at alamin ang kabuuang presyo.
+
+30
+00:01:54,217 --> 00:01:58,316
+Sa palagay mo ba dapat nating
+gamitin ang formula ng SUM?
+
+31
+00:01:59,168 --> 00:02:01,605
+Hindi na natin kailangan ang SUM formula.
+
+32
+00:02:02,168 --> 00:02:07,050
+Kapag mayroon ka nang table sa Excel,
+malalaman mo ang kabuuan sa pamamagitan
+
+33
+00:02:07,074 --> 00:02:11,764
+lamang ng pagpunta sa Design Tab
+ng Table at i-check ang Total Row box.
+
+34
+00:02:12,043 --> 00:02:16,480
+Kapag napindot mo ito, lalabas
+ang total row sa ibaba ng iyong table.
+
+35
+00:02:16,929 --> 00:02:18,494
+Kamangha-mangha hindi ba?
+
+36
+00:02:19,428 --> 00:02:22,459
+Ngayon ay pag-usapan natin ang tungkol sa mga drop-down!
+
+37
+00:02:22,888 --> 00:02:29,758
+Minsan kapag gumawa ka ng isang table kailangan mong ilagay ang parehong 3 o higit pang data nang paulit-ulit.
+
+38
+00:02:30,454 --> 00:02:34,009
+Ang paggawa ng mga drop-down ay magpapadali sa trabahong iyon!
+
+39
+00:02:34,676 --> 00:02:38,105
+Bumalik tayo sa table na
+ginawa natin kanina, ngunit
+
+40
+00:02:38,129 --> 00:02:41,557
+sa pagkakataong ito ay
+nagdagdag ako ng group column.
+
+41
+00:02:42,141 --> 00:02:44,713
+Ngunit ito ay walang
+laman, kaya i-assign natin
+
+42
+00:02:44,737 --> 00:02:47,196
+ang mga item na ito
+sa kanilang mga grupo.
+
+43
+00:02:47,892 --> 00:02:52,893
+Ang toothbrush, sabon, at shampoo
+ay mapupunta sa grupo ng Toiletries.
+
+44
+00:02:53,379 --> 00:02:57,411
+Ang saging, gatas, at tinapay ay
+mapupunta sa grupo ng Pagkain.
+
+45
+00:02:57,873 --> 00:03:02,737
+Ngayon upang madaling maikategorya
+ang bawat item, gumawa tayo ng drop-down.
+
+46
+00:03:03,213 --> 00:03:07,164
+Upang gawin ito, piliin natin
+ang lahat ng mga cell sa ilalim
+
+47
+00:03:07,188 --> 00:03:11,139
+ng column ng pangkat at
+pagkatapos ay pumunta sa Data Tab.
+
+48
+00:03:11,855 --> 00:03:14,255
+Pindutin ang Data Validation button.
+
+49
+00:03:14,937 --> 00:03:18,402
+Ngayon, pindutin ang maliit na button na ito at piliin ang List.
+
+50
+00:03:18,898 --> 00:03:23,415
+Sa source box ilalagay natin
+ang Toiletries, comma, Food.
+
+51
+00:03:23,606 --> 00:03:27,110
+Siguraduhin na ang dalawang
+pangkat ay pinaghihiwalay ng kuwit.
+
+52
+00:03:27,749 --> 00:03:30,297
+Pagkatapos, pindutin natin ang OK.
+
+53
+00:03:30,974 --> 00:03:35,774
+Ngayon, pindutin natin sa cell na ito.
+Nakikita mo ba ang drop-down button?
+
+54
+00:03:36,084 --> 00:03:40,144
+Magaling! pindutin natin ito at
+piliin ang pangkat para sa item na ito.
+
+55
+00:03:40,516 --> 00:03:43,031
+Ang toothbrush ay kabilang sa Toiletries group.
+
+56
+00:03:43,450 --> 00:03:46,024
+Ang saging ay kabilang sa pangkat ng Pagkain.
+
+57
+00:03:46,358 --> 00:03:49,069
+Tapusin ang natitira at ito ang magiging itsura
+
+58
+00:03:49,755 --> 00:03:54,619
+Mahusay! Ngayon ay madali nang ihanay
+ang mga data gamit ang drop-down menu!
+
+59
+00:03:55,211 --> 00:03:58,143
+Magaling! Ngayon alam
+mo na kung paano lumikha
+
+60
+00:03:58,167 --> 00:04:01,099
+ng mga table at drop-down
+sa Microsoft Excel.
+

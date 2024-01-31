@@ -1,0 +1,269 @@
+﻿1
+00:00:02,100 --> 00:00:05,500
+Lesson 2: The Clipboard and The Paragraph
+
+2
+00:00:06,422 --> 00:00:07,711
+Welcome back!
+
+3
+00:00:08,422 --> 00:00:14,400
+In this video, you will learn how to use the clipboard and the paragraph formatting tools.
+
+4
+00:00:15,289 --> 00:00:18,333
+First, let's talk about the clipboard.
+
+5
+00:00:18,778 --> 00:00:20,567
+This is the clipboard.
+
+6
+00:00:20,701 --> 00:00:25,634
+To copy and paste a text, simply
+highlight a text and click the copy button.
+
+7
+00:00:26,901 --> 00:00:31,412
+Now, click on an area in your document
+where you want to paste the text.
+
+8
+00:00:32,434 --> 00:00:35,078
+Click the paste button and there you have it.
+
+9
+00:00:35,723 --> 00:00:38,790
+ To remove it, let’s use the cut button.
+
+10
+00:00:39,079 --> 00:00:42,345
+Let’s highlight the text again and then click cut. There you go, the text is now gone.
+
+11
+00:00:42,790 --> 00:00:45,456
+There you go, the text is now gone.
+
+12
+00:00:46,655 --> 00:00:49,723
+Let’s move on to the Paragraph formatting tools.
+
+13
+00:00:49,812 --> 00:00:52,056
+Let’s start with the lists.
+
+14
+00:00:52,834 --> 00:00:55,278
+This is the bulleted list button
+
+15
+00:00:55,368 --> 00:00:57,101
+The numbered list button
+
+16
+00:00:57,190 --> 00:00:59,501
+And multi-layered list button
+
+17
+00:01:00,534 --> 00:01:03,512
+Let’s click the bulleted list button.
+
+18
+00:01:04,046 --> 00:01:07,690
+Now, let’s type different kinds of grocery items.
+
+19
+00:01:07,734 --> 00:01:14,556
+flour, eggs, milk, bread, shampoo, soap, detergent
+
+20
+00:01:14,957 --> 00:01:18,112
+Excellent! We have a short grocery list.
+
+21
+00:01:18,680 --> 00:01:21,680
+This small circle is what you call a bullet.
+
+22
+00:01:21,968 --> 00:01:28,191
+If you want to change it, you can click on this button
+and choose different bullet styles from the library.
+
+23
+00:01:28,347 --> 00:01:30,324
+How about this square one?
+
+24
+00:01:30,591 --> 00:01:31,791
+Let’s click it.
+
+25
+00:01:32,902 --> 00:01:34,635
+Do you see the difference?
+
+26
+00:01:35,324 --> 00:01:36,169
+Good.
+
+27
+00:01:37,391 --> 00:01:40,146
+Now let’s change it into a numbered list.
+
+28
+00:01:40,413 --> 00:01:43,480
+ To do so, click this button.
+
+29
+00:01:44,013 --> 00:01:47,746
+Easy! Now you have a numbered grocery list.
+
+30
+00:01:47,867 --> 00:01:50,289
+Do you want a more organized list?
+
+31
+00:01:50,457 --> 00:01:52,256
+We can do that too!
+
+32
+00:01:52,923 --> 00:01:56,823
+Let’s organize our grocery items into two categories
+
+33
+00:01:57,123 --> 00:01:59,256
+Food and Toiletries
+
+34
+00:02:00,390 --> 00:02:02,823
+Type Food and click enter.
+
+35
+00:02:03,006 --> 00:02:05,089
+To add a layer, click Tab.
+
+36
+00:02:05,373 --> 00:02:10,956
+This automatically moves the next line a little
+to the right and changes the bullet style.
+
+37
+00:02:11,440 --> 00:02:13,440
+
+
+38
+00:02:11,440 --> 00:02:16,740
+Now, let’s type flour, eggs, milk, and bread.
+
+39
+00:02:18,033 --> 00:02:21,556
+Type Toiletries and click enter then Tab.
+
+40
+00:02:21,923 --> 00:02:25,790
+Now type, shampoo, soap, and detergent.
+
+41
+00:02:26,457 --> 00:02:27,756
+Very good!
+
+42
+00:02:27,990 --> 00:02:32,156
+Now we have an organized multi-layered grocery list.
+
+43
+00:02:33,090 --> 00:02:36,256
+These are the other Paragraph formatting tools.
+
+44
+00:02:37,023 --> 00:02:39,756
+This button will align your text to the right.
+
+45
+00:02:40,523 --> 00:02:43,990
+
+
+46
+00:02:40,533 --> 00:02:43,890
+This button will align your text to the center.
+
+47
+00:02:44,423 --> 00:02:47,290
+This button will align your text to the left.
+
+48
+00:02:48,357 --> 00:02:51,523
+And this button will align your text evenly.
+
+49
+00:02:52,123 --> 00:02:55,323
+This button will change the space between your texts.
+
+50
+00:02:55,933 --> 00:02:57,623
+This is called spacing
+
+51
+00:02:58,123 --> 00:03:02,656
+And these numbers represent the
+amount of space you want in your document.
+
+52
+00:03:03,833 --> 00:03:06,823
+This is what a 1.0 spacing looks like.
+
+53
+00:03:07,457 --> 00:03:10,956
+While this is what a 2.0 spacing looks like.
+
+54
+00:03:11,623 --> 00:03:13,923
+These are the indention buttons.
+
+55
+00:03:14,190 --> 00:03:19,590
+This will move your text away from the margin
+and this will move it closer to the margin.
+
+56
+00:03:20,290 --> 00:03:25,856
+A margin is made up of invisible lines that
+serve as a guide for the text in your document.
+
+57
+00:03:27,190 --> 00:03:30,490
+ Now, let’s add a title for our grocery list.
+
+58
+00:03:30,990 --> 00:03:36,923
+Hmm, I want the title to look bigger but
+I don’t want to use the font size button.
+
+59
+00:03:37,157 --> 00:03:40,356
+To do this, let’s look at Styles.
+
+60
+00:03:42,533 --> 00:03:45,833
+Click on this arrow down button to see more styles.
+
+61
+00:03:47,100 --> 00:03:49,833
+Let’s choose "Title" style for our title.
+
+62
+00:03:51,267 --> 00:03:52,267
+Excellent
+
+63
+00:03:52,533 --> 00:03:56,033
+Excellent! Now, the title is bigger and easier to read.
+
+64
+00:03:56,633 --> 00:03:59,400
+Good job for finishing Lesson 2.
+
+65
+00:04:00,033 --> 00:04:05,533
+In the next video, you will be learning
+how to insert content in Microsoft Word.
+

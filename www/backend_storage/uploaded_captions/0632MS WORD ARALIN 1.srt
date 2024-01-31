@@ -1,0 +1,297 @@
+﻿1
+00:00:02,240 --> 00:00:06,613
+Aralin 1: Panimula sa Microsoft Word
+
+2
+00:00:06,703 --> 00:00:09,904
+Mabuhay! Sa bidyong
+ito ay pag-aaralan natin
+
+3
+00:00:09,928 --> 00:00:13,530
+ang mga pangunahing
+konsepto ng Microsoft Word.
+
+4
+00:00:14,283 --> 00:00:16,349
+Ano nga ba ang Microsoft Word?
+
+5
+00:00:16,815 --> 00:00:20,070
+Ang Microsoft Word ay isang
+programa sa kompyuter na
+
+6
+00:00:20,094 --> 00:00:24,919
+may kakayahang gumawa ng
+mga dokumento tulad ng liham.
+
+7
+00:00:25,783 --> 00:00:31,542
+Buksan natin ang Microsoft Word at pindutin ang “Blank Document”.
+
+8
+00:00:32,871 --> 00:00:35,177
+Ganito dapat ang makikita mo.
+
+9
+00:00:36,454 --> 00:00:40,627
+Tignan natin ang kaliwang
+pinakamataas na bahagi ng iyong screen.
+
+10
+00:00:41,645 --> 00:00:48,164
+Ito ang save button, pananatilihin nito ang
+iyong dokumento sa loob ng iyong kompyuter.
+
+11
+00:00:48,912 --> 00:00:55,445
+Ito ang undo button, tatanggalin nito ang
+pinakahuling aksyon na ginawa sa dokumento.
+
+12
+00:00:55,870 --> 00:01:01,497
+Ito naman ang redo button, ibabalik
+nito kung anu man ang iyong tinanggal.
+
+13
+00:01:02,931 --> 00:01:08,131
+Tignan naman natin ang kanang
+pinakamataas na bahagi ng iyong screen.
+
+14
+00:01:09,567 --> 00:01:12,337
+Ito ang main control buttons.
+
+15
+00:01:12,865 --> 00:01:17,585
+Ang button na ito ay may kakayahang
+i-minimize and iyong Microsoft Word.
+
+16
+00:01:20,163 --> 00:01:26,258
+Ang button na ito ay may kakayahang paliitin
+o palakihin ang iyong Microsoft Word.
+
+17
+00:01:31,806 --> 00:01:35,645
+At ang button na ito ang siyang mag-aalis ng Microsoft Word.
+
+18
+00:01:38,938 --> 00:01:41,779
+Kaya, huwag mong i-click ito, kung hindi ka pa tapos!
+
+19
+00:01:43,183 --> 00:01:49,581
+Ito ang horizontal o pahalang na ruler, at
+ito naman ang vertical o patayo na ruler.
+
+20
+00:01:50,177 --> 00:01:51,177
+Mahusay!
+
+21
+00:01:51,800 --> 00:01:54,646
+Ngayon ay susubukan
+natin i-type ang “Hello
+
+22
+00:01:54,670 --> 00:01:57,516
+world” sa ating dokumento
+gamit ang keyboard.
+
+23
+00:01:57,933 --> 00:01:59,387
+Ito ang keyboard.
+
+24
+00:02:00,100 --> 00:02:04,306
+ Ang keyboard ay may iba’t-ibang letra, numero at simbolo.
+
+25
+00:02:05,116 --> 00:02:09,066
+Upang magtype, pindutin
+lamang ang button na kailangan.
+
+26
+00:02:09,702 --> 00:02:22,647
+Pindutin natin ang H-E-L-L-O W-O-R-L-D.
+
+27
+00:02:23,048 --> 00:02:24,048
+Mahusay!
+
+28
+00:02:24,823 --> 00:02:28,689
+Subukan naman nating
+palitan ang istilo at laki ng font.
+
+29
+00:02:29,530 --> 00:02:33,732
+Ang font ay binubuo ng mga letra, numero at simbolo.
+
+30
+00:02:34,900 --> 00:02:40,720
+Upang palitan ang istilo ng
+font, pindutin ito. Piliin natin ito.
+
+31
+00:02:41,600 --> 00:02:47,162
+Upang palitan ang laki ng
+font, pindutin ito. Piliin natin ito.
+
+32
+00:02:48,758 --> 00:02:52,652
+Ngayon ay i-type nating
+muli ang “hello world”.
+
+33
+00:02:53,835 --> 00:02:58,234
+Magaling! Nakikita mo ba ang pagkakaiba ng dalawang teksto?
+
+34
+00:02:58,622 --> 00:02:59,622
+Mabuti.
+
+35
+00:03:00,763 --> 00:03:05,319
+Mayroon pang iba’t-ibang uri ng
+font formatting tools sa Microsoft Word.
+
+36
+00:03:06,193 --> 00:03:10,566
+Ito ang Bold format, ganito
+ang kalalabasan ng iyong teksto.
+
+37
+00:03:11,233 --> 00:03:16,019
+Ito ang Italicize format, ganito
+ang kalalabasan ng iyong teksto.
+
+38
+00:03:16,901 --> 00:03:22,434
+Ito ang Underline format, ganito
+ang kalalabasan ng iyong teksto.
+
+39
+00:03:23,315 --> 00:03:28,470
+Ito ang Strikethrough format, ganito
+ang kalalabasan ng iyong teksto.
+
+40
+00:03:29,739 --> 00:03:35,335
+Ang mga button na ito ay may kakayahan ring
+palitan ang laki ng font. Ang button na ito ay may
+
+41
+00:03:35,359 --> 00:03:41,739
+kakayahang palakihin ang iyong teksto, at ang button
+na ito ay may kakayahang paliitin ang iyong teksto.
+
+42
+00:03:42,143 --> 00:03:47,569
+Ngayon, subukan naman natin i-type ang “Hello
+world” gamit ang mga letrang kulay pula.
+
+43
+00:03:48,383 --> 00:03:53,527
+Upang palitan ang kulay ng
+font, pindutin ito. Nakikita mo
+
+44
+00:03:53,551 --> 00:03:58,695
+ba ang kulay pula? Mahusay!
+Piliin natin ang kulay pula.
+
+45
+00:03:59,441 --> 00:04:03,121
+I-type natin ang “Hello World”.
+
+46
+00:04:03,687 --> 00:04:04,932
+Nakakamangha!
+
+47
+00:04:05,346 --> 00:04:09,292
+Mayroon rin mga tinatawag
+na letter case formats,
+
+48
+00:04:09,316 --> 00:04:13,339
+maaari nito gawing maliit
+o malaki ang mga letra.
+
+49
+00:04:13,831 --> 00:04:18,289
+Ito ang Sentence case, ang
+unang letra lamang ang malaki.
+
+50
+00:04:19,114 --> 00:04:23,073
+Ito ang Lowercase,
+lahat ng letra ay maliit.
+
+51
+00:04:23,674 --> 00:04:27,907
+Ito ang Uppercase,
+lahat ng letra ay malaki.
+
+52
+00:04:28,761 --> 00:04:35,161
+Ito ang Capitalise Each Word, lahat
+ng unang letra ng bawat salita ay malaki.
+
+53
+00:04:35,678 --> 00:04:40,365
+Ito naman ang Toggle Case;
+gagawin nitong maliit ang malalaking
+
+54
+00:04:40,389 --> 00:04:45,077
+letra, at gagawin nitong
+malalaking letra ang maliliit na letra.
+
+55
+00:04:45,973 --> 00:04:50,000
+Isunod naman natin ang highlight
+button. Ang button na ito ay may
+
+56
+00:04:50,024 --> 00:04:54,052
+kakayahang i-highlight ang
+teksto gamit ang iba’t-ibang kulay.
+
+57
+00:04:54,533 --> 00:04:58,932
+Subukan natin. Pindutin ang
+highlight at pumili ng kulay.
+
+58
+00:04:59,515 --> 00:05:02,448
+Marunong ka bang mag-highlight
+gamit ang iyong mouse?
+
+59
+00:05:03,190 --> 00:05:07,273
+Pindutin lamang ang kaliwang
+button ng iyong mouse at huwag itong
+
+60
+00:05:07,297 --> 00:05:11,380
+pakawalan hangga’t lahat ng
+letra ay naka-highlight sa kulay gray.
+
+61
+00:05:11,960 --> 00:05:16,600
+Kapag ito’y iyong pinakawalan,
+makikita mo na ang kulay ng highlight.
+
+62
+00:05:17,707 --> 00:05:18,707
+Mahusay!
+
+63
+00:05:18,973 --> 00:05:23,426
+Ngayon ay alam mo na ang mga
+pangunahing konsepto ng Microsoft Word.
+

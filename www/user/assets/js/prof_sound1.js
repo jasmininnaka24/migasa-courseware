@@ -3,8 +3,6 @@ function playSoundAndRedirect() {
     sound.play();
     setTimeout(function(){
       window.location.href = '../../../user/professional_users/template/prof_video.php';
-    }, sound.duration * 1000);
+    }, sound.duration * 999);
   }
-  
-
   

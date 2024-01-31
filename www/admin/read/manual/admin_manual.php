@@ -35,6 +35,15 @@
   <body class="">
 
 
+  <div class="deleted hidden position-fixed" style="top: 0; left: 0; z-index: 9999;">
+  <div class="invalid_modal_container">
+    <div class="invalid_modal d-flex flex-column" style="background: #ddf5d9; color: #444">
+      <div class="h2">
+      ✅ DELETED SUCCESSFULLY!
+      </div>
+    </div>
+  </div>
+</div>
 
   <?php
     include '../a_includes/admin_sidebar.php';
@@ -102,7 +111,7 @@
     <!-- main body-->
 
 
-<main style="min-height: 90%;" class="w-100 d-flex align-items-center  flex-column anim-to-top-slow">
+<main style="min-height: 90%;" class="w-100 d-flex align-items-center  flex-column">
 <div class="container">
     <?php 
       $manualPDFCount = $conn->prepare("SELECT * FROM manual_table");
@@ -128,7 +137,7 @@
         <thead>
             <tr>
                 <th class="text-center">File Name</th>
-                <th class="text-center">Modify</th>
+                <th class="text-center">Action</th>
             </tr>
         </thead>
         <tbody>

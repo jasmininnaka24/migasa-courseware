@@ -1,0 +1,210 @@
+﻿1
+00:00:02,413 --> 00:00:05,986
+LESSON 1: Introduction to Microsoft Excel
+
+2
+00:00:06,600 --> 00:00:09,833
+Hey there! Welcome to the Microsoft Excel Course.
+
+3
+00:00:10,200 --> 00:00:14,533
+In this video, you will learn the basics of Microsoft Excel.
+
+4
+00:00:14,900 --> 00:00:17,900
+First, let’s define Microsoft Excel.
+
+5
+00:00:18,269 --> 00:00:21,323
+Microsoft Excel is a spreadsheet computer
+
+6
+00:00:21,347 --> 00:00:25,168
+program that is used to record and analyze data.
+
+7
+00:00:25,435 --> 00:00:27,169
+Do you know what data is?
+
+8
+00:00:27,502 --> 00:00:31,207
+A data is any kind of
+information, it can be in
+
+9
+00:00:31,231 --> 00:00:34,935
+the form of letters,
+words, and even numbers.
+
+10
+00:00:35,200 --> 00:00:41,302
+Now let’s start by opening Microsoft
+Excel and clicking on “Blank Workbook”.
+
+11
+00:00:42,000 --> 00:00:43,766
+Do you know what a workbook is?
+
+12
+00:00:44,300 --> 00:00:47,300
+A workbook is a collection of worksheets.
+
+13
+00:00:47,967 --> 00:00:51,333
+And a worksheet is a collection of rows and columns.
+
+14
+00:00:51,833 --> 00:00:54,300
+This is what a worksheet looks like.
+
+15
+00:00:54,533 --> 00:00:57,933
+Now, let’s go to the top-most part of your screen.
+
+16
+00:00:58,300 --> 00:01:00,291
+Do you see these three buttons?
+
+17
+00:01:00,733 --> 00:01:05,339
+This is the save button, it will let you
+keep your work inside the computer.
+
+18
+00:01:06,065 --> 00:01:11,797
+You can also press the control button and S
+button on your keyboard to save your work.
+
+19
+00:01:12,198 --> 00:01:16,045
+This is the undo button, it will remove your last action.
+
+20
+00:01:16,179 --> 00:01:22,079
+And this is the redo button, this is
+like a reverse for your undo action.
+
+21
+00:01:22,246 --> 00:01:24,912
+Now, let’s go over to the right side.
+
+22
+00:01:25,379 --> 00:01:27,679
+These are the main control buttons.
+
+23
+00:01:28,000 --> 00:01:30,400
+This button will minimize your Excel
+
+24
+00:01:30,779 --> 00:01:34,179
+This button will make your Excel smaller or bigger.
+
+25
+00:01:34,946 --> 00:01:38,366
+And this button will take you out of Microsoft Excel.
+
+26
+00:01:38,533 --> 00:01:42,200
+So, make sure not to click it unless you’re done.
+
+27
+00:01:42,846 --> 00:01:44,179
+This is the toolbar.
+
+28
+00:01:44,946 --> 00:01:48,050
+The toolbar is made
+up of many tabs and has
+
+29
+00:01:48,074 --> 00:01:51,845
+tools that can help you
+in using Microsoft Excel.
+
+30
+00:01:52,667 --> 00:01:55,066
+Below the toolbar is your spreadsheet.
+
+31
+00:01:55,367 --> 00:01:57,466
+Can you see the tiny rectangles?
+
+32
+00:01:58,000 --> 00:02:01,866
+Those are called cells and cells will hold your data.
+
+33
+00:02:02,467 --> 00:02:04,604
+This right here is a Name box.
+
+34
+00:02:04,904 --> 00:02:07,437
+A name box will show you the cell name.
+
+35
+00:02:07,838 --> 00:02:12,470
+A cell name is made up of a Column Letter and a Row number.
+
+36
+00:02:13,129 --> 00:02:15,262
+These are the Column letters.
+
+37
+00:02:15,463 --> 00:02:17,395
+And these are the Row numbers.
+
+38
+00:02:17,863 --> 00:02:19,639
+This is a formula bar.
+
+39
+00:02:20,006 --> 00:02:23,216
+This is where you put formulas or insert data.
+
+40
+00:02:23,642 --> 00:02:28,741
+This is the leaf bar, it shows you which worksheet you’re working on.
+
+41
+00:02:29,442 --> 00:02:32,885
+In Excel, you can work with many worksheets.
+
+42
+00:02:33,167 --> 00:02:35,933
+These right here are the View buttons.
+
+43
+00:02:36,433 --> 00:02:41,933
+This is the normal view button, it will
+make your Excel page look like this.
+
+44
+00:02:42,267 --> 00:02:47,572
+This is the page layout view button, it will make your Excel page look like this.
+
+45
+00:02:47,673 --> 00:02:53,016
+This is the page break view button, it will make your Excel page look like this.
+
+46
+00:02:53,533 --> 00:02:55,133
+This is the Zoom Control.
+
+47
+00:02:55,333 --> 00:02:59,633
+It will let you zoom in and out of your Excel page.
+
+48
+00:02:59,800 --> 00:03:05,500
+Drag this little rectangle to the right
+to zoom in and to the left to zoom out.
+
+49
+00:03:06,133 --> 00:03:07,133
+Good job!
+
+50
+00:03:07,367 --> 00:03:10,566
+Now you know the basics of Microsoft Excel.
+

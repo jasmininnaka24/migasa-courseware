@@ -1,0 +1,138 @@
+/*certificate*/
+.certificate-text {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  
+  a:hover .certificate-text {
+    display: block;
+  }
+
+  /*dropdown*/
+  .dropdown {
+    position: absolute;
+    top: 40px;
+    right: 120px;
+  }
+  
+  .dropdown-button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    min-width: 160px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #eb1717;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .dropdown span {
+    font-size: 16px;
+  }
+
+    /*slide up*/
+    .slideup{
+      animation: slide-up 0.5s ease-out;
+      animation-fill-mode: backwards;
+    }
+    @keyframes slide-up {
+      from {
+        opacity: 0;
+        transform: translateY(50%);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    
+
+
+    .card {
+        margin-top: 50px;
+        border: none;
+        background-color: transparent;
+        box-shadow: none;
+      }
+      
+      .card-img-container {
+        position: relative;
+      }
+      
+      
+      .navigation-buttons {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .btn-prev,
+      .btn-next {
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        font-size: 2em;
+        cursor: pointer;
+      }
+      
+      .btn-prev:hover,
+      .btn-next:hover {
+        color: #dc3545;
+      }
+      
+      @media only screen and (max-width: 767px) {
+        .card {
+          margin-top: 20px;
+        }
+      }
+
+      /*background*/
+body {
+    background-image: url('../img/BACKGROUND.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  

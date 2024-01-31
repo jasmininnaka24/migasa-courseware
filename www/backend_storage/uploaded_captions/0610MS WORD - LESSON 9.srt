@@ -1,0 +1,234 @@
+﻿1
+00:00:02,253 --> 00:00:05,479
+Lesson 9: The Review and View Tab
+
+2
+00:00:06,093 --> 00:00:06,933
+Hi there!
+
+3
+00:00:07,640 --> 00:00:11,921
+In this video, we will be learning about the Review Tab and View Tab.
+
+4
+00:00:12,307 --> 00:00:17,746
+The Review Tab has many tools that can help
+you correct mistakes or finalize your document.
+
+5
+00:00:18,233 --> 00:00:22,958
+The View Tab has many tools that can help
+you control the way you view your document.
+
+6
+00:00:23,433 --> 00:00:26,900
+First, let’s talk about Spelling and Grammar.
+
+7
+00:00:27,415 --> 00:00:30,348
+If you click this, a little box will pop up
+
+8
+00:00:30,400 --> 00:00:34,348
+And let you know the grammatical or spelling errors in your document.
+
+9
+00:00:34,695 --> 00:00:36,562
+Over here is the Thesaurus.
+
+10
+00:00:36,815 --> 00:00:42,242
+A thesaurus is like a magic dictionary that
+helps you find similar words or synonyms.
+
+11
+00:00:42,777 --> 00:00:48,590
+To find out the synonym of a word, click the
+Thesaurus and this little box will pop up.
+
+12
+00:00:49,300 --> 00:00:52,814
+Type the word here and click this little search button.
+
+13
+00:00:53,561 --> 00:00:58,869
+All the synonyms or the words similar
+to the word you typed will appear here.
+
+14
+00:00:59,016 --> 00:01:00,415
+This is the Word Count
+
+15
+00:01:00,536 --> 00:01:06,532
+It counts all the words, pages, characters
+and paragraphs that are in your document.
+
+16
+00:01:06,902 --> 00:01:09,568
+Just click it and this little box will appear
+
+17
+00:01:09,768 --> 00:01:14,778
+Then you will see the number of
+pages, words, characters and many more.
+
+18
+00:01:15,472 --> 00:01:20,335
+You can also see the number of words and
+pages on the bottom left part of your screen.
+
+19
+00:01:20,800 --> 00:01:23,436
+Now, let’s proceed to the View tab.
+
+20
+00:01:23,997 --> 00:01:28,082
+This is Read Mode, and this is what it will do to your document.
+
+21
+00:01:28,334 --> 00:01:32,824
+It makes it easier for you to read the
+texts but you won’t be able to edit it.
+
+22
+00:01:33,531 --> 00:01:36,194
+This is Print Layout or the default view.
+
+23
+00:01:36,461 --> 00:01:40,100
+This is how it looks and it
+lets you edit your document.
+
+24
+00:01:40,500 --> 00:01:44,807
+This is Web Layout, it lets you
+view your document like this.
+
+25
+00:01:47,927 --> 00:01:49,501
+This is Outline view
+
+26
+00:01:49,888 --> 00:01:52,685
+Your document will look like a bulleted
+list.
+
+27
+00:01:53,437 --> 00:01:56,405
+To exit, just click Close Outline View.
+
+28
+00:01:56,975 --> 00:01:59,281
+And lastly, this is the Draft view
+
+29
+00:01:59,767 --> 00:02:02,135
+It looks similar to the Web Layout.
+
+30
+00:02:02,731 --> 00:02:08,168
+You can also change the Views by clicking on these
+buttons on the right bottom part of your screen.
+
+31
+00:02:08,408 --> 00:02:12,523
+This is the Read Layout, Print Layout, and Web Layout.
+
+32
+00:02:13,069 --> 00:02:15,568
+You can also change the page movement.
+
+33
+00:02:16,190 --> 00:02:18,347
+This is the vertical page movement
+
+34
+00:02:18,534 --> 00:02:22,769
+It goes up and down if you use
+the scroll bar which is right here.
+
+35
+00:02:23,619 --> 00:02:25,785
+This is the side-to-side page movement
+
+36
+00:02:26,172 --> 00:02:29,725
+If you click it, your document
+will look like this and you
+
+37
+00:02:29,749 --> 00:02:33,302
+can move it from side to
+side using the scroll bar below.
+
+38
+00:02:34,067 --> 00:02:35,572
+Remember the ruler?
+
+39
+00:02:35,733 --> 00:02:38,325
+You can check this to make the ruler appear.
+
+40
+00:02:39,139 --> 00:02:42,112
+And you can check this to make the gridlines appear.
+
+41
+00:02:42,579 --> 00:02:46,402
+The ruler and gridlines can be a guide for your document.
+
+42
+00:02:46,856 --> 00:02:52,624
+And this is the Navigation Pane, it will
+let you find words in your document easily.
+
+43
+00:02:53,435 --> 00:02:56,208
+These right here are the Zoom options.
+
+44
+00:02:56,706 --> 00:03:02,524
+You click Zoom and choose the Zoom
+percentage or type it in this little box.
+
+45
+00:03:03,300 --> 00:03:07,325
+Click OK and you will be Zoomed in or Zoomed out.
+
+46
+00:03:08,093 --> 00:03:11,999
+You can also adjust the Zoom
+by using this Zoom control bar.
+
+47
+00:03:12,431 --> 00:03:16,359
+Just drag this little rectangle
+to the right to move closer to
+
+48
+00:03:16,383 --> 00:03:20,311
+the document and to the left to
+move far away from the document.
+
+49
+00:03:20,906 --> 00:03:24,586
+If you want to look at one page at a time, just click this.
+
+50
+00:03:25,133 --> 00:03:29,076
+If you want to look at many pages at a time, just click this.
+
+51
+00:03:29,367 --> 00:03:33,400
+But if you want to zoom in on a page easily, just click this.
+
+52
+00:03:33,947 --> 00:03:34,947
+Good job!
+
+53
+00:03:35,067 --> 00:03:38,853
+Now you know how to control your
+Document View in Microsoft Word.
+

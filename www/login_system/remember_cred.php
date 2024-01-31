@@ -131,7 +131,7 @@
     
 
         <div class="mt-4">
-          <div class="lead font-med text-center mt-2 mb-3 px-2" style="color: #555; font-size: 15px;">You can either change your username and password or just keep them</div>
+          <div class="lead font-bold text-center mt-2 mb-3 px-2" style="color: #555; font-size: 15px;">You can either change your username and password or just keep them <span style="width: 4rem;">⬅️</span></div>
           <div class="input-group d-flex align-items-center">
 
             <label class="font-bold" style="margin-right: 1rem;" for="">Username</label>

@@ -1,0 +1,198 @@
+﻿1
+00:00:02,473 --> 00:00:06,380
+Lesson 4: Header, Footer, and Symbols
+
+2
+00:00:07,029 --> 00:00:07,949
+Hello there!
+
+3
+00:00:08,096 --> 00:00:12,706
+In this video, we will be learning
+about Header, Footer and Symbols.
+
+4
+00:00:13,353 --> 00:00:16,262
+This is where you will
+find the Header and the Footer.
+
+5
+00:00:17,119 --> 00:00:19,793
+A header is placed on top of the page.
+
+6
+00:00:20,646 --> 00:00:23,662
+A footer is placed on the bottom of the page.
+
+7
+00:00:24,313 --> 00:00:28,995
+To add a header, click on this button
+and you will see header templates.
+
+8
+00:00:29,700 --> 00:00:33,516
+Templates are ready-to-use
+and will make things easier for you.
+
+9
+00:00:34,300 --> 00:00:39,750
+To add a footer, click on this button and you will see footer templates.
+
+10
+00:00:40,367 --> 00:00:43,866
+You can also double click on the
+top part of the page
+
+11
+00:00:43,967 --> 00:00:47,350
+To insert a header and start typing just like this.
+
+12
+00:00:47,900 --> 00:00:52,793
+You can do the same to insert a
+footer and start typing just like this.
+
+13
+00:00:53,117 --> 00:00:55,583
+You may also add a page number.
+
+14
+00:00:56,215 --> 00:00:59,872
+A page number can be placed in the header or footer.
+
+15
+00:01:00,356 --> 00:01:06,206
+To add a page number, click on this button and you will see Page number templates.
+
+16
+00:01:06,735 --> 00:01:08,285
+Let’s choose this.
+
+17
+00:01:09,000 --> 00:01:11,839
+Can you see the page numbers on the pages?
+
+18
+00:01:12,340 --> 00:01:20,435
+Microsoft Word automatically counts the pages and places
+a page number in each page with just a few clicks.
+
+19
+00:01:20,967 --> 00:01:25,052
+From here, you can also insert a textbox and word art.
+
+20
+00:01:25,856 --> 00:01:30,881
+Since we already talked about how
+to add a textbox in the previous lesson
+
+21
+00:01:31,047 --> 00:01:33,940
+We will only try word art this time.
+
+22
+00:01:34,392 --> 00:01:36,972
+To add a word art, click this button.
+
+23
+00:01:37,633 --> 00:01:39,710
+Can you see the beautiful word art?
+
+24
+00:01:40,227 --> 00:01:45,018
+There are many and you can choose
+anything to make your text look nice.
+
+25
+00:01:45,469 --> 00:01:47,922
+Let’s try by clicking on this word art.
+
+26
+00:01:48,556 --> 00:01:52,597
+Once this box appears, we can start typing inside it.
+
+27
+00:01:53,135 --> 00:01:54,002
+Perfect!
+
+28
+00:01:54,319 --> 00:01:56,368
+We now have beautiful word art.
+
+29
+00:01:57,266 --> 00:01:59,333
+Let’s move on to Symbols.
+
+30
+00:02:00,000 --> 00:02:03,170
+A symbol is a representation of anything.
+
+31
+00:02:03,571 --> 00:02:05,775
+These are examples of symbols.
+
+32
+00:02:06,327 --> 00:02:13,243
+To insert a symbol, simply click on this button
+and choose from the different kinds of symbols.
+
+33
+00:02:13,731 --> 00:02:16,543
+A symbol can also be used in equations.
+
+34
+00:02:17,206 --> 00:02:26,064
+An equation is like a mathematical sentence, it
+uses symbols like plus, minus, times and many more.
+
+35
+00:02:26,731 --> 00:02:30,322
+To insert an equation, click this button.
+
+36
+00:02:30,790 --> 00:02:38,295
+Once you click it, all these symbols and equations will
+appear together with a small box that looks like this.
+
+37
+00:02:39,067 --> 00:02:44,064
+This is the equation box, this is where you will put your equation
+
+38
+00:02:44,350 --> 00:02:48,833
+Let’s try creating an equation of 2 times ½.
+
+39
+00:02:49,167 --> 00:02:53,516
+To do so, click on the equation box and type 2.
+
+40
+00:02:53,869 --> 00:02:57,591
+Then, click on the multiplication symbol.
+
+41
+00:02:57,835 --> 00:03:03,058
+After that, click on the fraction
+equation and choose this fraction.
+
+42
+00:03:03,333 --> 00:03:08,306
+The top part is for the numerator and
+the bottom part is for the denominator.
+
+43
+00:03:08,700 --> 00:03:12,864
+Our numerator is 1 and our denominator is 2.
+
+44
+00:03:13,380 --> 00:03:16,580
+Very good! We now have an equation.
+
+45
+00:03:17,097 --> 00:03:18,646
+Congratulations!
+
+46
+00:03:18,847 --> 00:03:22,863
+Now you know how to insert a header, footer and symbol.
+

@@ -72,13 +72,15 @@
                 <!-- file upload -->
                 <div class="form-group mb-4">
                   <select name="language_selected" id="" class="form-control">
+                  <option value="">Select a language🔻</option>
                     <?php
                       $select_language = $conn->prepare("SELECT * FROM language_table");
                       $select_language->execute();
 
                       while($lang_row = $select_language->fetch(PDO::FETCH_ASSOC)){
+                        $language_id = $lang_row['id'];
                         $language = $lang_row['language'];
-                        echo "<option value='$language'>$language</option>";
+                        echo "<option value='$language_id'>$language</option>";
                       }
                     ?>                    
                   </select>
@@ -103,21 +105,30 @@
           <?php
             if(isset($_GET['course']) && isset($_GET['languagee'])){ 
               $course_lang = $_GET['course'];
-              $language = $_GET['languagee'];
+              $language_id = $_GET['languagee'];
+
               // video title form functionality
+              
               if(isset($_POST['course_selected'])){
                 $course_id = $_POST['course_selected'];
-                  
-                // header("Location: ./videos_display.php?course_id_display=$course_id");
-                header("Location: ./modify_lessons.php?course_id_uploadvid=$course_id&select_lesson_title");
-                
-                
+                if($course_id != ''){
+                  header("Location: ./modify_lessons.php?course_id_uploadvid=$course_id&select_lesson_title");
+                } else {
+                  echo "<h3 class='txt-red-light font-med text-center position-absolute w-100 d-flex align-items-center justify-content-center' style='top:10%; margin-left: 0%'>The field is empty</h3>";
+                }         
               }
 
 
               if(isset($_POST['go_back'])){
                 header("Location: ./modify_lessons.php?language");
               }
+
+              $select_language = $conn->prepare("SELECT language FROM language_table WHERE id = :id");
+              $select_language->bindParam(":id", $language_id);
+              $select_language->execute();
+              $lang_row = $select_language->fetch(PDO::FETCH_ASSOC);
+              $language = $lang_row['language'];
+
               ?>
               <!-- video title form ui -->
               <form action="" method="POST" enctype="multipart/form-data">
@@ -130,9 +141,10 @@
                 <!-- file upload -->
                 <div class="form-group mb-4">
                   <select name="course_selected" id="" class="form-control">
+                  <option value="">Select a course🔻</option>
                     <?php
-                      $select_lang_course = $conn->prepare("SELECT * FROM course_table WHERE course_lang = :course_language");
-                      $select_lang_course->bindParam(":course_language", $language);
+                      $select_lang_course = $conn->prepare("SELECT * FROM course_table WHERE course_lang_id = :course_lang_id");
+                      $select_lang_course->bindParam(":course_lang_id", $language_id);
                       $select_lang_course->execute();
 
                       while($course_row = $select_lang_course->fetch(PDO::FETCH_ASSOC)){
@@ -176,13 +188,12 @@
               // video title form functionality
               if(isset($_POST['select_lesson_title'])){
                 $lesson_id = $_POST['selected_lesson_title'];
-                  
-                header("Location: ./read/activity/updateActivityUI.php?update_course_id=$course_id&update_video_activity=$lesson_id");
-                // ./read/activity/updateActivityUI.php?update_course_id=14&update_video_activity=19
-                
-                
+                if($lesson_id != ''){
+                  header("Location: ./read/activity/updateActivityUI.php?update_course_id=$course_id&update_video_activity=$lesson_id&listOfAllActivities&selly");
+                } else {
+                  echo "<h3 class='txt-red-light font-med text-center position-absolute w-100 d-flex align-items-center justify-content-center' style='top:10%; margin-left: 0%'>The field is empty</h3>";
+                }
               }
-
 
               if(isset($_POST['go_back'])){
                 header("Location: ./modify_lessons.php?language");
@@ -199,6 +210,7 @@
                 <!-- file upload -->
                 <div class="form-group mb-4">
                   <select name="selected_lesson_title" id="" class="form-control">
+                  <option value="">Select a lesson title🔻</option>
                     <?php
                       $select_lesson_title = $conn->prepare("SELECT * FROM videos_table WHERE course_id = :course_id");
                       $select_lesson_title->bindParam(":course_id", $course_id);
@@ -247,15 +259,6 @@
             }
 
           ?>
-
-
-
-
-
-
-
-
-
         </div>        
       </div>        
     </div>

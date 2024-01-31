@@ -12,24 +12,38 @@
     $course_title = $row['course_title'];
     $course_desc = $row['course_desc'];
     $course_icon = $row['course_icon'];
-    $course_lang = $row['course_lang'];
+    $course_lang_id = $row['course_lang_id'];
+
+    $course_lang_db = $conn->prepare("SELECT language FROM language_table WHERE id = :course_lang_id");
+    $course_lang_db->bindParam(":course_lang_id", $course_lang_id);
+    $course_lang_db->execute();
+    $fetch_course_lang = $course_lang_db->fetch(PDO::FETCH_ASSOC);
+    $course_lang = $fetch_course_lang['language'];
 
     $course_desc_length = strlen($course_desc);
 
     ?>
 
+<div class="updatedd hidden position-fixed" style="top: 0; left: 0; z-index: 9999;">
+  <div class="invalid_modal_container">
+    <div class="invalid_modal d-flex flex-column" style="background: #ddf5d9; color: #444">
+      <div class="h2">
+      ✅ UPDATED SUCCESSFULLY!
+      </div>
+    </div>
+  </div>
+</div>
 
-
-<main style="min-height: 90%;" class="d-flex justify-content-center flex-column anim-to-top-slow">
-  <div class="d-flex container" style="margin-bottom: 1rem;">
-    <div style="width: 3rem; margin-right: 1rem;">
-      <img src="../../assets/img/migasa 2.png" width="100%" alt="">
+<main style="min-height: 90%;" class="d-flex justify-content-center flex-column">
+  <div class="d-flex align-items-center container" style="margin-bottom: 1.5rem;">
+    <div style="width: 4.7rem; margin-bottom: .7rem; margin-right: 1rem;">
+      <img src="../../assets/img/BIT TYP LOGO.png" width="100%" alt="">
     </div>
     <div class="h3 mb-3 font-med pt-1" style="color: #777;">Update <span class=""><?php echo $course_title; ?></span> Course</div>
   </div>
     <div class="container mt-2">
       <div class="row">
-        <form action="" method="POST" enctype="multipart/form-data" class=" anim-to-top-slow">
+        <form action="" method="POST" enctype="multipart/form-data">
   
   <!-- <div class="col-10 h5 my-3" style="margin-bottom: 2rem; color: #555">
   You can type in the necessary modifications. If you want to alter the icon, simply press the update file button. Once you're done, click on the Update Course button.
@@ -122,14 +136,15 @@
           style="margin-right: 1rem; font-size: 20px"
           >Course Language</label
         >
-        <select name="course_lang" id="" class="form-control" style="border: 0.1rem solid #888; font-size: 20px;">
+        <select name="course_lang_id" id="" class="form-control" style="border: 0.1rem solid #888; font-size: 20px;">
           <?php
             $select_language = $conn->prepare("SELECT * FROM language_table");
             $select_language->execute();
 
             while($lang_row = $select_language->fetch(PDO::FETCH_ASSOC)){
+              $language_id = $lang_row['id'];
               $language = $lang_row['language'];
-              echo "<option value='$language'>$language</option>";
+              echo "<option value='$language_id'>$language</option>";
             }
           ?>                    
         </select>

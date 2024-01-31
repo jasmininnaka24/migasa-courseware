@@ -27,4 +27,24 @@
   </script>
 
 
+
+<!-- Updated -->
+<!-- <div class="updatedd hidden position-fixed" style="top: 0; left: 0; z-index: 9999;">
+  <div class="invalid_modal_container">
+    <div class="invalid_modal d-flex flex-column" style="background: #ddf5d9; color: #444">
+      <div class="h2">
+        SUCCESSFULLY UPDATED!
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    const updatedd = document.querySelector(".updatedd");
+    updatedd.addEventListener("click", (e) => {
+        e.preventDefault();
+        document.querySelector(".unhide").classList.add("hidden");
+        e.preventDefault();
+    });
+  </script> -->
     

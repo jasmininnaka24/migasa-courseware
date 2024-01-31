@@ -1,0 +1,225 @@
+﻿1
+00:00:01,933 --> 00:00:05,942
+Aralin 1: Panimula sa Microsoft Excel
+
+2
+00:00:06,267 --> 00:00:11,676
+Sa araling ito, pag-aaralan natin ang mga
+pangunahing konsepto ng Microsoft Excel.
+
+3
+00:00:12,439 --> 00:00:15,115
+Una, ano nga ba
+ang Microsoft Excel?
+
+4
+00:00:15,697 --> 00:00:19,399
+Ang Microsoft Excel ay isang
+programa sa kompyuter na ginagamit
+
+5
+00:00:19,423 --> 00:00:23,066
+upang magrecord at mag-analyze
+ng mga datos sa spreadsheet.
+
+6
+00:00:23,677 --> 00:00:25,489
+Alam mo ba kung ano ang datos?
+
+7
+00:00:26,167 --> 00:00:29,553
+Ang datos o data ay
+anumang uri ng impormasyon,
+
+8
+00:00:29,577 --> 00:00:32,963
+maaari itong maging
+titik, salita, o numero
+
+9
+00:00:33,384 --> 00:00:38,519
+Simulan natin sa pagbukas ng Microsoft
+Excel at pindutin ang "Blank Workbook".
+
+10
+00:00:39,040 --> 00:00:40,976
+Alam mo ba kung ano ang workbook?
+
+11
+00:00:41,995 --> 00:00:45,754
+Ang isang workbook ay isang
+koleksyon ng mga worksheet. At ang
+
+12
+00:00:45,778 --> 00:00:49,536
+isang worksheet naman ay isang
+koleksyon ng mga rows at columns.
+
+13
+00:00:49,823 --> 00:00:51,898
+Ganito ang itsura ng isang worksheet.
+
+14
+00:00:52,432 --> 00:00:55,492
+Ngayon, pumunta tayo sa
+pinakamataas na bahagi ng
+
+15
+00:00:55,516 --> 00:00:59,152
+iyong screen. Nakikita mo
+ba ang tatlong button na ito?
+
+16
+00:00:59,519 --> 00:01:03,881
+Ito ang button para sa pag-save, ito
+ay magbibigay sa iyo ng pagkakataon
+
+17
+00:01:03,905 --> 00:01:07,775
+na mapanatili ang iyong ginawang
+trabaho sa loob ng computer.
+
+18
+00:01:08,275 --> 00:01:11,238
+Maaari mo ring pindutin
+ang control button at ang S
+
+19
+00:01:11,262 --> 00:01:14,761
+button sa iyong keyboard
+upang maisave ang iyong trabaho.
+
+20
+00:01:15,324 --> 00:01:19,515
+Ito naman ang undo button,
+aalisin nito ang iyong huling aksyon.
+
+21
+00:01:20,077 --> 00:01:24,624
+At ito naman ang redo button, ibabalik
+nito kung ano man ang iyong tinanggal.
+
+22
+00:01:25,379 --> 00:01:28,459
+Ngayon, lumipat tayo sa
+kanang bahagi ng iyong screen
+
+23
+00:01:28,803 --> 00:01:31,098
+Ito ang mga main control buttons.
+
+24
+00:01:31,908 --> 00:01:34,492
+Papaliitin ng button na ito ang iyong Excel.
+
+25
+00:01:35,130 --> 00:01:38,701
+Papalakihin o paliliitin ng button na ito ang iyong Excel.
+
+26
+00:01:39,273 --> 00:01:42,029
+At aalisin naman nito ang
+iyong Excel. Kaya huwag
+
+27
+00:01:42,053 --> 00:01:44,808
+mo muna itong pindutin
+kung hindi ka pa tapos.
+
+28
+00:01:45,135 --> 00:01:48,419
+Ito ang toolbar. Ang toolbar
+ay mayroong mga tabs at
+
+29
+00:01:48,443 --> 00:01:51,727
+tools na makakatulong sa
+iyo sa paggamit ng Excel.
+
+30
+00:01:53,203 --> 00:01:56,231
+Sa baba nito, makikita
+mo ang iyong spreadsheet.
+
+31
+00:01:56,255 --> 00:01:59,283
+Nakikita mo ba ang
+maliliit na mga parisukat?
+
+32
+00:01:59,934 --> 00:02:04,542
+Yan ay tinatawag nating cells. Ang
+bawat cell ay pwedeng lagyan ng data.
+
+33
+00:02:04,835 --> 00:02:08,803
+Ito naman ang Name box,
+pinapakita nito ang pangalan ng cell.
+
+34
+00:02:09,162 --> 00:02:11,852
+Ang pangalan ng isang
+cell ay binubuo ng isang
+
+35
+00:02:11,876 --> 00:02:14,566
+letra mula sa column
+at numero mula sa row.
+
+36
+00:02:15,165 --> 00:02:19,069
+Ito ang mga column letters, at
+ito naman ang mga row numbers.
+
+37
+00:02:19,397 --> 00:02:21,945
+Ito naman ay ang
+tinatawag nating formula
+
+38
+00:02:21,969 --> 00:02:24,965
+bar, dito maaaring
+ilagay ang formula o data.
+
+39
+00:02:25,583 --> 00:02:29,710
+Ito ang leaf bar, pinapakita nito
+kung anong worksheet ang iyong
+
+40
+00:02:29,734 --> 00:02:33,860
+nakikita. Sa Excel, maaari kang
+gumawa ng maraming worksheets.
+
+41
+00:02:34,423 --> 00:02:36,378
+Ito naman ang mga View buttons.
+
+42
+00:02:37,064 --> 00:02:41,288
+Ito ang normal view button, ganito
+ang kalalabasan ng iyong Excel.
+
+43
+00:02:42,392 --> 00:02:47,090
+Ito ang page layout view button, ganito ang kalalabasan ng iyong Excel.
+
+44
+00:02:47,672 --> 00:02:52,694
+Ito naman ang page break view  button, ganito ang kalalabasan ng iyong Excel.
+
+45
+00:02:53,190 --> 00:02:58,075
+Ito ang Zoom Control, ilalayo o
+ilalapit ka nito sa iyong Excel page.
+
+46
+00:02:58,875 --> 00:03:03,082
+Pindutin lamang ang maliit na
+parihabang ito upang lumapit o lumayo.
+
+47
+00:03:03,635 --> 00:03:11,635
+Mahusay! Ngayon ay alam mo na ang mga
+pangunahing konsepto sa Microsoft Excel.
+

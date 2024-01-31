@@ -1,0 +1,327 @@
+﻿1
+00:00:02,523 --> 00:00:06,273
+Aralin 3: Naghahanap sa Internet
+
+2
+00:00:06,836 --> 00:00:07,672
+Layunin
+
+3
+00:00:08,141 --> 00:00:10,836
+Panimula sa mga search engine at keyword
+
+4
+00:00:11,320 --> 00:00:14,258
+Madaling paghahanap ng impormasyon online.
+
+5
+00:00:14,617 --> 00:00:15,383
+Kamusta!
+
+6
+00:00:15,734 --> 00:00:19,070
+Maligayang pagdating sa kursong Internet Literatura!
+
+7
+00:00:19,625 --> 00:00:23,328
+Ngayon, matututunan natin kung paano gamitin ang Internet
+
+8
+00:00:23,625 --> 00:00:26,383
+para mahanap ang impormasyong kailangan natin!
+
+9
+00:00:26,734 --> 00:00:29,070
+Magsimula tayo ngayon, diba?
+
+10
+00:00:29,617 --> 00:00:31,461
+Sa paghahanap ng impormasyon
+
+11
+00:00:31,719 --> 00:00:34,578
+gumagamit kami ng tinatawag na search engine.
+
+12
+00:00:34,968 --> 00:00:39,764
+Maaaring ma-access ang isang search
+engine sa pamamagitan ng paggamit ng isang
+
+13
+00:00:39,789 --> 00:00:47,179
+Web browser tulad ng Google Chrome o Mozilla Firefox
+na tumutulong sa mga tao na makahanap ng impormasyon
+
+14
+00:00:47,227 --> 00:00:52,328
+na kailangan nila sa pamamagitan ng
+paggamit ng mga keyword o parirala.
+
+15
+00:00:53,070 --> 00:00:57,312
+Buksan natin muli ang Google Chrome, na ganito ang hitsura
+
+16
+00:00:58,258 --> 00:01:02,359
+Mayroong dalawang paraan upang maghanap ng impormasyon online.
+
+17
+00:01:02,523 --> 00:01:07,414
+Ang una ay sa pamamagitan ng paggamit
+ng address bar sa tuktok ng screen.
+
+18
+00:01:07,844 --> 00:01:12,453
+Maaaring gamitin ang address bar upang
+maghanap ng partikular na impormasyon
+
+19
+00:01:12,945 --> 00:01:16,843
+Maari kang maghanap ng impormasyon
+sa internet gamit ang search bar
+
+20
+00:01:16,975 --> 00:01:19,976
+sa gitna ng iyong browser tulad ng Google Chrome.
+
+21
+00:01:20,055 --> 00:01:24,648
+Dito mo maaring ilagay ang mga
+keywords o search terms tulad ng "pusa"
+
+22
+00:01:24,673 --> 00:01:27,883
+upang hanapin ang mga impormasyon tungkol sa pusa.
+
+23
+00:01:28,469 --> 00:01:33,093
+Ito ay tinatawag na 'search' kung
+saan nagagamit natin ang search engine
+
+24
+00:01:33,266 --> 00:01:36,070
+upang hanapin ang impormasyon na kailangan natin.
+
+25
+00:01:36,617 --> 00:01:42,484
+Ang keyword o paghahanap ay ang mga salita o
+impormasyong isinusulat natin sa search bar
+
+26
+00:01:42,742 --> 00:01:46,484
+para makahanap ng mga impormasyon
+tungkol sa isang tiyak na paksa
+
+27
+00:01:46,945 --> 00:01:47,796
+Halimbawa
+
+28
+00:01:48,078 --> 00:01:50,234
+kung gusto mong maghanap tungkol sa pusa
+
+29
+00:01:50,445 --> 00:01:53,148
+isusulat mo ang salitang 'pusa’' sa search bar
+
+30
+00:01:53,617 --> 00:01:54,906
+Sa ganitong paraan
+
+31
+00:01:55,023 --> 00:01:58,531
+makakakita ka ng maraming impormasyon tungkol sa mga pusa.
+
+32
+00:01:59,213 --> 00:02:04,408
+Ito ay tumutulong sa atin na makahanap ng
+impormasyon tungkol sa mga pusa sa internet!
+
+33
+00:02:04,939 --> 00:02:06,853
+Kapag pindutin natin ang enter
+
+34
+00:02:07,042 --> 00:02:13,659
+magkakaroon tayo ng mga larawan, video at mga teksto
+tungkol sa mga pusa na makikita natin sa screen!
+
+35
+00:02:14,205 --> 00:02:17,947
+Kung mapapansin mo sa address bar, maraming teksto di ba?
+
+36
+00:02:18,526 --> 00:02:21,135
+Hatiin natin iyan sa mga simpleng bagay!
+
+37
+00:02:21,667 --> 00:02:22,448
+halimbawa
+
+38
+00:02:22,784 --> 00:02:25,362
+Ang una nating napapansin ay ang URL.
+
+39
+00:02:25,573 --> 00:02:30,299
+Ang URL o isang Uniform Resource Locator ay ang mahabang teksto
+
+40
+00:02:30,495 --> 00:02:34,721
+na ipinasok natin sa ating address
+bar upang ma-access ang web page.
+
+41
+00:02:35,104 --> 00:02:38,089
+Ang isang URL ay naglalaman ng tatlong bahagi
+
+42
+00:02:38,721 --> 00:02:43,159
+Una ay ang scheme na karaniwang
+tinutukoy ng teksto o HTTP
+
+43
+00:02:43,362 --> 00:02:47,588
+na kumakatawan sa Hypertext
+Transfer Protocol na responsable
+
+44
+00:02:47,682 --> 00:02:53,448
+sa pagsasabi sa atin kung gaano kaligtas ang
+isang website na nagtatago ng mga impormasyon!
+
+45
+00:02:53,940 --> 00:02:55,050
+Example
+
+46
+00:02:57,120 --> 00:03:01,026
+Ang subdomain ay kung saan naka-lagay ang "www"
+
+47
+00:03:01,143 --> 00:03:06,237
+na nagpapakita kung paano naka-ayos ang
+nilalaman ng website na binubuksan natin
+
+48
+00:03:06,705 --> 00:03:13,659
+Ang root domain naman ay ang pangalan ng website na
+tumutulong sa atin na malaman kung ano ang binubuksan natin
+
+49
+00:03:13,917 --> 00:03:18,268
+tulad ng Google.com na tumutukoy na nasa Google website tayo.
+
+50
+00:03:18,776 --> 00:03:21,706
+Maari natin masabi na ang top-level domain
+
+51
+00:03:21,971 --> 00:03:28,885
+ay mga bahagi ng mga website na nakatulong sa atin
+upang malaman kung anong uri ng kumpanya o organisasyon
+
+52
+00:03:29,010 --> 00:03:30,487
+ang nagmamay-ari nito.
+
+53
+00:03:31,073 --> 00:03:31,947
+Kadalasan
+
+54
+00:03:32,135 --> 00:03:36,994
+makikita natin ito sa dulo ng pangalan
+ng website at mayroong iba't ibang uri
+
+55
+00:03:37,042 --> 00:03:41,330
+gaya ng .com, .org, .net at marami pang iba.
+
+56
+00:03:41,893 --> 00:03:42,784
+Halimbawa
+
+57
+00:03:42,924 --> 00:03:50,322
+kapag nakakita tayo ng pangalan ng website na may .org sa
+dulo nito, maaring ito ay website ng isang organisasyon.
+
+58
+00:03:50,737 --> 00:03:51,909
+Kunin halimbawa
+
+59
+00:03:52,354 --> 00:03:59,177
+Nakatutulong sa atin ang www.google.com para malaman na ito ay isang kumpanya
+
+60
+00:03:59,272 --> 00:04:04,319
+samantalang ang www.wmsu.edu.ph naman
+
+61
+00:04:04,475 --> 00:04:06,694
+ay isang website tungkol sa edukasyon.
+
+62
+00:04:06,850 --> 00:04:08,788
+Ibig sabihin ng .ph sa dulo ng pangalan ng website
+
+63
+00:04:08,944 --> 00:04:14,733
+ay nagpapakita kung saang bansa nakarehistro ang website na ito
+
+64
+00:04:15,077 --> 00:04:15,843
+Halimbawa
+
+65
+00:04:16,116 --> 00:04:20,655
+kung may .ph sa huli ng website na wmsu.edu.ph
+
+66
+00:04:20,811 --> 00:04:23,304
+ibig sabihin ito ay mula sa Pilipinas.
+
+67
+00:04:23,787 --> 00:04:26,037
+Panghuli, ang subdirectory!
+
+68
+00:04:27,982 --> 00:04:32,686
+Ito ay tungkol sa mga subdirectory
+na maaring makita mo sa isang website
+
+69
+00:04:32,749 --> 00:04:35,413
+matapos ng domain name o root directory.
+
+70
+00:04:36,140 --> 00:04:42,905
+Ito ay nagtutulong-tulong para malaman kung ano ang
+partikular na bahagi ng website na iyong ina-access.
+
+71
+00:04:43,390 --> 00:04:44,475
+Ang galing!
+
+72
+00:04:44,866 --> 00:04:47,624
+Natuto ka na kung paano maghanap sa Internet!
+
+73
+00:04:48,225 --> 00:04:49,210
+Sa susunod
+
+74
+00:04:49,419 --> 00:04:52,932
+matututunan natin kung paano mag-usap gamit ang computer
+
+75
+00:04:52,971 --> 00:04:57,151
+gaya ng pag-gamit ng email, instant messaging, online chat
+
+76
+00:04:57,308 --> 00:05:01,472
+at tamang pag-uugali at pakikipag-ugnayan sa iba online.
+

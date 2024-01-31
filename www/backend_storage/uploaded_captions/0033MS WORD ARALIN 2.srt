@@ -1,0 +1,307 @@
+﻿1
+00:00:02,013 --> 00:00:06,600
+ARALIN 2: Ang Clipboard at Paragraph
+
+2
+00:00:07,050 --> 00:00:08,516
+Maligayang pagbabalik!
+
+3
+00:00:09,083 --> 00:00:13,701
+Sa video na ito, matututunan mo
+kung paano gumawa ng listahan
+
+4
+00:00:13,725 --> 00:00:18,277
+gamit ang mga formatting tools
+ng Paragraph at ang Clipboard.
+
+5
+00:00:18,477 --> 00:00:22,310
+Pag-usapan natin ang Clipboard.
+
+6
+00:00:23,573 --> 00:00:26,860
+Para mag copy at paste
+ng teksto, i-highlight
+
+7
+00:00:26,884 --> 00:00:30,172
+lamang ang teksto at
+pindutin ang copy button.
+
+8
+00:00:31,000 --> 00:00:34,284
+Ngayon naman, pindutin
+ang lugar sa iyong dokumento
+
+9
+00:00:34,308 --> 00:00:37,593
+kung saan mo gustong
+ilagay ang ginayang teksto.
+
+10
+00:00:38,281 --> 00:00:40,241
+ Pindutin ang paste button.
+
+11
+00:00:40,833 --> 00:00:41,662
+Mahusay!
+
+12
+00:00:42,379 --> 00:00:46,304
+Para tanggalin ito, gamitin
+naman natin ang cut button.
+
+13
+00:00:47,238 --> 00:00:52,168
+I-highlight natin muli ang teksto
+at pagkatapos ay pindutin ang cut.
+
+14
+00:00:53,438 --> 00:00:57,410
+Pag-usapan naman natin ang
+mga Paragraph formatting tools.
+
+15
+00:01:03,019 --> 00:01:05,645
+Magsimula tayo sa mga listahan.
+
+16
+00:01:06,646 --> 00:01:14,114
+Ito ang bulleted list button, ang numbered
+list button, at multi-layered list button.
+
+17
+00:01:14,548 --> 00:01:17,675
+Pindutin natin ang bulleted list button.
+
+18
+00:01:18,550 --> 00:01:23,110
+Ngayon, i-type natin ang
+iba't ibang uri ng grocery items;
+
+19
+00:01:23,310 --> 00:01:30,543
+harina, itlog, gatas, tinapay,
+shampoo, sabon, at detergent.
+
+20
+00:01:32,181 --> 00:01:37,331
+Magaling! Mayroon na tayong
+maikling listahan ng grocery items.
+
+21
+00:01:37,765 --> 00:01:42,172
+Ang maliit na bilog na ito ay
+ang siyang tinatawag na bullet.
+
+22
+00:01:43,140 --> 00:01:47,531
+Kung nais mong palitan ito,
+maaari mong pindutin ang button na
+
+23
+00:01:47,555 --> 00:01:51,947
+ito at pumili ng iba't ibang
+istilo ng bullet mula sa library.
+
+24
+00:01:53,419 --> 00:01:55,779
+Piliin natin ang parisukat na ito.
+
+25
+00:01:56,633 --> 00:01:58,877
+Nakikita mo ba ang pagkakaiba?
+
+26
+00:01:59,877 --> 00:02:00,877
+Mabuti.
+
+27
+00:02:01,731 --> 00:02:05,464
+Ngayon, baguhin natin ito at gawing numbered list.
+
+28
+00:02:06,122 --> 00:02:09,272
+Upang gawin ito, i-click ang button na ito.
+
+29
+00:02:10,846 --> 00:02:15,568
+Madali lang diba? Ngayon ay
+mayroon ka nang numbered list.
+
+30
+00:02:16,190 --> 00:02:21,466
+Gusto mo ba ng mas organisadong
+listahan? Magagawa rin natin yan!
+
+31
+00:02:22,223 --> 00:02:25,828
+Ihiwalay natin ang ating
+mga grocery items sa
+
+32
+00:02:25,852 --> 00:02:29,950
+dalawang kategorya;
+Pagkain at gamit pang banyo.
+
+33
+00:02:30,765 --> 00:02:33,656
+I-type ang Pagkain at pindutin ang enter
+
+34
+00:02:34,456 --> 00:02:38,435
+Upang magdagdag ng isa pang
+layer, i-click lamang ang Tab.
+
+35
+00:02:39,027 --> 00:02:42,720
+Awtomatiko nitong inililipat
+nang kaunti ang susunod
+
+36
+00:02:42,744 --> 00:02:46,437
+na linya sa kanan at
+binabago ang istilo ng bullet.
+
+37
+00:02:47,638 --> 00:02:53,229
+Ngayon, i-type natin ang
+harina, itlog, gatas, at tinapay.
+
+38
+00:02:54,600 --> 00:02:59,039
+I-type ang mga gamit pang banyo at pindutin ang enter at Tab.
+
+39
+00:03:00,202 --> 00:03:04,910
+Ngayon naman ay mag-type tayo
+ng shampoo, sabon, at detergent.
+
+40
+00:03:05,697 --> 00:03:11,847
+Napakahusay! Ngayon ay mayroon na tayong
+organisadong multi-layered na listahan.
+
+41
+00:03:12,379 --> 00:03:17,795
+Upang baguhin ang istilo,
+pindutin ito at pumili. Subukan natin!
+
+42
+00:03:19,529 --> 00:03:23,916
+Magaling, mayroon na tayong
+numbered multi-layered na listahan.
+
+43
+00:03:25,223 --> 00:03:28,922
+Narito naman ang iba pang Paragraph formatting tools.
+
+44
+00:03:30,190 --> 00:03:34,814
+Magsisimula ang teksto mula sa
+kanan kapag pinindot ang button na ito
+
+45
+00:03:35,048 --> 00:03:39,556
+Magsisimula ang teksto mula sa
+gitna kapag pinindot ang button na ito
+
+46
+00:03:39,639 --> 00:03:44,287
+Magsisimula ang teksto mula sa
+kaliwa kapag pinindot ang button na ito
+
+47
+00:03:45,010 --> 00:03:49,527
+At ang button na ito ay ginagawang
+pantay ang pagkakahiwalay ng mga teksto.
+
+48
+00:03:49,969 --> 00:03:54,962
+Ang button na ito ay may kakayahang baguhin
+ang espasyo sa gitna ng bawat linya.
+
+49
+00:03:55,729 --> 00:03:59,703
+Ito ay tinatawag na spacing,
+at ang mga numerong ito ay
+
+50
+00:03:59,727 --> 00:04:04,439
+kumakatawan sa dami ng espasyo
+na gusto mo sa iyong dokumento.
+
+51
+00:04:06,592 --> 00:04:10,133
+Ganito ang hitsura ng 1.0 spacing.
+
+52
+00:04:11,767 --> 00:04:15,843
+Habang ito naman ang hitsura ng isang 2.0 spacing.
+
+53
+00:04:16,281 --> 00:04:18,822
+Ito naman ang mga indention button.
+
+54
+00:04:20,602 --> 00:04:23,735
+Inilalayo nito ang teksto mula sa margin.
+
+55
+00:04:24,602 --> 00:04:28,243
+Inilalapit naman nito ang teksto patungo sa margin.
+
+56
+00:04:29,594 --> 00:04:33,508
+Ang margin ay binubuo ng
+mga hindi nakikitang linya na
+
+57
+00:04:33,532 --> 00:04:38,187
+nagsisilbing gabay para sa
+teksto sa loob ng iyong dokumento.
+
+58
+00:04:40,154 --> 00:04:45,764
+Ngayon, magdagdag tayo ng pamagat para sa ating listahan ng grocery.
+
+59
+00:04:46,210 --> 00:04:50,048
+Hmm, gusto kong magmukhang
+mas malaki ang pamagat
+
+60
+00:04:50,072 --> 00:04:53,910
+ngunit ayaw kong gamitin
+ang font size button.
+
+61
+00:04:55,269 --> 00:04:58,985
+Upang gawin ito, tingnan natin ang mga Istilo.
+
+62
+00:04:59,919 --> 00:05:05,081
+Pinduting ang arrow down na button
+na ito upang makita ang iba pang istilo.
+
+63
+00:05:06,404 --> 00:05:10,287
+Piliin natin ang istilo ng
+Title para sa ating pamagat.
+
+64
+00:05:10,913 --> 00:05:15,330
+Mahusay! Iyo nang natapos ang Aralin 2.
+
+65
+00:05:16,713 --> 00:05:20,067
+Sa susunod na video,
+matututunan mo kung paano
+
+66
+00:05:20,091 --> 00:05:23,296
+mag insert ng nilalaman
+sa Microsoft Word
+

@@ -16,8 +16,7 @@
       
       <title>LECTURE</title>
 </head>
-<body>
-
+<body class="slideup">
 
 
 
@@ -45,7 +44,7 @@
         </div>
       </div>
       <div class="exit-container " style="position: absolute; top: 40px; right: 50px;">
-        <a class="nav-link" href="../../student_users/template/course_desc.php">
+        <a class="nav-link" href="./course_vid.php">
           <img src="../../assets/img/cancel.png" width="30" height="30" alt="Exit">
           <span class="font-reg" style="color: black;"> Exit</span>
         </a>
@@ -90,7 +89,7 @@
     <h2 class ="font-bold"> Welcome to the Quiz!</h2>
     <p class="font-reg">Are you ready to test your knowledge? Answer the questions to see how well you do!</p>
     <button class="btn-start">
-      <a href="../../student_users/template/quiz.php" style = "text-decoration: none; color: white;">
+      <a href="./quiz.php" style = "text-decoration: none; color: white;">
     Start Quiz</a></button>
   </div>
 </div>

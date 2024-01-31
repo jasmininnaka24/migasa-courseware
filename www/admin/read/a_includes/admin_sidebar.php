@@ -2,10 +2,9 @@
     <div class="logo-details">
       <a href="../../choose.php">
         <div class="img">
-          <img src="../../assets/img/MIGASA LOGO TYPE 3.png" width="100%" alt="">
+          <img src="../../assets/img/BIT TYP LOGO.png" width="100%" alt="">
         </div>
       </a>
-      <span class="logo_name pt-1 font-med">MIGASA</span>
     </div>
     <ul class="nav-links mt-2">
       <li class="list">
@@ -68,8 +67,10 @@
         </div>
         <ul class="sub-menu">
           <li><a class="link_name" href="#">Settings</a></li>
-          <!-- <li><a href="#"><i class="fa-solid fa-globe" style="font-size: 1rem;margin: -1rem -1.6rem;"></i> Language Settings</a></li> -->
+          <li><a href="../languages/language_home.php"><i class="fa-solid fa-globe" style="font-size: 1rem;margin: -1rem -1.6rem;"></i> Language Settings</a></li>
           <li><a href="../manual/admin_manual.php"><i class="fa-solid fa-book" style="font-size: 1rem;margin: -1rem -1.6rem;"></i> Manual Settings</a></li>
+          <li><a href="../certificate/add_cert.php"><i class="fa-solid fa-book" style="font-size: 1rem;margin: -1rem -1.6rem;"></i> Certificate Settings</a></li>
+
         </ul>
       </li>
 

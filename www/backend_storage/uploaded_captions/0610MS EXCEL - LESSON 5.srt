@@ -1,0 +1,270 @@
+﻿1
+00:00:03,180 --> 00:00:06,563
+Lesson 5: Tables and Drop-downs
+
+2
+00:00:07,225 --> 00:00:07,904
+Hey there!
+
+3
+00:00:08,152 --> 00:00:12,011
+In this video, we will be learning
+about tables and drop-downs.
+
+4
+00:00:12,358 --> 00:00:14,052
+Do you know what a table is?
+
+5
+00:00:14,339 --> 00:00:19,245
+A table is made up of rows and columns
+and will help you arrange your data!
+
+6
+00:00:19,886 --> 00:00:24,120
+You can find the table button in the Insert tab of Microsoft Excel.
+
+7
+00:00:24,399 --> 00:00:25,770
+It looks like this.
+
+8
+00:00:26,238 --> 00:00:28,662
+Now, let’s try making a table.
+
+9
+00:00:28,987 --> 00:00:32,887
+Here we have a list of
+grocery items and their price.
+
+10
+00:00:33,263 --> 00:00:35,735
+Let’s highlight all the cells with data
+
+11
+00:00:36,002 --> 00:00:40,158
+then let’s go to the Insert tab
+and click on the Table button.
+
+12
+00:00:40,692 --> 00:00:42,818
+Once this little box pops up
+
+13
+00:00:43,369 --> 00:00:46,362
+let’s check this little box and then click OK
+
+14
+00:00:46,788 --> 00:00:49,312
+There you go! We now have a table.
+
+15
+00:00:49,679 --> 00:00:52,368
+Would you like to make
+our table look awesome?
+
+16
+00:00:53,062 --> 00:00:53,702
+Great!
+
+17
+00:00:53,902 --> 00:00:56,245
+Let’s change its color and style.
+
+18
+00:00:57,713 --> 00:01:01,570
+Go to the Table Design tab and
+choose a table design from here.
+
+19
+00:01:01,954 --> 00:01:03,110
+Let’s choose this!
+
+20
+00:01:03,610 --> 00:01:05,970
+Wow! Our table looks nicer!
+
+21
+00:01:06,594 --> 00:01:09,227
+Now let’s talk about
+this little arrow down
+
+22
+00:01:09,251 --> 00:01:12,452
+button that is seen in
+every header of our table.
+
+23
+00:01:13,056 --> 00:01:17,056
+This button reveals all the sorting and filtering options.
+
+24
+00:01:17,823 --> 00:01:20,616
+Remember sort and filter from Lesson 3?
+
+25
+00:01:21,216 --> 00:01:22,256
+That’s right!
+
+26
+00:01:22,500 --> 00:01:26,532
+We can sort and filter each
+column in our table automatically.
+
+27
+00:01:26,904 --> 00:01:29,081
+To insert a new row or column
+
+28
+00:01:29,165 --> 00:01:32,372
+go to the Home tab and click this button right here.
+
+29
+00:01:32,833 --> 00:01:35,183
+You can now insert a row above or below.
+
+30
+00:01:35,208 --> 00:01:39,112
+And you can also insert
+columns to the right or to the left.
+
+31
+00:01:39,412 --> 00:01:44,122
+Now let’s calculate all the prices and find out the total price.
+
+32
+00:01:44,781 --> 00:01:47,408
+Do you think we should use the SUM formula?
+
+33
+00:01:47,808 --> 00:01:49,716
+Nope! We don’t have to!
+
+34
+00:01:50,127 --> 00:01:54,004
+Once you have a table in
+Excel, you can find out the total by
+
+35
+00:01:54,028 --> 00:01:58,552
+simply going to the Table Design
+tab and checking the Total Row box.
+
+36
+00:01:59,046 --> 00:02:02,989
+When you click it, the total row will
+appear at the bottom of your table.
+
+37
+00:02:03,485 --> 00:02:04,795
+Amazing isn’t it?
+
+38
+00:02:05,096 --> 00:02:07,358
+Now let’s talk about drop-downs!
+
+39
+00:02:07,975 --> 00:02:13,452
+Sometimes when you make a table you need to
+enter the same 3 or more data repeatedly.
+
+40
+00:02:13,869 --> 00:02:16,795
+Making drop-downs will make that job easier!
+
+41
+00:02:17,271 --> 00:02:22,737
+Let’s go back to the table we made earlier,
+but this time I added a group column.
+
+42
+00:02:23,210 --> 00:02:27,602
+But it's empty, so let’s assign
+these items to their groups.
+
+43
+00:02:28,269 --> 00:02:33,029
+Toothbrush, soap, and shampoo all go to the Toiletries group.
+
+44
+00:02:33,840 --> 00:02:37,537
+Banana, milk, and bread all go to the Food group.
+
+45
+00:02:38,246 --> 00:02:43,304
+Now to categorize each item
+easily, let’s make a drop-down.
+
+46
+00:02:43,621 --> 00:02:46,657
+To do so, let’s select
+all the cells under
+
+47
+00:02:46,681 --> 00:02:50,164
+the group column and
+then go to the Data Tab.
+
+48
+00:02:50,473 --> 00:02:52,856
+Click on the Data Validation button.
+
+49
+00:02:53,306 --> 00:02:56,629
+Now, click this little button and choose List.
+
+50
+00:02:57,163 --> 00:03:02,625
+In the source box right here, we type in Toiletries, comma, Food.
+
+51
+00:03:03,656 --> 00:03:07,031
+Make sure that the two groups
+are separated with a comma.
+
+52
+00:03:07,431 --> 00:03:09,158
+Then, we click OK.
+
+53
+00:03:09,975 --> 00:03:11,935
+Now let’s click on this cell.
+
+54
+00:03:12,385 --> 00:03:14,345
+Do you see the drop-down button?
+
+55
+00:03:15,208 --> 00:03:19,235
+Good! Let’s click it and choose the group for this item.
+
+56
+00:03:19,902 --> 00:03:22,362
+Toothbrush belongs to the Toiletries group.
+
+57
+00:03:22,779 --> 00:03:24,870
+Banana belongs to the Food group.
+
+58
+00:03:25,554 --> 00:03:28,241
+Finish the rest and this is what it should look like
+
+59
+00:03:28,925 --> 00:03:29,741
+Excellent!
+
+60
+00:03:30,008 --> 00:03:34,116
+Now we can easily group these
+items using the drop-down menu!
+
+61
+00:03:35,017 --> 00:03:36,017
+Good job!
+
+62
+00:03:36,100 --> 00:03:40,616
+Now you know how to create tables
+and drop-downs in Microsoft Excel.
+

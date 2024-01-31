@@ -1,0 +1,292 @@
+﻿1
+00:00:02,613 --> 00:00:06,266
+LESSON 4: Basic Arithmetic Operations
+
+2
+00:00:06,693 --> 00:00:08,933
+Hi! Welcome to Lesson 4.
+
+3
+00:00:09,613 --> 00:00:12,163
+In this video, you
+will be learning about
+
+4
+00:00:12,187 --> 00:00:15,249
+basic arithmetic operations
+in Microsoft Excel.
+
+5
+00:00:15,999 --> 00:00:18,558
+Do you know what an arithmetic operation is?
+
+6
+00:00:19,145 --> 00:00:22,593
+An arithmetic operation is
+a mathematical operation.
+
+7
+00:00:22,900 --> 00:00:28,406
+In this video, we will be using Addition,
+Subtraction, Division and Multiplication.
+
+8
+00:00:28,967 --> 00:00:31,330
+First, let’s talk about Addition.
+
+9
+00:00:31,798 --> 00:00:35,196
+Addition is adding or combining two or more numbers.
+
+10
+00:00:35,450 --> 00:00:37,649
+ 1+1 is equal to?
+
+11
+00:00:38,333 --> 00:00:39,256
+That’s right!
+
+12
+00:00:39,443 --> 00:00:41,110
+It is equal to TWO.
+
+13
+00:00:41,448 --> 00:00:45,607
+We can do addition using our
+hands, our minds, and a calculator.
+
+14
+00:00:46,187 --> 00:00:49,097
+ But we can also do it on Microsoft Excel.
+
+15
+00:00:49,670 --> 00:00:50,922
+So let’s try it.
+
+16
+00:00:51,298 --> 00:00:54,365
+Let’s put the first number inside cell A1
+
+17
+00:00:55,005 --> 00:00:57,738
+and the second number inside cell B1
+
+18
+00:00:58,259 --> 00:00:59,815
+It should look like this.
+
+19
+00:01:00,417 --> 00:01:05,937
+Now, click on cell C1 and add the
+Addition formula in the formula box.
+
+20
+00:01:06,633 --> 00:01:11,508
+In every calculation in Excel, you
+must always start with the equal sign.
+
+21
+00:01:11,800 --> 00:01:13,954
+Now, let’s add the Cell names.
+
+22
+00:01:14,661 --> 00:01:18,006
+ Let’s put A1, the plus sign, and B1.
+
+23
+00:01:18,324 --> 00:01:25,631
+Click enter and as you can see the C1 cell
+now has the sum of A1 cell and B1 cell.
+
+24
+00:01:25,965 --> 00:01:28,325
+Next, let’s try Subtraction.
+
+25
+00:01:28,739 --> 00:01:31,980
+Subtraction is taking away one number from another.
+
+26
+00:01:32,313 --> 00:01:34,419
+10-1 is equal to?
+
+27
+00:01:35,313 --> 00:01:36,313
+Very good!
+
+28
+00:01:36,435 --> 00:01:37,981
+It is equals to NINE.
+
+29
+00:01:38,315 --> 00:01:40,300
+Let’s try doing it in Excel.
+
+30
+00:01:40,674 --> 00:01:44,524
+First, let’s put 10 in A1 and 1 in B1.
+
+31
+00:01:45,511 --> 00:01:49,318
+Click on C1 and let’s add
+the formula in the formula box.
+
+32
+00:01:49,692 --> 00:01:51,940
+Don’t forget to put the equal sign.
+
+33
+00:01:52,340 --> 00:01:55,804
+A1, the subtraction sign, and B1.
+
+34
+00:01:56,767 --> 00:01:58,121
+Let’s click enter.
+
+35
+00:01:58,680 --> 00:02:01,890
+Wow! Now we have the difference of 10 and 1.
+
+36
+00:02:02,304 --> 00:02:04,950
+Next, let’s try Multiplication.
+
+37
+00:02:05,414 --> 00:02:10,221
+Multiplication is when you take one number
+and add it together a number of times.
+
+38
+00:02:10,688 --> 00:02:14,767
+For example, 5 multiplied by 4 is done like this
+
+39
+00:02:14,954 --> 00:02:18,073
+5+5+5+5.
+
+40
+00:02:18,776 --> 00:02:21,842
+We add 5 by itself four times.
+
+41
+00:02:22,167 --> 00:02:23,588
+And that is equal to?
+
+42
+00:02:24,255 --> 00:02:26,547
+Excellent! It is equal to 20.
+
+43
+00:02:26,988 --> 00:02:28,434
+Let’s do it in Excel.
+
+44
+00:02:28,794 --> 00:02:32,126
+Let’s put 5 in A1 and 4 in B1.
+
+45
+00:02:32,660 --> 00:02:35,645
+Click C1 and add this in the formula box
+
+46
+00:02:35,833 --> 00:02:40,068
+equal sign, A1, the asterisk sign, and B1.
+
+47
+00:02:40,215 --> 00:02:41,562
+Then, click enter.
+
+48
+00:02:42,242 --> 00:02:43,282
+There you go!
+
+49
+00:02:43,414 --> 00:02:46,013
+ We now have the product of 5 and 4.
+
+50
+00:02:46,414 --> 00:02:48,489
+Lastly, we have Division.
+
+51
+00:02:48,569 --> 00:02:52,859
+Division is breaking a number
+up into an equal number of parts.
+
+52
+00:02:53,367 --> 00:02:55,485
+If we divide 20 by 4
+
+53
+00:02:55,659 --> 00:02:57,205
+what do you think is the answer?
+
+54
+00:02:57,867 --> 00:02:59,352
+Let’s do it like this.
+
+55
+00:02:59,934 --> 00:03:02,853
+Imagine you have 20 balls and 4 boxes.
+
+56
+00:03:03,545 --> 00:03:07,140
+Now, let’s put these balls inside the 4 boxes.
+
+57
+00:03:07,594 --> 00:03:11,275
+Make sure that each box has the same number of balls.
+
+58
+00:03:11,763 --> 00:03:13,842
+How many balls are in one box?
+
+59
+00:03:14,367 --> 00:03:15,130
+Correct!
+
+60
+00:03:15,464 --> 00:03:17,690
+Each box has five balls.
+
+61
+00:03:18,051 --> 00:03:19,850
+And that is how you do division.
+
+62
+00:03:20,796 --> 00:03:22,395
+Let’s try it in Excel.
+
+63
+00:03:22,956 --> 00:03:25,775
+Put 20 in A1 and 4 in B1.
+
+64
+00:03:26,069 --> 00:03:28,299
+ Click on C1 and add this formula
+
+65
+00:03:28,940 --> 00:03:32,497
+equal sign, A1, slash sign, and B1.
+
+66
+00:03:32,948 --> 00:03:34,415
+Then click enter.
+
+67
+00:03:35,103 --> 00:03:35,969
+There you go!
+
+68
+00:03:36,449 --> 00:03:39,430
+We now have the quotient of 20 and 4.
+
+69
+00:03:39,880 --> 00:03:41,920
+Wow you did so well!
+
+70
+00:03:42,333 --> 00:03:46,520
+In the next video, you will be
+learning how to create tables!
+

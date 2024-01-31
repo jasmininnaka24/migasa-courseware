@@ -1,0 +1,241 @@
+﻿1
+00:00:02,907 --> 00:00:08,301
+ARALIN 4: Ang Header, Footer at mga Simbolo
+
+2
+00:00:08,976 --> 00:00:10,506
+Maligayang pagbati!
+
+3
+00:00:10,720 --> 00:00:13,547
+Sa bidyong ito ay pag-aaralan
+natin ang tungkol sa
+
+4
+00:00:13,572 --> 00:00:18,012
+Header, Footer at mga
+Simbolo sa Microsoft Word.
+
+5
+00:00:18,396 --> 00:00:21,737
+Sa bandang ito makikita
+mo ang Header at Footer.
+
+6
+00:00:22,164 --> 00:00:25,933
+Ang header ay nasa pinakamataas na bahagi ng pahina.
+
+7
+00:00:26,840 --> 00:00:30,584
+Ang footer naman ay nasa
+pinakamababang bahagi ng pahina.
+
+8
+00:00:31,028 --> 00:00:34,189
+Upang maglagay ng
+header, pindutin ang button na
+
+9
+00:00:34,213 --> 00:00:37,374
+ito at makikita mo na
+ang iba’t-ibang templates.
+
+10
+00:00:37,730 --> 00:00:42,930
+Ang template ay nakahanda na upang
+gamitin, mapapadali nito ang iyong gawain.
+
+11
+00:00:43,424 --> 00:00:46,671
+Upang maglagay ng footer,
+pindutin lamang ang button
+
+12
+00:00:46,695 --> 00:00:49,827
+na ito at makikita mo na
+ang mga footer templates.
+
+13
+00:00:50,026 --> 00:00:53,150
+Maaari mo ring pindutin
+ng dalawang beses ang
+
+14
+00:00:53,174 --> 00:00:57,437
+pinakamataas na bahagi ng
+pahina upang maglagay ng header.
+
+15
+00:00:58,154 --> 00:01:03,501
+Gawin din ito sa pinakaibabang bahagi
+ng pahina upang maglagay ng footer.
+
+16
+00:01:04,208 --> 00:01:09,813
+Maaari ka ring maglagay ng page number
+o numero ng pahina sa Microsoft Word.
+
+17
+00:01:10,173 --> 00:01:14,795
+Pindutin lamang ito at pumili
+ng template. Piliin natin ito.
+
+18
+00:01:15,469 --> 00:01:19,517
+Nakikita mo ba ang mga numero
+sa bawat pahina? Pinapadali
+
+19
+00:01:19,542 --> 00:01:23,824
+ng Microsoft Word ang paglagay
+ng numero sa bawat pahina.
+
+20
+00:01:24,156 --> 00:01:28,671
+Mula rito, maaari ka ring
+maglagay ng text box at word art.
+
+21
+00:01:29,551 --> 00:01:32,574
+Dahil napag-usapan
+na natin ang text box sa
+
+22
+00:01:32,598 --> 00:01:36,199
+Aralin 3, pag-uusapan
+lamang natin ang word art.
+
+23
+00:01:36,560 --> 00:01:39,478
+Upang maglagay ng word art, pindutin ito.
+
+24
+00:01:39,998 --> 00:01:42,848
+Nakikita mo ba ang iba’t-ibang uri ng word art?
+
+25
+00:01:43,689 --> 00:01:48,123
+Maaari kang pumili mula rito
+upang pagandahin ang iyong teksto.
+
+26
+00:01:48,754 --> 00:01:50,907
+Piliin natin ang word art na ito.
+
+27
+00:01:51,521 --> 00:01:56,794
+Kapag lumabas na ang parisukat na ito,
+maaari na tayong magsimula sa pagtype.
+
+28
+00:01:57,266 --> 00:02:00,221
+Mahusay! Mayroon na tayong word art.
+
+29
+00:02:00,830 --> 00:02:03,213
+Pag-usapan naman natin ang mga Simbolo.
+
+30
+00:02:03,533 --> 00:02:06,706
+Ang isang simbolo ay representasyon ng isang bagay.
+
+31
+00:02:07,580 --> 00:02:10,030
+Narito ang mga halimbawa ng Simbolo.
+
+32
+00:02:10,470 --> 00:02:13,450
+Upang maglagay ng
+simbolo, pindutin lamang ang
+
+33
+00:02:13,475 --> 00:02:16,693
+button na ito at pumili
+mula sa iba’t-ibang simbolo.
+
+34
+00:02:17,348 --> 00:02:20,798
+Ang simbolo ay maaari ring gamitin sa isang equation.
+
+35
+00:02:21,385 --> 00:02:26,860
+Ang isang equation ay ginagamit sa
+matematika, parang pangungusap lamang ito
+
+36
+00:02:26,885 --> 00:02:33,340
+na gumagamit ng mga simbolo tulad
+ng plus, minus, times at marami pang iba.
+
+37
+00:02:33,910 --> 00:02:38,628
+Upang maglagay ng equation sa
+dokumento, pindutin ang button na ito.
+
+38
+00:02:39,001 --> 00:02:41,888
+Pagkatapos ay lalabas
+na ang lahat ng mga
+
+39
+00:02:41,912 --> 00:02:45,305
+simbolo at equation na
+maaari mong pagpilian.
+
+40
+00:02:46,073 --> 00:02:50,642
+Lalabas din ang maliit na parisukat
+na tinatawag nating Equation Box.
+
+41
+00:02:51,138 --> 00:02:55,997
+Subukan nating gawin ang equation na 2 times ½.
+
+42
+00:02:56,805 --> 00:03:01,905
+Upang gawin ito, pindutin ang equation box at itype ang numerong 2.
+
+43
+00:03:02,555 --> 00:03:06,047
+Pagkatapos, pindutin
+ang multiplication symbol
+
+44
+00:03:06,113 --> 00:03:09,647
+at pindutin ang
+fraction na ito at piliin ito.
+
+45
+00:03:10,190 --> 00:03:13,212
+Ang itaas na bahagi
+ay para sa numerator, at
+
+46
+00:03:13,236 --> 00:03:16,257
+ang ibabang bahagi
+ay para sa denominator.
+
+47
+00:03:16,919 --> 00:03:21,640
+Ang numerator natin ay 1 at
+ang denominator natin ay 2.
+
+48
+00:03:22,187 --> 00:03:26,866
+Mahusay! Mayroon na tayong
+equation sa loob ng ating dokumento.
+
+49
+00:03:27,240 --> 00:03:28,360
+Napakagaling!
+
+50
+00:03:28,733 --> 00:03:30,933
+Ngayon ay alam mo na
+kung paano maglagay ng
+
+51
+00:03:30,958 --> 00:03:34,506
+header, footer at simbolo
+sa Microsoft Word.
+

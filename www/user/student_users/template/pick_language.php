@@ -12,12 +12,9 @@
     <link rel="stylesheet" href="../../assets/css/pick_language.css"  >
 
 </head>
-<body>
+<body class="slideup">
 
-<audio autoplay>
-  <source src="../../assets/audios/intro.wav" >
-  Your browser does not support the audio element.
-</audio>
+
     <div class="container ">
       <nav>
         <div class="row">
@@ -56,7 +53,7 @@
     </div>
   </div>
 </div>
-
+<script src = "../../assets/js/background_music.js"></script>
       <script src = "../../assets/js/pick_language.js"></script>
       <script src = "../../assets/js/language_sound.js"></script>  
 </body>

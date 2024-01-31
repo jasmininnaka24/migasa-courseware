@@ -14,7 +14,7 @@
             
       <title>LECTURE</title>
 </head>
-<body>
+<body class = "slideup">
 <!--navbar-->
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid" style="display: flex; flex-direction: row; align-items: center;">
@@ -22,7 +22,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand me-auto order-1 slide-from-left" href="#">
-      <img src="../../s/img/BIT TYP LOGO.png" alt="Logo" width="18%" height="18%" class="d-inline-block align-text-middle me-2">
+      <img src="../../assets/img/BIT TYP LOGO.png" alt="Logo" width="18%" height="18%" class="d-inline-block align-text-middle me-2">
     </a>
     </div>
 </div>
@@ -66,7 +66,7 @@
   <div class="answer">
       <label>
         <input type="radio" name="answer" value="a">
-        <img src="../../asstes/img/BIT TYP LOGO.png" width="50%" height = "50%"alt="Option a">
+        <img src="../../assets/img/BIT TYP LOGO.png" width="50%" height = "50%"alt="Option a">
        
       </label>
     </div>
@@ -95,7 +95,7 @@
     </div>
   </div>
 
-  <button type="button" class="btn btn-danger font-med" data-dismiss="modal" onclick="openModal()">Close</button>
+  <button type="button" id="myButton" class="btn btn-danger font-med" data-dismiss="modal" onclick="openModal(); playSound();">Close</button>
 </div>
 
       
@@ -105,10 +105,9 @@
     <h2 class ="font-bold">Congratulations!</h2>
     <h3 class="font-med">You finished the quiz!</h3>
     <p class="font-med">You got 69 out of 420 questions right.</p>
-    <button class="btn btn-start" onclick="location.href='../../student_users/template/course_desc.php'">Home</button>
+    <button class="btn btn-start" onclick= "location.href='./course_vid.php'; playSound();">Home</button>
   </div>
 </div>
-
 
 <script src = "../../assets/js/modal_quiz.js"></script> 
 

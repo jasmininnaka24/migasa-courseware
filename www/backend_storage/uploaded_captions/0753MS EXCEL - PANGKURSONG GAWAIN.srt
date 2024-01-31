@@ -1,0 +1,267 @@
+﻿1
+00:00:02,160 --> 00:00:05,177
+Mabuhay! Oras na para sa isang gawain!
+
+2
+00:00:05,733 --> 00:00:08,575
+Malapit mo nang matapos
+ang Microsoft Excel Course!
+
+3
+00:00:08,842 --> 00:00:12,803
+Ngunit bago yan, gumawa muna
+tayo ng isang simpleng budget system.
+
+4
+00:00:13,714 --> 00:00:17,764
+Ang gagawin natin ay isang Budget
+System para sa Lemonade Stand ni Rosa.
+
+5
+00:00:19,122 --> 00:00:23,103
+Una, buksan natin ang Microsoft
+Excel at pindutin ang new workbook.
+
+6
+00:00:24,137 --> 00:00:26,827
+Gumawa tayo ng isang table para sa Expenses.
+
+7
+00:00:27,076 --> 00:00:32,598
+Ilagay ang mga headers na “Item, “Quantity”,
+“Unit Cost” and “Total cost” sa Row 1.
+
+8
+00:00:33,115 --> 00:00:38,516
+Sa ibaba ng Item, ilista natin
+ang Lemons, Sugar, Cups, at Ice.
+
+9
+00:00:39,240 --> 00:00:45,109
+Sa baba naman ng Quantity, ilista natin ang 100, 200, 150, at 60.
+
+10
+00:00:45,489 --> 00:00:51,004
+At sa baba ng Unit Cost, ilista natin ang 2,3,1,5
+
+11
+00:00:51,848 --> 00:00:56,060
+Ihighlight ang mga cells na ito at
+pumunta sa Insert tab at iclick ang table.
+
+12
+00:00:56,555 --> 00:01:00,095
+ Icheck ang maliit na parisukat at pindutin ang OK.
+
+13
+00:01:01,067 --> 00:01:03,267
+Ngayon, mayroon na tayong table.
+
+14
+00:01:03,489 --> 00:01:06,561
+Ngunit kailangan nating malaman ang total cost!
+
+15
+00:01:06,768 --> 00:01:12,977
+Iclick ang cell na ito at itype ang formula na =B2*C2.
+
+16
+00:01:13,644 --> 00:01:17,430
+Hilain pababa ang cross upang
+ilagay ang formula sa iba pang cells.
+
+17
+00:01:17,947 --> 00:01:18,661
+Mahusay!
+
+18
+00:01:19,263 --> 00:01:23,703
+Upang malaman ang total expenses,
+itype ang “Total Expenses” sa
+
+19
+00:01:23,727 --> 00:01:28,167
+cell na ito at pindutin ang cell
+na ito at itype ang formula na
+
+20
+00:01:29,111 --> 00:01:34,712
+=SUM(D2:D5)
+
+21
+00:01:35,496 --> 00:01:39,881
+Mahusay! Ang total expenses ay makikita
+na natin ngayon sa ating worksheet.
+
+22
+00:01:41,092 --> 00:01:46,331
+Gumawa naman tayo ng panibagong table.
+Ito ang tinatawag natin na Sales table.
+
+23
+00:01:47,208 --> 00:01:50,146
+Pumunta sa 8th row at
+ilagay ang headers na
+
+24
+00:01:50,170 --> 00:01:53,670
+“Item”, “Quantity”, “Unit
+Cost” at “Total Cost”.
+
+25
+00:01:54,085 --> 00:01:58,701
+Sa baba ng item, ilagay ang iba’t ibang
+uri ng Lemonade na binebenta ni Rosa.
+
+26
+00:01:59,628 --> 00:02:04,221
+Ilagay natin ang “Regular”,
+“Pink”, at “Blue”. Mahusay!
+
+27
+00:02:04,791 --> 00:02:08,203
+Gawin na natin itong table.
+Ihighlight lamang ang mga
+
+28
+00:02:08,227 --> 00:02:11,367
+cells at pumunta sa Insert
+tab at pindutin ang table.
+
+29
+00:02:12,349 --> 00:02:16,504
+Ngayon, ipagpatuloy natin ang
+paglagay ng data sa ibaba ng Quantities.
+
+30
+00:02:17,172 --> 00:02:24,010
+Si Rosa ay nakabenta ng 50 regular lemonades,
+40 pink lemonades at 53 blue lemonades.
+
+31
+00:02:24,352 --> 00:02:28,278
+Sa baba ng Unit Cost, itype ang presyo ng bawat lemonade.
+
+32
+00:02:28,974 --> 00:02:31,510
+Ang regular ay nagkakahalaga ng 35.
+
+33
+00:02:31,910 --> 00:02:34,684
+Ang pink at blue naman ay nagkakahalaga ng 40.
+
+34
+00:02:35,256 --> 00:02:35,913
+Magaling!
+
+35
+00:02:36,933 --> 00:02:40,521
+Ngayon, alamin na nating
+ang total cost. Upang gawin
+
+36
+00:02:40,545 --> 00:02:44,133
+ito, pindutin ang cell D9
+at itype ang formula na ito
+
+37
+00:02:44,515 --> 00:02:47,366
+ =B9*C9
+
+38
+00:02:48,183 --> 00:02:52,920
+Upang malaman ang total sales,
+itype ang Total Sales sa cell na
+
+39
+00:02:52,944 --> 00:02:58,141
+ito at pindutin ang cell na ito
+pagkatapos ay itype ang formula na
+
+40
+00:02:58,760 --> 00:03:04,387
+=SUM(D9:D11)
+
+41
+00:03:05,165 --> 00:03:09,593
+Wow! Malaki ang kinita ni Rosa
+mula sa kanyang lemonade stand!
+
+42
+00:03:10,550 --> 00:03:13,777
+Ngayon, alamin natin kung magkano ang kanyang proft.
+
+43
+00:03:14,010 --> 00:03:16,814
+Upang gawin ito, itype
+ang salitang “Profit”
+
+44
+00:03:16,838 --> 00:03:19,456
+sa cell na ito at itype
+rito ang formula na
+
+45
+00:03:19,673 --> 00:03:23,860
+ =D12-D6
+
+46
+00:03:24,860 --> 00:03:27,856
+Binawas natin ang total
+expenses mula sa total
+
+47
+00:03:27,880 --> 00:03:30,876
+sales ni Rosa upang
+malaman ang overall profit.
+
+48
+00:03:31,719 --> 00:03:33,802
+Kumita ba si Rosa o nalugi?
+
+49
+00:03:34,719 --> 00:03:38,343
+Upang malaman, iclick ang
+cell na ito at itype ang formula na
+
+50
+00:03:39,060 --> 00:03:51,822
+=IF(D13>D6, "PROFIT", "LOSS")
+
+51
+00:03:52,685 --> 00:03:56,360
+Ang ibig sabihin nito ay,
+kung ang total sales ni Rosa ay
+
+52
+00:03:56,384 --> 00:04:00,058
+mas malaki kaysa sa kanyang
+total expenses, sya ay kumita.
+
+53
+00:04:00,225 --> 00:04:02,825
+At kung hindi naman, si Rosa ay nalugi.
+
+54
+00:04:03,581 --> 00:04:05,964
+Ngayon, pindutin na natin ang Enter.
+
+55
+00:04:06,537 --> 00:04:08,804
+Hooray! Kumita nga si Rosa!
+
+56
+00:04:09,494 --> 00:04:13,226
+Mahusay! Tinulungan mo si
+Rosa sa kanyang munting negosyo
+
+57
+00:04:13,250 --> 00:04:16,720
+at natutunan mo rin kung paano
+gamitin ang Microsoft Excel.
+
+58
+00:04:17,353 --> 00:04:21,603
+Binabati kita dahil ikaw ay nakarating
+hanggang sa dulo ng kursong ito!
+

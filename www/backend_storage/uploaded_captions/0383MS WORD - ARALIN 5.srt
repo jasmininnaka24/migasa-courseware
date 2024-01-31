@@ -1,0 +1,161 @@
+﻿1
+00:00:02,956 --> 00:00:05,766
+ARALIN 5: Ang Layout
+
+2
+00:00:06,355 --> 00:00:09,477
+Mabuhay! Handa ka na bang matuto?
+
+3
+00:00:10,181 --> 00:00:14,513
+Sa bidyong ito, pag-aaralan
+natin ang Microsoft Word Layout.
+
+4
+00:00:14,913 --> 00:00:18,416
+Ang layout ay kung paano
+nakalatag ang isang bagay.
+
+5
+00:00:19,039 --> 00:00:23,273
+Sa Microsoft Word, maaari
+mong ayusin ang layout ng pahina.
+
+6
+00:00:24,474 --> 00:00:27,486
+Una, pag-usapan natin ang Margins.
+
+7
+00:00:28,098 --> 00:00:33,823
+Ang margin ay binubuo ng mga linyang pahalang
+at patayo na siyang nagsisilbing gabay.
+
+8
+00:00:34,345 --> 00:00:39,355
+Ganito ang itsura ng margin,
+ngunit hindi mo naman ito makikita.
+
+9
+00:00:39,980 --> 00:00:43,125
+Mayroong iba’t-ibang margin sa Microsoft Word.
+
+10
+00:00:44,081 --> 00:00:48,893
+Pindutin natin ang button na ito upang
+makita ang iba’t-ibang uri ng margin.
+
+11
+00:00:49,940 --> 00:00:53,103
+Kapag pinalitan mo ang
+margin, magbabago ang
+
+12
+00:00:53,128 --> 00:00:56,050
+posisyon ng mga teksto
+sa iyong dokumento.
+
+13
+00:00:56,806 --> 00:00:58,897
+Subukan natin ang margin na ito.
+
+14
+00:00:59,542 --> 00:01:01,654
+Nakikita mo ba ang pagbabago?
+
+15
+00:01:02,055 --> 00:01:07,520
+Maaari mo ring icustomize ang margin,
+pindutin lamang ang Custom Margins.
+
+16
+00:01:08,713 --> 00:01:13,378
+Maaari mong palitan ang mga
+numerong ito upang ayusin ang margin.
+
+17
+00:01:14,181 --> 00:01:17,489
+Ngayon, pag-usapan natin ang Orientation.
+
+18
+00:01:17,911 --> 00:01:21,116
+Mayroong dalawang
+uri ng orientation; ang
+
+19
+00:01:21,141 --> 00:01:24,990
+landscape orientation
+at portrait orientation.
+
+20
+00:01:25,716 --> 00:01:28,872
+Palitan natin ang orientation at piliin ang Landscape.
+
+21
+00:01:29,573 --> 00:01:33,514
+Mahusay! Mas naging malawak ang pahina hindi ba?
+
+22
+00:01:34,515 --> 00:01:37,127
+Subukan naman nating ibalik ito sa Portrait.
+
+23
+00:01:38,119 --> 00:01:41,374
+Isunod naman natin ang size o laki ng pahina.
+
+24
+00:01:42,252 --> 00:01:45,473
+Ang isang dokumento ay may iba’t-ibang size o laki.
+
+25
+00:01:46,933 --> 00:01:50,032
+Pindutin ito upang makita ang iba’t-ibang sizes.
+
+26
+00:01:50,895 --> 00:01:54,111
+Ang lagi nating nakikita
+ay ang A4 at Letter
+
+27
+00:01:54,135 --> 00:01:57,350
+o siya ring kilala bilang
+Short Bond Paper.
+
+28
+00:01:57,870 --> 00:01:59,922
+Piliin natin ang size na ito.
+
+29
+00:02:00,356 --> 00:02:05,601
+Nakikita mo ba ang pagkakaiba?
+Ang pahina ay mas humaba hindi ba?
+
+30
+00:02:06,524 --> 00:02:09,245
+Ngayon, pag-usapan natin ang columns.
+
+31
+00:02:09,457 --> 00:02:13,320
+Ang column ay ang pagkakahati
+ng teksto sa isang pahina.
+
+32
+00:02:13,822 --> 00:02:19,601
+Ito ay column. Ito rin ay column. Mayroong dalawang columns.
+
+33
+00:02:20,205 --> 00:02:23,215
+Pindutin natin ito at piliin ang three columns.
+
+34
+00:02:23,571 --> 00:02:26,950
+Magaling! Mayroon na tayong tatlong columns.
+
+35
+00:02:27,394 --> 00:02:28,394
+Mahusay!
+
+36
+00:02:28,928 --> 00:02:34,273
+Ngayon alam mo na kung paano gamitin
+ang mga tools sa Layout ng Microsoft Word.
+

@@ -4,7 +4,27 @@
   include '../database.php';
   include '../a_includes/admin_header.php';
 
+?>
 
+<nav class=">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex align-items-center justify-content-between mt-4 px-5">
+                <div class="d-flex py-3">
+                    <div style="width: 4rem;">
+                        <img src="../../assets/img/BIT TYP LOGO.png" width="100%" alt="">
+                    </div>
+
+                    <h2 style="margin-left: 2rem;" class="font-bold">Change Recovery Question or Answer</h2>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+<?php
   if(isset($_POST['save_rqa'])){
     $question_rec = trim($_POST['question_rec']);
     $answer_rec = trim($_POST['answer_rec']);
@@ -28,7 +48,7 @@
     }
 
      // Define password requirements
-     $minimum_length = 8;
+     $minimum_length = 7;
      $minimum_symbol_count = 1;
      $minimum_uppercase_count = 1;
 
@@ -53,7 +73,8 @@
      } else {
          $salt = "@specialpassworddummyy";
          $answer_rec = sha1($answer_rec.$salt);
-         $admin_id = 1;
+         $admin_id = $_SESSION['user_id'];
+
          
          $update_admin_cred = "UPDATE user_table SET question_recovery = :question_rec, answer_Recovery = :answer_rec WHERE id = :admin_id";
          $run_update_admin_cred = $conn->prepare($update_admin_cred);
@@ -64,11 +85,22 @@
 
 
          if(isset($_SESSION['role'])) {
-             echo "
-                 <script>
-                     document.location.href = '../profile/admin_profile.php';
-                 </script>
+
+             echo
+             "
+             <script>
+             setTimeout(() => {
+               document.querySelector('.updatedd').classList.remove('hidden');
+             }, 0100)
+             setTimeout(() => {
+               
+               document.location.href = '../profile/admin_profile.php';
+               document.querySelector('.updatedd').classList.add('hidden');
+             }, 1000)
+             </script>
+       
              ";
+
          } else {
              echo "
              <script>
@@ -83,29 +115,17 @@
 
  } 
 ?>
-<style>
+<div class="updatedd hidden position-fixed" style="top: 0; left: 0; z-index: 9999;">
+  <div class="invalid_modal_container">
+    <div class="invalid_modal d-flex flex-column" style="background: #ddf5d9; color: #444">
+      <div class="h2">
+      ✅ UPDATED SUCCESSFULLY!
+      </div>
+    </div>
+  </div>
+</div>
 
-
-
-</style>
-    <nav class="anim-to-top-slow">
-        <div class="row">
-            <div class="col-12">
-                <div class="d-flex align-items-center justify-content-between mt-4 px-5">
-                    <div class="d-flex py-3">
-                        <div style="width: 4rem;">
-                            <img src="../../assets/img/migasa 2.png" width="100%" alt="">
-                        </div>
-
-                        <h2 style="margin-left: 2rem;" class="font-bold">Change Recovery Question or Answer</h2>
-                    </div>
-
-                    
-                </div>
-            </div>
-        </div>
-    </nav>
-    <div class="container-fluid anim-to-top-slow" id = pop-up>
+    <div class="container-fluid" id = pop-up>
 
 
              <div class = "container mt-4" id = "reset-password" >
@@ -132,7 +152,7 @@
 
                                 <br>
                                 
-                                <input type = "text" id="password" name = "answer_rec" class = "form-control" style = "border-color:transparent; border: .1rem solid #999;" placeholder = "Answer here..."></input>
+                                <input type = "password" id="password" name = "answer_rec" class = "form-control" style = "border-color:transparent; border: .1rem solid #999;" placeholder = "Answer here..."></input>
                             </div>
 
 

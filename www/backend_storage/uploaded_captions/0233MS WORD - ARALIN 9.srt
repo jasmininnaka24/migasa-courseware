@@ -1,0 +1,273 @@
+﻿1
+00:00:02,511 --> 00:00:06,088
+Aralin 9: Review and View Tab
+
+2
+00:00:06,810 --> 00:00:09,477
+Maligayang pagdating sa ika-siyam na Aralin!
+
+3
+00:00:09,730 --> 00:00:14,820
+Sa bidyong ito, ating pag aralan
+kung ano ang Review Tab at View Tab.
+
+4
+00:00:15,101 --> 00:00:18,523
+Ang Review Tab ay may mga
+tools na pwedeng makatulong
+
+5
+00:00:18,547 --> 00:00:22,365
+sa iyo upang maitama ang
+mga maling salita sa dokumento.
+
+6
+00:00:22,727 --> 00:00:26,865
+Ang View Tab naman ay may
+mga tools na makakatulong sayo na
+
+7
+00:00:26,889 --> 00:00:31,027
+kontrolin ang paraan ng pagtingin
+o pagview mo sa dokumento.
+
+8
+00:00:31,200 --> 00:00:35,452
+Una, pag usapan muna natin ang Spelling at Gramatika.
+
+9
+00:00:35,801 --> 00:00:39,619
+Pag ito ay iyong pinindot, may
+lalabas na maliit na kahon na
+
+10
+00:00:39,643 --> 00:00:43,981
+siyang magsasabi sayo na may
+mali sa iyong spelling  o gramatika.
+
+11
+00:00:44,355 --> 00:00:49,004
+Ito naman ang Thesaurus, ang
+thesaurus ay parang dictionary na
+
+12
+00:00:49,044 --> 00:00:53,538
+tutulong sa iyo upang makahanap
+ng mga salitang magkasingkahulugan.
+
+13
+00:00:53,792 --> 00:00:57,439
+Upang malaman ang
+kasingkahulugan ng isang salita, pindutin
+
+14
+00:00:57,463 --> 00:01:00,858
+ang thesaurus at lalabas
+ang maliit na kahon na ito.
+
+15
+00:01:01,186 --> 00:01:06,183
+I-type ang salita sa kahon na ito at
+pindutin ang maliit na search button.
+
+16
+00:01:06,731 --> 00:01:11,517
+Lalabas dito ang lahat ng mga kasingkahulugan ng salitang iyong nilagay.
+
+17
+00:01:11,624 --> 00:01:15,943
+Ito naman ang Word Count,
+binibilang nito ang lahat ng
+
+18
+00:01:15,967 --> 00:01:20,940
+salita, pahina, karakter at
+talata na nasa iyong dokumento.
+
+19
+00:01:21,208 --> 00:01:26,757
+Pindutin lamang ito at ang maliit na
+kahon na ito ay lalabas, pagkatapos ay
+
+20
+00:01:26,781 --> 00:01:32,780
+makikita mo ang mga bilang ng mga pahina,
+salita, karakter at marami pang iba.
+
+21
+00:01:33,098 --> 00:01:36,653
+Maaari mo ring makita
+ang bilang ng mga salita at
+
+22
+00:01:36,678 --> 00:01:40,233
+pahina sa kaliwang ibabang
+bahagi ng iyong screen.
+
+23
+00:01:40,952 --> 00:01:44,058
+Ngayon, magpatuloy
+naman tayo sa View Tab
+
+24
+00:01:44,539 --> 00:01:49,106
+Ito ay ang Read Mode, at ito naman
+ang kalalabasan ng iyong dokumento.
+
+25
+00:01:49,400 --> 00:01:52,740
+Ginagawa nitong mas madali
+para sa iyo na basahin ang
+
+26
+00:01:52,764 --> 00:01:56,104
+mga teksto ngunit hindi
+mo na ito maaaring i-edit.
+
+27
+00:01:56,419 --> 00:01:59,724
+Ito naman ang Print Layout o ang Default  View
+
+28
+00:01:59,991 --> 00:02:05,699
+Ganito ang itsura nito at hahayaan ka rin
+nitong ayusin o i-edit ang iyong dokumento.
+
+29
+00:02:05,979 --> 00:02:12,000
+Ito ang Web Layout, pinapakita naman nito
+ang iyong dokumento sa ganitong paraan.
+
+30
+00:02:12,333 --> 00:02:17,864
+Ito naman ang Outline View, ang iyong
+dokumento ay magmumukhang isang bulleted
+
+31
+00:02:17,888 --> 00:02:23,276
+list, at para makaalis mula rito,
+pindutin lamang ang Close Outline View.
+
+32
+00:02:23,763 --> 00:02:28,331
+Panghuli naman ang Draft View,
+ito ay parang Web Layout lamang.
+
+33
+00:02:28,652 --> 00:02:33,236
+Maaari mo ring baguhin ang Views
+sa pamamagitan ng pag pindot sa mga
+
+34
+00:02:33,260 --> 00:02:37,845
+button na ito na makikita mo sa
+kanang ibabang bahagi ng iyong screen.
+
+35
+00:02:38,427 --> 00:02:42,463
+Ito ang Read Layout, Print Layout, at Web Layout.
+
+36
+00:02:42,997 --> 00:02:45,941
+Maaari mo ring baguhin ang paggalaw ng pahina.
+
+37
+00:02:46,270 --> 00:02:49,857
+Ito ay ang Vertical Page
+Movement, ito ay gagalaw ng
+
+38
+00:02:49,881 --> 00:02:53,467
+pataas at pababa kung
+gagamitin mo ang scroll bar.
+
+39
+00:02:54,090 --> 00:02:59,544
+Ito ang Side To Side Page Movement,
+pag pinindot mo ito, ang isang dokumento ay
+
+40
+00:02:59,595 --> 00:03:05,022
+magiging katulad nito at maaari mo
+itong igalaw gamit ang scroll bar sa ibaba.
+
+41
+00:03:05,674 --> 00:03:10,990
+Natatandaan mo ba ang Ruler? Maaari
+mo itong pindutin upang makita ang Ruler.
+
+42
+00:03:11,711 --> 00:03:15,038
+At ito naman upang makita ang gridlines.
+
+43
+00:03:15,585 --> 00:03:19,937
+Ang Ruler at Gridline ay magsisilbing
+gabay para sa iyong dokumento.
+
+44
+00:03:20,393 --> 00:03:24,933
+At ito naman ang Navigation
+Pane, dito, mapapadali
+
+45
+00:03:24,958 --> 00:03:27,411
+ang paghahanap ng mga
+salita sa iyong dokumento.
+
+46
+00:03:28,758 --> 00:03:31,827
+Sa bandang ito naman makikita ang zoom options.
+
+47
+00:03:32,214 --> 00:03:35,050
+Pindutin lamang ang
+Zoom at piliin ang Zoom
+
+48
+00:03:35,074 --> 00:03:37,910
+percentage o itype sa
+maliit na kahon na ito.
+
+49
+00:03:38,198 --> 00:03:41,757
+Pindutin ang OK at ito ay
+magzozoom in o zoom out.
+
+50
+00:03:42,242 --> 00:03:46,998
+Pwede mo ring ayusin ang zoom sa
+pamamagitan ng paggamit ng zoom control bar.
+
+51
+00:03:47,372 --> 00:03:51,244
+Hilain lamang ang maliit na
+parihaba na ito sa kanan upang
+
+52
+00:03:51,268 --> 00:03:55,141
+mapalapit sa dokumento at sa
+kaliwa naman upang mapalayo.
+
+53
+00:03:55,501 --> 00:04:00,631
+At kapag gusto mong isang pahina lamang ang iyong nakikita, pindutin lamang ito.
+
+54
+00:04:00,925 --> 00:04:05,561
+At kapag gusto mong maraming pahina ang iyong nakikita, pindutin ito.
+
+55
+00:04:06,051 --> 00:04:10,344
+At kapag gusto mong mag-zoom in sa isang pahina, pindutin ito.
+
+56
+00:04:11,060 --> 00:04:14,394
+Magaling! Ngayon alam
+mo na kung paano kontrolin
+
+57
+00:04:14,418 --> 00:04:17,539
+ang iyong document
+View sa Microsoft Word.
+

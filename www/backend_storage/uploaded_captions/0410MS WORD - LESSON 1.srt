@@ -1,0 +1,300 @@
+﻿1
+00:00:02,980 --> 00:00:06,360
+Lesson 1: Introduction to Microsoft Word
+
+2
+00:00:07,549 --> 00:00:08,289
+Hi there!
+
+3
+00:00:08,549 --> 00:00:10,035
+Welcome to Lesson 1
+
+4
+00:00:10,455 --> 00:00:14,562
+In this video, we will be learning
+the basics of Microsoft Word.
+
+5
+00:00:15,780 --> 00:00:18,926
+First, let’s define Microsoft Word
+
+6
+00:00:19,527 --> 00:00:26,197
+Microsoft Word is a computer program that
+lets you create documents such as letters.
+
+7
+00:00:27,748 --> 00:00:33,339
+Let’s start by opening Microsoft
+Word and clicking on “Blank document"
+
+8
+00:00:34,285 --> 00:00:35,860
+This is what you should see.
+
+9
+00:00:36,971 --> 00:00:40,310
+Let’s look at the left
+top-most part of your screen.
+
+10
+00:00:41,265 --> 00:00:45,795
+This is the save button, it will keep
+your document in your computer.
+
+11
+00:00:46,231 --> 00:00:50,829
+This is the undo button, it will
+take away the last thing you did.
+
+12
+00:00:51,448 --> 00:00:55,762
+This is the redo button, it
+will reverse an undo action.
+
+13
+00:00:56,506 --> 00:01:00,108
+Now, let’s move to the right
+top-most part of your screen.
+
+14
+00:01:01,017 --> 00:01:03,518
+These are the main control buttons.
+
+15
+00:01:04,369 --> 00:01:07,339
+This button will minimize your Microsoft Word.
+
+16
+00:01:11,950 --> 00:01:16,131
+This button will make your
+Microsoft Word smaller or bigger.
+
+17
+00:01:23,719 --> 00:01:26,866
+And this button will take you out of Microsoft Word.
+
+18
+00:01:31,021 --> 00:01:33,697
+So, don't click it yet, unless you are done!
+
+19
+00:01:34,783 --> 00:01:36,616
+This is the horizontal ruler.
+
+20
+00:01:37,035 --> 00:01:39,285
+And this is the vertical ruler.
+
+21
+00:01:40,427 --> 00:01:41,427
+Great!
+
+22
+00:01:42,079 --> 00:01:46,956
+Let’s try typing “Hello world” in
+our document by using our keyboard.
+
+23
+00:01:47,933 --> 00:01:49,939
+This is what a keyboard looks like.
+
+24
+00:01:50,746 --> 00:01:54,433
+A keyboard has many letters, numbers, and symbols.
+
+25
+00:01:55,046 --> 00:01:58,229
+To type, simply press the buttons you need.
+
+26
+00:01:58,841 --> 00:02:11,654
+For this, we will need H-E-L-L-O W-O-R-L-D.
+
+27
+00:02:12,455 --> 00:02:13,188
+Great!
+
+28
+00:02:13,522 --> 00:02:16,183
+We just typed Hello World.
+
+29
+00:02:17,458 --> 00:02:20,578
+Let’s change the font style and font size.
+
+30
+00:02:21,727 --> 00:02:25,643
+A font is a set of letters, number and symbols.
+
+31
+00:02:26,319 --> 00:02:28,784
+To change the style, click here.
+
+32
+00:02:29,867 --> 00:02:31,931
+Let’s choose this font style.
+
+33
+00:02:32,820 --> 00:02:35,642
+To change the size, click here.
+
+34
+00:02:36,160 --> 00:02:37,827
+Let’s choose this size.
+
+35
+00:02:38,560 --> 00:02:41,635
+Now let’s type “Hello World” again.
+
+36
+00:02:42,969 --> 00:02:45,947
+Excellent! Do you see the difference?
+
+37
+00:02:46,725 --> 00:02:47,547
+Good.
+
+38
+00:02:47,776 --> 00:02:52,198
+There are also other different font
+formatting tools in Microsoft Word.
+
+39
+00:02:53,000 --> 00:02:54,591
+This is the Bold format.
+
+40
+00:02:54,903 --> 00:02:57,458
+It will make your text look like this.
+
+41
+00:02:57,947 --> 00:02:59,836
+This is the Italicize format.
+
+42
+00:03:00,368 --> 00:03:02,658
+It will make your text look like this.
+
+43
+00:03:03,162 --> 00:03:04,895
+This is the Underline format,
+
+44
+00:03:05,353 --> 00:03:07,552
+It will make your text look like this.
+
+45
+00:03:08,708 --> 00:03:10,552
+This is the Strikethrough format.
+
+46
+00:03:10,997 --> 00:03:13,518
+It will make your text look like this.
+
+47
+00:03:14,197 --> 00:03:17,814
+ These buttons right here will also change the font size.
+
+48
+00:03:18,615 --> 00:03:21,089
+This button will make your text bigger.
+
+49
+00:03:21,312 --> 00:03:24,000
+And this button will make your text smaller.
+
+50
+00:03:24,569 --> 00:03:28,769
+Now, let’s try typing “Hello world” with red letters.
+
+51
+00:03:29,147 --> 00:03:31,888
+To change the font color, click this.
+
+52
+00:03:32,244 --> 00:03:33,933
+Do you see the color red?
+
+53
+00:03:34,333 --> 00:03:35,088
+Perfect.
+
+54
+00:03:35,400 --> 00:03:37,168
+Let’s choose red.
+
+55
+00:03:38,058 --> 00:03:40,768
+Okay, let’s type “Hello world”.
+
+56
+00:03:41,567 --> 00:03:43,345
+That looks amazing!
+
+57
+00:03:44,247 --> 00:03:46,668
+There are also letter case formats
+
+58
+00:03:46,913 --> 00:03:50,846
+It will change your letters into small or big letters.
+
+59
+00:03:51,492 --> 00:03:55,713
+This is Sentence case, only the first letter is big.
+
+60
+00:03:56,247 --> 00:03:59,669
+This is Lowercase, all letters are small.
+
+61
+00:04:00,640 --> 00:04:04,351
+This is Uppercase, all letters are big.
+
+62
+00:04:04,951 --> 00:04:10,450
+This is Capitalize Each Word, all first letters of each word is big.
+
+63
+00:04:11,112 --> 00:04:16,934
+This is the Toggle case; it makes
+small letters big, and big letters small.
+
+64
+00:04:18,217 --> 00:04:20,438
+Let’s move on to the highlight button
+
+65
+00:04:20,772 --> 00:04:24,105
+This button will highlight your text with colors.
+
+66
+00:04:24,508 --> 00:04:27,908
+Let’s try it. Click on highlight and choose a color.
+
+67
+00:04:28,739 --> 00:04:31,294
+Do you know how to highlight using your mouse?
+
+68
+00:04:32,094 --> 00:04:39,427
+Click the left button of your mouse and don’t let it go, drag it until all letters are highlighted in gray.
+
+69
+00:04:40,047 --> 00:04:43,393
+Once you let go, the highlight color will appear.
+
+70
+00:04:43,893 --> 00:04:44,643
+Excellent!
+
+71
+00:04:45,793 --> 00:04:46,793
+Good job!
+
+72
+00:04:47,210 --> 00:04:49,943
+Now you know the basics of Microsoft Word.
+

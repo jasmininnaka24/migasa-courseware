@@ -1,286 +1,235 @@
 <?php
 
-  // ADDING VIDEO FUNCTIONALITY 
-  if(isset($_POST['upload_video'])){
+// ADDING VIDEO FUNCTIONALITY 
+  if(isset($_POST['upload_lesson'])){
 
     // GET COURSE ID
     if(isset($_GET['course_id_uploadvid'])){
       $course_id = $_GET['course_id_uploadvid'];
-      $select_course_title = $conn->prepare("SELECT * FROM course_table WHERE id = $course_id");
-      $select_course_title->execute();
-      
-      // GETTING COURSE TITLE
-      $get_course_title = $select_course_title->fetch(PDO::FETCH_ASSOC);
-      $course_title = $get_course_title['course_title'];
     }
 
-    
-    $video_title = $_SESSION['add_video_title'];
-    $video_subtitle = $_SESSION['add_video_caption'];
+    $video_title = ucwords(trim($_POST['video_title']));
+    $video_caption = $_FILES['video_caption']['name'];
+    $video_caption_temp = $_FILES['video_caption']['tmp_name'];
 
     $video_file_name = $_FILES['video_file_name']['name'];
-    $videoFileTemp = $_FILES['video_file_name']['tmp_name'];
-
-    $videoDataError = $_FILES['video_file_name']['error'];
-    $videoDataSize = filesize($videoFileTemp);
-    $sizeLimit = 500000000;
-
+    $video_file_tmpName = $_FILES['video_file_name']['tmp_name'];
+    $video_file_error = $_FILES['video_file_name']['error'];
+    $video_file_size = $_FILES['video_file_name']['size'];
     $file_type = pathinfo($_FILES['video_file_name']['name'], PATHINFO_EXTENSION);
 
-    // Check if the file extension is allowed
+    $uniqueId = str_pad(mt_rand(10, 99), 4, '0', STR_PAD_LEFT);
+    $videoDataError = $_FILES['video_file_name']['error'];
+    $videoDataSize = filesize($video_file_tmpName);
+    $sizeLimit = 500000000;
+    
+
+    // Check if the file extension is not allowed
     $allowed_ext = array("mp4", "mkv", "webm", "flv", "vob", "ogv", "ogg", "avi", "wmv", "mov", "mpeg", "mpg");
     $correct_file_type = in_array($file_type, $allowed_ext);
     
-
-  if($video_file_name == ""){
-    echo "<h3 class='txt-red-light font-med position-absolute w-25' style='top:5%; left: 2%'>File Cannot be Empty</h3>";
+  if ($video_file_name == "") {
+      echo "<h3 class='txt-red-light font-med text-center position-absolute container w-100 d-flex align-items-center justify-content-center' style='top:5%; margin-left: 16%; padding-left: 50%;'>File cannot be empty</h3>";
   } else {
 
     if (!$correct_file_type) {
-      echo "<h3 class='txt-red-light font-med position-absolute w-25' style='top:5%; left: 2%'>Invalid Video File Type</h3>";
+        
     } else {
 
-      // IF CORRECT FILE TYPE
-      if ($videoDataSize > $sizeLimit) {
+          // CREATE FILE UPLOAD DATA = COMES FROM uploadVideo.php FILE
+          $VideoUploadData = new VideoUploadData($course_id, $video_title, $video_file_name, $video_caption);
+    
+          
+          // PROCESS THE SUBMITTED VIDEO DATA
+          $videoProcessor = new VideoProcessor($conn, $videoDataSize, $videoDataError, $video_file_tmpName);
+          $wasSuccessful = $videoProcessor->upload($VideoUploadData);
+    
+          $video_id = $conn->lastInsertId();
+    
+          foreach($_FILES['video_caption']['tmp_name'] as $key => $vc_temp) {
+            $vc = $uniqueId . $_FILES['video_caption']['name'][$key];
+            move_uploaded_file($vc_temp, "../../../backend_storage/uploaded_captions/$vc");
+            $insert_captions = $conn->prepare("INSERT INTO caption_table (course_id, video_id, caption_file_name) VALUES (:course_id, :video_id, :caption_file_name)");
+            $insert_captions->bindParam(":course_id", $course_id);
+            $insert_captions->bindParam(":video_id", $video_id);
+            $insert_captions->bindParam(":caption_file_name", $vc);
+            $insert_captions->execute();
+          }
 
-        // IF SIZE IS GREATER THE THE SIZE LIMIT
-        echo "<h3 class='txt-red-light font-med position-absolute w-25' style='top:5%; left: 2%'>VIDEO FILE TOO LARGE</h3>";
-      } else {
-        
-        if($video_subtitle != "" && $video_title != "" && $video_file_name != ""){    
+          $set_scoring_value = $conn->prepare("INSERT INTO score_table (course_id, video_id) VALUES (:course_id, :video_id)");
+          $set_scoring_value->bindParam(":course_id", $course_id);
+          $set_scoring_value->bindParam(":video_id", $video_id);
+          $set_scoring_value->execute();
+          
     
-        // CREATE FILE UPLOAD DATA = COMES FROM uploadVideo.php FILE
-        $VideoUploadData = new VideoUploadData($course_id, $course_title, $video_title, $video_file_name, $video_subtitle);
-  
+          // header("Location: ../activity/adminCreateActivityUI.php?course_id_createAct=$course_id&video_id_createAct=$video_id");
+          echo "
+          <script>
+          setTimeout(() => {
+            document.querySelector('.added').classList.remove('hidden');
+          }, 0200)
+          setTimeout(() => {
+            document.querySelector('.added').classList.add('hidden');
+            document.location.href = '../activity/adminCreateActivityUI.php?course_id_createAct=$course_id&video_id_createAct=$video_id';
+          }, 1500)
+          </script>
         
-        // PROCESS THE SUBMITTED VIDEO DATA
-        $videoProcessor = new VideoProcessor($conn, $videoDataSize, $videoDataError, $videoFileTemp);
-        $wasSuccessful = $videoProcessor->upload($VideoUploadData);
-  
-  
-        $query_select_from_videos = $conn->prepare("SELECT * FROM videos_table WHERE video_title = '$video_title'");
-        $query_select_from_videos->execute();
-  
-        while($row = $query_select_from_videos->fetch(PDO::FETCH_ASSOC)){
-          $video_id_db = $row['id'];
-        }
-    
-        $_SESSION['add_video_title'] = null;
-        $_SESSION['add_video_caption'] = null;
-        header("Location: ../activity/adminCreateActivityUI.php?course_id_createAct=$course_id&video_id_createAct=$video_id_db");
-      } else {
-        echo "
-        <script>
-          setTimeout((e) => {
-            document.querySelector('.unhide').classList.remove('hidden');
-            e.preventDefault();
-          }, 0100)
-        </script>
-        ";
+          ";
+
       }
-    } 
-  }   
+    }   
+    
 }
-}
-
-
-
-
-
-
-
-
 
 // UPDATE VIDEO DETAILS
 
-if(isset($_POST['update_video'])){
+if(isset($_POST['update_lesson'])){
   
   // GET COURSE ID
   if(isset($_GET['update_course_id']) && isset($_GET['update_video_id'])){
     $course_id = $_GET['update_course_id'];
     $video_id = $_GET['update_video_id'];
-
-    $select_course_title = $conn->prepare("SELECT * FROM course_table WHERE id = $course_id");
-    $select_course_title->execute();
-    // GETTING COURSE TITLE
-    $get_course_title = $select_course_title->fetch(PDO::FETCH_ASSOC);
-    $course_title = $get_course_title['course_title'];
   }
 
   $video_title = $_POST['video_title'];
-  $video_subtitle = $_FILES['video_subtitle']['name'];
-  $video_subtitle_temp = $_FILES['video_subtitle']['tmp_name'];
+  $video_caption = $_FILES['video_caption']['name'];
+  $video_caption_temp = $_FILES['video_caption']['tmp_name'];
 
   $video_file_name = $_FILES['video_file_name']['name'];
   $videoFileTemp = $_FILES['video_file_name']['tmp_name'];
 
   $videoDataError = $_FILES['video_file_name']['error'];
   $videoDataSize = filesize($videoFileTemp);
-  $sizeLimit = 500000000;
 
   $video_title = $_POST['video_title'];
 
   // GENERATES UNIQUE ID
   $uniqueId = str_pad(mt_rand(0, 999), 4, '0', STR_PAD_LEFT);
-  
-  // Check if the file extension is allowed
-  $file_type = pathinfo($_FILES['video_file_name']['name'], PATHINFO_EXTENSION);
-  $allowed_ext = array("mp4", "mkv", "webm", "flv", "vob", "ogv", "ogg", "avi", "wmv", "mov", "mpeg", "mpg");
-  $correct_file_type = in_array($file_type, $allowed_ext);
 
   
-
-
   if($video_title != ""){
-    // IF SUBTITLE INPUT IS EMPTY
-
-    $query_select = $conn->prepare("SELECT * FROM videos_table WHERE id = :video_id");
-    $query_select->bindParam(":video_id", $video_id);
-    $query_select->execute();
+    // IF SUBTITLE INPUT IS NOT EMPTY EMPTY
 
     switch(true){
 
-      case empty($video_file_name) && empty($video_subtitle):
-        $fetch = $query_select->fetch(PDO::FETCH_ASSOC);
-        $video_file_name = $fetch['video_file_name'];
-        $video_subtitle = $fetch['video_subtitle'];
+      case empty($video_file_name) && ($_FILES['video_caption']['error'][0] == UPLOAD_ERR_NO_FILE):
 
         // UPDATE
-        $queryFiles = $conn->prepare("UPDATE videos_table SET course_title = :course_title, video_title = :video_title, video_file_name = :video_file_name, video_subtitle = :video_subtitle WHERE id = :video_id");
+        $queryFiles = $conn->prepare("UPDATE videos_table SET video_title = :video_title WHERE id = :video_id");
         
-        $queryFiles->bindParam(":course_title", $course_title);
         $queryFiles->bindParam(":video_title", $video_title);
-        $queryFiles->bindParam(":video_file_name", $video_file_name);
-        $queryFiles->bindParam(":video_subtitle", $video_subtitle);
         $queryFiles->bindParam(":video_id", $video_id);
         $queryFiles->execute();
         break;
 
 
-      case empty($video_file_name) && !empty($video_subtitle):
-
-        $video_subtitle = $uniqueId . "_" . $video_subtitle;
-        $video_subtitle = str_replace(" ", "_", $video_subtitle);
-        $videoSubLoc = "../../../backend_storage/uploaded_subtitle/$video_subtitle";
-        move_uploaded_file($video_subtitle_temp, $videoSubLoc);
-
-        $query_select = $conn->prepare("SELECT * FROM videos_table WHERE id = :video_id");
-        $query_select->bindParam(":video_id", $video_id);
-        $query_select->execute();
-        
-        $fetch = $query_select->fetch(PDO::FETCH_ASSOC);
-        $video_file_name = $fetch['video_file_name'];
-        $video_sub = $fetch['video_subtitle'];
-
-        $video_sub = "../../../backend_storage/uploaded_subtitle/$video_sub";
-        unlink($video_sub);
-
+      case empty($video_file_name) && ($_FILES['video_caption']['error'][0] != UPLOAD_ERR_NO_FILE):
 
         // UPDATE
-        $queryVidFile = $conn->prepare("UPDATE videos_table SET course_title = :course_title, video_title = :video_title, video_file_name = :video_file_name, video_subtitle = :video_subtitle WHERE id = :video_id");
+        $queryFiles = $conn->prepare("UPDATE videos_table SET video_title = :video_title WHERE id = :video_id");
+
+        $queryFiles->bindParam(":video_title", $video_title);
+        $queryFiles->bindParam(":video_id", $video_id);
+        $queryFiles->execute();
+
+        $captions_db = $conn->prepare("SELECT caption_file_name FROM caption_table WHERE video_id = :video_id");
+        $captions_db->bindParam(":video_id", $video_id);
+        $captions_db->execute();
+
+        while($fetch_caption = $captions_db->fetch(PDO::FETCH_ASSOC)){
+          $caption_file_name = $fetch_caption['caption_file_name'];
+          
+          $caption_file_name = "../../../backend_storage/uploaded_captions/$caption_file_name";
+          unlink($caption_file_name);
+        }
         
-        $queryVidFile->bindParam(":course_title", $course_title);
-        $queryVidFile->bindParam(":video_title", $video_title);
-        $queryVidFile->bindParam(":video_file_name", $video_file_name);
-        $queryVidFile->bindParam(":video_subtitle", $video_subtitle);
-        $queryVidFile->bindParam(":video_id", $video_id);
-        $queryVidFile->execute();
+        $captions_db_del = $conn->prepare("DELETE FROM caption_table WHERE video_id = :video_id");
+        $captions_db_del->bindParam(":video_id", $video_id);
+        $captions_db_del->execute();
+
+        foreach($_FILES['video_caption']['tmp_name'] as $key => $vc_temp) {
+          $vc = $uniqueId . $_FILES['video_caption']['name'][$key];
+          move_uploaded_file($vc_temp, "../../../backend_storage/uploaded_captions/$vc");
+          $insert_captions = $conn->prepare("INSERT INTO caption_table (course_id, video_id, caption_file_name) VALUES (:course_id, :video_id, :caption_file_name)");
+          $insert_captions->bindParam(":course_id", $course_id);
+          $insert_captions->bindParam(":video_id", $video_id);
+          $insert_captions->bindParam(":caption_file_name", $vc);
+          $insert_captions->execute();
+        }
         break; 
 
-      case !empty($video_file_name) && empty($video_subtitle):
-        if (!$correct_file_type) {
-          echo "<h3 class='txt-red-light font-med position-absolute w-25' style='top:5%; right: 2%'>Invalid Video File Type</h3>";
-        } else {
-    
-          // IF CORRECT FILE TYPE
-          if ($videoDataSize > $sizeLimit) {
-    
-            // IF SIZE IS GREATER THE THE SIZE LIMIT
-            echo "<h3 class='txt-red-light font-med position-absolute w-25' style='top:5%; right: 2%'>VIDEO FILE TOO LARGE</h3>";
-          } else {
-            $query_select = $conn->prepare("SELECT * FROM videos_table WHERE id = :video_id");
-            $query_select->bindParam(":video_id", $video_id);
-            $query_select->execute();
-            
-            $fetchSubtitle = $query_select->fetch(PDO::FETCH_ASSOC);
-            $video_sub = $fetchSubtitle['video_subtitle'];
+      case !empty($video_file_name) && ($_FILES['video_caption']['error'][0] == UPLOAD_ERR_NO_FILE):
+        
+        
+        // UPDATE
+        $queryFiles = $conn->prepare("UPDATE videos_table SET video_title = :video_title WHERE id = :video_id");
 
-            // UPDATE
-            $querySubtitle = $conn->prepare("UPDATE videos_table SET course_title = :course_title, video_title = :video_title, video_subtitle = :video_subtitle WHERE id = :video_id");
-            
-            $querySubtitle->bindParam(":course_title", $course_title);
-            $querySubtitle->bindParam(":video_title", $video_title);
-            $querySubtitle->bindParam(":video_subtitle", $video_sub);
-            $querySubtitle->bindParam(":video_id", $video_id);
-            $querySubtitle->execute();
+        $queryFiles->bindParam(":video_title", $video_title);
+        $queryFiles->bindParam(":video_id", $video_id);
+        $queryFiles->execute();
 
-            // PROCESS THE SUBMITTED VIDEO DATA
-            $videoProcessor = new UpdateVideoProcessor($conn, $videoDataSize, $videoDataError, $videoFileTemp, $video_id);
-            $wasSuccessful = $videoProcessor->upload($video_file_name);
-
-          }
-        }
+        // PROCESS THE SUBMITTED VIDEO DATA
+        $videoProcessor = new UpdateVideoProcessor($conn, $videoDataSize, $videoDataError, $videoFileTemp, $video_id);
+        $wasSuccessful = $videoProcessor->upload($video_file_name);
         break;
 
 
 
-      case !empty($video_title) && !empty($video_subtitle) && !empty($video_file_name):
-        if (!$correct_file_type) {
-          echo "<h3 class='txt-red-light font-med position-absolute w-25' style='top:5%; right: 2%'>Invalid Video File Type</h3>";
-        } else {
-    
-          // IF CORRECT FILE TYPE
-          if ($videoDataSize > $sizeLimit) {
-    
-            // IF SIZE IS GREATER THE THE SIZE LIMIT
-            echo "<h3 class='txt-red-light font-med position-absolute w-25' style='top:5%; right: 2%'>VIDEO FILE TOO LARGE</h3>";
-          } else {
-            $video_subtitle = $uniqueId . "_" . $video_subtitle;
-            $video_subtitle = str_replace(" ", "_", $video_subtitle);
-            $videoSubLoc = "../../../backend_storage/uploaded_subtitle/$video_subtitle";
-            move_uploaded_file($video_subtitle_temp, $videoSubLoc);
+      case !empty($video_title) && ($_FILES['video_caption']['error'][0] != UPLOAD_ERR_NO_FILE) && !empty($video_file_name):
 
-            $query_select = $conn->prepare("SELECT * FROM videos_table WHERE id = :video_id");
-            $query_select->bindParam(":video_id", $video_id);
-            $query_select->execute();
-            
-            $fetchSubtitle = $query_select->fetch(PDO::FETCH_ASSOC);
-            $video_sub = $fetchSubtitle['video_subtitle'];
-
-            $video_sub = "../../../backend_storage/uploaded_subtitle/$video_sub";
-            unlink($video_sub);
-            
-            $querySubtitle = $conn->prepare("UPDATE videos_table SET course_title = :course_title, video_title = :video_title, video_subtitle = :video_subtitle WHERE id = :video_id");
-              
-            $querySubtitle->bindParam(":course_title", $course_title);
-            $querySubtitle->bindParam(":video_title", $video_title);
-            $querySubtitle->bindParam(":video_subtitle", $video_subtitle);
-            $querySubtitle->bindParam(":video_id", $video_id);
-            $querySubtitle->execute();
-
-            // PROCESS THE SUBMITTED VIDEO DATA
-            $videoProcessor = new UpdateVideoProcessor($conn, $videoDataSize, $videoDataError, $videoFileTemp, $video_id);
-            $wasSuccessful = $videoProcessor->upload($video_file_name);
-          }
-        }
-        break;
-
-
-    }
-
-
-
-    // CREATE FILE UPLOAD DATA = COMES FROM uploadVideo.php FILE
+        $update_video_title = $conn->prepare("UPDATE videos_table SET video_title = :video_title WHERE id = :video_id");
           
-    $query_select_from_videos = $conn->prepare("SELECT * FROM videos_table WHERE video_title = '$video_title'");
-    $query_select_from_videos->execute();
+        $update_video_title->bindParam(":video_title", $video_title);
+        $update_video_title->bindParam(":video_id", $video_id);
+        $update_video_title->execute();
 
-    while($row = $query_select_from_videos->fetch(PDO::FETCH_ASSOC)){
-      $video_id_db = $row['id'];
-    }
+        $captions_db = $conn->prepare("SELECT caption_file_name FROM caption_table WHERE video_id = :video_id");
+        $captions_db->bindParam(":video_id", $video_id);
+        $captions_db->execute();
+        
+        while($fetch_caption = $captions_db->fetch(PDO::FETCH_ASSOC)){
+          $caption_file_name = $fetch_caption['caption_file_name'];
+          
+          $caption_file_name = "../../../backend_storage/uploaded_captions/$caption_file_name";
+          unlink($caption_file_name);
+        }
 
+        $captions_db_del = $conn->prepare("DELETE FROM caption_table WHERE video_id = :video_id");
+        $captions_db_del->bindParam(":video_id", $video_id);
+        $captions_db_del->execute();
 
-  header("Location: ../../videos_display.php?course_id_display=$course_id");
+        foreach($_FILES['video_caption']['tmp_name'] as $key => $vc_temp) {
+          $vc = $uniqueId . $_FILES['video_caption']['name'][$key];
+          move_uploaded_file($vc_temp, "../../../backend_storage/uploaded_captions/$vc");
+          $insert_captions = $conn->prepare("INSERT INTO caption_table (course_id, video_id, caption_file_name) VALUES (:course_id, :video_id, :caption_file_name)");
+          $insert_captions->bindParam(":course_id", $course_id);
+          $insert_captions->bindParam(":video_id", $video_id);
+          $insert_captions->bindParam(":caption_file_name", $vc);
+          $insert_captions->execute();
+        }
+
+        // PROCESS THE SUBMITTED VIDEO DATA
+        $videoProcessor = new UpdateVideoProcessor($conn, $videoDataSize, $videoDataError, $videoFileTemp, $video_id);
+        $wasSuccessful = $videoProcessor->upload($video_file_name);
+        break;
+
+        
+      }
+      
+      echo
+      "
+      <script>
+      setTimeout(() => {
+        document.querySelector('.updatedd').classList.remove('hidden');
+      }, 0100)
+      setTimeout(() => {
+        
+        document.location.href = '../../videos_display.php?course_id_display=$course_id';
+        document.querySelector('.updatedd').classList.add('hidden');
+      }, 1000)
+      </script>
+
+      ";
 
   } else {
   echo "
@@ -298,22 +247,36 @@ if(isset($_POST['update_video'])){
 // DELETE VIDEO LESSON
 if(isset($_GET['delete_video_lesson'])){
   $videoLessonToDelete = $_GET['delete_video_lesson'];
+  $course_id = $_GET['course_id_display'];
 
         
-  $unlink_video  = $conn->prepare("SELECT * FROM videos_table WHERE id = :video_id");
-  $unlink_video ->bindParam(":video_id", $videoLessonToDelete);
-  $unlink_video ->execute();
-  $fetch_filename = $unlink_video ->fetch(PDO::FETCH_ASSOC); 
+  $unlink_video  = $conn->prepare("SELECT video_file_name FROM videos_table WHERE id = :video_id");
+  $unlink_video->bindParam(":video_id", $videoLessonToDelete);
+  $unlink_video->execute();
+  $fetch_filename = $unlink_video->fetch(PDO::FETCH_ASSOC); 
 
   $vid_filename = $fetch_filename['video_file_name'];
-  $sub_filename = $fetch_filename['video_subtitle'];
-
-  $sub_filename = "../backend_storage/uploaded_subtitle/$sub_filename";
   $vid_filename = str_replace("../../../backend_storage/uploaded_vids/", "../backend_storage/uploaded_vids/", $vid_filename);
 
-  if (unlink($vid_filename) && unlink($sub_filename)) {
-    echo "";
-  } 
+  unlink($vid_filename);
+
+  // SELECTING CAPTIONS
+  $captions_db = $conn->prepare("SELECT caption_file_name FROM caption_table WHERE video_id = :video_id");
+  $captions_db->bindParam(":video_id", $videoLessonToDelete);
+  $captions_db->execute();
+
+  while($fetch_caption = $captions_db->fetch(PDO::FETCH_ASSOC)){
+    $caption_file_name = $fetch_caption['caption_file_name'];
+    
+    $caption_file_name = "../backend_storage/uploaded_captions/$caption_file_name";
+    unlink($caption_file_name);    
+    
+  }
+
+  // DELETING CAPTIONS
+  $delete_video_row = $conn->prepare("DELETE FROM caption_table WHERE video_id = :video_id");
+  $delete_video_row->bindParam(":video_id", $videoLessonToDelete);
+  $delete_video_row->execute();
 
   $delete_video_row = $conn->prepare("DELETE FROM videos_table WHERE id = :video_id");
   $delete_video_row->bindParam(":video_id", $videoLessonToDelete);
@@ -331,6 +294,18 @@ if(isset($_GET['delete_video_lesson'])){
   $delete_score_row->bindParam(":video_id", $videoLessonToDelete);
   $delete_score_row->execute();
 
+  echo "
+  <script>
+  setTimeout(() => {
+    document.querySelector('.deleted').classList.remove('hidden');
+  }, 0100)
+  setTimeout(() => {
+    
+    document.querySelector('.deleted').classList.add('hidden');
+  }, 1000)
+  </script>
+
+  ";
 }
 
 ?>

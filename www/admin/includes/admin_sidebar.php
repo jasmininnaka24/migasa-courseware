@@ -2,10 +2,9 @@
     <div class="logo-details">
       <a href="./choose.php">
         <div class="img">
-          <img src="./assets/img/MIGASA LOGO TYPE 3.png" width="100%" alt="">
+          <img src="./assets/img/BIT TYP LOGO.png" width="100%" alt="">
         </div>
       </a>
-      <span class="logo_name pt-1 font-med">MIGASA</span>
     </div>
     <ul class="nav-links mt-2">
       <li class="list">
@@ -54,7 +53,8 @@
         <ul class="sub-menu">
           <li><a class="link_name" href="#">Modify Categories</a></li>
           <li><a href="./modify_course.php?language"><i class="fa-solid fa-folder-open" style="font-size: 1rem;margin: -1rem -1.6rem;"></i> Modify Courses</a></li>
-          <li><a href="./modify_lessons.php?language"><i class="fa-solid fa-video" style="font-size: 1rem;margin: -1rem -1.6rem;"></i> Modify Lessons</a></li>
+          <li><a href="./modify_lessons.php?language"><i class="fa-solid fa-video" style="font-size: 1rem;margin: -1rem -1.6rem;"></i> Modify Quiz</a></li>
+          <li><a href="./modify_lecture_video.php?language"><i class="fa-solid fa-video" style="font-size: 1rem;margin: -1rem -1.6rem;"></i> Modify Lecture Video</a></li>
         </ul>
       </li>
       <li>
@@ -69,8 +69,9 @@
         </div>
         <ul class="sub-menu">
           <li><a class="link_name" href="#">Settings</a></li>
-          <!-- <li><a href="#"><i class="fa-solid fa-globe" style="font-size: 1rem;margin: -1rem -1.6rem;"></i> Language Settings</a></li> -->
+          <li><a href="./read/languages/language_home.php"><i class="fa-solid fa-globe" style="font-size: 1rem;margin: -1rem -1.6rem;"></i> Language Settings</a></li>
           <li><a href="./read/manual/admin_manual.php"><i class="fa-solid fa-book" style="font-size: 1rem;margin: -1rem -1.6rem;"></i> Manual Settings</a></li>
+          <li><a href="./read/certificate/add_cert.php"><i class="fa-solid fa-book" style="font-size: 1rem;margin: -1rem -1.6rem;"></i> Certificate Settings</a></li>
         </ul>
       </li>
 

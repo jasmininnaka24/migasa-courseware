@@ -1,0 +1,210 @@
+﻿1
+00:00:02,467 --> 00:00:05,166
+LESSON 2: Cell Formatting
+
+2
+00:00:06,233 --> 00:00:07,750
+Welcome to Lesson 2!
+
+3
+00:00:08,483 --> 00:00:12,916
+In this video, you will learn how
+to format a cell in Microsoft Excel.
+
+4
+00:00:13,481 --> 00:00:17,431
+This is a cell, all these rectangles are cells!
+
+5
+00:00:17,948 --> 00:00:21,129
+You can manually fill a cell by typing inside it.
+
+6
+00:00:21,610 --> 00:00:25,377
+You can also click a cell and type in its formula box.
+
+7
+00:00:25,735 --> 00:00:31,397
+But sometimes, you need to fill in lots of cells and that can take a long time.
+
+8
+00:00:31,998 --> 00:00:34,397
+That's where the Fill Handle comes in!
+
+9
+00:00:35,198 --> 00:00:39,414
+The Fill Handle can help you fill in lots of cells at once.
+
+10
+00:00:39,715 --> 00:00:44,985
+You can either copy a cell to other
+cells or copy a pattern to other cells.
+
+11
+00:00:45,400 --> 00:00:48,947
+Let’s try copying “Hello” to the other cells below it.
+
+12
+00:00:49,448 --> 00:00:52,525
+To do so, drag this little cross down.
+
+13
+00:00:52,900 --> 00:00:53,872
+There you go!
+
+14
+00:00:54,240 --> 00:00:59,802
+Now, let’s try filling 10 cells in
+Column A with numbers 1 to 10.
+
+15
+00:01:00,367 --> 00:01:04,775
+To do so, we must manually fill in the numbers 1 and 2.
+
+16
+00:01:05,225 --> 00:01:12,318
+Then, we can highlight both cells, drag the
+little cross down until we reach cell A10.
+
+17
+00:01:12,769 --> 00:01:17,658
+Excel will automatically fill in the cells
+with the same pattern as the original cell.
+
+18
+00:01:18,033 --> 00:01:21,557
+But remember that you
+must manually fill in the first
+
+19
+00:01:21,581 --> 00:01:25,047
+two cells so that Excel
+will understand the pattern.
+
+20
+00:01:25,131 --> 00:01:27,397
+Now, let’s talk about Split.
+
+21
+00:01:27,915 --> 00:01:32,381
+You can use Split to separate words
+or numbers that are together in one cell.
+
+22
+00:01:32,833 --> 00:01:34,260
+Here's how you do it.
+
+23
+00:01:34,760 --> 00:01:36,939
+We have Jane Doe in cell A1
+
+24
+00:01:37,290 --> 00:01:40,239
+to separate Jane and Doe into two other cells
+
+25
+00:01:40,440 --> 00:01:45,402
+let's select this cell and go to the
+Data Tab and click on Text to Columns.
+
+26
+00:01:46,546 --> 00:01:48,195
+A little box will pop up
+
+27
+00:01:48,746 --> 00:01:51,429
+choose Delimited and then click Next
+
+28
+00:01:51,796 --> 00:01:54,900
+After that, you will be asked to choose a delimiter.
+
+29
+00:01:55,575 --> 00:02:01,341
+The data inside a cell can be separated
+with tab, semicolon, comma or space.
+
+30
+00:02:01,658 --> 00:02:04,345
+Since our data in
+A1 is separated with a
+
+31
+00:02:04,369 --> 00:02:07,679
+comma, let’s choose
+comma and then click next.
+
+32
+00:02:08,167 --> 00:02:10,158
+Now, let’s click on Finish.
+
+33
+00:02:10,496 --> 00:02:11,562
+There you have it!
+
+34
+00:02:11,713 --> 00:02:15,112
+Jane and Doe are now split into different cells.
+
+35
+00:02:15,600 --> 00:02:17,752
+Now, let’s proceed to Transpose.
+
+36
+00:02:18,183 --> 00:02:22,021
+Transpose in Excel is a
+function that lets you flip or rotate
+
+37
+00:02:22,045 --> 00:02:25,883
+the range of cells from rows
+to columns, or columns to rows.
+
+38
+00:02:26,617 --> 00:02:31,416
+We are gonna teach you the fastest
+and easiest way to transpose data in Excel.
+
+39
+00:02:31,900 --> 00:02:33,662
+Let’s look at this schedule.
+
+40
+00:02:33,713 --> 00:02:36,062
+It has 4 columns and 2 rows.
+
+41
+00:02:36,777 --> 00:02:40,106
+Highlight all of it and clicking
+copy from the clipboard.
+
+42
+00:02:40,600 --> 00:02:43,989
+Let’s now select 2 columns and 4 rows over here.
+
+43
+00:02:44,667 --> 00:02:50,043
+Then we click the right button of our mouse
+and you can see the paste options here.
+
+44
+00:02:50,471 --> 00:02:53,033
+Let’s click this Transpose paste button.
+
+45
+00:02:53,500 --> 00:02:54,550
+Very good!
+
+46
+00:02:54,733 --> 00:02:58,083
+You have successfully transposed data in Excel.
+
+47
+00:02:58,333 --> 00:02:59,533
+Excellent work!
+
+48
+00:02:59,783 --> 00:03:05,450
+Now you know how to fill, split and
+transpose cells in Microsoft Excel!
+

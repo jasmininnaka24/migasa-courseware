@@ -1,0 +1,257 @@
+﻿1
+00:00:01,878 --> 00:00:04,266
+Hey there! It’s activity time!
+
+2
+00:00:05,044 --> 00:00:08,021
+You are almost done with the Microsoft Excel Course
+
+3
+00:00:08,099 --> 00:00:09,921
+you just have one more thing to do.
+
+4
+00:00:11,167 --> 00:00:16,733
+In this activity we will be making a Simple
+Budget System for Rosa’s Lemonade Stand.
+
+5
+00:00:17,360 --> 00:00:21,200
+First, let’s open Microsoft Excel
+and create a new workbook.
+
+6
+00:00:22,103 --> 00:00:26,340
+Let’s make a table for Expenses
+first. Add In the headers;
+
+7
+00:00:26,364 --> 00:00:30,602
+“Item”, “Quantity”, “Unit Cost”
+and “Total Cost” in Row 1.
+
+8
+00:00:31,292 --> 00:00:36,691
+Then under Item, let’s list Lemons, Sugar, Cups and Ice.
+
+9
+00:00:37,292 --> 00:00:42,860
+Under Quantity, let’s list 100, 200, 150, 60.
+
+10
+00:00:43,034 --> 00:00:48,535
+And under Unit Cost, let’s list; 2,3,1,5.
+
+11
+00:00:49,466 --> 00:00:53,642
+Let’s highlight these cells, go to the Insert tab and click table.
+
+12
+00:00:53,731 --> 00:00:56,353
+Check this little box then click OK.
+
+13
+00:00:57,090 --> 00:01:00,566
+Now we have a table. But
+we need to find out the total
+
+14
+00:01:00,590 --> 00:01:04,146
+cost! Let’s click on this
+cell and type in the formula
+
+15
+00:01:05,424 --> 00:01:08,479
+=B2*C2
+
+16
+00:01:09,059 --> 00:01:13,336
+Drag the cross down to copy the formula to the other cells and there you go!
+
+17
+00:01:14,069 --> 00:01:15,195
+Very good!
+
+18
+00:01:15,848 --> 00:01:19,644
+To calculate the total expenses,
+let’s type “Total Expenses”
+
+19
+00:01:19,668 --> 00:01:23,464
+in this cell and click on this
+cell then type this formula
+
+20
+00:01:24,106 --> 00:01:29,966
+ =SUM(D2:D5)
+
+21
+00:01:30,554 --> 00:01:31,311
+
+
+22
+00:01:31,772 --> 00:01:34,393
+The Total Expenses can now be seen in the worksheet.
+
+23
+00:01:35,572 --> 00:01:38,405
+Next, we have to make another table.
+
+24
+00:01:38,761 --> 00:01:40,983
+This is what we call the Sales table.
+
+25
+00:01:41,672 --> 00:01:44,695
+Hop on to the 8th row and add in the headers
+
+26
+00:01:44,785 --> 00:01:48,620
+“Item”, “Quantity”, “Unit Cost” and “Total Cost”
+
+27
+00:01:49,487 --> 00:01:55,043
+Then under Item, we will list the different
+kinds of Lemonades Rosa is selling.
+
+28
+00:01:55,625 --> 00:01:58,913
+Let’s add in, “Regular” “Pink” and “Blue”.
+
+29
+00:01:59,414 --> 00:02:00,414
+Very good!
+
+30
+00:02:01,033 --> 00:02:03,905
+Let’s take this chance to turn this into a table.
+
+31
+00:02:04,298 --> 00:02:08,786
+Simply highlight these cells, go to Insert and then click the table.
+
+32
+00:02:09,510 --> 00:02:13,331
+Now, let’s continue adding the Quantities of each item.
+
+33
+00:02:14,068 --> 00:02:19,407
+Rosa sold 50 regular lemonades, 40
+pink lemonades, and 53 blue lemonades.
+
+34
+00:02:20,207 --> 00:02:24,184
+Under Unit Cost let’s type in the price of each lemonade.
+
+35
+00:02:24,528 --> 00:02:28,463
+Regular costs 35, pink and blue costs 40.
+
+36
+00:02:28,798 --> 00:02:29,928
+Very good!
+
+37
+00:02:30,617 --> 00:02:33,205
+Now, let’s calculate the total cost.
+
+38
+00:02:33,565 --> 00:02:37,375
+To do so, click on cell D9 and type this formula
+
+39
+00:02:37,667 --> 00:02:40,910
+=B9*C9
+
+40
+00:02:41,367 --> 00:02:45,078
+Drag the little cross down to copy the formula to other cells.
+
+41
+00:02:45,467 --> 00:02:46,467
+Excellent!
+
+42
+00:02:47,647 --> 00:02:51,175
+To calculate the total sales,
+let’s type “Total Sales” in
+
+43
+00:02:51,199 --> 00:02:54,728
+this cell and click on this
+cell then type this formula
+
+44
+00:02:55,072 --> 00:03:01,471
+=SUM(D9:D11)
+
+45
+00:03:03,115 --> 00:03:06,680
+Wow! Rosa earned a lot from her lemonade stand!
+
+46
+00:03:07,508 --> 00:03:10,474
+Now, let’s see how much her profit is.
+
+47
+00:03:11,108 --> 00:03:16,349
+To do so, let’s type “Profit” in this cell then type this formula in this cell
+
+48
+00:03:16,960 --> 00:03:21,975
+=D12-D6
+
+49
+00:03:22,542 --> 00:03:27,641
+We subtracted the total expenses from the
+total sales to see Rosa’s overall profit.
+
+50
+00:03:28,047 --> 00:03:30,979
+Did Rosa profit from her business or lost?
+
+51
+00:03:31,490 --> 00:03:34,823
+To find out, let’s click on this cell and type this formula
+
+52
+00:03:35,681 --> 00:03:49,204
+=IF (D13>D6, "PROFIT", "LOSS")
+
+53
+00:03:49,607 --> 00:03:55,297
+This means that if her total sales
+is greater than her total expenses,
+
+54
+00:03:55,322 --> 00:03:58,487
+then Rosa earned PROFIT. But
+if not, then Rosa earned a LOSS.
+
+55
+00:03:58,512 --> 00:04:00,539
+Now, let’s click enter.
+
+56
+00:04:01,100 --> 00:04:03,165
+Hooray! Rosa earned PROFIT.
+
+57
+00:04:04,048 --> 00:04:05,196
+Excellent work!
+
+58
+00:04:05,355 --> 00:04:07,741
+You helped Rosa manage
+her small business and
+
+59
+00:04:07,766 --> 00:04:10,287
+you also learned how
+to use Microsoft Excel.
+
+60
+00:04:10,908 --> 00:04:13,650
+Congratulations on making it this far!
+

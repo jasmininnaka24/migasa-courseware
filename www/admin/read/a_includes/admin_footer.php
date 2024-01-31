@@ -11,7 +11,12 @@
     <script src="../../assets/js/guide.js"></script>
     <script src="../../assets/js/add_video.js"></script>
     <script src="../../assets/js/activities_list.js"></script>
-    <script src="../../assets/js/activities_crud.js"></script>
+    <script src="../../assets/js/activities_crudd.js"></script>
+    <script src = "../../assets/js/modal_language.js"></script>
+    <script src = "../../assets/js/general_func.js"></script>
+    <script src = "../../assets/js/language_icon_progressBar.js"></script> 
+    <script src = "../../assets/js/edit_modal_language.js"></script>
+    <script src = "../../assets/js/delete_modal_language.js"></script>
     <script>
       $(document).ready(function () {
         $(".summernote").each(function () {
@@ -45,6 +50,41 @@
         ],
           });
         });
+
+
+        $(".summernote-img").each(function () {
+          $(this).summernote({
+            height: 100,
+            placeholder: "Type something...",
+            tableClassName: function () {
+              $(this)
+                .addClass("table table-bordered")
+
+                .attr("cellpadding", 12)
+                .attr("cellspacing", 0)
+                .attr("border", 1)
+                .css("borderCollapse", "collapse");
+
+              $(this)
+                .find("td")
+                .css("borderColor", "#999")
+                .css("background", "#f5f5f5")
+                .css("padding", "15px");
+            },
+
+            toolbar: [
+              ["font", ["", "", ""]],
+              ["style", ["", "", "", ""]],
+              ["insert", ["picture"]],
+              ["code", [""]],
+              ["undo", [""]],
+              ["redo", [""]],
+              ["para", ["", "", "", ""]],
+              ],
+          });
+        });
+
+
       });
     </script>
 

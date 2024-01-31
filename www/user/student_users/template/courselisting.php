@@ -1,17 +1,3 @@
-<?php 
-    ob_start();
-    date_default_timezone_set('Asia/Manila');
-
-    try {
-        $conn = new PDO("sqlite:../../../database.db");
-        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    }
-    catch(PDOException $e) {
-        echo 'Exception -> ';
-        var_dump($e->getMessage());
-    }
-
-?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -21,19 +7,13 @@
    <link rel="stylesheet" href="../../assets/css/general_styles.css" />
    <link rel="stylesheet" href="../../assets/css/responsive_style.css" >
    <link rel="stylesheet" href="../../assets/css/modal1.css" >
-    <title>MIGASA - Main Menu</title>
-    <link rel="stylesheet" type="text/css" href="../../assets/bootstrap-5.1.3-dist/bootstrap.min.css">
+    <title>Main Menu</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/bootstrap-5.1.3-dist/css/bootstrap.min.css">
 </head>
 
 
-<audio autoplay>
-  <source src="../../assets/audios/menu_select.wav" >
-  Your browser does not support the audio element.
-</audio>
-  <body>
-  <!--<a href="#" onclick="changeImage()">
-  <img id="sleeping-image" src="../../assets/img/MIGASA LOGO TYPE 3.png" alt="Sleeping Image">
-</a>-->
+  <body class="slideup">
+
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid" style="display: flex; flex-direction: row; align-items: center;">
     <button class="navbar-toggler ms-auto align-middle order-2" type="button" id="navbarToggleBtn" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" >
@@ -42,22 +22,36 @@
     <a class="navbar-brand me-auto order-1 slide-from-left" href="#">
       <img src="../../assets/img/BIT TYP LOGO.png" alt="Logo" width="18%" height="18%" class="d-inline-block align-text-middle me-2">
     </a>
-    <div class="scale">
-    <div class="help-container " style="position: absolute; top: 40px; right: 200px;">
-  <a class="nav-link" href="#" data-toggle="modal" data-target="#helpModal">
-    <img src="../../assets/img/user1.png" width="30" height="30" alt="Manual">
-    <span class="font-med" style="color: black;">User</span>
+    
+    <!--menu-->
+    <div class="dropdown" style="position: absolute; top: 40px; right: 130px; text-decoration: none;">
+  <button class="dropdown-button font-med">Menu &#9660;</button>
+  <div class="dropdown-content font-med">
+    <a href="#"  class="nav-link" href="#" data-toggle="modal" data-target="#helpModal">
+      <img src="../../assets/img/user1.png" alt="User Icon">
+      <span>User</span>
+</a>
+    <a href="./courselisting.php" class="nav-link">
+    <img src="../../assets/img/courses1.png" alt="Help Icon">  
+    <span>All Courses </span> 
   </a>
+    <a href="./courselisting.php" class="nav-link">
+    <img src="../../assets/img/courses.png" alt="Help Icon">  
+      <span>Enrolled Courses</span>
+    </a>
+    <a href="#"class="nav-link">
+      <img src="../../assets/img/manual.png" alt="Help Icon">
+      <span>Help</span>
+    </a>
+    <a href="./certificate.php" class="nav-link">
+    <img src="../../assets/img/certifi.png" alt="Help Icon">
+    <span>Certificates</span>
+    </a>
+  </div>
 </div>
-    </div>
-    <div class="exit-container " style="position: absolute; top: 40px; right: 120px;">
-    <a class="nav-link" href="#">
-            <img src="../../assets/img/manual.png" width="30" height="30" alt="Exit">
-            <span class="font-med" style="color: black;"> Help</span>
-          </a>
-    </div>
-    <div class="exit-container " style="position: absolute; top: 40px; right: 50px;">
-    <a class="nav-link" href="../../student_users/template/pick_language.php">
+</div>
+    <div class="exit-container " style="position: absolute; top: 38px; right: 50px;">
+    <a class="nav-link" href="./pick_language.php">
             <img src="../../assets/img/cancel.png" width="30" height="30" alt="Exit">
             <span class="font-reg" style="color: black;"> Exit</span>
           </a>
@@ -65,6 +59,7 @@
   </div>
   </div>
 </nav>
+
 
 
 
@@ -92,56 +87,39 @@
 
 <div class="container" >
   <div class="row">
-
-
-
-
-
-
-
-
-
-
-
-<?php
-  $courses_db = $conn->prepare('SELECT * FROM course_table');
-  $courses_db->execute();
-
-  while($course_row = $courses_db->fetch(PDO::FETCH_ASSOC)){ 
-    $course_title = $course_row['course_title'];
-    $course_desc = $course_row['course_desc'];
-    $course_icon = $course_row['course_icon'];
-    ?>
-
-    <div class="col-md-3 slideup">
-      <div class="card border-0  mb-5 card-expanded shadow slideup" style="border-radius: 40px; ">
-      <img src="../../../backend_storage/uploaded_icons/<?php echo $course_icon; ?>" alt="Image" class="card-img-top fade-in-1">
-      <div class="card-body" style="display: flex; flex-direction: column; justify-content: space-between;">
-        <div>
-          <h5 class="card-title mb-0 font-weight-bold font-bold"><?php echo $course_title; ?></h5>
-          <br>
-          <p class="card-text font-med"style = "padding-bottom: 20px;"><?php echo $course_desc; ?></p>
-        </div>
-        <button id="myButton" class="btn-word font-bold" onclick="playSoundAndRedirect()" style="align-self: center;">
-          <a href="#" style="color:white; font-size: 130%; text-decoration: none;">Click Here!</a>
-          <audio id="myAudio" src="../../assets/audios/pen1.wav"></audio>
-          </button>
-        </div>
-      </div>
+  <div class="col-md-3 slideup">
+  <div class="card border-0  mb-5 card-expanded shadow slideup" style="border-radius: 40px; ">
+  <img src="../../assets/img/image-removebg-preview.png" alt="Image" class="card-img-top fade-in-1">
+  <div class="card-body" style="display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <h5 class="card-title mb-0 font-weight-bold font-bold">Microsoft Word</h5>
+      <br>
+      <p class="card-text font-med" style = "padding-bottom: 20px;">Microsoft Word is a text editor used for creating and formatting documents, widely used for reports, letters, resumes, and academic papers.</p>
     </div>
+    <button id="myButton" class="btn-word font-bold" onclick="playSoundAndRedirect()" style="align-self: center;">
+      <a href="#" style="color:white; font-size: 130%; text-decoration: none;">Go to Course</a>
+      <audio id="myAudio" src="../../assets/audios/pen1.wav"></audio>
+    </button>
+  </div>
+</div>
+</div>
 
-  <?php
-  }
-?>
-
-
-
-
-
-
-
-
-
+<div class="col-md-3 slideup">
+  <div class="card border-0  mb-5 card-expanded shadow slideup" style="border-radius: 40px; ">
+  <img src="../../assets/img/image-removebg-preview.png" alt="Image" class="card-img-top fade-in-1">
+  <div class="card-body" style="display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <h5 class="card-title mb-0 font-weight-bold font-bold">Microsoft Word</h5>
+      <br>
+      <p class="card-text font-med" style = "padding-bottom: 20px;">Microsoft Word is a text editor used for creating and formatting documents, widely used for reports, letters, resumes, and academic papers.</p>
+    </div>
+    <button id="myButton" class="btn-word font-bold" onclick="enrollRedirect()" style="align-self: center;">
+      <a href="#" style="color:white; font-size: 130%; text-decoration: none;">Preview</a>
+      <audio id="myAudio" src="../../assets/audios/pen1.wav"></audio>
+    </button>
+  </div>
+</div>
+</div>
 
   </div>
 </div>
@@ -178,7 +156,7 @@
         </div>
       </div>
       <div class="modal-footer">
-      <a href="#" style="text-decoration:none; position: relative;">
+      <a href="./certificate.php" style="text-decoration:none; position: relative;">
   <img src="../../assets/img/certifi.png" width="35" height="35" alt="certificate">
   <span class="certificate-text font-bold">Certificate</span>
 </a>
@@ -196,6 +174,8 @@
  
   <script src="../../assets/js/modal3.js"></script>
   <script src="../../assets/js/modal1.js"></script>
+  <script src="../../assets/js/dropdown.js"></script>
            <script src = "../../assets/js/sound.js"></script>
+
             <script src="../../assets/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
 </html>

@@ -27,7 +27,7 @@
     $_SESSION['add_description'] = null;
     $_SESSION['add_language'] = null;
 
-    header("Location: ../../choose.php");
+    header("Location: ../../courses_display.php?language=all_languages");
   }
 
 ?>
@@ -37,34 +37,44 @@
     }
 
  
-      html {
-      --scrollbarBG: #eaeae5;
-      --thumbBG: #555;
-      }
-      body::-webkit-scrollbar {
-        width: 13px;
-      }
-      body {
-        scrollbar-width: thin;
-        scrollbar-color: var(--thumbBG) var(--scrollbarBG);
-      }
-      body::-webkit-scrollbar-track {
-        background: var(--scrollbarBG);
-      }
-      body::-webkit-scrollbar-thumb {
-        background-color: var(--thumbBG) ;
-        border-radius: 6px;
-        border: 3px solid var(--scrollbarBG);
-      }
+    html {
+    --scrollbarBG: #eaeae5;
+    --thumbBG: #555;
+    }
+    body::-webkit-scrollbar {
+      width: 13px;
+    }
+    body {
+      scrollbar-width: thin;
+      scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+    }
+    body::-webkit-scrollbar-track {
+      background: var(--scrollbarBG);
+    }
+    body::-webkit-scrollbar-thumb {
+      background-color: var(--thumbBG) ;
+      border-radius: 6px;
+      border: 3px solid var(--scrollbarBG);
+    }
 
   </style>
-  
+    <div class="added hidden position-fixed" style="top: 0; left: 0; z-index: 9999;">
+  <div class="invalid_modal_container">
+    <div class="invalid_modal d-flex flex-column" style="background: #ddf5d9; color: #444">
+      <div class="h2">
+      ✅ CREATED SUCCESSFULLY!
+      </div>
+    </div>
+  </div>
+</div>
 <div class="container-fluid">
 
-
+<form action="" method="POST">
+    <button onClick="return confirm('Changes not saved. Are you sure?')" class="position-absolute bg-transparent" style="font-size: 30px; top: 5%; right: 5%; border: none" name="discard_process">
+      &times;
+    </button>
+  </form>
   </div>
-
-  <!-- NAVIGATION -->
 
   <!-- ERROR CONDITION -->
   <?php include '../../includes/error_condition.php'; ?>
@@ -75,6 +85,7 @@
   ?>
 
 </section>
+
 </div>
 <div class="overlay hidden"></div>
 

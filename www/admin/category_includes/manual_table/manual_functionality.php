@@ -18,7 +18,19 @@
           $_SESSION['manual_id_db'] = $row['id'];
           $_SESSION['manual_pdf_db'] = $row['manual_pdf'];
         }
-        header('Location: admin_manual.php');
+        // header('Location: admin_manual.php');
+        echo "
+        <script>
+        setTimeout(() => {
+          document.querySelector('.added').classList.remove('hidden');
+        }, 0100)
+        setTimeout(() => {
+          document.querySelector('.added').classList.add('hidden');
+          document.location.href = 'admin_manual.php';
+        }, 1000)
+        </script>
+      
+        ";
       }
 
       // UPDATE MANUAL
@@ -58,8 +70,19 @@
         $stmt->bindParam(':id', $id, PDO::PARAM_INT);
         $stmt->execute();
         
-        header('Location: admin_manual.php');
-
+        // header('Location: admin_manual.php');
+        echo "
+        <script>
+        setTimeout(() => {
+          document.querySelector('.updated').classList.remove('hidden');
+        }, 0100)
+        setTimeout(() => {
+          document.querySelector('.updated').classList.add('hidden');
+          document.location.href = 'admin_manual.php';
+        }, 1000)
+        </script>
+      
+        ";
     }       
 
 
@@ -88,8 +111,19 @@
           echo 'Error deleting file.';
       }
 
-      header('Location: admin_manual.php');
-
+      // header('Location: admin_manual.php');
+      echo "
+      <script>
+      setTimeout(() => {
+        document.querySelector('.deleted').classList.remove('hidden');
+      }, 0100)
+      setTimeout(() => {
+        document.querySelector('.deleted').classList.add('hidden');
+        document.location.href = 'admin_manual.php';
+      }, 1000)
+      </script>
+    
+      ";
   }    
     
 ?>

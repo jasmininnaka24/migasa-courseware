@@ -8,7 +8,7 @@
 
   // include '../a_includes/admin_header.php';
   ?>
-
+<a href=""></a>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -38,11 +38,10 @@
   </head>
 
   <body class="">
-    <a href="../../../root_filassets/s"></a>
 
 
 
-<main class="anim-to-top-slow">
+<main>
 <!-- LIST OF QUESTIONS AND CHOICES -->
 <?php 
   if(isset($_GET['course_id_createAct']) && isset($_GET['video_id_createAct'])){
@@ -54,8 +53,14 @@
     $select_course_video->bindParam(":video_id", $video_id);
     $select_course_video->execute();
     $fetch_data = $select_course_video->fetch(PDO::FETCH_ASSOC);
-    $course_title = $fetch_data['course_title'];
     $video_title = $fetch_data['video_title'];
+
+    $select_course_title = $conn->prepare("SELECT course_title FROM course_table WHERE id = :course_id");
+    $select_course_title->bindParam(":course_id", $course_id);
+    $select_course_title->execute();
+    $fetch_title = $select_course_title->fetch(PDO::FETCH_ASSOC);
+    $course_title = $fetch_title['course_title'];
+
   }
 ?>
 <div class="col-10 mx-auto text-center h4 mt-5 mb-4" style="margin-bottom: 2rem; color: #777">
@@ -81,5 +86,6 @@
     document.querySelector('.hide_act_modal').classList.add('hidden');
     e.preventDefault();
   }
+  
 </script>
 <?php include '../a_includes/admin_footer.php'; ?>

@@ -1,6 +1,23 @@
 
 <?php include './root_files/includes/root_header.php'; ?>
-
+<style>
+  /* Tooltip styling */
+  [title]:hover:after {
+    content: attr(title);
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  
+</style>
   <body>
 
 
@@ -9,8 +26,8 @@
     <nav class="d-flex align-items-center justify-content-between">
       <div>
         <a href="./splash_page.php" >
-          <div style="width: 3rem">
-            <img src="./root_files/assets/img/MIGASA LOGO TYPE 3.png" width="100%" alt="" />
+          <div style="width: 6rem">
+            <img src="./root_files/assets/img/BIT TYP LOGO.png" width="100%" alt="" />
           </div>
         </a>
       </div>
@@ -28,6 +45,8 @@
       </div>
     </nav>
   </div>
+
+  
   <!-- END OF NAVBARRRRRRRRRRR -->
 
 
@@ -35,21 +54,28 @@
 
 
   <!-- CONTENTTTTTTTT -->
-  <div class="container mt-5">
-    <div class="display-3 text-center font-med">Dito mo na ilagay hero section</div>
-    <div class="mt-5 d-flex align-items-center justify-content-center">
-      <a href="./user/student_users/template/pick_language.php">
-        <button class="btn bgc-red-light mx-3" style="width: 10rem;">Students</button>
-      </a>
-      <a href="./user/professional_users/template/pick_language.php">
-        <button class="btn bgc-red-light mx-3" style="width: 10rem;">Professional Users</button>
-      </a>
+  <div class="container animateInfinite mt-5">
+    <div class="row anim-to-top">
+      <div class="d-flex align-items-center justify-content-center">
+        <div style="width: 40%;">
+          <img width="100%" src="./root_files/assets/img/BITBee HAPPY.png" alt="">
+        </div>
+        <!-- <div style="width: 40%;">
+          <img width="100%" src="./root_files/assets/img/canva_1.png" alt="">
+        </div> -->
+      </div>
     </div>
   </div>
   <!-- END OF CONTENTTTTTT -->
 
 
+  <a href="./about_us.php">
+    <div class="position-absolute" style="bottom: 3%; left:7%; width: 2.5rem; height: 2.5rem; object-fit: cover;">
+      <img width="100%" height="100%" src="./root_files/assets/img/letter-i.png" alt="" title="About Us">
+    </div>
+  </a>
 
   
 
-<?php include './root_files/includes/root_footer.php'; ?>
+
+<?php include './root_files/includes/root_header.php'; ?>

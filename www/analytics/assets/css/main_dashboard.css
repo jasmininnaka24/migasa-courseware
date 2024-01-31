@@ -1,0 +1,114 @@
+td{
+  word-break:break;
+}
+canvas {
+  animation: chart-animation 2s ease-out;
+}
+
+
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.page-item {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.page-item.active {
+  font-weight: bold;
+}
+
+.course-list-container {
+  padding: .5rem 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 0 3px 20px #888;
+  background-color: #f7f7f7;
+  padding: 10px;
+  overflow-y: scroll;
+  min-height: 140px;
+  max-height: 320px;
+}
+
+.course-list-container h3 {
+  margin-top: 0;
+}
+
+.course-list-item {
+  list-style: none;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.course-list {
+  border-collapse: collapse;
+  width: 100%;
+  /* max-width: 600px; */
+  margin: auto;
+}
+
+.course-list th, .course-list td {
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.course-list th {
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+}
+
+.course-list-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.course-details-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.course-details-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  animation-name: zoom-in;
+  animation-duration: 0.3s;
+}
+
+@keyframes zoom-in {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* width */
+
+
+/* Track */
+
+.page-link{
+  background-color: #444 !important;
+  color: #fff !important;
+  border: #444 1px solid !important;
+  border-radius: 10px !important;
+}
+.paginate_button.page-item.active .page-link{
+  background-color: #eaeae5 !important;
+  color: #444 !important;
+  border: #444 2px solid !important;
+  border-radius: 10px !important;
+}

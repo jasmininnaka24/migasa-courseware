@@ -39,11 +39,11 @@
               
               // video title form functionality
               if(isset($_POST['select_lang'])){
-                $language_selected = $_POST['language_selected'];
+                $language_id_selected = $_POST['language_selected'];
     
-                if($language_selected != ''){
+                if($language_id_selected != ''){
                   
-                  header("Location: ./view_lessons.php?languagee=$language_selected&course");
+                  header("Location: ./view_lessons.php?languagee=$language_id_selected&course");
                 } else {
                   echo "<h3 class='txt-red-light font-med text-center position-absolute w-100 d-flex align-items-center justify-content-center' style='top:10%; margin-left: 0%'>The field is empty</h3>";
                 }
@@ -65,13 +65,15 @@
 
                 <div class="form-group mb-4">
                   <select name="language_selected" id="" class="form-control">
+                  <option value="">Select a language🔻</option>
                     <?php
                       $select_language = $conn->prepare("SELECT * FROM language_table");
                       $select_language->execute();
 
                       while($lang_row = $select_language->fetch(PDO::FETCH_ASSOC)){
+                        $language_id = $lang_row['id'];
                         $language = $lang_row['language'];
-                        echo "<option value='$language'>$language</option>";
+                        echo "<option value='$language_id'>$language</option>";
                       }
                     ?>                    
                   </select>
@@ -86,7 +88,6 @@
               </form>              
               <?php 
             }
-
           ?>
 
           
@@ -94,7 +95,14 @@
           <?php
             if(isset($_GET['course']) && isset($_GET['languagee'])){ 
               $course_lang = $_GET['course'];
-              $language = $_GET['languagee'];
+              $language_id = $_GET['languagee'];
+
+              $language_db = $conn->prepare("SELECT language FROM language_table WHERE id = :language_id");
+              $language_db->bindParam(":language_id", $language_id);
+              $language_db->execute();
+
+              $fetch_language = $language_db->fetch(PDO::FETCH_ASSOC);
+              $language = $fetch_language['language'];
               // video title form functionality
               if(isset($_POST['course_selected'])){
                 $course_id = $_POST['course_selected'];
@@ -113,16 +121,17 @@
               <form action="" method="POST" enctype="multipart/form-data">
                 <!-- file upload -->
                 <div class="mx-auto text-center h3" style="margin-bottom: 1rem; color: #555">
-                To access the lessons, you need to choose a course within the <?php echo $language; ?> language category
+                To access the lessons, you need to choose a course under the <?php echo $language; ?> language category
                 </div>
                 <p style="color: #777; font-size: 19px; margin-bottom: 2rem; " class="text-center mt-4">The lessons are organized based on the course you will select</p>
 
                 <!-- file upload -->
                 <div class="form-group mb-4">
                   <select name="course_selected" id="" class="form-control">
+                  <option value="">Select a course🔻</option>
                     <?php
-                      $select_lang_course = $conn->prepare("SELECT * FROM course_table WHERE course_lang = :course_language");
-                      $select_lang_course->bindParam(":course_language", $language);
+                      $select_lang_course = $conn->prepare("SELECT * FROM course_table WHERE course_lang_id = :course_language");
+                      $select_lang_course->bindParam(":course_language", $language_id);
                       $select_lang_course->execute();
 
                       while($course_row = $select_lang_course->fetch(PDO::FETCH_ASSOC)){

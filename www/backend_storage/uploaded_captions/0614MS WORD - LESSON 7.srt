@@ -1,0 +1,120 @@
+﻿1
+00:00:02,433 --> 00:00:05,020
+Lesson 7: Mail Merge
+
+2
+00:00:05,833 --> 00:00:07,623
+Welcome to Lesson 7!
+
+3
+00:00:08,753 --> 00:00:12,700
+In this video, we will be learning about Mail Merge.
+
+4
+00:00:13,667 --> 00:00:20,116
+Mail Merge will help you create a lot of
+letters, invitations, certificates and many more.
+
+5
+00:00:21,236 --> 00:00:23,739
+Have you ever tried writing a letter?
+
+6
+00:00:24,500 --> 00:00:30,058
+A letter usually has a Salutation or a
+Greeting, the body, and the Signature.
+
+7
+00:00:30,845 --> 00:00:35,419
+In the Salutation, we usually put the name of the recipient.
+
+8
+00:00:36,125 --> 00:00:40,044
+A recipient is the person that is going to receive the letter.
+
+9
+00:00:40,960 --> 00:00:42,973
+We need to make 10 letters.
+
+10
+00:00:43,494 --> 00:00:47,973
+But instead of typing different
+names in the salutation for many times
+
+11
+00:00:48,107 --> 00:00:50,397
+We can just use mail merge.
+
+12
+00:00:51,251 --> 00:00:53,636
+Let’s click here and choose letter.
+
+13
+00:00:54,440 --> 00:00:57,583
+Now, let’s click Select Recipients.
+
+14
+00:00:58,250 --> 00:01:01,513
+You can add a new list or use an existing list.
+
+15
+00:01:01,980 --> 00:01:05,735
+For this tutorial, we will use an existing list.
+
+16
+00:01:06,188 --> 00:01:08,906
+Let’s click here and choose this file.
+
+17
+00:01:09,383 --> 00:01:13,272
+Now, our recipient list has
+been added to the document.
+
+18
+00:01:14,417 --> 00:01:18,982
+Let’s click the Edit Recipient List
+to see the names of our Recipients.
+
+19
+00:01:19,485 --> 00:01:24,205
+As you can see, we have their
+Last Name, First Name, and Title.
+
+20
+00:01:24,901 --> 00:01:28,187
+Click OK and let’s start the mail merge.
+
+21
+00:01:28,415 --> 00:01:35,082
+To add their Last Name, First Name, and Title
+to the salutation click Insert Merge Field.
+
+22
+00:01:35,703 --> 00:01:39,327
+Just click Title, First Name, and Last Name.
+
+23
+00:01:40,006 --> 00:01:42,974
+Now, just click Finish and Merge
+
+24
+00:01:43,068 --> 00:01:46,777
+Then let’s click this so we
+can see and edit our letters.
+
+25
+00:01:47,520 --> 00:01:48,520
+Amazing!
+
+26
+00:01:48,720 --> 00:01:52,240
+We now have 10 letters with different recipients.
+
+27
+00:01:53,160 --> 00:01:54,360
+Excellent work!
+
+28
+00:01:54,587 --> 00:01:57,613
+Now you know how to use the Mail Merge.
+

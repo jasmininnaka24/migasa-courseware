@@ -14,7 +14,7 @@
   <!-- ERROR CONDITION -->
   <?php include '../../includes/error_condition.php'; ?>
   <!-- MAIN -->
-  <main style="min-height: 90%;" class="w-100 d-flex align-items-center justify-content-center flex-column anim-to-top-slow my-5">
+  <main style="min-height: 90%;" class="w-100 d-flex align-items-center justify-content-center flex-column my-5">
     <div class="container">
       <div class="row">
           <?php include '../../category_includes/course_folder/add_course/courseDetailsFormProvider.php'; ?>

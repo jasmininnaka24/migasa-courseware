@@ -1,0 +1,137 @@
+﻿1
+00:00:03,056 --> 00:00:06,177
+Aralin 7: Mail Merge
+
+2
+00:00:06,721 --> 00:00:12,618
+Mabuhay! Sa bidyong ito, pag-aaralan
+natin ang tungkol sa Mail Merge.
+
+3
+00:00:12,906 --> 00:00:16,405
+Tutulungan ka ng Mail
+Merge na lumikha ng maraming
+
+4
+00:00:16,430 --> 00:00:20,894
+liham, imbitasyon,
+sertipiko at marami pang iba.
+
+5
+00:00:21,477 --> 00:00:23,832
+Nasubukan mo na
+bang magsulat ng liham?
+
+6
+00:00:24,121 --> 00:00:27,629
+Ang isang liham ay
+karaniwang may Salutation
+
+7
+00:00:27,653 --> 00:00:31,162
+o isang Pagbati, ang
+katawan, at ang Lagda.
+
+8
+00:00:31,528 --> 00:00:37,538
+Sa Salutation, karaniwang inilalagay natin
+ang pangalan ng taong tatanggap ng liham.
+
+9
+00:00:38,192 --> 00:00:40,838
+Kailangan nating gumawa ng 10 liham.
+
+10
+00:00:41,327 --> 00:00:45,644
+Ngunit sa halip na mag-type ng
+iba't ibang pangalan sa salutation
+
+11
+00:00:45,668 --> 00:00:49,715
+ng maraming beses, gamitin
+na lamang natin ang mail merge.
+
+12
+00:00:50,031 --> 00:00:52,220
+Pindutin ito at piliin ang Letter.
+
+13
+00:00:53,004 --> 00:00:56,627
+Ngayon, pindutin natin
+ang Select Recipients.
+
+14
+00:00:57,162 --> 00:01:01,228
+Mula rito, maari kang maglagay
+ng listahan ng mga tatanggap.
+
+15
+00:01:01,362 --> 00:01:05,438
+Para sa tutorial na ito,
+gagamitin natin ang listahan na ito.
+
+16
+00:01:05,917 --> 00:01:10,295
+Ngayon, ang ating recipient list
+ay nasa loob na ng dokumento.
+
+17
+00:01:10,917 --> 00:01:13,748
+Pindutin natin ang
+Edit Recipient List para
+
+18
+00:01:13,772 --> 00:01:17,077
+makita mo ang mga
+pangalan ng ating Recipients.
+
+19
+00:01:17,601 --> 00:01:21,138
+Mayroon tayong listahan
+ng mga Last name o Apelyido,
+
+20
+00:01:21,162 --> 00:01:25,324
+First name o Pangalan, at
+ang kanilang Title o Honorifics.
+
+21
+00:01:25,681 --> 00:01:29,113
+Pindutin ang OK at simulan
+na natin ang mail merge.
+
+22
+00:01:29,576 --> 00:01:32,895
+Upang ilagay ang kanilang
+Apelyido, Pangalan, at
+
+23
+00:01:32,919 --> 00:01:36,876
+Pamagat sa salutation
+pindutin ang Insert Merge Field.
+
+24
+00:01:37,033 --> 00:01:40,367
+Pindutin ang Title, First
+name, at Last name.
+
+25
+00:01:40,734 --> 00:01:45,705
+Ngayon, pindutin lamang ang Finish
+and Merge, pagkatapos ay pindutin
+
+26
+00:01:45,729 --> 00:01:50,328
+natin ito upang makita at
+ma-edit natin ang ating mga liham.
+
+27
+00:01:50,485 --> 00:01:56,195
+Kahanga-hanga! Mayroon na tayong 10 liham
+na may iba't ibang pangalan sa Salutation.
+
+28
+00:01:56,919 --> 00:02:02,082
+Mahusay! Ngayon ay alam mo na
+kung paano gamitin ang Mail Merge.
+

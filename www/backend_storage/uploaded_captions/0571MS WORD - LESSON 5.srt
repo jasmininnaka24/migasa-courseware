@@ -1,0 +1,161 @@
+﻿1
+00:00:03,200 --> 00:00:06,013
+Lesson 5: Layout
+
+2
+00:00:06,837 --> 00:00:08,343
+Are you ready to learn?
+
+3
+00:00:08,997 --> 00:00:13,302
+In this video, we are going to talk about Microsoft Word Layout.
+
+4
+00:00:13,967 --> 00:00:17,085
+A layout is how a certain thing is arranged.
+
+5
+00:00:17,565 --> 00:00:21,631
+In Microsoft Word, you can adjust the page layout.
+
+6
+00:00:21,700 --> 00:00:25,417
+Here are the tools that will help you change the page layout.
+
+7
+00:00:26,180 --> 00:00:29,259
+First, let’s talk about Margins.
+
+8
+00:00:30,642 --> 00:00:37,183
+A margin is made up of horizontal and vertical
+lines that serve as an invisible guide
+
+9
+00:00:37,969 --> 00:00:41,712
+A margin may look like this, but you can’t really see it.
+
+10
+00:00:42,230 --> 00:00:47,880
+Microsoft Word has different kinds
+of margins. Let’s click here to find out.
+
+11
+00:00:48,720 --> 00:00:53,470
+Changing the margin will change the
+way your text looks like in the document.
+
+12
+00:00:54,124 --> 00:00:56,572
+Let’s try choosing this margin.
+
+13
+00:00:57,120 --> 00:00:58,825
+Do you see the difference?
+
+14
+00:00:59,585 --> 00:01:03,995
+You can also click on Custom
+Margins to customize your own margin
+
+15
+00:01:05,034 --> 00:01:08,482
+You can adjust the
+numbers to go higher or lower.
+
+16
+00:01:09,340 --> 00:01:12,396
+Next, we have the Orientation.
+
+17
+00:01:12,876 --> 00:01:16,020
+A page orientation is how the page is laid out.
+
+18
+00:01:16,684 --> 00:01:22,056
+There are two types, landscape orientation and portrait orientation.
+
+19
+00:01:22,560 --> 00:01:25,762
+Let’s try changing the orientation to landscape.
+
+20
+00:01:26,283 --> 00:01:27,642
+There you go!
+
+21
+00:01:28,296 --> 00:01:30,269
+The page has become wider.
+
+22
+00:01:30,416 --> 00:01:32,546
+Let’s bring it back to portrait.
+
+23
+00:01:33,825 --> 00:01:35,532
+Can you see the difference?
+
+24
+00:01:36,180 --> 00:01:38,339
+Let’s move on to the size.
+
+25
+00:01:39,006 --> 00:01:41,830
+A document can be in many sizes.
+
+26
+00:01:41,910 --> 00:01:44,653
+Let’s click here to find out the sizes.
+
+27
+00:01:45,494 --> 00:01:48,576
+The most common sizes are A4 and Letter.
+
+28
+00:01:49,602 --> 00:01:52,130
+Let’s try clicking on this page size.
+
+29
+00:01:53,076 --> 00:01:54,889
+Can you see the difference?
+
+30
+00:01:55,890 --> 00:01:57,886
+The page has become longer.
+
+31
+00:01:58,460 --> 00:02:00,739
+Now, let’s talk about columns.
+
+32
+00:02:01,246 --> 00:02:04,385
+A column is a vertical division of text.
+
+33
+00:02:04,915 --> 00:02:06,181
+This is a column.
+
+34
+00:02:06,928 --> 00:02:08,578
+This is also a column.
+
+35
+00:02:08,872 --> 00:02:10,752
+There are two columns.
+
+36
+00:02:11,698 --> 00:02:14,864
+Let’s click here and change it to three columns.
+
+37
+00:02:15,144 --> 00:02:18,167
+Great! We now have three columns.
+
+38
+00:02:18,981 --> 00:02:20,541
+Congratulations!
+
+39
+00:02:20,661 --> 00:02:24,373
+Now you know how to use Page Layout in Microsoft Word.
+

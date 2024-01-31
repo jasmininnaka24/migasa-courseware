@@ -49,7 +49,7 @@
   <main style="height: 90%;" class="w-100 anim-to-top-slow">
     <div class="row">
     
-      <div style="height: 50%; border: #333 1px solid;" class="col-lg-5 col-md-8 col-sm-10  bgc-gray-light my-4 mx-auto rounded-3 d-flex flex-column align-items-center justify-content-center px-4">
+      <div style="height: 18rem; border: #333 1px solid;" class="col-lg-5 col-md-8 col-sm-10  bgc-gray-light my-4 mx-auto rounded-3 d-flex flex-column align-items-center justify-content-center px-4">
         <div style="width: 60px;" class="mt-5 mb-3">
           <img src="./assets/img/create_lesson.png" width="100%" alt="">
         </div>
@@ -72,7 +72,7 @@
       }
 
       if($course_count > 0) { ?>
-        <div style="height: 50%; border: #333 1px solid;" class="col-lg-5 col-md-8 col-sm-10  bgc-gray-light my-4 mx-auto rounded-3 d-flex flex-column align-items-center justify-content-center px-4">
+        <div style="height: 18rem; border: #333 1px solid;" class="col-lg-5 col-md-8 col-sm-10  bgc-gray-light my-4 mx-auto rounded-3 d-flex flex-column align-items-center justify-content-center px-4">
 
           <div style="width: 65px;" class="mt-5 mb-3">
             <img src="./assets/img/modify_lesson.png" width="100%" alt="">
@@ -101,7 +101,7 @@
       }
 
       if($course_count > 0) { ?>
-        <div style="height: 50%; border: #333 1px solid;" class="col-lg-5 col-md-8 col-sm-10  bgc-gray-light my-4 mx-auto rounded-3 d-flex flex-column align-items-center justify-content-center px-4">
+        <div style="height: 18rem; border: #333 1px solid;" class="col-lg-5 col-md-8 col-sm-10  bgc-gray-light my-4 mx-auto rounded-3 d-flex flex-column align-items-center justify-content-center px-4">
           <div style="width: 60px;" class="mt-5 mb-3">
             <img src="./assets/img/create_lesson.png" width="100%" alt="">
           </div>
@@ -114,7 +114,7 @@
             </button>
           </a>
         </div>
-        <div style="height: 50%; border: #333 1px solid;" class="col-lg-5 col-md-8 col-sm-10  bgc-gray-light my-4 mx-auto rounded-3 d-flex flex-column align-items-center justify-content-center px-4">
+        <div style="height: 18rem; border: #333 1px solid;" class="col-lg-5 col-md-8 col-sm-10  bgc-gray-light my-4 mx-auto rounded-3 d-flex flex-column align-items-center justify-content-center px-4">
 
           <div style="width: 65px;" class="mt-5 mb-3">
             <img src="./assets/img/modify_lesson.png" width="100%" alt="">

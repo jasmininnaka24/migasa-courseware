@@ -41,7 +41,7 @@
 
   <body class="">
 <!-- ADDING ACTIVITY AND CHOICES FORM -->
-<main class="anim-to-top-slow">
+<main>
 
 <?php include '../../category_includes/activity_folder/edit_activity/edit_activity_details.php'; ?>
 

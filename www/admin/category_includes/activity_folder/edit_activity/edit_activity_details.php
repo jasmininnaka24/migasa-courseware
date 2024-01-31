@@ -44,7 +44,7 @@
                 rows='3'
                 class='form-control text-start mx-2 bg-light summernote'
                 style='border: #555 solid 1px;'
-                required
+                
                 ><?php echo $question; ?></textarea
                 >
             </div>
@@ -63,16 +63,17 @@
                 $choice_id = $choices_row['id'];
                 ?>
 
+                <br>
                 <div class="form-group position-relative">
                   <input type="number" name="choice_id[]" hidden value="<?php echo $choice_id; ?>">
-                  <input
-                  required
-                    type='text'
-                    name="question_choices[]"
-                    class='form-control mb-2'
+                  <textarea
+                  
+                    name='question_choices'
+                    id=''
+                    class='form-control mx-2 summernote-img'
                     style='border: #555 solid 1px; margin-right: 1rem;'
-                    value='<?php echo $choices; ?>'
-                    />
+                  
+                  ><?php echo trim($choices); ?></textarea>
                     <a class="prevRel" href="./editOneAct.php?course_id_editAct=<?php echo $course_id; ?>&video_id_editAct=<?php echo $video_id; ?>&question_id_editAct=<?php echo $question_id; ?>&delete_choice=<?php echo $choice_id; ?>">
                     <button onclick="deleteChoiceInput(this)" class="bg-transparent font-med position-absolute mx-2" style="font-size: 2rem; top: -.3rem; right: 0; cursor: pointer; border: none; outline: none;color:#555;">&times;</button>
                     </a>
@@ -84,16 +85,16 @@
 
               </div>
               <div class="form-group">
+                <br>
                 <label class="font-med mb-1">Correct Answer</label>
-                <input
-                required
-                type='text'
-                class='form-control mb-2'
-                name="correct_answer"
-                style='border: #555 solid 1px; margin-right: 1rem;'
-                value='<?php echo $correct_answer; ?>'
-                placeholder="Correct Answer"
-                />
+
+                <textarea
+                  name='correct_answer'
+                  id=''
+                  class='form-control mx-2 summernote-img'
+                  style='border: #555 solid 1px; margin-right: 1rem;'
+                
+                ><?php echo $correct_answer; ?></textarea>
               </div>
           </div>
           <div class="my-3 d-flex align-items-center justify-content-between w-100 mb-2">

@@ -1,0 +1,196 @@
+﻿1
+00:00:03,060 --> 00:00:08,670
+Aralin 3: Pagdagdag ng Graphical Elements sa inyong Presentation
+
+2
+00:00:09,120 --> 00:00:15,450
+Sa video na ito matututunan mo ang Pagdaragdag ng mga Graphical Element sa iyong Presentasyon
+
+3
+00:00:15,900 --> 00:00:17,010
+Mga layunin.
+
+4
+00:00:17,430 --> 00:00:23,769
+Lilikha ng mga pangunahing disenyo at tema mag lalagay ng ilang mga hugis.
+
+5
+00:00:23,793 --> 00:00:28,740
+ at matuto ng mga transition effect para sa iyong PowerPoint Presentasiyon.
+
+6
+00:00:29,220 --> 00:00:32,220
+Paksa A: Desenyo at Tema
+
+7
+00:00:32,970 --> 00:00:37,530
+Tulad ng makikita nyo dito. ito ang toolbar para sa PowerPoint.
+
+8
+00:00:38,010 --> 00:00:41,980
+Ngayon hanapin ang pindutan ng design. Na narito.
+
+9
+00:00:43,050 --> 00:00:51,210
+Ngayon pindutin natin ang design. kung pipindutin mo ang pindutan ng design dadalhin ka nito sa interface na ito.
+
+10
+00:00:51,900 --> 00:00:54,960
+Interface ang nakikita mo sa iyong screen.
+
+11
+00:00:55,620 --> 00:01:02,790
+Gaya ng nakikita niyo rito, mayroong dalawang salitang nakasalungguhit, ang theme at ang variant
+
+12
+00:01:03,750 --> 00:01:10,800
+Pagkatapos ay pumili ng anumang disenyo sa tema na gusto mong gamitin para sa iyong PowerPoint presentation.
+
+13
+00:01:11,400 --> 00:01:15,120
+Pumili tayo ng isang halimbawang disenyo sa temang ito.
+
+14
+00:01:15,780 --> 00:01:18,240
+Ngayon na nakapili na tayo ng isa.
+
+15
+00:01:19,290 --> 00:01:26,760
+pumili naman tayo ng variant na gusto natin para sa tema na pinili natin, at pipiliin natin ang variant na ito.
+
+16
+00:01:27,690 --> 00:01:30,150
+Ngayon ay ganito na ang itsura nito.
+
+17
+00:01:30,960 --> 00:01:38,370
+Nasasaiyo ang pag pili ng anumang uri ng mga disenyo na gugustohin mo para sa iyong PowerPoint Presentation slide.
+
+18
+00:01:39,150 --> 00:01:42,420
+Paksa B: Paglagay ng mga hugis
+
+19
+00:01:43,110 --> 00:01:46,050
+Ngayon magpatuloy na tayo sa susunod
+
+20
+00:01:46,440 --> 00:01:48,990
+yun ang paglalagay ng mga hugis
+
+21
+00:01:49,590 --> 00:01:57,810
+Ang pindutang insert ay mahahanap mo dito sa PowerPoint toolbar. pindutin lamang ang insert sa kaliwang itaas na narito.
+
+22
+00:01:58,200 --> 00:02:02,280
+Susunod, pindutin  ang pindutan ng mga hugis na narito.
+
+23
+00:02:02,790 --> 00:02:06,870
+Kapag na-click mo ang pindutan ng hugis, ito ang lilitaw.
+
+24
+00:02:07,350 --> 00:02:21,900
+Ngayon ay maaari kang pumili ng anumang uri ng mga hugis na gusto mong gamitin para sa iyong PowerPoint presentation slide. Ngayon pumili tayo ng parihaba.
+
+25
+00:02:22,290 --> 00:02:28,050
+Pagkatapos mong pindutin ang hugis na parihaba, pindutin nang matagal ang kaliwang pindutan ng mouse at igalaw upang lumitaw ang hugis.
+
+26
+00:02:28,350 --> 00:02:29,460
+Katulad nito.
+
+27
+00:02:29,940 --> 00:02:36,480
+Susunod, pindutin ang button na ito dito para pumili ng kulay para sa iyong napiling hugis.
+
+28
+00:02:36,990 --> 00:02:41,940
+Pagkatapos mong pindutin ito, lilitaw ang maraming pagpipilian ng kulay.
+
+29
+00:02:42,810 --> 00:02:50,790
+Ngayon pumili tayo ng isang kulay, pipiliin natin ang kulay na dalandan o orange para sa napili nating hugis.
+
+30
+00:02:51,540 --> 00:03:03,510
+Na sasaiyo pa rin ang pag pili ng iba't ibang uri ng mga hugis dito sa pindutan ng mga hugis, palaging nasasaiyo ang pasya kung anong kulay ang gusto mo para sa hugis.
+
+31
+00:03:04,320 --> 00:03:06,900
+Paksa C: Transitions
+
+32
+00:03:07,950 --> 00:03:11,280
+Ngayon, pag aaralan naman natin ang transition.
+
+33
+00:03:11,940 --> 00:03:20,550
+Ang mga transition ay nagbibigay ng isang simpleng paraan upang lumipat mula sa isang slide patungo sa susunod na slide ng PowerPoint.
+
+34
+00:03:21,510 --> 00:03:28,680
+Ang ginagawa ng transition ay para maging nakakaakit-akit at nakakaaliw ang PowerPoint Presentation.
+
+35
+00:03:29,580 --> 00:03:33,540
+Pindutin  ang home button sa kaliwang sulok sa itaas ng PowerPoint.
+
+36
+00:03:34,350 --> 00:03:38,490
+Kapag napindot mo na ito, pindutin ang New slide button.
+
+37
+00:03:39,060 --> 00:03:44,909
+Pagkatapos  ito ang lilitaw, maaari kang pumili ng iba't ibang uri ng mga slide.
+
+38
+00:03:45,227 --> 00:03:48,600
+Ngayon pumili tayo ng tatlong sample na slide.
+
+39
+00:03:49,350 --> 00:03:57,690
+Ngayong tapos na tayong pumili ng tatlong slide mula sa New Slide button, makikita mo ito dito sa kaliwang sulok ng PowerPoint.
+
+40
+00:03:58,320 --> 00:04:04,230
+Ngayon na nakapili na tayo ng mga slide, lumipat tayo sa pindutan ng transition na narito.
+
+41
+00:04:05,040 --> 00:04:18,510
+Pagkatapos mong pindutin ang transition slide, lalabas ang transition toolbox na ganito. Maaari mo na ngayong piliin dito kung aling transition ang gusto mong gamitin para sa iyong slide.
+
+42
+00:04:18,840 --> 00:04:25,470
+Ngayon pumili tayo ng apat na magkakaibang mga transition para sa apat na magkakaibang mga slide
+
+43
+00:04:26,010 --> 00:04:30,780
+piliin natin ang fade, push, wipe at split transition.
+
+44
+00:04:31,860 --> 00:04:37,799
+Isinasaad ng mga bituin ditto, na nakapili ka na ng transition para sa iyong mga slide.
+
+45
+00:04:38,430 --> 00:04:48,060
+Ngayon pindutin ang button na ito, na nasa kaliwang sulok sa itaas, dito mo makikita ang mga transitional effect na pinili mo kanina.
+
+46
+00:04:48,900 --> 00:04:54,360
+Pagkatapos, sa iyong key board hanapin ang arrow button. katulad nito.
+
+47
+00:04:54,870 --> 00:05:01,290
+Ngayon pindutin ang kanang arrow na button para makita mo ang mga transitional effect na iyong pinili.
+
+48
+00:05:01,950 --> 00:05:09,390
+At ayun, ngayon alam mo na kung paano gumamit ng mga graphical elements para sa iyong PowerPoint Presentation.
+
+49
+00:05:10,103 --> 00:05:16,530
+Sa susunod na video matututunan mo ang tungkol sa pag dagdag ng mga Objects sayong Presentasiyon
+

@@ -16,15 +16,16 @@
    
    if(isset($_POST['register_btn'])){
 
-    $firstname = ucfirst(trim($_POST['firstname'])) ;
-    $lastname = ucfirst(trim($_POST['lastname'])) ;
-    $group_name = strtolower(trim($_POST['group_name']));
+    $firstname = ucwords(trim($_POST['firstname'])) ;
+    $lastname = ucwords(trim($_POST['lastname'])) ;
+    $group_name_id = strtolower(trim($_POST['group_name_id']));
 
+    
     $role = $_SESSION['reg_role'];
 
     // GENERATES UNIQUE ID
     $uniqueId = str_pad(mt_rand(10, 99), 2, '0', STR_PAD_LEFT);
-    $username = strtolower($firstname. $lastname . $uniqueId);
+    $username = strtolower(str_replace(" ", "", $firstname). str_replace(" ", "", $lastname) . $uniqueId);
     
     if($role === 'Professional') {
       $role = 'Professional';
@@ -43,7 +44,7 @@
     $salt = "@specialpassworddummyy";
     $encrypted_password = sha1($password.$salt);
 
-    $add_user = $conn->prepare("INSERT INTO user_table(username, firstname, lastname, password, question_recovery, answer_recovery, role, group_name) VALUES(:username, :firstname,:lastname, :password, :ques_recovery, :ans_recovery, :role, :group_name)");
+    $add_user = $conn->prepare("INSERT INTO user_table(username, firstname, lastname, password, question_recovery, answer_recovery, role, group_name_id) VALUES(:username, :firstname,:lastname, :password, :ques_recovery, :ans_recovery, :role, :group_name_id)");
 
     $ques_recovery = "What is your full name?";
     $ans_recovery = "" . $firstname . " " . $lastname . "";
@@ -56,15 +57,15 @@
     $add_user->bindParam(":ques_recovery", $ques_recovery);
     $add_user->bindParam(":ans_recovery", $ans_recovery);
     $add_user->bindParam(":role", $role);
-    $add_user->bindParam(":group_name", $group_name);
+    $add_user->bindParam(":group_name_id", $group_name_id);
     $add_user->execute();
 
-    $user_id_db = $conn->prepare("SELECT * FROM user_table WHERE username = :username AND firstname = :firstname AND lastname = :lastname AND group_name = :group_name AND role = :role");
+    $user_id_db = $conn->prepare("SELECT * FROM user_table WHERE username = :username AND firstname = :firstname AND lastname = :lastname AND group_name_id = :group_name_id AND role = :role");
 
     $user_id_db->bindParam(":username", $username);
     $user_id_db->bindParam(":firstname", $firstname);
     $user_id_db->bindParam(":lastname", $lastname);
-    $user_id_db->bindParam(":group_name", $group_name);
+    $user_id_db->bindParam(":group_name_id", $group_name_id);
     $user_id_db->bindParam(":role", $role);
     $user_id_db->execute();
 
@@ -170,15 +171,66 @@
     </style>
   </head>
   <body class="bgc-gray-light">
+  <section class="container-fluid">
+    <div class="d-flex align-items-center justify-content-between">
+      <div></div>
+      <div class="d-flex align-items-center">
+        <a href="./role.php" class="text-decoration-none">
+          <button
+          class="btn mt-3 d-flex align-items-center justify-content-center"
+          style="height: 2.5rem"
+          name="admin_logout"
+          >
+          <p
+          style="margin-right: 0.4rem; font-size: 18px"
+          class="font-med pb-1"
+          >
+          Back
+        </p>
+        <div class="pb-2">
+            <img
+            src="../admin/assets/img/exit 2.png"
+            style="width: 20px; height: 16px; margin-top: -20px"
+            width="100%"
+            alt=""
+            />
+          </div>
+        </button>
+      </a>
+        <a href="../hero_section.php" class="text-decoration-none">
+          <button
+          class="btn mt-3 d-flex align-items-center justify-content-center"
+          style="height: 2.5rem"
+          name="admin_logout"
+          >
+          <p
+          style="margin-right: 0.4rem; font-size: 18px"
+          class="font-med pb-1"
+          >
+          Home
+        </p>
+        <div class="pb-2">
+            <img
+            src="../admin/assets/img/exit 2.png"
+            style="width: 20px; height: 16px; margin-top: -20px"
+            width="100%"
+            alt=""
+            />
+          </div>
+        </button>
+      </a>
+    </div>
+    </div>
 
+  </section>
 
       <!-- form overflow -->
     <div class="d-flex align-items-center flex-column">
       <div
         class="modals"
-        style="min-height: 12rem; top: 12%; position: absolute"
+        style="min-height: 12rem; top: 20%; position: absolute"
       >
-      <h3 class="registered p-3 text-center rounded-3 hidden" style="background: #e1efdf; color: #333; transition: all .5s ease-in; font-size: 1.2rem;">Successfully Registered!</h3>
+      <h3 class="registered p-3 text-center rounded-3 hidden" style="background: #444; color: #fff; transition: all .5s ease-in; font-size: 1.2rem;">Successfully Registered!</h3>
 
       <h3 class="invalid p-3 text-center rounded-3 mb-4 hidden" style="color: red; font-size: 1.2rem; border: 1px solid red">Passwords did not match</h3>
 
@@ -211,14 +263,15 @@
                 }
 
                 if($group_count > 0){ ?>
-                  <select name="group_name" id="" class="form-control mt-2 px-3 py-2 bgc-gray-light rounded-3 font-med text-dark" required>
+                  <select name="group_name_id" id="" class="form-control mt-2 px-3 py-2 bgc-gray-light rounded-3 font-med text-dark" required>
                     <option value="">Select Section🔻</option>
                     <?php
                       $group_db_exists = $conn->prepare("SELECT * FROM user_group_table");
                       $group_db_exists->execute();
                       while($group_row = $group_db_exists->fetch(PDO::FETCH_ASSOC)){
+                        $group_name_id = $group_row['id'];
                         $group_name = $group_row['group_name'];
-                        echo "<option class='text-capitalize' value='$group_name'>$group_name</option>";
+                        echo "<option class='text-capitalize' value='$group_name_id'>$group_name</option>";
                       }
                     ?>
                   </select>
@@ -242,7 +295,7 @@
           <div class=" mt-4 ">
             <div class="mt-5">
               <a href = "./login.php" class="text-decoration-none" style="color: #777;">
-                <p class="font-reg" style="font-size: 15px; transition: all .5s ease;">Already have an account? <span class="font-med bold text-hover" style="transition: all .5s ease;">Log in</span><p>
+                <p class="font-reg" style="font-size: 15px; transition: all .5s ease;">Already have an account? <span class="font-med bold text-hover text-danger" style="transition: all .5s ease;">Log in</span><p>
               </a>
             </div>
           </div>

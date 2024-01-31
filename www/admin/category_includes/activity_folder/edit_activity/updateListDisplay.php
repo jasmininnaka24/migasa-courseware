@@ -52,7 +52,7 @@ body::-webkit-scrollbar-thumb {
 
 
     <!-- CHECKBOX FORM -->
-    <form method="POST" class="anim-to-top-slow" style="margin-bottom: 5rem;">
+    <form method="POST" style="margin-bottom: 5rem;">
       <div class="list">
         <?php
           if(isset($_GET['update_video_activity']) && isset($_GET['update_course_id'])){
@@ -62,7 +62,7 @@ body::-webkit-scrollbar-thumb {
             FROM activity_table 
             WHERE course_id = :course_id 
             AND video_id = :video_id 
-            ORDER BY (status = 'Selected') DESC");
+            ORDER BY (status = 'Selected') DESC, id DESC");
 
             $query_select_all_activity->bindParam(":course_id", $course_id);
             $query_select_all_activity->bindParam(":video_id", $video_id);
@@ -136,7 +136,12 @@ body::-webkit-scrollbar-thumb {
                         </a>
                       </div>
                     </div>
-                    <h5 class="d-flex flex-column"><span class="font-reg mb-1" style="font-size: .9rem;">Question <?php echo ":</span> " . $question; ?></h5>
+                    
+                    <!-- QUESTION -->
+                    <div class="font-bold d-flex flex-column mb-1" style="font-size: 18px;">Question: </div>
+                    <div><?php echo $question; ?></div>
+                    <!-- CHIOCES -->
+                    <div class="font-bold d-flex flex-column mt-2 mb-2" style="font-size: 18px;">Choices: </div>
                     <?php
                       $query_select_from_choices = $conn->prepare("SELECT * FROM choices_table WHERE question_id = $question_id");
                       $query_select_from_choices->execute();?>
@@ -150,7 +155,10 @@ body::-webkit-scrollbar-thumb {
                           }
                           ?>
                       </ol>
-                    <p class="font-med">Answer: <?php echo $correct_ans; ?></p>
+
+                      <!-- ANSWER -->
+                      <div class="font-bold d-flex flex-column" style="font-size: 18px;">Answer: </div>
+                    <div><?php echo $correct_ans; ?></div>
                   </div>
                 </div>
 
@@ -162,7 +170,8 @@ body::-webkit-scrollbar-thumb {
 
       </div>
 
-        <button class="btn bgc-red-light rounded-pill submit hidden position-fixed" style="font-size: 18px; bottom: 5%; right: 5%" name="submitCheckedBoxes">Submit</button>
+      <button onclick="return confirm('Are you sure you want to delete?')" class="btn bgc-red-light rounded-pill deletee hidden position-fixed" style="font-size: 18px; bottom: 5rem; right: 5%" name="deleteCheckedBoxes">Delete</button>
+      <button class="btn bgc-red-light rounded-pill submit hidden position-fixed" style="font-size: 18px; bottom: 2rem; right: 5%" name="submitCheckedBoxes">Select</button>
 
     </form>
    
@@ -206,21 +215,21 @@ body::-webkit-scrollbar-thumb {
               $order = $selected_order['activity_order'];
 
               if($order === 'ascending'){ ?>
-                <option value="ascending">In Order - Ascending</option>
-                <option value="descending">In Order - Descending</option>
-                <option value="shuffled">Shuffled</option>
+                <option value="ascending">In Order - Ascending🔻</option>
+                <option value="descending">In Order - Descending🔻</option>
+                <option value="shuffled">Shuffled🔻</option>
                 <?php }
               
               else if($order === 'descending') { ?>
-                <option value="descending">In Order - Descending</option>
-                <option value="ascending">In Order - Ascending</option>
-                <option value="shuffled">Shuffled</option>
+                <option value="descending">In Order - Descending🔻</option>
+                <option value="ascending">In Order - Ascending🔻</option>
+                <option value="shuffled">Shuffled🔻</option>
                 <?php }
 
               else if($order === 'shuffled') { ?>
-                <option value="shuffled">Shuffled</option>
-                <option value="ascending">In Order - Ascending</option>
-                <option value="descending">In Order - Descending</option>
+                <option value="shuffled">Shuffled🔻</option>
+                <option value="ascending">In Order - Ascending🔻</option>
+                <option value="descending">In Order - Descending🔻</option>
 
               <?php }
 
@@ -231,7 +240,7 @@ body::-webkit-scrollbar-thumb {
       </div>
     </form>
 
-    <div class="list anim-to-top-slow">
+    <div class="list">
         <?php
           if(isset($_GET['update_video_activity']) && isset($_GET['update_course_id'])){
             $course_id = $_GET['update_course_id'];
@@ -300,7 +309,7 @@ body::-webkit-scrollbar-thumb {
                         </a>
                       </div>
                     </div>
-                    <h5 class="d-flex flex-column"><span class="font-reg mb-1" style="font-size: .9rem;">Question <?php echo ":</span> " . $question; ?></h5>
+                    <h5 class="d-flex flex-column"><span class="font-reg mb-1" style="font-size: .9rem;">Question <?php echo ":</span> " . $question ; ?></h5>
                     <?php
                       $query_select_from_choices = $conn->prepare("SELECT * FROM choices_table WHERE question_id = $question_id ORDER BY $order");
                       $query_select_from_choices->execute();?>
@@ -331,7 +340,7 @@ body::-webkit-scrollbar-thumb {
     </div>
     <div>
       <a href="../scoring/updateScoringUI.php?update_course_id=<?php echo $course_id;?>&update_video_activity=<?php echo $video_id;?>">
-        <button class="btn bgc-red-light rounded-pill px-3 py-1 done position-fixed" id="done" style="font-size: 18px; bottom: 5%; right: 5%">Done</button>
+        <button class="btn bgc-red-light rounded-pill px-3 py-1 done position-fixed" id="done" style="font-size: 18px; bottom: 5%; right: 5%">View Scoring</button>
       </a>
     </div>
 

@@ -4,7 +4,7 @@
     date_default_timezone_set('Asia/Manila');
   
     try {
-        $conn = new PDO("sqlite:../database.db");
+        $conn = new PDO("sqlite:../database.mdb");
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 

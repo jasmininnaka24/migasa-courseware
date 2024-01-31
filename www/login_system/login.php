@@ -38,7 +38,6 @@
       $username = $row['username'];
       $firstname = $row['firstname'];
       $lastname = $row['lastname'];
-      $lifelines = $row['lifelines'];
       $role = $row['role'];
 
       
@@ -53,10 +52,9 @@
       $_SESSION['username'] = $username;
       $_SESSION['firstname'] = $firstname;
       $_SESSION['lastname'] = $lastname;
-      $_SESSION['lifelines'] = $lifelines;
       $_SESSION['role'] = $role;
 
-      if($_SESSION['role'] == 'Admin'){
+      if($_SESSION['role'] == 'Super Admin'){
         echo
         "
         <script>
@@ -65,7 +63,24 @@
         }, 0000)
         setTimeout(() => {
           
-          document.location.href = '../admin/admin_home.php';
+          document.location.href = '../admin/choose.php';
+          document.querySelector('.logging').classList.add('hidden');
+        }, 1000)
+        </script>
+  
+        ";
+
+      } else if($_SESSION['role'] == 'Admin'){
+
+        echo
+        "
+        <script>
+        setTimeout(() => {
+          document.querySelector('.logging').classList.remove('hidden');
+        }, 0000)
+        setTimeout(() => {
+          
+          document.location.href = '../analytics/main_dashboard.php';
           document.querySelector('.logging').classList.add('hidden');
         }, 1000)
         </script>
@@ -201,15 +216,42 @@
     </style>
   </head>
   <body class="bgc-gray-light">
+  <section class="container-fluid">
+    <div class="d-flex align-items-center justify-content-between">
+      <div></div>
+      <a href="../hero_section.php" class="text-decoration-none">
+        <button
+          class="btn mt-3 d-flex align-items-center justify-content-center"
+          style="height: 2.5rem"
+          name="admin_logout"
+        >
+          <p
+            style="margin-right: 0.4rem; font-size: 18px"
+            class="font-med pb-1"
+            >
+            Back 
+          </p>
+          <div class="pb-2">
+            <img
+            src="../admin/assets/img/exit 2.png"
+            style="width: 20px; height: 16px; margin-top: -20px"
+            width="100%"
+            alt=""
+            />
+          </div>
+        </button>
+      </a>
+    </div>
 
+  </section>
 
       <!-- form overflow -->
     <div class="d-flex align-items-center flex-column">
       <div
       class="modals"
-      style="min-height: 12rem; top: 15%; position: absolute"
+      style="min-height: 12rem; top: 20%; position: absolute"
       >
-      <h3 class="logging p-3 text-center rounded-3 mb-4 hidden" style="background: cadetblue; color: #fff; transition: all .5s ease-in; font-size: 1.2rem;">Logging in...</h3>
+      <h3 class="logging p-3 text-center rounded-3 mb-4 hidden" style="background: #444; color: #fff; transition: all .5s ease-in; font-size: 1.2rem;">Logging in...</h3>
 
       <h3 class="invalid p-3 text-center rounded-3 mb-4 hidden" style="color: red; font-size: 1.2rem; border: 1px solid red">Invalid Input</h3>
 

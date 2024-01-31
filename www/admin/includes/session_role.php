@@ -1,5 +1,5 @@
 <?php
-  if($_SESSION['role'] !== 'Admin'){
-    header("Location: ../../admin_home.php");
+  if($_SESSION['role'] !== 'Super Admin'){
+    header("Location: ../hero_section.php");
   }
 ?>
